@@ -128,7 +128,6 @@ export default async function LocaleLayout({
           src="https://assets.onedollarstats.com/stonks.js"
           strategy="afterInteractive"
         />
-
       </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>

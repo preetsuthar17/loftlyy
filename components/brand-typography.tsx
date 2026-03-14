@@ -27,9 +27,7 @@ function useFontLoader(font: BrandTypographyType) {
       .catch(() => {})
   }, [font.fontUrl, font.name])
 
-  return loaded
-    ? `"${fontFamilyName(font.name)}"`
-    : undefined
+  return loaded ? `"${fontFamilyName(font.name)}"` : undefined
 }
 
 export function BrandTypography({
@@ -59,7 +57,12 @@ function TypeSpecimen({ font }: { font: BrandTypographyType }) {
   const fontFamily = useFontLoader(font)
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null)
 
-  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
+  useEffect(
+    () => () => {
+      if (timerRef.current) clearTimeout(timerRef.current)
+    },
+    []
+  )
 
   async function copyName() {
     await navigator.clipboard.writeText(font.name)
@@ -97,13 +100,17 @@ function TypeSpecimen({ font }: { font: BrandTypographyType }) {
           <span>{font.role}</span>
           {font.designer && (
             <>
-              <span className="text-neutral-400 dark:text-neutral-600">&middot;</span>
+              <span className="text-neutral-400 dark:text-neutral-600">
+                &middot;
+              </span>
               <span>{font.designer}</span>
             </>
           )}
           {font.foundry && (
             <>
-              <span className="text-neutral-400 dark:text-neutral-600">&middot;</span>
+              <span className="text-neutral-400 dark:text-neutral-600">
+                &middot;
+              </span>
               <span>{font.foundry}</span>
             </>
           )}
@@ -111,7 +118,10 @@ function TypeSpecimen({ font }: { font: BrandTypographyType }) {
       </div>
 
       {/* Type scale specimen */}
-      <div className="flex flex-col gap-1" style={fontFamily ? { fontFamily } : undefined}>
+      <div
+        className="flex flex-col gap-1"
+        style={fontFamily ? { fontFamily } : undefined}
+      >
         <p className="text-[36px] leading-[1.1] tracking-tight text-neutral-800 dark:text-neutral-200">
           The quick brown fox jumps
         </p>

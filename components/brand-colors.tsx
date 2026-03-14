@@ -28,7 +28,12 @@ function ColorRow({ color }: { color: BrandColor }) {
   const t = useTranslations("brand")
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null)
 
-  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
+  useEffect(
+    () => () => {
+      if (timerRef.current) clearTimeout(timerRef.current)
+    },
+    []
+  )
 
   async function copyHex() {
     await navigator.clipboard.writeText(color.hex)

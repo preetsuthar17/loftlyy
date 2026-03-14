@@ -19,11 +19,7 @@ function getMaskImage(canScrollLeft: boolean, canScrollRight: boolean) {
   return undefined
 }
 
-export function SimilarBrands({
-  brands,
-}: {
-  brands: SimilarBrandCard[]
-}) {
+export function SimilarBrands({ brands }: { brands: SimilarBrandCard[] }) {
   const t = useTranslations("brand")
   const scrollRef = useRef<HTMLDivElement>(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
@@ -62,16 +58,13 @@ export function SimilarBrands({
         {t("similarBrands")}
       </h2>
 
-      <div
-        className="-mx-8"
-        style={maskStyle}
-      >
+      <div className="-mx-8" style={maskStyle}>
         <div
           ref={scrollRef}
           role="region"
           aria-label={t("similarBrands")}
           tabIndex={0}
-          className="flex gap-3 overflow-x-auto px-8 pb-2 scrollbar-none focus-visible:outline-2 focus-visible:outline-ring"
+          className="scrollbar-none flex gap-3 overflow-x-auto px-8 pb-2 focus-visible:outline-2 focus-visible:outline-ring"
           style={{ scrollbarWidth: "none" }}
         >
           {brands.map((brand) => (

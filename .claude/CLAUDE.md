@@ -28,6 +28,7 @@ Categories are defined in `data/categories.ts`.
 Uses `next-intl` with 5 locales: en, es, fr, de, ja (always-prefixed URLs). Translation files are in `messages/<locale>.json`. The middleware (`middleware.ts`) handles locale detection/redirect. `i18n/routing.ts` defines locale config, `i18n/request.ts` loads messages.
 
 Route structure:
+
 - `app/[locale]/layout.tsx` — root locale layout (fonts, theme, i18n provider)
 - `app/[locale]/(brands)/page.tsx` — brand listing / landing
 - `app/[locale]/(brands)/[slug]/page.tsx` — individual brand detail (statically generated for all brand×locale combos)
@@ -53,6 +54,7 @@ Route structure:
 ## Code Quality
 
 This project uses **Ultracite** (Oxlint + Oxfmt). Run `pnpm fix` before committing. Key rules:
+
 - No `console.log`, `debugger`, or `alert` in production code
 - Use `for...of` over `.forEach()` and indexed `for` loops
 - Use Next.js `<Image>` component, not `<img>`
@@ -149,14 +151,17 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 ### Framework-Specific Guidance
 
 **Next.js:**
+
 - Use Next.js `<Image>` component for images
 - Use `next/head` or App Router metadata API for head elements
 - Use Server Components for async data fetching instead of async Client Components
 
 **React 19+:**
+
 - Use ref as a prop instead of `React.forwardRef`
 
 **Solid/Svelte/Vue/Qwik:**
+
 - Use `class` and `for` attributes (not `className` or `htmlFor`)
 
 ---
@@ -182,4 +187,3 @@ Oxlint + Oxfmt's linter will catch most issues automatically. Focus your attenti
 ---
 
 Most formatting and common issues are automatically fixed by Oxlint + Oxfmt. Run `pnpm dlx ultracite fix` before committing to ensure compliance.
-

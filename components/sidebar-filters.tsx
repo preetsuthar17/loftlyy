@@ -39,7 +39,7 @@ export function SidebarFilters({
       {hasActiveFilters && (
         <button
           onClick={onClear}
-          className="flex min-h-[44px] items-center gap-1 self-start rounded-md px-1.5 py-0.5 text-[11px] text-neutral-500 transition-colors hover:text-neutral-700 dark:hover:text-neutral-300 sm:min-h-0"
+          className="flex min-h-[44px] items-center gap-1 self-start rounded-md px-1.5 py-0.5 text-[11px] text-neutral-500 transition-colors hover:text-neutral-700 sm:min-h-0 dark:hover:text-neutral-300"
         >
           <IconX className="h-3 w-3" />
           {t("clearFilters")}

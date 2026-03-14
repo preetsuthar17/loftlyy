@@ -23,7 +23,8 @@ export function hexToColorFamily(hex: string): string {
   const min = Math.min(r, g, b)
   const delta = max - min
   const lightness = (max + min) / 2
-  const saturation = delta === 0 ? 0 : delta / (1 - Math.abs(2 * lightness / 255 - 1)) / 255
+  const saturation =
+    delta === 0 ? 0 : delta / (1 - Math.abs((2 * lightness) / 255 - 1)) / 255
 
   if (saturation < 0.15 || delta < 30) return "neutral"
 
@@ -93,14 +94,16 @@ export function filterBrands(
 
     if (filters.colorFamilies.length > 0) {
       const brandFamilies = getBrandColorFamilies(brand)
-      if (!filters.colorFamilies.some((f) => brandFamilies.includes(f))) return false
+      if (!filters.colorFamilies.some((f) => brandFamilies.includes(f)))
+        return false
     }
 
     if (filters.typographyStyles.length > 0) {
       const brandStyles = brand.typography
         .map((t) => t.category)
         .filter(Boolean) as string[]
-      if (!filters.typographyStyles.some((s) => brandStyles.includes(s))) return false
+      if (!filters.typographyStyles.some((s) => brandStyles.includes(s)))
+        return false
     }
 
     return true
@@ -151,7 +154,9 @@ export function getSimilarBrands(
       return { brand, score }
     })
     .filter((s) => s.score > 0)
-    .sort((a, b) => b.score - a.score || a.brand.name.localeCompare(b.brand.name))
+    .sort(
+      (a, b) => b.score - a.score || a.brand.name.localeCompare(b.brand.name)
+    )
     .slice(0, limit)
 
   return scored.map((s) => s.brand)
@@ -167,7 +172,11 @@ export function getSimilarBrandCards(
     slug: b.slug,
     name: b.name,
     industry: b.industry,
-    thumbnail: { src: b.thumbnail.src, width: b.thumbnail.width, height: b.thumbnail.height },
+    thumbnail: {
+      src: b.thumbnail.src,
+      width: b.thumbnail.width,
+      height: b.thumbnail.height,
+    },
     colors: b.colors.slice(0, 4).map((c) => ({ hex: c.hex })),
   }))
 }

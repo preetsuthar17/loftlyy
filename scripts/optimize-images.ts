@@ -11,7 +11,11 @@ const SIZES = {
   full: 800,
 } as const
 
-async function optimizeImage(inputPath: string, outputDir: string, baseName: string) {
+async function optimizeImage(
+  inputPath: string,
+  outputDir: string,
+  baseName: string
+) {
   const image = sharp(inputPath)
   const metadata = await image.metadata()
   const hasAlpha = metadata.hasAlpha ?? false
@@ -88,7 +92,11 @@ async function processBrand(slug: string) {
     const inputPath = path.join(inputDir, file)
 
     console.log(`  Processing: ${file}`)
-    const { results, blurDataURL } = await optimizeImage(inputPath, outputDir, baseName)
+    const { results, blurDataURL } = await optimizeImage(
+      inputPath,
+      outputDir,
+      baseName
+    )
 
     for (const r of results) {
       console.log(`    → ${r.fileName} (${r.width}×${r.height})`)
@@ -123,7 +131,9 @@ const brandArg = process.argv[2]
 
 if (!brandArg) {
   if (!fs.existsSync(RAW_DIR)) {
-    console.error(`No _raw-assets directory found. Create it and add brand folders.`)
+    console.error(
+      `No _raw-assets directory found. Create it and add brand folders.`
+    )
     process.exit(1)
   }
 

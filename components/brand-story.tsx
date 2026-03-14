@@ -6,19 +6,33 @@ export function BrandStory({ brand }: { brand: Brand }) {
   const tBrand = useTranslations("brands")
 
   function tr(key: string, fallback: string) {
-    try { return tBrand(key) } catch { return fallback }
+    try {
+      return tBrand(key)
+    } catch {
+      return fallback
+    }
   }
 
   const hasStory =
-    brand.founded || brand.headquarters || brand.designer || brand.lastRebranded || brand.philosophy
+    brand.founded ||
+    brand.headquarters ||
+    brand.designer ||
+    brand.lastRebranded ||
+    brand.philosophy
 
   if (!hasStory) return null
 
   const meta = [
     brand.founded && { label: t("founded"), value: String(brand.founded) },
-    brand.headquarters && { label: t("headquarters"), value: brand.headquarters },
+    brand.headquarters && {
+      label: t("headquarters"),
+      value: brand.headquarters,
+    },
     brand.designer && { label: t("identityDesigner"), value: brand.designer },
-    brand.lastRebranded && { label: t("lastRebranded"), value: brand.lastRebranded },
+    brand.lastRebranded && {
+      label: t("lastRebranded"),
+      value: brand.lastRebranded,
+    },
   ].filter(Boolean) as { label: string; value: string }[]
 
   return (

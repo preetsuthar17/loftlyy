@@ -62,6 +62,9 @@
     "saas": "SaaS",
     "social-media": "Reseaux sociaux",
     "e-commerce": "E-Commerce",
+    "music": "Musique",
+    "ai": "IA",
+    "technology": "Technologie",
     "minimal-logos": "Logos minimalistes",
     "gradient-brands": "Marques en degrade",
     "wordmark-logos": "Logotypes",
@@ -71,6 +74,26 @@
     "discord": {
       "description": "Discord est une plateforme de communication vocale, video et textuelle concue pour creer des communautes. Initialement concu pour les joueurs, il s'est etendu pour servir des communautes de toutes sortes — des groupes d'etude aux collectifs artistiques en passant par les projets open source. La mission de Discord est de creer un espace ou chacun peut trouver sa place.",
       "philosophy": "Ludique, accessible et inclusif. L'identite de Discord equilibre une energie juvenile avec la clarte necessaire pour une plateforme de communication, en utilisant l'emblematique mascotte Clyde et le Blurple comme reperes de reconnaissance."
+    },
+    "spotify": {
+      "description": "Spotify est la plus grande plateforme de streaming audio au monde, proposant des millions de chansons, podcasts et livres audio. Fondee en Suede, elle a transforme la facon dont les gens decouvrent et ecoutent la musique grace a des playlists personnalisees et des recommandations algorithmiques.",
+      "philosophy": "Audacieux, vibrant et accessible. L'identite de Spotify utilise le vert iconique et un logo geometrique epure pour representer la joie de la decouverte musicale, rendant le contenu audio personnel et universellement attrayant."
+    },
+    "openai": {
+      "description": "OpenAI est une entreprise de recherche et de deploiement d'IA dediee a garantir que l'intelligence artificielle generale profite a toute l'humanite. Connue pour avoir cree GPT et ChatGPT, elle est a la pointe du developpement de grands modeles de langage et de systemes d'IA.",
+      "philosophy": "Minimaliste, autoritaire et tournee vers l'avenir. L'identite d'OpenAI communique confiance et sophistication technologique a travers un design sobre, utilisant un noir et blanc marque avec des accents verts intentionnels qui signalent l'innovation sans intimidation."
+    },
+    "anthropic": {
+      "description": "Anthropic est une entreprise de securite en IA axee sur la construction de systemes d'IA fiables, interpretables et controlables. Fondee par d'anciens chercheurs d'OpenAI, elle developpe Claude, un assistant IA concu avec la securite au coeur.",
+      "philosophy": "Chaleureuse, digne de confiance et judicieusement sobre. L'identite d'Anthropic associe une palette de tons terre a une typographie epuree pour communiquer une recherche en IA axee sur la securite — accessible mais serieuse, humaine mais technique."
+    },
+    "apple": {
+      "description": "Apple concoit, fabrique et commercialise des produits electroniques grand public, des logiciels et des services. Du Macintosh a l'iPhone, Apple a constamment redefini des categories entieres de produits par son obsession du design, de la simplicite et de l'experience utilisateur.",
+      "philosophy": "La simplicite est la sophistication supreme. L'identite monochromatique d'Apple elimine tout le superflu, laissant la pomme croquee iconique parler avec une confiance tranquille — symbole d'innovation, de qualite premium et de design centre sur l'humain."
+    },
+    "wise": {
+      "description": "Wise est une entreprise mondiale de technologie financiere qui rend les transferts d'argent internationaux rapides, peu couteux et transparents. Anciennement connue sous le nom de TransferWise, elle sert des millions de clients qui transferent de l'argent a travers les frontieres avec des taux de change reels.",
+      "philosophy": "Transparente, audacieuse et sans frontieres. L'identite de Wise utilise un vert distinctif et un motif de drapeau pour symboliser le mouvement de l'argent a travers les frontieres — un design direct pour une entreprise qui croit que les services financiers doivent etre justes et simples."
     }
   },
   "tags": {
@@ -78,7 +101,29 @@
     "community": "Communaute",
     "gaming": "Jeux video",
     "voice-chat": "Chat vocal",
-    "messaging": "Messagerie"
+    "messaging": "Messagerie",
+    "music": "Musique",
+    "streaming": "Streaming",
+    "audio": "Audio",
+    "podcasts": "Podcasts",
+    "playlists": "Playlists",
+    "artificial-intelligence": "Intelligence Artificielle",
+    "machine-learning": "Apprentissage Automatique",
+    "research": "Recherche",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "claude": "Claude",
+    "ai-safety": "Securite de l'IA",
+    "hardware": "Materiel",
+    "software": "Logiciel",
+    "design": "Design",
+    "innovation": "Innovation",
+    "ecosystem": "Ecosysteme",
+    "payments": "Paiements",
+    "money-transfer": "Transferts d'argent",
+    "banking": "Banque",
+    "international": "International",
+    "currency": "Devise"
   },
   "common": {
     "loading": "Chargement...",

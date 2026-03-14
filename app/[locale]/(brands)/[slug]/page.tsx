@@ -14,7 +14,9 @@ const BrandAssets = dynamic(() =>
   import("@/components/brand-assets").then((m) => ({ default: m.BrandAssets }))
 )
 const SimilarBrands = dynamic(() =>
-  import("@/components/similar-brands").then((m) => ({ default: m.SimilarBrands }))
+  import("@/components/similar-brands").then((m) => ({
+    default: m.SimilarBrands,
+  }))
 )
 const BrandLegal = dynamic(() =>
   import("@/components/brand-legal").then((m) => ({ default: m.BrandLegal }))
@@ -56,7 +58,13 @@ export async function generateMetadata({
       title,
       description,
       images: brand.assets[0]
-        ? [{ url: brand.assets[0].src, width: brand.assets[0].width, height: brand.assets[0].height }]
+        ? [
+            {
+              url: brand.assets[0].src,
+              width: brand.assets[0].width,
+              height: brand.assets[0].height,
+            },
+          ]
         : [],
       type: "website",
       locale,

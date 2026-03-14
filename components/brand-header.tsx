@@ -8,8 +8,16 @@ export function BrandHeader({ brand }: { brand: Brand }) {
   const tTag = useTranslations("tags")
   const tBrand = useTranslations("brands")
 
-  function tr(ns: ReturnType<typeof useTranslations>, key: string, fallback: string) {
-    try { return ns(key) } catch { return fallback }
+  function tr(
+    ns: ReturnType<typeof useTranslations>,
+    key: string,
+    fallback: string
+  ) {
+    try {
+      return ns(key)
+    } catch {
+      return fallback
+    }
   }
 
   return (
@@ -42,13 +50,19 @@ export function BrandHeader({ brand }: { brand: Brand }) {
       <div className="flex flex-wrap items-center gap-1.5 text-[12.5px] text-neutral-500 dark:text-neutral-400">
         {brand.tags?.map((tag, i) => (
           <span key={tag} className="flex items-center gap-1.5">
-            {i > 0 && <span className="text-neutral-400 dark:text-neutral-600">&middot;</span>}
+            {i > 0 && (
+              <span className="text-neutral-400 dark:text-neutral-600">
+                &middot;
+              </span>
+            )}
             <span>{tr(tTag, tag, tag)}</span>
           </span>
         ))}
         {brand.url && (
           <>
-            <span className="text-neutral-400 dark:text-neutral-600">&middot;</span>
+            <span className="text-neutral-400 dark:text-neutral-600">
+              &middot;
+            </span>
             <a
               href={brand.url}
               target="_blank"

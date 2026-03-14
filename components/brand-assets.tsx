@@ -15,15 +15,17 @@ import { cn } from "@/lib/utils"
 import type { BrandAsset } from "@/lib/types"
 
 const WHITESPACE_RE = /\s+/g
+const LIGHT_ASSET_RE = /ivory|white|light/i
+
+function needsDarkBg(label: string): boolean {
+  return LIGHT_ASSET_RE.test(label)
+}
 
 function getSpan(asset: BrandAsset): "wide" | "normal" {
   return asset.width / asset.height > 2.5 ? "wide" : "normal"
 }
 
-function rasterizeToCanvas(
-  blob: Blob,
-  scale = 2
-): Promise<Blob> {
+function rasterizeToCanvas(blob: Blob, scale = 2): Promise<Blob> {
   return new Promise((resolve, reject) => {
     const img = new window.Image()
     const url = URL.createObjectURL(blob)
@@ -65,7 +67,7 @@ export function BrandAssets({
         {t("assets")}
       </h2>
 
-      <div className="grid auto-rows-[180px] grid-cols-2 gap-3 lg:grid-cols-3">
+      <div className="grid auto-rows-[200px] grid-cols-2 gap-3 lg:grid-cols-3">
         {assets.map((asset) => {
           const span = getSpan(asset)
           return (
@@ -99,7 +101,12 @@ function AssetCard({
     .replace(WHITESPACE_RE, "-")
   const isSvg = asset.format === "svg"
 
-  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
+  useEffect(
+    () => () => {
+      if (timerRef.current) clearTimeout(timerRef.current)
+    },
+    []
+  )
 
   async function downloadAs(format: "svg" | "png") {
     const src = asset.srcFull ?? asset.src
@@ -126,9 +133,8 @@ function AssetCard({
       const src = asset.srcFull ?? asset.src
       const response = await fetch(src)
       const blob = await response.blob()
-      const pngBlob = blob.type === "image/svg+xml"
-        ? await rasterizeToCanvas(blob)
-        : blob
+      const pngBlob =
+        blob.type === "image/svg+xml" ? await rasterizeToCanvas(blob) : blob
       await navigator.clipboard.write([
         new ClipboardItem({ [pngBlob.type]: pngBlob }),
       ])
@@ -148,18 +154,26 @@ function AssetCard({
       )}
     >
       {/* Asset preview */}
-      <div className="flex flex-1 items-center justify-center p-6">
+      <div
+        className={cn(
+          "flex flex-1 items-center justify-center p-8",
+          needsDarkBg(asset.label)
+            ? "bg-neutral-800 dark:bg-neutral-800"
+            : "bg-neutral-50 dark:bg-neutral-900"
+        )}
+      >
         <Image
           src={asset.src}
           alt={`${brandName} ${asset.label}`}
           width={asset.width}
           height={asset.height}
-          className="max-h-full max-w-full object-contain"
+          className="h-auto max-h-[120px] w-auto max-w-full object-contain"
+          unoptimized={asset.format === "svg"}
         />
       </div>
 
       {/* Overlay — always visible on mobile, hover-revealed on desktop */}
-      <div className="absolute inset-x-0 bottom-0 flex h-full items-end justify-between bg-gradient-to-t from-black/50 via-black/15 to-transparent px-4 pb-3 opacity-100 transition-opacity duration-200 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100">
+      <div className="absolute inset-x-0 bottom-0 flex h-full items-end justify-between bg-gradient-to-t from-black/50 via-black/15 to-transparent px-4 pb-3 opacity-100 transition-opacity duration-200 lg:opacity-0 lg:group-focus-within:opacity-100 lg:group-hover:opacity-100">
         <div className="flex flex-col">
           <span className="text-[13px] font-medium text-white">
             {asset.label}

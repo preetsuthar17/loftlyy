@@ -8,8 +8,7 @@ import { getAllBrands } from "@/data/brands"
 import { LocaleSwitcher } from "./locale-switcher"
 
 const BrandSidebarSearch = dynamic(
-  () =>
-    import("./brand-sidebar-search").then((m) => m.BrandSidebarSearch),
+  () => import("./brand-sidebar-search").then((m) => m.BrandSidebarSearch),
   { ssr: false }
 )
 
@@ -37,9 +36,12 @@ export function MobileSidebarToggle() {
   // Set inert on main content when sidebar is open
   useEffect(() => {
     if (!open) return
-    const main = document.querySelector("main") ?? document.getElementById("main-content")
+    const main =
+      document.querySelector("main") ?? document.getElementById("main-content")
     if (main) main.setAttribute("inert", "")
-    return () => { main?.removeAttribute("inert") }
+    return () => {
+      main?.removeAttribute("inert")
+    }
   }, [open])
 
   return (
@@ -57,7 +59,7 @@ export function MobileSidebarToggle() {
         <>
           <button
             type="button"
-            className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm animate-in fade-in duration-200"
+            className="fixed inset-0 z-40 animate-in bg-black/20 backdrop-blur-sm duration-200 fade-in"
             onClick={close}
             aria-label="Close sidebar"
           />
@@ -65,7 +67,7 @@ export function MobileSidebarToggle() {
             ref={sidebarRef}
             role="dialog"
             aria-modal="true"
-            className="fixed inset-y-0 left-0 z-50 flex w-[272px] flex-col gap-4 overscroll-y-contain bg-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] shadow-xl animate-in slide-in-from-left duration-200 dark:bg-neutral-950"
+            className="fixed inset-y-0 left-0 z-50 flex w-[272px] animate-in flex-col gap-4 overscroll-y-contain bg-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] shadow-xl duration-200 slide-in-from-left dark:bg-neutral-950"
           >
             {/* Header */}
             <div className="flex items-center justify-between px-5">

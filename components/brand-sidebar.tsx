@@ -9,7 +9,7 @@ export function BrandSidebar() {
 
   return (
     <aside
-      className="hidden h-full w-[272px] shrink-0 flex-col bg-white lg:flex dark:bg-neutral-950 p-4 gap-4"
+      className="hidden h-full w-[272px] shrink-0 flex-col gap-4 bg-white p-4 lg:flex dark:bg-neutral-950"
       id="brand-sidebar"
     >
       <div className="flex flex-col gap-4">

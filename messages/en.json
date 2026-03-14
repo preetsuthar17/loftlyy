@@ -62,6 +62,9 @@
     "saas": "SaaS",
     "social-media": "Social Media",
     "e-commerce": "E-Commerce",
+    "music": "Music",
+    "ai": "AI",
+    "technology": "Technology",
     "minimal-logos": "Minimal Logos",
     "gradient-brands": "Gradient Brands",
     "wordmark-logos": "Wordmark Logos",
@@ -71,6 +74,26 @@
     "discord": {
       "description": "Discord is a voice, video, and text communication platform designed for creating communities. Originally built for gamers, it has expanded to serve communities of all kinds — from study groups to art collectives to open-source projects. Discord's mission is to create space for everyone to find belonging.",
       "philosophy": "Playful, approachable, and inclusive. Discord's identity balances youthful energy with the clarity needed for a communication platform, using the iconic Clyde mascot and Blurple as anchors of recognition."
+    },
+    "spotify": {
+      "description": "Spotify is the world's largest audio streaming platform, offering millions of songs, podcasts, and audiobooks. Founded in Sweden, it transformed how people discover and listen to music with personalized playlists and algorithmic recommendations.",
+      "philosophy": "Bold, vibrant, and accessible. Spotify's identity uses the iconic green and a clean geometric logo to represent the joy of music discovery, making audio content feel personal and universally inviting."
+    },
+    "openai": {
+      "description": "OpenAI is an AI research and deployment company dedicated to ensuring that artificial general intelligence benefits all of humanity. Known for creating GPT and ChatGPT, it leads the development of large language models and AI systems.",
+      "philosophy": "Minimal, authoritative, and forward-looking. OpenAI's identity communicates trust and technological sophistication through restrained design, using stark black-and-white with purposeful green accents that signal innovation without intimidation."
+    },
+    "anthropic": {
+      "description": "Anthropic is an AI safety company focused on building reliable, interpretable, and steerable AI systems. Founded by former OpenAI researchers, it develops Claude, an AI assistant designed with safety at its core.",
+      "philosophy": "Warm, trustworthy, and thoughtfully restrained. Anthropic's identity pairs an organic tan palette with clean typography to communicate safety-focused AI research — approachable yet serious, human yet technical."
+    },
+    "apple": {
+      "description": "Apple designs, manufactures, and markets consumer electronics, software, and services. From the Macintosh to the iPhone, Apple has consistently redefined entire product categories through its obsession with design, simplicity, and user experience.",
+      "philosophy": "Simplicity is the ultimate sophistication. Apple's monochromatic identity strips away everything unnecessary, letting the iconic bitten apple speak with quiet confidence — a symbol of innovation, premium quality, and human-centered design."
+    },
+    "wise": {
+      "description": "Wise is a global financial technology company that makes international money transfers fast, cheap, and transparent. Originally known as TransferWise, it serves millions of customers moving money across borders with real exchange rates.",
+      "philosophy": "Transparent, bold, and borderless. Wise's identity uses a distinctive green and a flag motif to symbolize the movement of money across borders — straightforward design for a company that believes financial services should be fair and simple."
     }
   },
   "tags": {
@@ -78,7 +101,29 @@
     "community": "Community",
     "gaming": "Gaming",
     "voice-chat": "Voice Chat",
-    "messaging": "Messaging"
+    "messaging": "Messaging",
+    "music": "Music",
+    "streaming": "Streaming",
+    "audio": "Audio",
+    "podcasts": "Podcasts",
+    "playlists": "Playlists",
+    "artificial-intelligence": "Artificial Intelligence",
+    "machine-learning": "Machine Learning",
+    "research": "Research",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "claude": "Claude",
+    "ai-safety": "AI Safety",
+    "hardware": "Hardware",
+    "software": "Software",
+    "design": "Design",
+    "innovation": "Innovation",
+    "ecosystem": "Ecosystem",
+    "payments": "Payments",
+    "money-transfer": "Money Transfer",
+    "banking": "Banking",
+    "international": "International",
+    "currency": "Currency"
   },
   "common": {
     "loading": "Loading...",

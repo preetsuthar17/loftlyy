@@ -2,7 +2,11 @@
 
 import { useState } from "react"
 import { useTranslations } from "next-intl"
-import { IconScale, IconChevronRight, IconExternalLink } from "@tabler/icons-react"
+import {
+  IconScale,
+  IconChevronRight,
+  IconExternalLink,
+} from "@tabler/icons-react"
 import { cn } from "@/lib/utils"
 import type { Brand } from "@/lib/types"
 
@@ -15,9 +19,7 @@ export function BrandLegal({ brand }: { brand: Brand }) {
       {/* Compact attribution line */}
       <div className="flex items-center gap-2 text-[11.5px] text-neutral-500 dark:text-neutral-400">
         <IconScale className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        <p>
-          {t("legalNotice", { brandName: brand.name })}
-        </p>
+        <p>{t("legalNotice", { brandName: brand.name })}</p>
       </div>
 
       {/* Action row */}
