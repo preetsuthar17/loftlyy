@@ -71,7 +71,7 @@ export function MobileSidebarToggle() {
             <div className="flex items-center justify-between px-5">
               <div className="flex items-center gap-2.5">
                 <Image
-                  src="/logo.png"
+                  src="/logo.webp"
                   alt="Loftlyy"
                   width={28}
                   height={28}
