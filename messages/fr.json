@@ -80,9 +80,14 @@
     "minimal-logos": "Logos minimalistes",
     "gradient-brands": "Marques en degrade",
     "wordmark-logos": "Logotypes",
-    "geometric-logos": "Logos geometriques"
+    "geometric-logos": "Logos geometriques",
+    "travel": "Voyage"
   },
   "brands": {
+    "airbnb": {
+      "description": "Airbnb est une place de marche mondiale en ligne pour l'hebergement, les experiences et les activites touristiques. Fondee en 2008 a San Francisco, elle connecte des millions d'hotes et de voyageurs dans le monde entier, transformant la facon dont les gens trouvent des logements uniques et decouvrent la culture locale.",
+      "philosophy": "L'identite d'Airbnb est ancree par le Belo — un symbole d'appartenance qui represente les personnes, les lieux, l'amour et Airbnb elle-meme. La couleur chaude Rausch et la typographie personnalisee Cereal creent une marque conviviale et accessible qui invite a la connexion et a l'exploration entre les cultures."
+    },
     "discord": {
       "description": "Discord est une plateforme de communication vocale, video et textuelle concue pour creer des communautes. Initialement concu pour les joueurs, il s'est etendu pour servir des communautes de toutes sortes — des groupes d'etude aux collectifs artistiques en passant par les projets open source. La mission de Discord est de creer un espace ou chacun peut trouver sa place.",
       "philosophy": "Ludique, accessible et inclusif. L'identite de Discord equilibre une energie juvenile avec la clarte necessaire pour une plateforme de communication, en utilisant l'emblematique mascotte Clyde et le Blurple comme reperes de reconnaissance."
@@ -107,9 +112,25 @@
       "description": "Wise est une entreprise mondiale de technologie financiere qui rend les transferts d'argent internationaux rapides, peu couteux et transparents. Anciennement connue sous le nom de TransferWise, elle sert des millions de clients qui transferent de l'argent a travers les frontieres avec des taux de change reels.",
       "philosophy": "Transparente, audacieuse et sans frontieres. L'identite de Wise utilise un vert distinctif et un motif de drapeau pour symboliser le mouvement de l'argent a travers les frontieres — un design direct pour une entreprise qui croit que les services financiers doivent etre justes et simples."
     },
+    "figma": {
+      "description": "Figma est un outil de conception d'interfaces collaboratif qui permet aux equipes de concevoir, prototyper et developper des produits ensemble en temps reel. Acquis par Adobe en 2023, Figma est devenu la reference pour la conception UI/UX.",
+      "philosophy": "L'identite de Figma celebre la nature collaborative et creative du design a travers un logo vibrant et multicolore qui represente les divers outils et perspectives qui convergent dans le processus de conception."
+    },
+    "notion": {
+      "description": "Notion est un espace de travail tout-en-un qui combine notes, documents, wikis, gestion de projets et bases de donnees en une seule plateforme connectee. Fondee en 2013 a San Francisco, Notion permet aux equipes et aux individus de personnaliser leurs flux de travail grace a des blocs modulaires.",
+      "philosophy": "L'identite de Notion incarne le principe selon lequel les outils doivent etre aussi flexibles que les personnes qui les utilisent. La palette minimaliste noir et blanc et l'iconique logo page-avec-N refletent la simplicite, la modularite et l'idee que le meilleur logiciel se fait oublier."
+    },
     "stripe": {
       "description": "Stripe est une plateforme d'infrastructure financiere qui fournit des APIs de traitement des paiements et des outils pour les entreprises internet de toutes tailles. Fondee en 2010, Stripe alimente des millions d'entreprises dans le monde entier.",
       "philosophy": "L'identite de Stripe repose sur la clarte orientee developpeur et la simplicite raffinee. La marque utilise une palette violette distinctive et une typographie epuree pour transmettre confiance et sophistication dans la technologie financiere."
+    },
+    "linear": {
+      "description": "Linear est une plateforme de gestion de projets concue pour les equipes logicielles modernes, axee sur la vitesse, la clarte et le savoir-faire. Fondee en 2019, Linear optimise le suivi des problemes, la planification des sprints et les flux de developpement produit pour plus de 25 000 entreprises.",
+      "philosophy": "L'identite de Linear reflete une concentration implacable sur la vitesse, le savoir-faire et la clarte. La marque utilise une palette indigo sobre et un logotype geometrique epure pour transmettre precision et determination."
+    },
+    "vercel": {
+      "description": "Vercel est une plateforme cloud pour les developpeurs frontend qui permet aux equipes de construire, deployer et faire evoluer des applications web sans configuration. Fondee en 2015, Vercel est la creatrice de Next.js et du systeme de design Geist.",
+      "philosophy": "L'identite de marque de Vercel est centree sur l'experience developpeur et la puissance du frontend. Sa palette noir et blanc et son iconique symbole triangulaire communiquent vitesse, precision et l'avant-garde du developpement web."
     }
   },
   "tags": {
@@ -143,7 +164,24 @@
     "api": "API",
     "developer-tools": "Outils pour Developpeurs",
     "financial-infrastructure": "Infrastructure Financiere",
-    "e-commerce": "Commerce Electronique"
+    "e-commerce": "Commerce Electronique",
+    "collaboration": "Collaboration",
+    "prototyping": "Prototypage",
+    "ui-design": "Design UI",
+    "travel": "Voyage",
+    "hospitality": "Hotellerie",
+    "marketplace": "Place de marche",
+    "accommodation": "Hebergement",
+    "experiences": "Experiences",
+    "cloud": "Cloud",
+    "hosting": "Hebergement",
+    "frontend": "Frontend",
+    "project-management": "Gestion de Projets",
+    "issue-tracking": "Suivi des Problemes",
+    "productivity": "Productivite",
+    "design-tools": "Outils de Design",
+    "notes": "Notes",
+    "workspace": "Espace de Travail"
   },
   "common": {
     "loading": "Chargement",

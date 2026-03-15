@@ -80,9 +80,14 @@
     "minimal-logos": "Minimalistische Logos",
     "gradient-brands": "Farbverlauf-Marken",
     "wordmark-logos": "Wortmarken",
-    "geometric-logos": "Geometrische Logos"
+    "geometric-logos": "Geometrische Logos",
+    "travel": "Reisen"
   },
   "brands": {
+    "airbnb": {
+      "description": "Airbnb ist ein globaler Online-Marktplatz fuer Unterkuenfte, Erlebnisse und touristische Aktivitaeten. 2008 in San Francisco gegruendet, verbindet es Millionen von Gastgebern und Reisenden weltweit und veraendert die Art, wie Menschen einzigartige Unterkuenfte finden und lokale Kultur erleben.",
+      "philosophy": "Airbnbs Identitaet wird durch das Belo verankert — ein Symbol der Zugehoerigkeit, das Menschen, Orte, Liebe und Airbnb selbst repraesentiert. Die warme Rausch-Farbe und die massgeschneiderte Cereal-Schrift schaffen eine freundliche, zugaengliche Marke, die zur Verbindung und Erkundung ueber Kulturen hinweg einlaedt."
+    },
     "discord": {
       "description": "Discord ist eine Sprach-, Video- und Textkommunikationsplattform, die fuer den Aufbau von Gemeinschaften entwickelt wurde. Urspruenglich fuer Gamer gebaut, hat sie sich erweitert, um Gemeinschaften aller Art zu bedienen — von Lerngruppen ueber Kuenstlerkollektive bis hin zu Open-Source-Projekten. Discords Mission ist es, einen Raum zu schaffen, in dem jeder seinen Platz finden kann.",
       "philosophy": "Verspielt, zugaenglich und inklusiv. Discords Identitaet balanciert jugendliche Energie mit der Klarheit, die fuer eine Kommunikationsplattform erforderlich ist, wobei das ikonische Clyde-Maskottchen und Blurple als Ankerpunkte der Wiedererkennung dienen."
@@ -107,9 +112,25 @@
       "description": "Wise ist ein globales Finanztechnologieunternehmen, das internationale Geldtransfers schnell, guenstig und transparent macht. Fruher als TransferWise bekannt, bedient es Millionen von Kunden, die Geld ueber Grenzen hinweg mit echten Wechselkursen senden.",
       "philosophy": "Transparent, mutig und grenzenlos. Wises Identitaet nutzt ein markantes Gruen und ein Flaggenmotiv, um die Bewegung von Geld ueber Grenzen zu symbolisieren — geradliniges Design fuer ein Unternehmen, das glaubt, dass Finanzdienstleistungen fair und einfach sein sollten."
     },
+    "figma": {
+      "description": "Figma ist ein kollaboratives Interface-Design-Tool, das es Teams ermoeglicht, Produkte gemeinsam in Echtzeit zu entwerfen, zu prototypen und zu entwickeln. 2023 von Adobe uebernommen, ist Figma zum Industriestandard fuer UI/UX-Design geworden.",
+      "philosophy": "Figmas Identitaet feiert die kollaborative und kreative Natur des Designs durch ein lebhaftes, mehrfarbiges Logo, das die vielfaeltigen Werkzeuge und Perspektiven repraesentiert, die im Designprozess zusammenkommen."
+    },
+    "notion": {
+      "description": "Notion ist ein All-in-One-Arbeitsbereich, der Notizen, Dokumente, Wikis, Projektmanagement und Datenbanken in einer einzigen vernetzten Plattform vereint. 2013 in San Francisco gegruendet, ermoeglicht Notion Teams und Einzelpersonen, ihre Arbeitsablaeufe mit modularen Bausteinen anzupassen.",
+      "philosophy": "Notions Identitaet verkoerpert das Prinzip, dass Werkzeuge so flexibel sein sollten wie die Menschen, die sie nutzen. Die minimalistische Schwarz-Weiss-Palette und das ikonische Seite-mit-N-Logozeichen spiegeln Einfachheit, Modularitaet und die Idee wider, dass die beste Software sich zuruecknimmt."
+    },
     "stripe": {
       "description": "Stripe ist eine Finanzinfrastruktur-Plattform, die Zahlungsverarbeitungs-APIs und Tools fuer Internetunternehmen jeder Groesse bereitstellt. 2010 gegruendet, unterstuetzt Stripe Millionen von Unternehmen weltweit.",
       "philosophy": "Stripes Identitaet basiert auf entwicklerorientierter Klarheit und raffinierter Einfachheit. Die Marke verwendet eine markante lila Farbpalette und klare Typografie, um Vertrauen und Raffinesse in der Finanztechnologie zu vermitteln."
+    },
+    "linear": {
+      "description": "Linear ist eine speziell entwickelte Projektmanagement-Plattform fuer moderne Softwareteams, die auf Geschwindigkeit, Klarheit und Handwerkskunst ausgelegt ist. 2019 gegruendet, optimiert Linear die Fehlerverfolgung, Sprint-Planung und Produktentwicklungs-Workflows fuer ueber 25.000 Unternehmen.",
+      "philosophy": "Linears Identitaet spiegelt unerbittlichen Fokus auf Geschwindigkeit, Handwerkskunst und Klarheit wider. Die Marke verwendet eine zurueckhaltende Indigo-Palette und ein klares geometrisches Logozeichen, um Praezision und Zielstrebigkeit zu vermitteln."
+    },
+    "vercel": {
+      "description": "Vercel ist eine Cloud-Plattform fuer Frontend-Entwickler, die es Teams ermoeglicht, Webanwendungen ohne Konfiguration zu erstellen, bereitzustellen und zu skalieren. 2015 gegruendet, ist Vercel der Schoepfer von Next.js und dem Geist-Designsystem.",
+      "philosophy": "Vercels Markenidentitaet konzentriert sich auf die Entwicklererfahrung und die Kraft des Frontends. Die markante Schwarz-Weiss-Palette und das ikonische Dreieckssymbol vermitteln Geschwindigkeit, Praezision und die Spitze der Webentwicklung."
     }
   },
   "tags": {
@@ -143,7 +164,24 @@
     "api": "API",
     "developer-tools": "Entwicklerwerkzeuge",
     "financial-infrastructure": "Finanzinfrastruktur",
-    "e-commerce": "E-Commerce"
+    "e-commerce": "E-Commerce",
+    "collaboration": "Zusammenarbeit",
+    "prototyping": "Prototyping",
+    "ui-design": "UI-Design",
+    "travel": "Reisen",
+    "hospitality": "Gastgewerbe",
+    "marketplace": "Marktplatz",
+    "accommodation": "Unterkunft",
+    "experiences": "Erlebnisse",
+    "cloud": "Cloud",
+    "hosting": "Hosting",
+    "frontend": "Frontend",
+    "project-management": "Projektmanagement",
+    "issue-tracking": "Fehlerverfolgung",
+    "productivity": "Produktivitaet",
+    "design-tools": "Design-Tools",
+    "notes": "Notizen",
+    "workspace": "Arbeitsbereich"
   },
   "common": {
     "loading": "Wird geladen",

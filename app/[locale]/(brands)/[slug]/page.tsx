@@ -8,6 +8,7 @@ import { BrandColors } from "@/components/brand-colors"
 import { BrandTypography } from "@/components/brand-typography"
 import { BrandStructuredData } from "@/components/structured-data"
 import { BrandStory } from "@/components/brand-story"
+import { AdBanner } from "@/components/ad-banner"
 import { getSimilarBrandCards } from "@/lib/filters"
 
 const BrandAssets = dynamic(() =>
@@ -93,7 +94,10 @@ export default async function BrandPage({
     <article className="flex flex-col gap-10 px-8 py-7">
       <BrandStructuredData brand={brand} />
       <BrandHeader brand={brand} />
-      <BrandStory brand={brand} />
+      <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-6">
+        <BrandStory brand={brand} />
+        <AdBanner />
+      </div>
       <BrandAssets assets={brand.assets} brandName={brand.name} />
       <BrandColors colors={brand.colors} />
       <BrandTypography typography={brand.typography} />

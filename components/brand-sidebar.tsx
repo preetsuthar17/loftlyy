@@ -1,5 +1,6 @@
 import { Suspense } from "react"
 import Image from "next/image"
+import { IconHeart } from "@tabler/icons-react"
 import { getAllBrands } from "@/data/brands"
 import { LocaleSwitcher } from "./locale-switcher"
 import { BrandSidebarSearch } from "./brand-sidebar-search"
@@ -43,6 +44,15 @@ export function BrandSidebar() {
       <Suspense>
         <BrandSidebarSearch brands={brands} />
       </Suspense>
+      <a
+        href="https://github.com/sponsors/preetsuthar17"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center gap-2 rounded-lg border border-neutral-200 px-3 py-2 text-[13px] font-medium text-neutral-600 transition-colors hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/50 dark:hover:text-neutral-200"
+      >
+        <IconHeart size={15} />
+        Support us
+      </a>
     </aside>
   )
 }

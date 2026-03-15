@@ -12,6 +12,7 @@ export const categories: Category[] = [
   { slug: "gradient-brands", type: "style" },
   { slug: "wordmark-logos", type: "style" },
   { slug: "geometric-logos", type: "style" },
+  { slug: "travel", type: "industry" },
 ]
 
 export function getAllCategories() {

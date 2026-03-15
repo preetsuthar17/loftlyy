@@ -80,9 +80,14 @@
     "minimal-logos": "Minimal Logos",
     "gradient-brands": "Gradient Brands",
     "wordmark-logos": "Wordmark Logos",
-    "geometric-logos": "Geometric Logos"
+    "geometric-logos": "Geometric Logos",
+    "travel": "Travel"
   },
   "brands": {
+    "airbnb": {
+      "description": "Airbnb is a global online marketplace for lodging, experiences, and tourism activities. Founded in 2008 in San Francisco, it connects millions of hosts and travelers worldwide, transforming how people find unique accommodations and experience local culture.",
+      "philosophy": "Airbnb's identity is anchored by the Belo — a symbol of belonging that represents people, places, love, and Airbnb itself. The warm Rausch color and custom Cereal typeface create a friendly, approachable brand that invites connection and exploration across cultures."
+    },
     "discord": {
       "description": "Discord is a voice, video, and text communication platform designed for creating communities. Originally built for gamers, it has expanded to serve communities of all kinds — from study groups to art collectives to open-source projects. Discord's mission is to create space for everyone to find belonging.",
       "philosophy": "Playful, approachable, and inclusive. Discord's identity balances youthful energy with the clarity needed for a communication platform, using the iconic Clyde mascot and Blurple as anchors of recognition."
@@ -107,9 +112,25 @@
       "description": "Wise is a global financial technology company that makes international money transfers fast, cheap, and transparent. Originally known as TransferWise, it serves millions of customers moving money across borders with real exchange rates.",
       "philosophy": "Transparent, bold, and borderless. Wise's identity uses a distinctive green and a flag motif to symbolize the movement of money across borders — straightforward design for a company that believes financial services should be fair and simple."
     },
+    "figma": {
+      "description": "Figma is a collaborative interface design tool that enables teams to design, prototype, and develop products together in real time. Acquired by Adobe in 2023, Figma has become the industry standard for UI/UX design, replacing traditional desktop tools with a browser-based platform.",
+      "philosophy": "Figma's identity celebrates the collaborative and creative nature of design through a vibrant, multi-colored logo that represents the diverse tools and perspectives that come together in the design process."
+    },
+    "notion": {
+      "description": "Notion is an all-in-one workspace that combines notes, docs, wikis, project management, and databases into a single connected platform. Founded in 2013 in San Francisco, Notion empowers teams and individuals to customize their workflows using modular building blocks.",
+      "philosophy": "Notion's identity embodies the principle that tools should be as flexible as the people using them. The minimal black-and-white palette and iconic page-with-N logomark reflect simplicity, modularity, and the idea that the best software gets out of your way."
+    },
     "stripe": {
       "description": "Stripe is a financial infrastructure platform that provides payment processing APIs and tools for internet businesses of every size. Founded in 2010, Stripe powers millions of companies worldwide, enabling them to accept payments and build financial products.",
       "philosophy": "Stripe's identity is built around developer-first clarity and refined simplicity. The brand uses a distinctive purple palette and clean typography to convey trust and sophistication in financial technology."
+    },
+    "linear": {
+      "description": "Linear is a purpose-built project management platform for modern software teams, designed around speed, clarity, and craftsmanship. Founded in 2019, Linear streamlines issue tracking, sprint planning, and product development workflows for over 25,000 companies.",
+      "philosophy": "Linear's identity reflects relentless focus on speed, craftsmanship, and clarity. The brand uses a restrained indigo palette and clean geometric logomark to convey precision and purpose."
+    },
+    "vercel": {
+      "description": "Vercel is a cloud platform for frontend developers that enables teams to build, deploy, and scale web applications with zero configuration. Founded in 2015, Vercel is the creator of Next.js and the Geist design system.",
+      "philosophy": "Vercel's brand identity centers on developer experience and the power of the frontend. Its stark black-and-white palette and iconic triangle symbol communicate speed, precision, and the cutting edge of web development."
     }
   },
   "tags": {
@@ -143,7 +164,24 @@
     "api": "API",
     "developer-tools": "Developer Tools",
     "financial-infrastructure": "Financial Infrastructure",
-    "e-commerce": "E-Commerce"
+    "e-commerce": "E-Commerce",
+    "collaboration": "Collaboration",
+    "prototyping": "Prototyping",
+    "ui-design": "UI Design",
+    "travel": "Travel",
+    "hospitality": "Hospitality",
+    "marketplace": "Marketplace",
+    "accommodation": "Accommodation",
+    "experiences": "Experiences",
+    "project-management": "Project Management",
+    "issue-tracking": "Issue Tracking",
+    "productivity": "Productivity",
+    "design-tools": "Design Tools",
+    "cloud": "Cloud",
+    "hosting": "Hosting",
+    "frontend": "Frontend",
+    "notes": "Notes",
+    "workspace": "Workspace"
   },
   "common": {
     "loading": "Loading",

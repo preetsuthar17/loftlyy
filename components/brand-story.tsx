@@ -36,7 +36,7 @@ export function BrandStory({ brand }: { brand: Brand }) {
   ].filter(Boolean) as { label: string; value: string }[]
 
   return (
-    <section className="flex flex-col gap-3">
+    <section className="flex min-w-0 flex-1 flex-col gap-3">
       <h2 className="text-[13px] font-bold tracking-wide text-neutral-500 uppercase dark:text-neutral-400">
         {t("brandStory")}
       </h2>

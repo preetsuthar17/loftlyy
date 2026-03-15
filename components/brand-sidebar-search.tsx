@@ -84,7 +84,14 @@ export function BrandSidebarSearch({
                       alt={brand.name}
                       width={36}
                       height={36}
-                      className="h-full w-full object-contain p-1"
+                      className={cn(
+                        "h-full w-full object-contain",
+                        brand.thumbnail.width / brand.thumbnail.height < 0.85
+                          ? "p-0.5"
+                          : brand.thumbnail.width / brand.thumbnail.height > 1.1
+                            ? "p-1.5"
+                            : "p-1"
+                      )}
                     />
                   </div>
                   <span

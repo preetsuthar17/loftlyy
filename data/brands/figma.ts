@@ -1,0 +1,150 @@
+import type { Brand } from "@/lib/types"
+
+export const figma: Brand = {
+  slug: "figma",
+  name: "Figma",
+  description:
+    "Figma is a collaborative interface design tool that enables teams to design, prototype, and develop products together in real time. Acquired by Adobe in 2023, Figma has become the industry standard for UI/UX design, replacing traditional desktop tools with a browser-based platform that makes design accessible to everyone.",
+  url: "https://figma.com",
+  industry: "saas",
+  categories: ["saas", "technology", "gradient-brands", "geometric-logos"],
+  tags: [
+    "design",
+    "collaboration",
+    "prototyping",
+    "ui-design",
+    "developer-tools",
+  ],
+  colors: [
+    {
+      name: "Figma Red",
+      hex: "#FF3737",
+      usage: "Primary brand accent, top-left quadrant of the icon.",
+    },
+    {
+      name: "Figma Orange",
+      hex: "#FF7237",
+      usage: "Secondary accent, top-right quadrant of the icon.",
+    },
+    {
+      name: "Figma Violet",
+      hex: "#874FFF",
+      usage: "Tertiary accent, middle-left quadrant of the icon.",
+    },
+    {
+      name: "Figma Blue",
+      hex: "#00B6FF",
+      usage: "Accent, center-right circle of the icon.",
+    },
+    {
+      name: "Figma Green",
+      hex: "#24CB71",
+      usage: "Accent, bottom-left quadrant of the icon.",
+    },
+    {
+      name: "Figma Black",
+      hex: "#000000",
+      usage: "Primary text color, wordmark, dark backgrounds.",
+    },
+  ],
+  typography: [
+    {
+      name: "Figma Sans",
+      role: "Primary / Headings & Body",
+      weights: ["400", "500", "600", "700"],
+      category: "sans-serif",
+      designer: "Figma Design Team",
+      foundry: "Figma",
+      fontUrl: "/brands/figma/fonts/figma-sans.woff2",
+    },
+    {
+      name: "Figma Mono",
+      role: "Code / Monospace",
+      weights: ["400", "500"],
+      category: "monospace",
+      designer: "Figma Design Team",
+      foundry: "Figma",
+      fontUrl: "/brands/figma/fonts/figma-mono.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Figma Lockup — Dark",
+      src: "/brands/figma/figma-lockup.svg",
+      width: 1024,
+      height: 640,
+      format: "svg",
+    },
+    {
+      label: "Figma Wordmark — Black",
+      src: "/brands/figma/figma-wordmark-black.svg",
+      width: 1024,
+      height: 640,
+      format: "svg",
+    },
+    {
+      label: "Figma Wordmark — White",
+      src: "/brands/figma/figma-wordmark-white.svg",
+      width: 1024,
+      height: 640,
+      format: "svg",
+    },
+    {
+      label: "Figma Icon — Color",
+      src: "/brands/figma/figma-icon-color.svg",
+      width: 416,
+      height: 600,
+      format: "svg",
+    },
+    {
+      label: "Figma Icon — Black",
+      src: "/brands/figma/figma-icon-black.svg",
+      width: 416,
+      height: 600,
+      format: "svg",
+    },
+    {
+      label: "Figma Icon — White",
+      src: "/brands/figma/figma-icon-white.svg",
+      width: 416,
+      height: 600,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Figma Icon — Color",
+    src: "/brands/figma/figma-icon-color.svg",
+    width: 416,
+    height: 600,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Figma Icon — White",
+    src: "/brands/figma/figma-icon-white.svg",
+    width: 416,
+    height: 600,
+    format: "svg",
+  },
+  dateAdded: "2026-03-15",
+  founded: 2012,
+  headquarters: "San Francisco, California",
+  designer: "Figma Design Team",
+  lastRebranded: "2024",
+  philosophy:
+    "Figma's identity celebrates the collaborative and creative nature of design through a vibrant, multi-colored logo that represents the diverse tools and perspectives that come together in the design process. The five distinct colors symbolize the platform's modular approach to design.",
+  legal: {
+    guidelinesUrl: "https://www.figma.com/using-the-figma-brand/",
+    dos: [
+      "Use official Figma logos from the brand resources page",
+      "Maintain clear space around the Figma logo",
+      "Use the full-color logo on light or white backgrounds",
+      "Refer to the company as 'Figma' (capitalized) in text",
+    ],
+    donts: [
+      "Modify the Figma logo colors or proportions",
+      "Use the Figma brand to imply partnership without authorization",
+      "Recreate or approximate the Figma logo using similar shapes",
+      "Place the Figma logo on visually busy or low-contrast backgrounds",
+    ],
+  },
+}

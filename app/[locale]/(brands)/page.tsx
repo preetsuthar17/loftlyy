@@ -69,7 +69,7 @@ function BrandsLanding() {
             <IconArrowRight size={16} />
           </Link>
           <a
-            href="https://github.com/sponsors/loftlyy"
+            href="https://github.com/sponsors/preetsuthar17"
             target="_blank"
             rel="noopener noreferrer"
             className="justtify-center flex w-full items-center gap-2 rounded-full bg-neutral-100 px-6 py-4 text-center font-semibold text-neutral-700 transition-colors hover:bg-neutral-200 lg:w-fit dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
