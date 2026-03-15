@@ -97,7 +97,8 @@
     "wordmark-logos": "文字标志",
     "geometric-logos": "几何标志",
     "travel": "旅行",
-    "automotive": "汽车"
+    "automotive": "汽车",
+    "entertainment": "娱乐"
   },
   "brands": {
     "airbnb": {
@@ -195,6 +196,10 @@
     "shopify": {
       "description": "Shopify是一个领先的电子商务平台，帮助各种规模的企业创建在线商店、管理销售并发展品牌。2006年在加拿大渥太华成立，Shopify为175多个国家的数百万商家提供支付、物流、营销和客户互动工具。",
       "philosophy": "Shopify的品牌标识以赋能创业和让每个人都能参与商业为核心。标志性的购物袋符号和充满活力的绿色调色板反映了增长和可能性，而简洁的排版确保品牌在每个商家接触点都显得值得信赖且现代。"
+    },
+    "netflix": {
+      "description": "Netflix是全球领先的流媒体娱乐服务，在190多个国家拥有超过2.6亿付费会员。Netflix成立于1997年，通过开创订阅式流媒体服务并大力投资原创内容，彻底改变了人们观看电视和电影的方式。",
+      "philosophy": "电影感、大胆且独一无二。Netflix的品牌形象在深黑色背景上使用标志性红色，营造出沉浸式的影院体验——文字商标吸引眼球，而定制字体Netflix Sans在每个屏幕上带来一致性和个性。"
     }
   },
   "tags": {
@@ -270,7 +275,11 @@
     "data-center": "数据中心",
     "autonomous-vehicles": "自动驾驶汽车",
     "retail": "零售",
-    "platform": "平台"
+    "platform": "平台",
+    "entertainment": "娱乐",
+    "video": "视频",
+    "movies": "电影",
+    "television": "电视"
   },
   "tag": {
     "title": "标记为\"{tag}\"的品牌",

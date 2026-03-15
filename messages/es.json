@@ -97,7 +97,8 @@
     "wordmark-logos": "Logotipos tipograficos",
     "geometric-logos": "Logotipos geometricos",
     "travel": "Viajes",
-    "automotive": "Automotriz"
+    "automotive": "Automotriz",
+    "entertainment": "Entretenimiento"
   },
   "brands": {
     "airbnb": {
@@ -199,6 +200,10 @@
     "shopify": {
       "description": "Shopify es una plataforma líder de comercio electrónico que permite a empresas de todos los tamaños crear tiendas en línea, gestionar ventas y hacer crecer sus marcas. Fundada en 2006 en Ottawa, Canadá, Shopify impulsa a millones de comerciantes en más de 175 países, proporcionando herramientas para pagos, envíos, marketing y atención al cliente.",
       "philosophy": "La identidad de marca de Shopify se centra en empoderar el emprendimiento y hacer el comercio accesible para todos. El icónico símbolo de la bolsa de compras y la vibrante paleta verde reflejan crecimiento y posibilidad, mientras que la tipografía limpia garantiza que la marca se sienta confiable y moderna en cada punto de contacto con los comerciantes."
+    },
+    "netflix": {
+      "description": "Netflix es el servicio de entretenimiento en streaming líder en el mundo con más de 260 millones de suscripciones de pago en más de 190 países. Fundada en 1997, Netflix revolucionó la forma en que la gente ve televisión y películas al ser pionera en el streaming por suscripción e invertir fuertemente en contenido original.",
+      "philosophy": "Cinematográfico, audaz e inconfundible. La identidad de Netflix utiliza su rojo característico sobre negro profundo para crear una experiencia inmersiva, similar a la de un cine — la marca denominativa capta la atención mientras la tipografía personalizada Netflix Sans aporta consistencia y personalidad en cada pantalla."
     }
   },
   "tags": {
@@ -276,7 +281,11 @@
     "retail": "Comercio Minorista",
     "platform": "Plataforma",
     "retail": "Retail",
-    "platform": "Plataforma"
+    "platform": "Plataforma",
+    "entertainment": "Entretenimiento",
+    "video": "Video",
+    "movies": "Películas",
+    "television": "Televisión"
   },
   "tag": {
     "title": "Marcas etiquetadas \"{tag}\"",

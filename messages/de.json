@@ -97,7 +97,8 @@
     "wordmark-logos": "Wortmarken",
     "geometric-logos": "Geometrische Logos",
     "travel": "Reisen",
-    "automotive": "Automobilindustrie"
+    "automotive": "Automobilindustrie",
+    "entertainment": "Unterhaltung"
   },
   "brands": {
     "airbnb": {
@@ -199,6 +200,10 @@
     "shopify": {
       "description": "Shopify ist eine führende E-Commerce-Plattform, die Unternehmen jeder Größe ermöglicht, Online-Shops zu erstellen, Verkäufe zu verwalten und ihre Marken auszubauen. 2006 in Ottawa, Kanada, gegründet, unterstützt Shopify Millionen von Händlern in über 175 Ländern mit Tools für Zahlungen, Versand, Marketing und Kundenbindung.",
       "philosophy": "Shopifys Markenidentität konzentriert sich darauf, Unternehmertum zu stärken und Handel für alle zugänglich zu machen. Das ikonische Einkaufstaschen-Symbol und die lebhafte grüne Farbpalette spiegeln Wachstum und Möglichkeiten wider, während die klare Typografie sicherstellt, dass die Marke an jedem Händler-Touchpoint vertrauenswürdig und modern wirkt."
+    },
+    "netflix": {
+      "description": "Netflix ist der weltweit führende Streaming-Unterhaltungsdienst mit über 260 Millionen zahlenden Mitgliedschaften in mehr als 190 Ländern. Netflix wurde 1997 gegründet und hat die Art und Weise revolutioniert, wie Menschen Fernsehen und Filme schauen, indem es abonnementbasiertes Streaming einführte und stark in Originalinhalte investierte.",
+      "philosophy": "Filmisch, mutig und unverwechselbar. Die Identität von Netflix nutzt sein charakteristisches Rot auf tiefem Schwarz, um ein immersives, kinoähnliches Erlebnis zu schaffen — die Wortmarke zieht die Aufmerksamkeit auf sich, während die maßgeschneiderte Schrift Netflix Sans Konsistenz und Persönlichkeit auf jedem Bildschirm bietet."
     }
   },
   "tags": {
@@ -276,7 +281,11 @@
     "platform": "Plattform",
     "logistics": "Logistik",
     "retail": "Einzelhandel",
-    "platform": "Plattform"
+    "platform": "Plattform",
+    "entertainment": "Unterhaltung",
+    "video": "Video",
+    "movies": "Filme",
+    "television": "Fernsehen"
   },
   "tag": {
     "title": "Marken mit Tag \"{tag}\"",

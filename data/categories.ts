@@ -14,6 +14,7 @@ export const categories: Category[] = [
   { slug: "geometric-logos", type: "style" },
   { slug: "travel", type: "industry" },
   { slug: "automotive", type: "industry" },
+  { slug: "entertainment", type: "industry" },
 ]
 
 export function getAllCategories() {

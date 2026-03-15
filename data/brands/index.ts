@@ -15,6 +15,7 @@ import { linear } from "./linear"
 import { meta } from "./meta"
 import { nvidia } from "./nvidia"
 import { microsoft } from "./microsoft"
+import { netflix } from "./netflix"
 import { openai } from "./openai"
 import { spotify } from "./spotify"
 import { shopify } from "./shopify"
@@ -39,6 +40,7 @@ const rawBrands: Brand[] = [
   linear,
   meta,
   microsoft,
+  netflix,
   nvidia,
   notion,
   openai,

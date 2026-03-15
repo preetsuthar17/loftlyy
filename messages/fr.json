@@ -97,7 +97,8 @@
     "wordmark-logos": "Logotypes",
     "geometric-logos": "Logos geometriques",
     "travel": "Voyage",
-    "automotive": "Automobile"
+    "automotive": "Automobile",
+    "entertainment": "Divertissement"
   },
   "brands": {
     "airbnb": {
@@ -199,6 +200,10 @@
     "shopify": {
       "description": "Shopify est une plateforme de commerce électronique de premier plan qui permet aux entreprises de toutes tailles de créer des boutiques en ligne, de gérer les ventes et de développer leurs marques. Fondée en 2006 à Ottawa, au Canada, Shopify soutient des millions de marchands dans plus de 175 pays, en fournissant des outils pour les paiements, l'expédition, le marketing et l'engagement client.",
       "philosophy": "L'identité de marque de Shopify est centrée sur l'autonomisation de l'entrepreneuriat et l'accessibilité du commerce pour tous. Le symbole emblématique du sac de courses et la palette verte vibrante reflètent la croissance et les possibilités, tandis que la typographie épurée garantit que la marque reste digne de confiance et moderne à chaque point de contact avec les marchands."
+    },
+    "netflix": {
+      "description": "Netflix est le premier service de divertissement en streaming au monde avec plus de 260 millions d'abonnements payants dans plus de 190 pays. Fondée en 1997, Netflix a révolutionné la façon dont les gens regardent la télévision et les films en étant pionnière du streaming par abonnement et en investissant massivement dans le contenu original.",
+      "philosophy": "Cinématographique, audacieux et inimitable. L'identité de Netflix utilise son rouge signature sur un noir profond pour créer une expérience immersive, semblable à celle d'un cinéma — le logotype attire l'attention tandis que la typographie personnalisée Netflix Sans apporte cohérence et personnalité sur chaque écran."
     }
   },
   "tags": {
@@ -276,7 +281,11 @@
     "platform": "Plateforme",
     "logistics": "Logistique",
     "retail": "Commerce de détail",
-    "platform": "Plateforme"
+    "platform": "Plateforme",
+    "entertainment": "Divertissement",
+    "video": "Vidéo",
+    "movies": "Films",
+    "television": "Télévision"
   },
   "tag": {
     "title": "Marques taguees \"{tag}\"",
