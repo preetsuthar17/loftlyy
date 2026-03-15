@@ -90,9 +90,12 @@ export function BrandSidebarSearch({
 
       {/* Brand list */}
       <div className="flex min-h-0 flex-1 flex-col gap-2">
-        <div>
+        <div className="flex items-center gap-1.5">
           <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
             {t("allBrands")}
+          </span>
+          <span className="text-[11px] font-medium text-neutral-400 dark:text-neutral-500">
+            {brands.length}
           </span>
         </div>
 
