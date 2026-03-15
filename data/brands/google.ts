@@ -1,0 +1,135 @@
+import type { Brand } from "@/lib/types"
+
+export const google: Brand = {
+  slug: "google",
+  name: "Google",
+  description:
+    "Google is a global technology company specializing in internet services, search, cloud computing, and advertising. Known for its colorful, approachable identity, Google has shaped the modern web and continuously redefines how people access and interact with information.",
+  url: "https://google.com",
+  industry: "technology",
+  categories: ["technology", "wordmark-logos"],
+  tags: ["search", "cloud", "advertising", "ai", "software"],
+  colors: [
+    {
+      name: "Google Blue",
+      hex: "#4285F4",
+      usage: "Primary brand color, used in the G icon and wordmark.",
+    },
+    {
+      name: "Google Red",
+      hex: "#EA4335",
+      usage: "Secondary brand color, used in the wordmark and product accents.",
+    },
+    {
+      name: "Google Yellow",
+      hex: "#FBBC05",
+      usage: "Secondary brand color, used in the wordmark and product accents.",
+    },
+    {
+      name: "Google Green",
+      hex: "#34A853",
+      usage: "Secondary brand color, used in the wordmark and product accents.",
+    },
+  ],
+  typography: [
+    {
+      name: "Google Sans",
+      role: "Primary / Headings",
+      weights: ["400", "500", "700"],
+      category: "sans-serif",
+      designer: "Google Design",
+      foundry: "Google",
+      fontUrl: "/brands/google/fonts/google-sans.woff2",
+    },
+    {
+      name: "Roboto",
+      role: "Body / UI",
+      weights: ["400", "500", "700"],
+      category: "sans-serif",
+      designer: "Christian Robertson",
+      foundry: "Google",
+      fontUrl: "/brands/google/fonts/roboto.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Google Logo — Color",
+      src: "/brands/google/google-logo-color.svg",
+      width: 1200,
+      height: 800,
+      format: "svg",
+    },
+    {
+      label: "Google Logo — Black",
+      src: "/brands/google/google-logo-black.svg",
+      width: 1200,
+      height: 800,
+      format: "svg",
+    },
+    {
+      label: "Google Logo — White",
+      src: "/brands/google/google-logo-white.svg",
+      width: 1200,
+      height: 800,
+      format: "svg",
+    },
+    {
+      label: "Google G Icon — Color",
+      src: "/brands/google/google-icon-color.svg",
+      width: 480,
+      height: 480,
+      format: "svg",
+    },
+    {
+      label: "Google G Icon — Black",
+      src: "/brands/google/google-icon-black.svg",
+      width: 480,
+      height: 480,
+      format: "svg",
+    },
+    {
+      label: "Google G Icon — White",
+      src: "/brands/google/google-icon-white.svg",
+      width: 480,
+      height: 480,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Google G Icon — Color",
+    src: "/brands/google/google-icon-color.svg",
+    width: 480,
+    height: 480,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Google G Icon — White",
+    src: "/brands/google/google-icon-white.svg",
+    width: 480,
+    height: 480,
+    format: "svg",
+  },
+  dateAdded: "2026-03-15",
+  founded: 1998,
+  headquarters: "Mountain View, CA",
+  designer: "Ruth Kedar (original), Google Design Team",
+  lastRebranded: "2015",
+  philosophy:
+    "Google's four-color wordmark reflects a playful, accessible brand that values simplicity and universality. The shift from serif to geometric sans-serif in 2015 signaled a modern, product-first identity built for screens of every size.",
+  legal: {
+    guidelinesUrl: "https://about.google/brand-resource-center/",
+    dos: [
+      "Use only Google-provided official logo artwork",
+      "Maintain minimum clear space equal to the height of the capital G",
+      "Use the full-color logo on white or light backgrounds",
+      "Reference Google product names in plain text for informational purposes",
+    ],
+    donts: [
+      "Modify, distort, or recolor the Google logo",
+      "Use the Google logo to imply sponsorship or endorsement without approval",
+      "Incorporate Google trademarks into your own brand name or product name",
+      "Use Google brand colors in your own branding materials outside of approved assets",
+      "Use Google Doodles or other artistic logo variations",
+    ],
+  },
+}

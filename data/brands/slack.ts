@@ -1,0 +1,150 @@
+import type { Brand } from "@/lib/types"
+
+export const slack: Brand = {
+  slug: "slack",
+  name: "Slack",
+  description:
+    "Slack is a business communication platform that brings teams together with channels, messaging, and integrations. Acquired by Salesforce in 2021, Slack has become the central hub for workplace collaboration, connecting people to the tools and information they need.",
+  url: "https://slack.com",
+  industry: "saas",
+  categories: ["saas", "technology", "geometric-logos"],
+  tags: [
+    "communication",
+    "messaging",
+    "collaboration",
+    "productivity",
+    "workplace",
+  ],
+  colors: [
+    {
+      name: "Aubergine",
+      hex: "#4A154B",
+      usage: "Primary brand color, dark backgrounds, key UI surfaces.",
+    },
+    {
+      name: "Slack Blue",
+      hex: "#36C5F0",
+      usage: "Icon accent, interactive elements, links.",
+    },
+    {
+      name: "Slack Green",
+      hex: "#2EB67D",
+      usage: "Icon accent, success states, positive indicators.",
+    },
+    {
+      name: "Slack Yellow",
+      hex: "#ECB22E",
+      usage: "Icon accent, warnings, highlights.",
+    },
+    {
+      name: "Slack Red",
+      hex: "#E01E5A",
+      usage: "Icon accent, notifications, alerts.",
+    },
+    {
+      name: "Dark Charcoal",
+      hex: "#1D1C1D",
+      usage: "Primary text, dark mode backgrounds.",
+    },
+  ],
+  typography: [
+    {
+      name: "Lato",
+      role: "Primary / UI & Body",
+      weights: ["400", "700"],
+      category: "sans-serif",
+      designer: "Lukasz Dziedzic",
+      foundry: "tyPoland",
+      fontUrl: "/brands/slack/fonts/lato-regular.woff2",
+    },
+    {
+      name: "Lato Bold",
+      role: "Headings & Emphasis",
+      weights: ["700"],
+      category: "sans-serif",
+      designer: "Lukasz Dziedzic",
+      foundry: "tyPoland",
+      fontUrl: "/brands/slack/fonts/lato-bold.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Slack Logo — Color",
+      src: "/brands/slack/slack-logo-color.svg",
+      width: 430,
+      height: 126,
+      format: "svg",
+    },
+    {
+      label: "Slack Logo — Black",
+      src: "/brands/slack/slack-logo-black.svg",
+      width: 430,
+      height: 126,
+      format: "svg",
+    },
+    {
+      label: "Slack Logo — White",
+      src: "/brands/slack/slack-logo-white.svg",
+      width: 430,
+      height: 126,
+      format: "svg",
+    },
+    {
+      label: "Slack Icon — Color",
+      src: "/brands/slack/slack-icon-color.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+    {
+      label: "Slack Icon — Black",
+      src: "/brands/slack/slack-icon-black.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+    {
+      label: "Slack Icon — White",
+      src: "/brands/slack/slack-icon-white.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Slack Icon — Color",
+    src: "/brands/slack/slack-icon-color.svg",
+    width: 128,
+    height: 128,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Slack Icon — White",
+    src: "/brands/slack/slack-icon-white.svg",
+    width: 128,
+    height: 128,
+    format: "svg",
+  },
+  dateAdded: "2026-03-15",
+  founded: 2013,
+  headquarters: "San Francisco, California",
+  designer: "Pentagram (Michael Bierut)",
+  lastRebranded: "2019",
+  philosophy:
+    "Slack's identity uses a vibrant four-color palette — blue, green, yellow, and red — arranged in a hashtag-inspired mark that represents connection and communication. The 2019 rebrand by Pentagram simplified the logo into a cohesive, geometric symbol anchored by the signature aubergine.",
+  legal: {
+    guidelinesUrl: "https://slack.com/brand-guidelines",
+    dos: [
+      "Use official Slack brand assets from the media kit",
+      "Maintain clear space around the Slack logo equal to the height of one lozenge",
+      "Use the Slack logo on clean, uncluttered backgrounds",
+      "Refer to the company as 'Slack' (capitalized) in text",
+    ],
+    donts: [
+      "Modify the colors or proportions of the Slack logo",
+      "Rotate, skew, or add effects to the logo",
+      "Use old versions of the Slack logo (pre-2019 plaid hashtag)",
+      "Place the Slack logo on visually busy or low-contrast backgrounds",
+    ],
+  },
+}
