@@ -1,33 +1,18 @@
+import { readdirSync } from "node:fs"
+import { fileURLToPath } from "node:url"
+import { dirname, join } from "node:path"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
 const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://loftlyy.com"
 
 const locales = ["en", "es", "fr", "de", "ja", "it", "pt", "ko", "zh"]
 
-// Brand slugs must be kept in sync with data/brands/index.ts
-const brandSlugs = [
-  "airbnb",
-  "amazon",
-  "anthropic",
-  "apple",
-  "cursor",
-  "discord",
-  "figma",
-  "github",
-  "google",
-  "linear",
-  "meta",
-  "microsoft",
-  "notion",
-  "nvidia",
-  "openai",
-  "slack",
-  "spotify",
-  "stripe",
-  "tesla",
-  "vercel",
-  "vscode",
-  "wise",
-  "x",
-]
+// Auto-discover brand slugs from data/brands/ directory
+const brandSlugs = readdirSync(join(__dirname, "data", "brands"))
+  .filter((f) => f.endsWith(".ts") && f !== "index.ts")
+  .map((f) => f.replace(".ts", ""))
+  .sort()
 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
