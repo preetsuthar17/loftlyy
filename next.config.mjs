@@ -22,6 +22,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
     remotePatterns,
+    qualities: [25, 50, 75],
   },
   async redirects() {
     return [

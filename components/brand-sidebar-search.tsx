@@ -136,6 +136,7 @@ export function BrandSidebarSearch({
                         alt={brand.name}
                         width={36}
                         height={36}
+                        quality={75}
                         loading="lazy"
                         className={cn(
                           "h-full w-full object-contain scale-80  ",
