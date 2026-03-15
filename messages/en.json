@@ -101,6 +101,10 @@
     "entertainment": "Entertainment"
   },
   "brands": {
+    "adobe": {
+      "description": "Adobe is a global leader in creative software, digital marketing, and document management solutions. Founded in 1982 in San Jose, California, Adobe's products — including Photoshop, Illustrator, Premiere Pro, and Acrobat — have become industry standards for designers, photographers, filmmakers, and businesses worldwide.",
+      "philosophy": "Bold, creative, and empowering. Adobe's iconic red 'A' symbolizes the creative peak — a geometric mark that represents the tools and platform that empower millions of creators worldwide. The clean, modern identity reflects Adobe's evolution from desktop publishing pioneer to cloud-first creative platform."
+    },
     "airbnb": {
       "description": "Airbnb is a global online marketplace for lodging, experiences, and tourism activities. Founded in 2008 in San Francisco, it connects millions of hosts and travelers worldwide, transforming how people find unique accommodations and experience local culture.",
       "philosophy": "Airbnb's identity is anchored by the Belo — a symbol of belonging that represents people, places, love, and Airbnb itself. The warm Rausch color and custom Cereal typeface create a friendly, approachable brand that invites connection and exploration across cultures."
@@ -153,6 +157,10 @@
       "description": "Slack is a business communication platform that brings teams together with channels, messaging, and integrations. Acquired by Salesforce in 2021, Slack has become the central hub for workplace collaboration, connecting people to the tools and information they need.",
       "philosophy": "Slack's identity uses a vibrant four-color palette — blue, green, yellow, and red — arranged in a hashtag-inspired mark that represents connection and communication. The 2019 rebrand by Pentagram simplified the logo into a cohesive, geometric symbol anchored by the signature aubergine."
     },
+    "snapchat": {
+      "description": "Snapchat is a multimedia messaging app known for its ephemeral photo and video sharing, augmented reality lenses, and Stories format. Developed by Snap Inc., it pioneered disappearing content and has become one of the most popular social platforms among younger demographics worldwide.",
+      "philosophy": "Snapchat's identity is built around the iconic Ghost — a playful, approachable symbol that represents the ephemeral nature of the platform. The bold yellow and minimal ghost silhouette create instant recognition, embodying creativity, spontaneity, and authentic self-expression."
+    },
     "shopify": {
       "description": "Shopify is a leading e-commerce platform that enables businesses of all sizes to create online stores, manage sales, and grow their brands. Founded in 2006 in Ottawa, Canada, Shopify powers millions of merchants in over 175 countries, providing tools for payments, shipping, marketing, and customer engagement.",
       "philosophy": "Shopify's brand identity centers on empowering entrepreneurship and making commerce accessible to everyone. The iconic shopping bag symbol and vibrant green palette reflect growth and possibility, while clean typography ensures the brand feels trustworthy and modern across every merchant touchpoint."
@@ -181,6 +189,10 @@
       "description": "GitHub is the world's leading software development platform, providing cloud-based Git repository hosting, collaboration tools, and CI/CD workflows. Founded in 2008 and acquired by Microsoft in 2018, GitHub is home to over 100 million developers and powers the open-source ecosystem.",
       "philosophy": "GitHub's identity is built on the Invertocat — a minimal, universally recognized mark that represents the intersection of code and community. The brand emphasizes openness, developer empowerment, and the idea that great software is built together."
     },
+    "instagram": {
+      "description": "Instagram is a photo and video sharing social networking platform owned by Meta Platforms. Launched in 2010, it has grown into one of the world's most popular social media apps with over 2 billion monthly active users, known for its focus on visual storytelling, Reels, and creator culture.",
+      "philosophy": "Instagram's 2022 rebrand embraces a vibrant, dynamic gradient palette and the custom Instagram Sans typeface — inspired by the iconic squircle glyph. The identity blends grotesque and geometric type styles with 3D-modeled color to celebrate global creativity and self-expression."
+    },
     "vscode": {
       "description": "Visual Studio Code is a free, open-source code editor by Microsoft that runs on Windows, macOS, and Linux. With built-in debugging, Git integration, and a vast extension ecosystem, it has become one of the most popular development environments worldwide.",
       "philosophy": "Open, extensible, and developer-first. VS Code's identity centers on its signature blue bracket icon — a symbol of code editing that is instantly recognizable, conveying both technical precision and approachability."
@@ -200,6 +212,14 @@
     "netflix": {
       "description": "Netflix is the world's leading streaming entertainment service with over 260 million paid memberships in more than 190 countries. Founded in 1997, Netflix revolutionized how people watch TV and movies by pioneering subscription-based streaming and investing heavily in original content.",
       "philosophy": "Cinematic, bold, and unmistakable. Netflix's identity uses its signature red against deep black to create an immersive, theater-like experience — the wordmark commands attention while the custom Netflix Sans typeface brings consistency and personality across every screen."
+    },
+    "youtube": {
+      "description": "YouTube is the world's largest video-sharing platform, allowing users to upload, watch, and share videos. Founded in 2005 and acquired by Google in 2006, YouTube has become the go-to destination for video content, from music and education to entertainment and live streaming, serving over 2 billion logged-in users monthly.",
+      "philosophy": "Bold, playful, and universally accessible. YouTube's identity centers on the iconic red play button — a universal symbol for 'press play' — paired with clean typography that puts content first and invites everyone to broadcast themselves."
+    },
+    "tiktok": {
+      "description": "TikTok is the world's leading short-form video platform, where over a billion users create, discover, and share entertaining content. Launched internationally in 2017 by ByteDance, TikTok has redefined social media with its algorithm-driven feed and creative tools for music, comedy, education, and culture.",
+      "philosophy": "Energetic, youthful, and unmistakably digital. TikTok's identity pairs a bold note symbol with a glitch-inspired cyan-and-red offset effect, creating a sense of movement and creativity that mirrors the platform's endless stream of short-form content."
     }
   },
   "tags": {
@@ -279,7 +299,14 @@
     "entertainment": "Entertainment",
     "video": "Video",
     "movies": "Movies",
-    "television": "Television"
+    "television": "Television",
+    "creative": "Creative",
+    "creators": "Creators",
+    "short-form-video": "Short-Form Video",
+    "photography": "Photography",
+    "camera": "Camera",
+    "ephemeral": "Ephemeral",
+    "social": "Social"
   },
   "tag": {
     "title": "Brands tagged \"{tag}\"",

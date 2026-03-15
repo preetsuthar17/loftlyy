@@ -1,6 +1,7 @@
 import type { Brand } from "@/lib/types"
 import { assetUrl } from "@/lib/assets"
 import { hexToColorFamily } from "@/lib/filters"
+import { adobe } from "./adobe"
 import { airbnb } from "./airbnb"
 import { amazon } from "./amazon"
 import { anthropic } from "./anthropic"
@@ -10,6 +11,7 @@ import { discord } from "./discord"
 import { notion } from "./notion"
 import { figma } from "./figma"
 import { github } from "./github"
+import { instagram } from "./instagram"
 import { google } from "./google"
 import { linear } from "./linear"
 import { meta } from "./meta"
@@ -20,14 +22,18 @@ import { openai } from "./openai"
 import { spotify } from "./spotify"
 import { shopify } from "./shopify"
 import { slack } from "./slack"
+import { snapchat } from "./snapchat"
 import { stripe } from "./stripe"
 import { vercel } from "./vercel"
 import { vscode } from "./vscode"
 import { tesla } from "./tesla"
+import { tiktok } from "./tiktok"
 import { wise } from "./wise"
 import { x } from "./x"
+import { youtube } from "./youtube"
 
 const rawBrands: Brand[] = [
+  adobe,
   airbnb,
   amazon,
   anthropic,
@@ -36,6 +42,7 @@ const rawBrands: Brand[] = [
   discord,
   figma,
   github,
+  instagram,
   google,
   linear,
   meta,
@@ -47,12 +54,15 @@ const rawBrands: Brand[] = [
   spotify,
   shopify,
   slack,
+  snapchat,
   stripe,
   tesla,
+  tiktok,
   vercel,
   vscode,
   wise,
   x,
+  youtube,
 ].sort((a, b) => a.name.localeCompare(b.name))
 
 function withAssetUrls(brand: Brand): Brand {

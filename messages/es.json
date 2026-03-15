@@ -101,6 +101,10 @@
     "entertainment": "Entretenimiento"
   },
   "brands": {
+    "adobe": {
+      "description": "Adobe es un líder mundial en software creativo, marketing digital y soluciones de gestión documental. Fundada en 1982 en San José, California, los productos de Adobe — incluyendo Photoshop, Illustrator, Premiere Pro y Acrobat — se han convertido en estándares de la industria para diseñadores, fotógrafos, cineastas y empresas de todo el mundo.",
+      "philosophy": "Audaz, creativa y empoderadora. La icónica 'A' roja de Adobe simboliza la cúspide creativa — una marca geométrica que representa las herramientas y la plataforma que empoderan a millones de creadores en todo el mundo. La identidad limpia y moderna refleja la evolución de Adobe desde pionera de la autoedición hasta plataforma creativa cloud-first."
+    },
     "airbnb": {
       "description": "Airbnb es un mercado global en linea para alojamiento, experiencias y actividades turisticas. Fundada en 2008 en San Francisco, conecta a millones de anfitriones y viajeros en todo el mundo, transformando la forma en que las personas encuentran alojamientos unicos y experimentan la cultura local.",
       "philosophy": "La identidad de Airbnb esta anclada por el Belo — un simbolo de pertenencia que representa personas, lugares, amor y la propia Airbnb. El calido color Rausch y la tipografia personalizada Cereal crean una marca amigable y accesible que invita a la conexion y la exploracion entre culturas."
@@ -153,9 +157,13 @@
       "description": "Slack es una plataforma de comunicacion empresarial que conecta equipos a traves de canales, mensajeria e integraciones. Adquirida por Salesforce en 2021, Slack se ha convertido en el centro de la colaboracion en el lugar de trabajo, conectando a las personas con las herramientas y la informacion que necesitan.",
       "philosophy": "La identidad de Slack utiliza una vibrante paleta de cuatro colores — azul, verde, amarillo y rojo — dispuestos en una marca inspirada en el hashtag que representa conexion y comunicacion. El rediseno de 2019 por Pentagram simplifico el logotipo en un simbolo geometrico cohesivo anclado por la firma berenjena."
     },
+    "snapchat": {
+      "description": "Snapchat es una aplicación de mensajería multimedia conocida por su contenido efímero de fotos y videos, lentes de realidad aumentada y el formato Stories. Desarrollada por Snap Inc., fue pionera en el contenido que desaparece y se ha convertido en una de las plataformas sociales más populares entre los jóvenes de todo el mundo.",
+      "philosophy": "La identidad de Snapchat se construye alrededor del icónico Fantasma — un símbolo lúdico y accesible que representa la naturaleza efímera de la plataforma. El amarillo audaz y la silueta minimalista del fantasma crean reconocimiento instantáneo, encarnando creatividad, espontaneidad y autoexpresión auténtica."
+    },
     "shopify": {
-      "description": "Shopify es una plataforma lider de comercio electronico que permite a empresas de todos los tamanos crear tiendas en linea, gestionar ventas y hacer crecer sus marcas. Fundada en 2006 en Ottawa, Canada, Shopify impulsa a millones de comerciantes en mas de 175 paises, proporcionando herramientas para pagos, envios, marketing y atencion al cliente.",
-      "philosophy": "La identidad de marca de Shopify se centra en empoderar el emprendimiento y hacer el comercio accesible para todos. El iconico simbolo de la bolsa de compras y la vibrante paleta verde reflejan crecimiento y posibilidad, mientras que la tipografia limpia asegura que la marca se sienta confiable y moderna."
+      "description": "Shopify es una plataforma líder de comercio electrónico que permite a empresas de todos los tamaños crear tiendas en línea, gestionar ventas y hacer crecer sus marcas. Fundada en 2006 en Ottawa, Canadá, Shopify impulsa a millones de comerciantes en más de 175 países, proporcionando herramientas para pagos, envíos, marketing y atención al cliente.",
+      "philosophy": "La identidad de marca de Shopify se centra en empoderar el emprendimiento y hacer el comercio accesible para todos. El icónico símbolo de la bolsa de compras y la vibrante paleta verde reflejan crecimiento y posibilidad, mientras que la tipografía limpia garantiza que la marca se sienta confiable y moderna en cada punto de contacto con los comerciantes."
     },
     "stripe": {
       "description": "Stripe es una plataforma de infraestructura financiera que proporciona APIs de procesamiento de pagos y herramientas para negocios en internet de todos los tamanos. Fundada en 2010, Stripe impulsa millones de empresas en todo el mundo.",
@@ -181,6 +189,10 @@
       "description": "GitHub es la plataforma de desarrollo de software líder en el mundo, que ofrece alojamiento de repositorios Git en la nube, herramientas de colaboración y flujos de trabajo CI/CD. Fundada en 2008 y adquirida por Microsoft en 2018, GitHub alberga a más de 100 millones de desarrolladores e impulsa el ecosistema de código abierto.",
       "philosophy": "La identidad de GitHub se basa en el Invertocat, una marca mínima y universalmente reconocida que representa la intersección entre el código y la comunidad. La marca enfatiza la apertura, el empoderamiento de los desarrolladores y la idea de que el gran software se construye juntos."
     },
+    "instagram": {
+      "description": "Instagram es una plataforma de redes sociales para compartir fotos y videos, propiedad de Meta Platforms. Lanzada en 2010, se ha convertido en una de las aplicaciones de redes sociales más populares del mundo con más de 2 mil millones de usuarios activos mensuales, conocida por su enfoque en la narración visual, Reels y la cultura de creadores.",
+      "philosophy": "El rediseño de Instagram en 2022 adopta una paleta de degradados vibrantes y dinámicos y la tipografía personalizada Instagram Sans, inspirada en el icónico glifo de squircle. La identidad fusiona estilos tipográficos grotescos y geométricos con color modelado en 3D para celebrar la creatividad global y la autoexpresión."
+    },
     "vscode": {
       "description": "Visual Studio Code es un editor de código gratuito y de código abierto de Microsoft que funciona en Windows, macOS y Linux. Con depuración integrada, integración con Git y un vasto ecosistema de extensiones, se ha convertido en uno de los entornos de desarrollo más populares del mundo.",
       "philosophy": "Abierto, extensible y orientado al desarrollador. La identidad de VS Code se centra en su icónico icono de corchete azul, un símbolo de edición de código que es reconocible al instante."
@@ -197,13 +209,17 @@
       "description": "Meta Platforms es un conglomerado tecnológico global que crea productos y tecnologías para ayudar a las personas a conectarse, encontrar comunidades y hacer crecer negocios. La empresa posee Facebook, Instagram, WhatsApp y Threads, e invierte fuertemente en realidad aumentada y virtual a través de su división Reality Labs.",
       "philosophy": "La identidad de Meta representa un cambio más allá de un solo producto. El símbolo del infinito — un bucle 3D continuo que funciona en contextos 2D y 3D — encarna un potencial ilimitado y conexión, usando un gradiente azul que honra la herencia de la empresa mientras señala su futuro en tecnología inmersiva."
     },
-    "shopify": {
-      "description": "Shopify es una plataforma líder de comercio electrónico que permite a empresas de todos los tamaños crear tiendas en línea, gestionar ventas y hacer crecer sus marcas. Fundada en 2006 en Ottawa, Canadá, Shopify impulsa a millones de comerciantes en más de 175 países, proporcionando herramientas para pagos, envíos, marketing y atención al cliente.",
-      "philosophy": "La identidad de marca de Shopify se centra en empoderar el emprendimiento y hacer el comercio accesible para todos. El icónico símbolo de la bolsa de compras y la vibrante paleta verde reflejan crecimiento y posibilidad, mientras que la tipografía limpia garantiza que la marca se sienta confiable y moderna en cada punto de contacto con los comerciantes."
-    },
     "netflix": {
       "description": "Netflix es el servicio de entretenimiento en streaming líder en el mundo con más de 260 millones de suscripciones de pago en más de 190 países. Fundada en 1997, Netflix revolucionó la forma en que la gente ve televisión y películas al ser pionera en el streaming por suscripción e invertir fuertemente en contenido original.",
       "philosophy": "Cinematográfico, audaz e inconfundible. La identidad de Netflix utiliza su rojo característico sobre negro profundo para crear una experiencia inmersiva, similar a la de un cine — la marca denominativa capta la atención mientras la tipografía personalizada Netflix Sans aporta consistencia y personalidad en cada pantalla."
+    },
+    "youtube": {
+      "description": "YouTube es la plataforma de intercambio de videos más grande del mundo, que permite a los usuarios subir, ver y compartir videos. Fundada en 2005 y adquirida por Google en 2006, YouTube se ha convertido en el destino principal para contenido de video, desde música y educación hasta entretenimiento y transmisiones en vivo, sirviendo a más de 2 mil millones de usuarios registrados mensualmente.",
+      "philosophy": "Audaz, divertido y universalmente accesible. La identidad de YouTube se centra en el icónico botón rojo de reproducción — un símbolo universal de \"dale play\" — combinado con una tipografía limpia que prioriza el contenido e invita a todos a transmitir."
+    },
+    "tiktok": {
+      "description": "TikTok es la plataforma líder mundial de videos cortos, donde más de mil millones de usuarios crean, descubren y comparten contenido entretenido. Lanzada internacionalmente en 2017 por ByteDance, TikTok ha redefinido las redes sociales con su feed impulsado por algoritmos y herramientas creativas para música, comedia, educación y cultura.",
+      "philosophy": "Enérgico, juvenil e inconfundiblemente digital. La identidad de TikTok combina un símbolo de nota musical audaz con un efecto de desplazamiento cian y rojo inspirado en glitches, creando una sensación de movimiento y creatividad que refleja el flujo interminable de contenido de formato corto."
     }
   },
   "tags": {
@@ -278,14 +294,19 @@
     "gpu": "GPU",
     "data-center": "Centro de Datos",
     "autonomous-vehicles": "Vehiculos Autonomos",
-    "retail": "Comercio Minorista",
-    "platform": "Plataforma",
     "retail": "Retail",
     "platform": "Plataforma",
     "entertainment": "Entretenimiento",
     "video": "Video",
     "movies": "Películas",
-    "television": "Televisión"
+    "television": "Televisión",
+    "creative": "Creativo",
+    "creators": "Creadores",
+    "short-form-video": "Video Corto",
+    "photography": "Fotografía",
+    "camera": "Cámara",
+    "ephemeral": "Efímero",
+    "social": "Social"
   },
   "tag": {
     "title": "Marcas etiquetadas \"{tag}\"",

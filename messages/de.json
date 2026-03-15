@@ -101,6 +101,10 @@
     "entertainment": "Unterhaltung"
   },
   "brands": {
+    "adobe": {
+      "description": "Adobe ist ein weltweit führendes Unternehmen für kreative Software mit Produkten wie Photoshop, Illustrator, Premiere Pro und der Creative Cloud. 1982 gegründet, ermöglicht Adobe Millionen von Kreativen, Designern und Unternehmen, digitale Erlebnisse zu gestalten.",
+      "philosophy": "Kreativ, professionell und zuverlässig. Adobes Identität vereint das ikonische rote Logo mit einer umfassenden Produktpalette, die Kreativität in jeder Form unterstützt — vom einzelnen Künstler bis zum globalen Unternehmen."
+    },
     "airbnb": {
       "description": "Airbnb ist ein globaler Online-Marktplatz fuer Unterkuenfte, Erlebnisse und touristische Aktivitaeten. 2008 in San Francisco gegruendet, verbindet es Millionen von Gastgebern und Reisenden weltweit und veraendert die Art, wie Menschen einzigartige Unterkuenfte finden und lokale Kultur erleben.",
       "philosophy": "Airbnbs Identitaet wird durch das Belo verankert — ein Symbol der Zugehoerigkeit, das Menschen, Orte, Liebe und Airbnb selbst repraesentiert. Die warme Rausch-Farbe und die massgeschneiderte Cereal-Schrift schaffen eine freundliche, zugaengliche Marke, die zur Verbindung und Erkundung ueber Kulturen hinweg einlaedt."
@@ -154,8 +158,8 @@
       "philosophy": "Slacks Identitaet nutzt eine lebhafte Vier-Farben-Palette — Blau, Gruen, Gelb und Rot — angeordnet in einem Hashtag-inspirierten Zeichen, das Verbindung und Kommunikation repraesentiert. Das Rebranding 2019 durch Pentagram vereinfachte das Logo zu einem kohaerenten, geometrischen Symbol, verankert durch das charakteristische Aubergine."
     },
     "shopify": {
-      "description": "Shopify ist eine fuehrende E-Commerce-Plattform, die Unternehmen jeder Groesse ermoeglicht, Online-Shops zu erstellen, Verkaeufe zu verwalten und ihre Marken auszubauen. 2006 in Ottawa, Kanada, gegruendet, unterstuetzt Shopify Millionen von Haendlern in ueber 175 Laendern mit Tools fuer Zahlungen, Versand, Marketing und Kundenbindung.",
-      "philosophy": "Shopifys Markenidentitaet konzentriert sich auf die Staerkung des Unternehmertums und die Zugaenglichkeit des Handels fuer alle. Das ikonische Einkaufstaschen-Symbol und die lebhafte gruene Farbpalette spiegeln Wachstum und Moeglichkeiten wider, waehrend die klare Typografie die Marke vertrauenswuerdig und modern erscheinen laesst."
+      "description": "Shopify ist eine führende E-Commerce-Plattform, die Unternehmen jeder Größe ermöglicht, Online-Shops zu erstellen, Verkäufe zu verwalten und ihre Marken auszubauen. 2006 in Ottawa, Kanada, gegründet, unterstützt Shopify Millionen von Händlern in über 175 Ländern mit Tools für Zahlungen, Versand, Marketing und Kundenbindung.",
+      "philosophy": "Shopifys Markenidentität konzentriert sich darauf, Unternehmertum zu stärken und Handel für alle zugänglich zu machen. Das ikonische Einkaufstaschen-Symbol und die lebhafte grüne Farbpalette spiegeln Wachstum und Möglichkeiten wider, während die klare Typografie sicherstellt, dass die Marke an jedem Händler-Touchpoint vertrauenswürdig und modern wirkt."
     },
     "stripe": {
       "description": "Stripe ist eine Finanzinfrastruktur-Plattform, die Zahlungsverarbeitungs-APIs und Tools fuer Internetunternehmen jeder Groesse bereitstellt. 2010 gegruendet, unterstuetzt Stripe Millionen von Unternehmen weltweit.",
@@ -197,13 +201,25 @@
       "description": "Meta Platforms ist ein globaler Technologiekonzern, der Produkte und Technologien entwickelt, um Menschen zu verbinden, Gemeinschaften zu finden und Unternehmen wachsen zu lassen. Das Unternehmen besitzt Facebook, Instagram, WhatsApp und Threads und investiert stark in Augmented und Virtual Reality über seine Abteilung Reality Labs.",
       "philosophy": "Metas Identität steht für den Wandel über ein einzelnes Produkt hinaus. Das Unendlichkeitssymbol — eine durchgehende 3D-Schleife, die in 2D- und 3D-Kontexten funktioniert — verkörpert unbegrenztes Potenzial und Verbindung, mit einem blauen Farbverlauf, der das Erbe des Unternehmens ehrt und gleichzeitig seine Zukunft in immersiver Technologie signalisiert."
     },
-    "shopify": {
-      "description": "Shopify ist eine führende E-Commerce-Plattform, die Unternehmen jeder Größe ermöglicht, Online-Shops zu erstellen, Verkäufe zu verwalten und ihre Marken auszubauen. 2006 in Ottawa, Kanada, gegründet, unterstützt Shopify Millionen von Händlern in über 175 Ländern mit Tools für Zahlungen, Versand, Marketing und Kundenbindung.",
-      "philosophy": "Shopifys Markenidentität konzentriert sich darauf, Unternehmertum zu stärken und Handel für alle zugänglich zu machen. Das ikonische Einkaufstaschen-Symbol und die lebhafte grüne Farbpalette spiegeln Wachstum und Möglichkeiten wider, während die klare Typografie sicherstellt, dass die Marke an jedem Händler-Touchpoint vertrauenswürdig und modern wirkt."
-    },
     "netflix": {
       "description": "Netflix ist der weltweit führende Streaming-Unterhaltungsdienst mit über 260 Millionen zahlenden Mitgliedschaften in mehr als 190 Ländern. Netflix wurde 1997 gegründet und hat die Art und Weise revolutioniert, wie Menschen Fernsehen und Filme schauen, indem es abonnementbasiertes Streaming einführte und stark in Originalinhalte investierte.",
       "philosophy": "Filmisch, mutig und unverwechselbar. Die Identität von Netflix nutzt sein charakteristisches Rot auf tiefem Schwarz, um ein immersives, kinoähnliches Erlebnis zu schaffen — die Wortmarke zieht die Aufmerksamkeit auf sich, während die maßgeschneiderte Schrift Netflix Sans Konsistenz und Persönlichkeit auf jedem Bildschirm bietet."
+    },
+    "tiktok": {
+      "description": "TikTok ist die weltweit führende Plattform für Kurzvideos, auf der über eine Milliarde Nutzer unterhaltsame Inhalte erstellen, entdecken und teilen. 2017 international von ByteDance eingeführt, hat TikTok die sozialen Medien mit seinem algorithmusgesteuerten Feed und kreativen Werkzeugen für Musik, Comedy, Bildung und Kultur neu definiert.",
+      "philosophy": "Energiegeladen, jugendlich und unverkennbar digital. TikToks Identität verbindet ein markantes Notensymbol mit einem Glitch-inspirierten Cyan-Rot-Versatzeffekt, der Bewegung und Kreativität erzeugt und den endlosen Strom von Kurzform-Inhalten widerspiegelt."
+    },
+    "youtube": {
+      "description": "YouTube ist die weltweit größte Video-Sharing-Plattform, die es Nutzern ermöglicht, Videos hochzuladen, anzusehen und zu teilen. 2005 gegründet und 2006 von Google übernommen, ist YouTube zum bevorzugten Ziel für Videoinhalte geworden — von Musik und Bildung bis hin zu Unterhaltung und Live-Streaming — und bedient monatlich über 2 Milliarden angemeldete Nutzer.",
+      "philosophy": "Mutig, verspielt und universell zugänglich. YouTubes Identität dreht sich um den ikonischen roten Play-Button — ein universelles Symbol für „drück auf Play“ — gepaart mit klarer Typografie, die den Inhalt in den Vordergrund stellt und jeden einlädt, sich mitzuteilen."
+    },
+    "instagram": {
+      "description": "Instagram ist eine Social-Media-Plattform zum Teilen von Fotos und Videos, die zu Meta Platforms gehört. 2010 gestartet, hat sie sich mit über 2 Milliarden monatlich aktiven Nutzern zu einer der beliebtesten Social-Media-Apps der Welt entwickelt, bekannt für ihren Fokus auf visuelles Storytelling, Reels und die Creator-Kultur.",
+      "philosophy": "Instagrams Rebranding 2022 setzt auf eine lebendige, dynamische Gradientenpalette und die eigens entwickelte Schrift Instagram Sans — inspiriert vom ikonischen Squircle-Glyph. Die Identität verbindet groteske und geometrische Schriftstile mit 3D-modellierter Farbe, um globale Kreativität und Selbstausdruck zu feiern."
+    },
+    "snapchat": {
+      "description": "Snapchat ist eine Multimedia-Messaging-App, die für ihre vergänglichen Foto- und Videoinhalte, Augmented-Reality-Linsen und das Stories-Format bekannt ist. Von Snap Inc. entwickelt, war sie Vorreiterin für verschwindende Inhalte und ist zu einer der beliebtesten sozialen Plattformen unter jüngeren Zielgruppen weltweit geworden.",
+      "philosophy": "Snapchats Identität basiert auf dem ikonischen Geist — einem verspielten, zugänglichen Symbol, das die vergängliche Natur der Plattform repräsentiert. Das kräftige Gelb und die minimalistische Geist-Silhouette schaffen sofortige Wiedererkennung und verkörpern Kreativität, Spontaneität und authentischen Selbstausdruck."
     }
   },
   "tags": {
@@ -280,12 +296,17 @@
     "retail": "Einzelhandel",
     "platform": "Plattform",
     "logistics": "Logistik",
-    "retail": "Einzelhandel",
-    "platform": "Plattform",
     "entertainment": "Unterhaltung",
     "video": "Video",
     "movies": "Filme",
-    "television": "Fernsehen"
+    "television": "Fernsehen",
+    "photography": "Fotografie",
+    "camera": "Kamera",
+    "ephemeral": "Vergänglich",
+    "social": "Sozial",
+    "creators": "Ersteller",
+    "creative": "Kreativ",
+    "short-form-video": "Kurzvideos"
   },
   "tag": {
     "title": "Marken mit Tag \"{tag}\"",

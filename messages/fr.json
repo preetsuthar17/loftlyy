@@ -101,6 +101,10 @@
     "entertainment": "Divertissement"
   },
   "brands": {
+    "adobe": {
+      "description": "Adobe est un leader mondial des logiciels créatifs, du marketing numérique et des solutions de gestion documentaire. Fondée en 1982 à San José, en Californie, les produits d'Adobe — notamment Photoshop, Illustrator, Premiere Pro et Acrobat — sont devenus des standards de l'industrie pour les designers, photographes, cinéastes et entreprises du monde entier.",
+      "philosophy": "Audacieux, créatif et émancipateur. L'iconique 'A' rouge d'Adobe symbolise le sommet créatif — une marque géométrique qui représente les outils et la plateforme qui donnent les moyens à des millions de créateurs dans le monde. L'identité épurée et moderne reflète l'évolution d'Adobe, de pionnière de la publication assistée par ordinateur à plateforme créative cloud-first."
+    },
     "airbnb": {
       "description": "Airbnb est une place de marche mondiale en ligne pour l'hebergement, les experiences et les activites touristiques. Fondee en 2008 a San Francisco, elle connecte des millions d'hotes et de voyageurs dans le monde entier, transformant la facon dont les gens trouvent des logements uniques et decouvrent la culture locale.",
       "philosophy": "L'identite d'Airbnb est ancree par le Belo — un symbole d'appartenance qui represente les personnes, les lieux, l'amour et Airbnb elle-meme. La couleur chaude Rausch et la typographie personnalisee Cereal creent une marque conviviale et accessible qui invite a la connexion et a l'exploration entre les cultures."
@@ -153,9 +157,13 @@
       "description": "Slack est une plateforme de communication professionnelle qui rassemble les equipes grace aux canaux, a la messagerie et aux integrations. Acquis par Salesforce en 2021, Slack est devenu le centre de la collaboration en entreprise, connectant les personnes aux outils et informations dont elles ont besoin.",
       "philosophy": "L'identite de Slack utilise une palette vibrante de quatre couleurs — bleu, vert, jaune et rouge — disposees en un symbole inspire du hashtag qui represente la connexion et la communication. Le rebranding de 2019 par Pentagram a simplifie le logo en un symbole geometrique coherent ancre par la signature aubergine."
     },
+    "snapchat": {
+      "description": "Snapchat est une application de messagerie multimédia connue pour son partage éphémère de photos et vidéos, ses filtres de réalité augmentée et son format Stories. Développée par Snap Inc., elle a été pionnière du contenu éphémère et est devenue l'une des plateformes sociales les plus populaires auprès des jeunes dans le monde entier.",
+      "philosophy": "L'identité de Snapchat est construite autour de l'emblématique Fantôme — un symbole ludique et accessible qui représente la nature éphémère de la plateforme. Le jaune audacieux et la silhouette minimaliste du fantôme créent une reconnaissance instantanée, incarnant la créativité, la spontanéité et l'expression authentique de soi."
+    },
     "shopify": {
-      "description": "Shopify est une plateforme de commerce electronique leader qui permet aux entreprises de toutes tailles de creer des boutiques en ligne, de gerer les ventes et de developper leurs marques. Fondee en 2006 a Ottawa, au Canada, Shopify soutient des millions de commercants dans plus de 175 pays, offrant des outils pour les paiements, l'expedition, le marketing et l'engagement client.",
-      "philosophy": "L'identite de marque de Shopify est centree sur l'autonomisation de l'entrepreneuriat et l'accessibilite du commerce pour tous. L'iconique symbole du sac de courses et la palette verte vibrante refletent la croissance et les possibilites, tandis que la typographie epuree garantit une marque fiable et moderne."
+      "description": "Shopify est une plateforme de commerce électronique de premier plan qui permet aux entreprises de toutes tailles de créer des boutiques en ligne, de gérer les ventes et de développer leurs marques. Fondée en 2006 à Ottawa, au Canada, Shopify soutient des millions de marchands dans plus de 175 pays, en fournissant des outils pour les paiements, l'expédition, le marketing et l'engagement client.",
+      "philosophy": "L'identité de marque de Shopify est centrée sur l'autonomisation de l'entrepreneuriat et l'accessibilité du commerce pour tous. Le symbole emblématique du sac de courses et la palette verte vibrante reflètent la croissance et les possibilités, tandis que la typographie épurée garantit que la marque reste digne de confiance et moderne à chaque point de contact avec les marchands."
     },
     "stripe": {
       "description": "Stripe est une plateforme d'infrastructure financiere qui fournit des APIs de traitement des paiements et des outils pour les entreprises internet de toutes tailles. Fondee en 2010, Stripe alimente des millions d'entreprises dans le monde entier.",
@@ -181,6 +189,10 @@
       "description": "GitHub est la principale plateforme de développement logiciel au monde, offrant l'hébergement de dépôts Git dans le cloud, des outils de collaboration et des workflows CI/CD. Fondée en 2008 et acquise par Microsoft en 2018, GitHub accueille plus de 100 millions de développeurs et alimente l'écosystème open source.",
       "philosophy": "L'identité de GitHub repose sur l'Invertocat — un symbole minimaliste et universellement reconnu qui représente l'intersection du code et de la communauté. La marque met l'accent sur l'ouverture, l'autonomisation des développeurs et l'idée que les grands logiciels se construisent ensemble."
     },
+    "instagram": {
+      "description": "Instagram est une plateforme de réseau social de partage de photos et de vidéos appartenant à Meta Platforms. Lancée en 2010, elle est devenue l'une des applications de réseaux sociaux les plus populaires au monde avec plus de 2 milliards d'utilisateurs actifs mensuels, reconnue pour son accent sur la narration visuelle, les Reels et la culture des créateurs.",
+      "philosophy": "Le rebranding d'Instagram en 2022 adopte une palette de dégradés vibrants et dynamiques ainsi que la typographie personnalisée Instagram Sans, inspirée de l'iconique glyphe squircle. L'identité mêle des styles typographiques grotesques et géométriques avec de la couleur modélisée en 3D pour célébrer la créativité mondiale et l'expression de soi."
+    },
     "vscode": {
       "description": "Visual Studio Code est un éditeur de code gratuit et open source de Microsoft, disponible sur Windows, macOS et Linux. Avec le débogage intégré, l'intégration Git et un vaste écosystème d'extensions, il est devenu l'un des environnements de développement les plus populaires au monde.",
       "philosophy": "Ouvert, extensible et axé sur le développeur. L'identité de VS Code repose sur son emblématique icône de crochet bleu, un symbole d'édition de code instantanément reconnaissable."
@@ -197,13 +209,17 @@
       "description": "Meta Platforms est un conglomérat technologique mondial qui crée des produits et des technologies pour aider les gens à se connecter, trouver des communautés et développer leurs entreprises. L'entreprise possède Facebook, Instagram, WhatsApp et Threads, et investit massivement dans la réalité augmentée et virtuelle via sa division Reality Labs.",
       "philosophy": "L'identité de Meta représente un dépassement au-delà d'un seul produit. Le symbole de l'infini — une boucle 3D continue fonctionnant en 2D et 3D — incarne un potentiel illimité et la connexion, utilisant un dégradé bleu qui honore l'héritage de l'entreprise tout en signalant son avenir dans la technologie immersive."
     },
-    "shopify": {
-      "description": "Shopify est une plateforme de commerce électronique de premier plan qui permet aux entreprises de toutes tailles de créer des boutiques en ligne, de gérer les ventes et de développer leurs marques. Fondée en 2006 à Ottawa, au Canada, Shopify soutient des millions de marchands dans plus de 175 pays, en fournissant des outils pour les paiements, l'expédition, le marketing et l'engagement client.",
-      "philosophy": "L'identité de marque de Shopify est centrée sur l'autonomisation de l'entrepreneuriat et l'accessibilité du commerce pour tous. Le symbole emblématique du sac de courses et la palette verte vibrante reflètent la croissance et les possibilités, tandis que la typographie épurée garantit que la marque reste digne de confiance et moderne à chaque point de contact avec les marchands."
-    },
     "netflix": {
       "description": "Netflix est le premier service de divertissement en streaming au monde avec plus de 260 millions d'abonnements payants dans plus de 190 pays. Fondée en 1997, Netflix a révolutionné la façon dont les gens regardent la télévision et les films en étant pionnière du streaming par abonnement et en investissant massivement dans le contenu original.",
       "philosophy": "Cinématographique, audacieux et inimitable. L'identité de Netflix utilise son rouge signature sur un noir profond pour créer une expérience immersive, semblable à celle d'un cinéma — le logotype attire l'attention tandis que la typographie personnalisée Netflix Sans apporte cohérence et personnalité sur chaque écran."
+    },
+    "youtube": {
+      "description": "YouTube est la plus grande plateforme de partage de vidéos au monde, permettant aux utilisateurs de télécharger, regarder et partager des vidéos. Fondée en 2005 et acquise par Google en 2006, YouTube est devenue la destination incontournable pour le contenu vidéo, de la musique et l'éducation au divertissement et au streaming en direct, servant plus de 2 milliards d'utilisateurs connectés chaque mois.",
+      "philosophy": "Audacieux, ludique et universellement accessible. L'identité de YouTube est centrée sur l'emblématique bouton de lecture rouge — un symbole universel pour « appuyez sur play » — associé à une typographie épurée qui met le contenu au premier plan et invite chacun à diffuser."
+    },
+    "tiktok": {
+      "description": "TikTok est la principale plateforme mondiale de vidéos courtes, où plus d'un milliard d'utilisateurs créent, découvrent et partagent du contenu divertissant. Lancée à l'international en 2017 par ByteDance, TikTok a redéfini les réseaux sociaux avec son flux algorithmique et ses outils créatifs pour la musique, la comédie, l'éducation et la culture.",
+      "philosophy": "Énergique, jeune et indéniablement numérique. L'identité de TikTok associe un symbole de note musicale audacieux à un effet de décalage cyan et rouge inspiré du glitch, créant une sensation de mouvement et de créativité qui reflète le flux infini de contenu court."
     }
   },
   "tags": {
@@ -277,15 +293,20 @@
     "gpu": "GPU",
     "data-center": "Centre de Donnees",
     "autonomous-vehicles": "Vehicules Autonomes",
-    "retail": "Commerce de Detail",
-    "platform": "Plateforme",
-    "logistics": "Logistique",
     "retail": "Commerce de détail",
     "platform": "Plateforme",
+    "logistics": "Logistique",
     "entertainment": "Divertissement",
     "video": "Vidéo",
     "movies": "Films",
-    "television": "Télévision"
+    "television": "Télévision",
+    "creative": "Créatif",
+    "creators": "Créateurs",
+    "short-form-video": "Vidéo Courte",
+    "photography": "Photographie",
+    "camera": "Appareil photo",
+    "ephemeral": "Éphémère",
+    "social": "Social"
   },
   "tag": {
     "title": "Marques taguees \"{tag}\"",

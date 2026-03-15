@@ -101,6 +101,10 @@
     "entertainment": "Intrattenimento"
   },
   "brands": {
+    "adobe": {
+      "description": "Adobe è un leader globale nel software creativo, nel marketing digitale e nelle soluzioni di gestione documentale. Fondata nel 1982 a San José, in California, i prodotti di Adobe — tra cui Photoshop, Illustrator, Premiere Pro e Acrobat — sono diventati standard di settore per designer, fotografi, cineasti e aziende di tutto il mondo.",
+      "philosophy": "Audace, creativo e empowering. L'iconica 'A' rossa di Adobe simboleggia il vertice creativo — un marchio geometrico che rappresenta gli strumenti e la piattaforma che danno potere a milioni di creatori in tutto il mondo. L'identità pulita e moderna riflette l'evoluzione di Adobe da pioniere del desktop publishing a piattaforma creativa cloud-first."
+    },
     "airbnb": {
       "description": "Airbnb e un marketplace globale online per alloggi, esperienze e attivita turistiche. Fondata nel 2008 a San Francisco, collega milioni di host e viaggiatori in tutto il mondo, trasformando il modo in cui le persone trovano alloggi unici e scoprono la cultura locale.",
       "philosophy": "L'identita di Airbnb ruota attorno al Belo, un simbolo di appartenenza che rappresenta persone, luoghi, amore e Airbnb stessa. Il caldo colore Rausch e il carattere personalizzato Cereal creano un brand amichevole e accessibile che invita alla connessione e all'esplorazione tra culture."
@@ -153,6 +157,10 @@
       "description": "Slack e una piattaforma di comunicazione aziendale che unisce i team attraverso canali, messaggistica e integrazioni. Acquisita da Salesforce nel 2021, Slack e diventata il fulcro della collaborazione sul posto di lavoro, connettendo le persone agli strumenti e alle informazioni di cui hanno bisogno.",
       "philosophy": "L'identita di Slack utilizza una vivace palette di quattro colori — blu, verde, giallo e rosso — disposti in un simbolo ispirato all'hashtag che rappresenta connessione e comunicazione. Il rebranding del 2019 di Pentagram ha semplificato il logo in un simbolo geometrico coeso ancorato dalla firma melanzana."
     },
+    "snapchat": {
+      "description": "Snapchat è un'app di messaggistica multimediale nota per la condivisione effimera di foto e video, i filtri di realtà aumentata e il formato Stories. Sviluppata da Snap Inc., è stata pioniera dei contenuti che scompaiono ed è diventata una delle piattaforme social più popolari tra i giovani di tutto il mondo.",
+      "philosophy": "L'identità di Snapchat è costruita attorno all'iconico Fantasma — un simbolo giocoso e accessibile che rappresenta la natura effimera della piattaforma. Il giallo audace e la silhouette minimalista del fantasma creano un riconoscimento immediato, incarnando creatività, spontaneità e autentica espressione di sé."
+    },
     "stripe": {
       "description": "Stripe e una piattaforma di infrastruttura finanziaria che fornisce API di elaborazione dei pagamenti e strumenti per aziende internet di ogni dimensione. Fondata nel 2010, supporta milioni di aziende nel mondo, aiutandole ad accettare pagamenti e costruire prodotti finanziari.",
       "philosophy": "L'identita di Stripe e costruita attorno a chiarezza per sviluppatori e semplicita raffinata. Il brand usa una palette viola distintiva e una tipografia pulita per trasmettere fiducia e sofisticazione nella tecnologia finanziaria."
@@ -177,6 +185,10 @@
       "description": "GitHub e la piattaforma leader mondiale per lo sviluppo software, con hosting cloud di repository Git, strumenti di collaborazione e workflow CI/CD. Fondata nel 2008 e acquisita da Microsoft nel 2018, GitHub ospita oltre 100 milioni di sviluppatori e alimenta l'ecosistema open source.",
       "philosophy": "L'identita di GitHub si basa sull'Invertocat, un simbolo minimale e universalmente riconosciuto che rappresenta l'incontro tra codice e comunita. Il brand enfatizza apertura, empowerment degli sviluppatori e l'idea che il miglior software si costruisca insieme."
     },
+    "instagram": {
+      "description": "Instagram è una piattaforma di social networking per la condivisione di foto e video di proprietà di Meta Platforms. Lanciata nel 2010, è diventata una delle app di social media più popolari al mondo con oltre 2 miliardi di utenti attivi mensili, nota per il suo focus sulla narrazione visiva, i Reels e la cultura dei creatori.",
+      "philosophy": "Il rebranding di Instagram del 2022 abbraccia una palette di gradienti vibranti e dinamici e il carattere personalizzato Instagram Sans — ispirato all'iconico glifo squircle. L'identità fonde stili tipografici grotteschi e geometrici con colori modellati in 3D per celebrare la creatività globale e l'espressione di sé."
+    },
     "vscode": {
       "description": "Visual Studio Code è un editor di codice gratuito e open source di Microsoft, disponibile per Windows, macOS e Linux. Con debug integrato, integrazione Git e un vasto ecosistema di estensioni, è diventato uno degli ambienti di sviluppo più popolari al mondo.",
       "philosophy": "Aperto, estensibile e orientato allo sviluppatore. L'identità di VS Code si concentra sulla sua iconica icona a parentesi blu, un simbolo di editing del codice immediatamente riconoscibile."
@@ -200,6 +212,14 @@
     "netflix": {
       "description": "Netflix è il principale servizio di intrattenimento in streaming al mondo con oltre 260 milioni di abbonamenti a pagamento in più di 190 paesi. Fondata nel 1997, Netflix ha rivoluzionato il modo in cui le persone guardano TV e film, introducendo lo streaming in abbonamento e investendo massicciamente in contenuti originali.",
       "philosophy": "Cinematografico, audace e inconfondibile. L'identità di Netflix utilizza il suo rosso iconico su nero profondo per creare un'esperienza immersiva, simile a quella di un cinema — il logotipo cattura l'attenzione mentre il carattere personalizzato Netflix Sans porta coerenza e personalità su ogni schermo."
+    },
+    "youtube": {
+      "description": "YouTube è la più grande piattaforma di condivisione video al mondo, che consente agli utenti di caricare, guardare e condividere video. Fondata nel 2005 e acquisita da Google nel 2006, YouTube è diventata la destinazione principale per i contenuti video, dalla musica e l'istruzione all'intrattenimento e allo streaming dal vivo, servendo oltre 2 miliardi di utenti registrati ogni mese.",
+      "philosophy": "Audace, giocoso e universalmente accessibile. L'identità di YouTube è incentrata sull'iconico pulsante rosso di riproduzione — un simbolo universale per \"premi play\" — abbinato a una tipografia pulita che mette il contenuto al primo posto e invita tutti a trasmettere."
+    },
+    "tiktok": {
+      "description": "TikTok è la principale piattaforma mondiale di video brevi, dove oltre un miliardo di utenti creano, scoprono e condividono contenuti divertenti. Lanciata a livello internazionale nel 2017 da ByteDance, TikTok ha ridefinito i social media con il suo feed guidato da algoritmi e strumenti creativi per musica, comicità, istruzione e cultura.",
+      "philosophy": "Energico, giovane e inconfondibilmente digitale. L'identità di TikTok abbina un audace simbolo di nota musicale a un effetto di sfalsamento ciano e rosso ispirato al glitch, creando una sensazione di movimento e creatività che riflette il flusso infinito di contenuti brevi."
     }
   },
   "tags": {
@@ -279,7 +299,14 @@
     "entertainment": "Intrattenimento",
     "video": "Video",
     "movies": "Film",
-    "television": "Televisione"
+    "television": "Televisione",
+    "creative": "Creativo",
+    "creators": "Creatori",
+    "short-form-video": "Video Breve",
+    "photography": "Fotografia",
+    "camera": "Fotocamera",
+    "ephemeral": "Effimero",
+    "social": "Sociale"
   },
   "tag": {
     "title": "Brand taggati \"{tag}\"",

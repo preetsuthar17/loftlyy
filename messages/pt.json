@@ -101,6 +101,10 @@
     "entertainment": "Entretenimento"
   },
   "brands": {
+    "adobe": {
+      "description": "A Adobe é líder global em software criativo, marketing digital e soluções de gestão documental. Fundada em 1982 em San José, Califórnia, os produtos da Adobe — incluindo Photoshop, Illustrator, Premiere Pro e Acrobat — tornaram-se padrões da indústria para designers, fotógrafos, cineastas e empresas em todo o mundo.",
+      "philosophy": "Ousada, criativa e empoderadora. O icônico 'A' vermelho da Adobe simboliza o ápice criativo — uma marca geométrica que representa as ferramentas e a plataforma que capacitam milhões de criadores em todo o mundo. A identidade limpa e moderna reflete a evolução da Adobe de pioneira em editoração eletrônica para plataforma criativa cloud-first."
+    },
     "airbnb": {
       "description": "Airbnb e um marketplace global online para hospedagem, experiencias e atividades turisticas. Fundada em 2008 em San Francisco, conecta milhoes de anfitrioes e viajantes no mundo todo, transformando a forma como as pessoas encontram acomodacoes unicas e conhecem a cultura local.",
       "philosophy": "A identidade do Airbnb e ancorada pelo Belo, um simbolo de pertencimento que representa pessoas, lugares, amor e o proprio Airbnb. A cor quente Rausch e a tipografia personalizada Cereal criam uma marca amigavel e acessivel que convida a conexao e a exploracao entre culturas."
@@ -153,6 +157,10 @@
       "description": "Slack e uma plataforma de comunicacao empresarial que une equipes por meio de canais, mensagens e integracoes. Adquirida pela Salesforce em 2021, o Slack se tornou o centro da colaboracao no ambiente de trabalho, conectando pessoas as ferramentas e informacoes de que precisam.",
       "philosophy": "A identidade do Slack utiliza uma vibrante paleta de quatro cores — azul, verde, amarelo e vermelho — dispostas em um simbolo inspirado na hashtag que representa conexao e comunicacao. O rebranding de 2019 pela Pentagram simplificou o logotipo em um simbolo geometrico coeso ancorado pela assinatura berinjela."
     },
+    "snapchat": {
+      "description": "O Snapchat é um aplicativo de mensagens multimídia conhecido por seu compartilhamento efêmero de fotos e vídeos, lentes de realidade aumentada e formato Stories. Desenvolvido pela Snap Inc., foi pioneiro em conteúdo que desaparece e se tornou uma das plataformas sociais mais populares entre os jovens em todo o mundo.",
+      "philosophy": "A identidade do Snapchat é construída em torno do icônico Fantasma — um símbolo lúdico e acessível que representa a natureza efêmera da plataforma. O amarelo vibrante e a silhueta minimalista do fantasma criam reconhecimento instantâneo, incorporando criatividade, espontaneidade e autoexpressão autêntica."
+    },
     "stripe": {
       "description": "Stripe e uma plataforma de infraestrutura financeira que fornece APIs de processamento de pagamentos e ferramentas para empresas de internet de todos os tamanhos. Fundada em 2010, impulsiona milhoes de empresas no mundo todo, permitindo aceitar pagamentos e criar produtos financeiros.",
       "philosophy": "A identidade da Stripe e construida em torno de clareza para desenvolvedores e simplicidade refinada. A marca usa uma paleta roxa distintiva e tipografia limpa para transmitir confianca e sofisticacao em tecnologia financeira."
@@ -177,6 +185,10 @@
       "description": "GitHub e a principal plataforma de desenvolvimento de software do mundo, oferecendo hospedagem em nuvem para repositorios Git, ferramentas de colaboracao e fluxos de trabalho CI/CD. Fundado em 2008 e adquirido pela Microsoft em 2018, o GitHub abriga mais de 100 milhoes de desenvolvedores e impulsiona o ecossistema open source.",
       "philosophy": "A identidade do GitHub se baseia no Invertocat, um simbolo minimalista e universalmente reconhecido que representa a intersecao entre codigo e comunidade. A marca enfatiza abertura, empoderamento de desenvolvedores e a ideia de que grandes softwares sao construidos em conjunto."
     },
+    "instagram": {
+      "description": "Instagram é uma plataforma de rede social para compartilhamento de fotos e vídeos de propriedade da Meta Platforms. Lançada em 2010, tornou-se um dos aplicativos de mídia social mais populares do mundo com mais de 2 bilhões de usuários ativos mensais, conhecida por seu foco em narrativa visual, Reels e cultura de criadores.",
+      "philosophy": "O rebranding do Instagram em 2022 adota uma paleta de gradientes vibrantes e dinâmicos e a tipografia personalizada Instagram Sans — inspirada no icônico glifo squircle. A identidade mescla estilos tipográficos grotescos e geométricos com cores modeladas em 3D para celebrar a criatividade global e a autoexpressão."
+    },
     "vscode": {
       "description": "Visual Studio Code é um editor de código gratuito e de código aberto da Microsoft, disponível para Windows, macOS e Linux. Com depuração integrada, integração com Git e um vasto ecossistema de extensões, tornou-se um dos ambientes de desenvolvimento mais populares do mundo.",
       "philosophy": "Aberto, extensível e focado no desenvolvedor. A identidade do VS Code centra-se no seu icónico ícone de colchete azul, um símbolo de edição de código instantaneamente reconhecível."
@@ -200,6 +212,14 @@
     "netflix": {
       "description": "A Netflix é o principal serviço de entretenimento em streaming do mundo com mais de 260 milhões de assinaturas pagas em mais de 190 países. Fundada em 1997, a Netflix revolucionou a forma como as pessoas assistem TV e filmes ao ser pioneira em streaming por assinatura e investir fortemente em conteúdo original.",
       "philosophy": "Cinematográfico, ousado e inconfundível. A identidade da Netflix utiliza seu vermelho icônico sobre preto profundo para criar uma experiência imersiva, semelhante à de um cinema — a marca nominativa chama a atenção enquanto a tipografia personalizada Netflix Sans traz consistência e personalidade em cada tela."
+    },
+    "youtube": {
+      "description": "O YouTube é a maior plataforma de compartilhamento de vídeos do mundo, permitindo que os usuários enviem, assistam e compartilhem vídeos. Fundado em 2005 e adquirido pelo Google em 2006, o YouTube se tornou o destino principal para conteúdo em vídeo, desde música e educação até entretenimento e transmissões ao vivo, atendendo mais de 2 bilhões de usuários logados mensalmente.",
+      "philosophy": "Ousado, divertido e universalmente acessível. A identidade do YouTube é centrada no icônico botão vermelho de reprodução — um símbolo universal para \"aperte o play\" — combinado com uma tipografia limpa que coloca o conteúdo em primeiro lugar e convida todos a se expressar."
+    },
+    "tiktok": {
+      "description": "O TikTok é a principal plataforma mundial de vídeos curtos, onde mais de um bilhão de usuários criam, descobrem e compartilham conteúdo divertido. Lançado internacionalmente em 2017 pela ByteDance, o TikTok redefiniu as redes sociais com seu feed baseado em algoritmos e ferramentas criativas para música, comédia, educação e cultura.",
+      "philosophy": "Energético, jovem e inconfundivelmente digital. A identidade do TikTok combina um símbolo de nota musical ousado com um efeito de deslocamento ciano e vermelho inspirado em glitch, criando uma sensação de movimento e criatividade que reflete o fluxo interminável de conteúdo curto."
     }
   },
   "tags": {
@@ -279,7 +299,14 @@
     "entertainment": "Entretenimento",
     "video": "Vídeo",
     "movies": "Filmes",
-    "television": "Televisão"
+    "television": "Televisão",
+    "creative": "Criativo",
+    "creators": "Criadores",
+    "short-form-video": "Vídeo Curto",
+    "photography": "Fotografia",
+    "camera": "Câmera",
+    "ephemeral": "Efêmero",
+    "social": "Social"
   },
   "tag": {
     "title": "Marcas com tag \"{tag}\"",
