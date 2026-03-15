@@ -139,7 +139,7 @@ export function CommandMenu({
 
           {/* Panel */}
           <div
-            className="fixed top-[20%] left-1/2 z-50 w-full max-w-md -translate-x-1/2 animate-in overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-2xl duration-150 fade-in-0 zoom-in-95 slide-in-from-top-2 dark:border-neutral-800 dark:bg-neutral-950"
+            className="fixed top-[20%] left-1/2 z-50 w-[95%] max-w-md -translate-x-1/2 animate-in overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-2xl duration-150 fade-in-0 zoom-in-95 slide-in-from-top-2 dark:border-neutral-800 dark:bg-neutral-950"
             role="dialog"
             aria-label="Search brands and filters"
           >

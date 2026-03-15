@@ -11,11 +11,11 @@ export function BrandSidebar() {
 
   return (
     <aside
-      className="hidden h-full w-[272px] shrink-0 flex-col gap-4 bg-white p-4 lg:flex dark:bg-neutral-950"
+      className="hidden h-full w-[272px] shrink-0 flex-col bg-white lg:flex dark:bg-neutral-950"
       id="brand-sidebar"
     >
-      <div className="flex flex-col gap-4">
-        {/* Header */}
+      {/* Header — fixed top */}
+      <div className="shrink-0 p-4 pb-0">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5">
             <Image
@@ -37,18 +37,26 @@ export function BrandSidebar() {
           <LocaleSwitcher />
         </div>
       </div>
-      <Suspense>
-        <BrandSidebarSearch brands={brands} />
-      </Suspense>
-      <a
-        href="https://github.com/sponsors/preetsuthar17"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center gap-2 rounded-lg border border-neutral-200 px-3 py-2 text-[13px] font-medium text-neutral-600 transition-colors hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/50 dark:hover:text-neutral-200"
-      >
-        <IconHeart size={15} />
-        Support us
-      </a>
+
+      {/* Brand list — scrollable middle */}
+      <div className="min-h-0 flex-1 px-4 pt-4">
+        <Suspense>
+          <BrandSidebarSearch brands={brands} />
+        </Suspense>
+      </div>
+
+      {/* Sponsor — fixed bottom */}
+      <div className="shrink-0 p-4 pt-2">
+        <a
+          href="https://github.com/sponsors/preetsuthar17"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-lg border border-neutral-200 px-3 py-2 text-[13px] font-medium text-neutral-600 transition-colors hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/50 dark:hover:text-neutral-200"
+        >
+          <IconHeart size={15} />
+          Support us
+        </a>
+      </div>
     </aside>
   )
 }

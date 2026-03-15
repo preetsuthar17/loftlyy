@@ -3,7 +3,7 @@
 import { Suspense, useState, useRef, useEffect, useCallback } from "react"
 import Image from "next/image"
 import dynamic from "next/dynamic"
-import { IconMenu2, IconX } from "@tabler/icons-react"
+import { IconMenu2, IconX, IconHeart } from "@tabler/icons-react"
 import { getAllBrands } from "@/data/brands"
 import { LocaleSwitcher } from "./locale-switcher"
 
@@ -67,10 +67,10 @@ export function MobileSidebarToggle() {
             ref={sidebarRef}
             role="dialog"
             aria-modal="true"
-            className="fixed inset-y-0 left-0 z-50 flex w-[272px] animate-in flex-col gap-4 overscroll-y-contain bg-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] shadow-xl duration-200 slide-in-from-left dark:bg-neutral-950"
+            className="fixed inset-y-0 left-0 z-50 flex w-[272px] animate-in flex-col gap-4 overflow-hidden overscroll-y-contain bg-white pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] shadow-xl duration-200 slide-in-from-left dark:bg-neutral-950"
           >
             {/* Header */}
-            <div className="flex items-center justify-between px-5 pt-5 lg:pt-0">
+            <div className="flex shrink-0 items-center justify-between px-5 pt-5 lg:pt-0">
               <div className="flex items-center gap-2.5">
                 <Image
                   src="/logo.webp"
@@ -104,9 +104,22 @@ export function MobileSidebarToggle() {
                 </button>
               </div>
             </div>
-            <Suspense>
-              <BrandSidebarSearch brands={brands} onNavigate={close} />
-            </Suspense>
+            <div className="min-h-0 flex-1 px-0">
+              <Suspense>
+                <BrandSidebarSearch brands={brands} onNavigate={close} />
+              </Suspense>
+            </div>
+            <div className="shrink-0 px-5 pb-5">
+              <a
+                href="https://github.com/sponsors/preetsuthar17"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 rounded-lg border border-neutral-200 px-3 py-2 text-[13px] font-medium text-neutral-600 transition-colors hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/50 dark:hover:text-neutral-200"
+              >
+                <IconHeart size={15} />
+                Support us
+              </a>
+            </div>
           </aside>
         </>
       )}

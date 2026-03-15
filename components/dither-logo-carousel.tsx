@@ -76,7 +76,7 @@ export function DitherLogoCarousel({
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const glRef = useRef<WebGL2RenderingContext | null>(null)
   const programRef = useRef<DitherProgram | null>(null)
-  const texturesRef = useRef<WebGLTexture[]>([])
+  const textureCacheRef = useRef<Map<number, WebGLTexture>>(new Map())
   const rafRef = useRef<number>(0)
   const timerRef = useRef<ReturnType<typeof setTimeout>>(undefined)
   const indexRef = useRef(0)
@@ -85,81 +85,47 @@ export function DitherLogoCarousel({
   const [fallbackIndex, setFallbackIndex] = useState(0)
   const reducedMotionRef = useRef(false)
   const pausedRef = useRef(false)
+  const disposedRef = useRef(false)
 
   const brandCount = brands.length
 
-  const drawStatic = useCallback(
-    (idx: number) => {
+  const loadTextureForIndex = useCallback(
+    async (idx: number): Promise<WebGLTexture | null> => {
+      const gl = glRef.current
+      if (!gl || disposedRef.current) return null
+      const cache = textureCacheRef.current
+      const key = idx % brandCount
+      if (cache.has(key)) return cache.get(key)!
+      try {
+        const raster = await rasterizeSvg(brands[key].thumbnailSrc)
+        if (disposedRef.current || !gl) return null
+        const tex = loadTexture(gl, raster)
+        cache.set(key, tex)
+        return tex
+      } catch {
+        return null
+      }
+    },
+    [brands, brandCount]
+  )
+
+  const drawWithTexture = useCallback(
+    (tex: WebGLTexture) => {
       const gl = glRef.current
       const prog = programRef.current
-      const textures = texturesRef.current
-      if (!gl || !prog || textures.length === 0) return
-      const tex = textures[idx % textures.length]
+      if (!gl || !prog) return
       draw(gl, prog, tex, tex, 0, ditherScale)
     },
     [ditherScale]
   )
-
-  const startTransition = useCallback(
-    (fromIdx: number, toIdx: number) => {
-      const gl = glRef.current
-      const prog = programRef.current
-      const textures = texturesRef.current
-      if (!gl || !prog || textures.length < 2) return
-
-      const texFrom = textures[fromIdx % textures.length]
-      const texTo = textures[toIdx % textures.length]
-      const start = performance.now()
-
-      const animate = (now: number) => {
-        const elapsed = now - start
-        const progress = Math.min(1, elapsed / transitionDuration)
-
-        draw(gl, prog, texFrom, texTo, progress, ditherScale)
-
-        if (progress < 1) {
-          rafRef.current = requestAnimationFrame(animate)
-        } else {
-          indexRef.current = toIdx
-          setCurrentIndex(toIdx)
-          scheduleNext()
-        }
-      }
-
-      rafRef.current = requestAnimationFrame(animate)
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [transitionDuration, ditherScale]
-  )
-
-  const scheduleNext = useCallback(() => {
-    clearTimeout(timerRef.current)
-    timerRef.current = setTimeout(() => {
-      if (pausedRef.current) return
-      const from = indexRef.current
-      const to = (from + 1) % brandCount
-
-      if (reducedMotionRef.current) {
-        const gl = glRef.current
-        const prog = programRef.current
-        const textures = texturesRef.current
-        if (gl && prog && textures.length > 0) {
-          indexRef.current = to
-          setCurrentIndex(to)
-          drawStatic(to)
-          scheduleNext()
-        }
-      } else {
-        startTransition(from, to)
-      }
-    }, interval)
-  }, [interval, brandCount, drawStatic, startTransition])
 
   useEffect(() => {
     if (brands.length < 2) return
 
     const canvas = canvasRef.current
     if (!canvas) return
+
+    disposedRef.current = false
 
     const gl = canvas.getContext("webgl2", {
       alpha: true,
@@ -182,16 +148,6 @@ export function DitherLogoCarousel({
     }
     mq.addEventListener("change", onMqChange)
 
-    // Visibility
-    const onVisibility = () => {
-      pausedRef.current = document.hidden
-      if (!document.hidden) {
-        drawStatic(indexRef.current)
-        scheduleNext()
-      }
-    }
-    document.addEventListener("visibilitychange", onVisibility)
-
     // Resize
     const dpr = window.devicePixelRatio || 1
     const resizeCanvas = () => {
@@ -200,10 +156,26 @@ export function DitherLogoCarousel({
       canvas.width = rect.width * dpr
       canvas.height = rect.height * dpr
       gl.viewport(0, 0, canvas.width, canvas.height)
-      drawStatic(indexRef.current)
+      const currentTex = textureCacheRef.current.get(
+        indexRef.current % brandCount
+      )
+      if (currentTex) drawWithTexture(currentTex)
     }
     const ro = new ResizeObserver(resizeCanvas)
     ro.observe(canvas)
+
+    // Visibility
+    const onVisibility = () => {
+      pausedRef.current = document.hidden
+      if (!document.hidden) {
+        const currentTex = textureCacheRef.current.get(
+          indexRef.current % brandCount
+        )
+        if (currentTex) drawWithTexture(currentTex)
+        scheduleNext()
+      }
+    }
+    document.addEventListener("visibilitychange", onVisibility)
 
     // Context loss
     const onLost = (e: Event) => {
@@ -222,7 +194,6 @@ export function DitherLogoCarousel({
     canvas.addEventListener("webglcontextrestored", onRestored)
 
     // Init
-    let disposed = false
     try {
       programRef.current = createDitherProgram(gl)
     } catch {
@@ -230,30 +201,73 @@ export function DitherLogoCarousel({
       return
     }
 
-    // Load textures
-    const loadAll = async () => {
-      const textures: WebGLTexture[] = []
-      for (const brand of brands) {
-        if (disposed) return
-        try {
-          const raster = await rasterizeSvg(brand.thumbnailSrc)
-          const tex = loadTexture(gl, raster)
-          textures.push(tex)
-        } catch {
-          // Skip failed textures
+    function doTransition(
+      texFrom: WebGLTexture,
+      texTo: WebGLTexture,
+      toIdx: number
+    ) {
+      const prog = programRef.current
+      if (!gl || !prog) return
+
+      const start = performance.now()
+      const animate = (now: number) => {
+        const elapsed = now - start
+        const progress = Math.min(1, elapsed / transitionDuration)
+        draw(gl, prog, texFrom, texTo, progress, ditherScale)
+        if (progress < 1) {
+          rafRef.current = requestAnimationFrame(animate)
+        } else {
+          indexRef.current = toIdx
+          setCurrentIndex(toIdx)
+          scheduleNext()
         }
       }
-      if (disposed || textures.length === 0) return
-      texturesRef.current = textures
+      rafRef.current = requestAnimationFrame(animate)
+    }
+
+    function scheduleNext() {
+      clearTimeout(timerRef.current)
+      timerRef.current = setTimeout(async () => {
+        if (pausedRef.current || disposedRef.current) return
+        const from = indexRef.current
+        const to = (from + 1) % brandCount
+
+        // Load the next texture (current should already be cached)
+        const [texFrom, texTo] = await Promise.all([
+          loadTextureForIndex(from),
+          loadTextureForIndex(to),
+        ])
+        if (disposedRef.current || !texFrom || !texTo) return
+
+        // Preload one ahead in background
+        const afterNext = (to + 1) % brandCount
+        loadTextureForIndex(afterNext)
+
+        if (reducedMotionRef.current) {
+          indexRef.current = to
+          setCurrentIndex(to)
+          drawWithTexture(texTo)
+          scheduleNext()
+        } else {
+          doTransition(texFrom, texTo, to)
+        }
+      }, interval)
+    }
+
+    // Initial load: just the first brand, then start
+    const initLoad = async () => {
+      const tex = await loadTextureForIndex(0)
+      if (disposedRef.current || !tex) return
       resizeCanvas()
-      drawStatic(0)
+      // Preload second brand in background
+      loadTextureForIndex(1 % brandCount)
       scheduleNext()
     }
 
-    loadAll()
+    initLoad()
 
     return () => {
-      disposed = true
+      disposedRef.current = true
       cancelAnimationFrame(rafRef.current)
       clearTimeout(timerRef.current)
       mq.removeEventListener("change", onMqChange)
@@ -261,9 +275,10 @@ export function DitherLogoCarousel({
       canvas.removeEventListener("webglcontextlost", onLost)
       canvas.removeEventListener("webglcontextrestored", onRestored)
       ro.disconnect()
-      for (const tex of texturesRef.current) {
+      for (const tex of textureCacheRef.current.values()) {
         gl.deleteTexture(tex)
       }
+      textureCacheRef.current.clear()
       if (programRef.current) {
         dispose(gl, programRef.current)
       }

@@ -40,7 +40,9 @@ function BrandsLanding() {
   const t = useTranslations()
   const brands = getAllBrands()
 
-  const carouselBrands = brands.map((b) => ({
+  // Pick a stable subset of 8 brands for the carousel to avoid loading all logos
+  const MAX_CAROUSEL = 8
+  const carouselBrands = brands.slice(0, MAX_CAROUSEL).map((b) => ({
     slug: b.slug,
     name: b.name,
     thumbnailSrc: b.thumbnail.src,
@@ -51,7 +53,7 @@ function BrandsLanding() {
       {/* Hero */}
       <section className="flex flex-col items-center gap-6 text-center">
         <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl bg-neutral-100 p-2 dark:bg-neutral-800">
-          <DitherLogoCarousel brands={carouselBrands} className="size-full" />
+          <DitherLogoCarousel brands={carouselBrands} interval={2000} className="size-full" />
         </div>
 
         <h1 className="max-w-xl text-3xl font-semibold tracking-tighter text-neutral-900 sm:text-5xl dark:text-neutral-100">

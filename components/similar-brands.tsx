@@ -79,6 +79,7 @@ export function SimilarBrands({ brands }: { brands: SimilarBrandCard[] }) {
                   alt={brand.name}
                   width={48}
                   height={48}
+                  loading="lazy"
                   className="max-h-full object-contain"
                 />
               </div>
