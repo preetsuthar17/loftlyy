@@ -81,12 +81,17 @@
     "gradient-brands": "Gradient Brands",
     "wordmark-logos": "Wordmark Logos",
     "geometric-logos": "Geometric Logos",
-    "travel": "Travel"
+    "travel": "Travel",
+    "automotive": "Automotive"
   },
   "brands": {
     "airbnb": {
       "description": "Airbnb is a global online marketplace for lodging, experiences, and tourism activities. Founded in 2008 in San Francisco, it connects millions of hosts and travelers worldwide, transforming how people find unique accommodations and experience local culture.",
       "philosophy": "Airbnb's identity is anchored by the Belo — a symbol of belonging that represents people, places, love, and Airbnb itself. The warm Rausch color and custom Cereal typeface create a friendly, approachable brand that invites connection and exploration across cultures."
+    },
+    "amazon": {
+      "description": "Amazon is the world's largest online retailer and cloud computing company, offering everything from e-commerce and digital streaming to artificial intelligence and logistics. Founded in 1994 by Jeff Bezos, Amazon has grown into one of the most valuable companies in the world.",
+      "philosophy": "Amazon's identity is anchored by the iconic smile arrow — a curved line from A to Z that represents the company's promise to deliver everything, with a smile. The warm orange and clean wordmark convey approachability and customer obsession at massive scale."
     },
     "discord": {
       "description": "Discord is a voice, video, and text communication platform designed for creating communities. Originally built for gamers, it has expanded to serve communities of all kinds — from study groups to art collectives to open-source projects. Discord's mission is to create space for everyone to find belonging.",
@@ -116,9 +121,21 @@
       "description": "Figma is a collaborative interface design tool that enables teams to design, prototype, and develop products together in real time. Acquired by Adobe in 2023, Figma has become the industry standard for UI/UX design, replacing traditional desktop tools with a browser-based platform.",
       "philosophy": "Figma's identity celebrates the collaborative and creative nature of design through a vibrant, multi-colored logo that represents the diverse tools and perspectives that come together in the design process."
     },
+    "google": {
+      "description": "Google is a global technology company specializing in internet services, search, cloud computing, and advertising. Known for its colorful, approachable identity, Google has shaped the modern web and continuously redefines how people access and interact with information.",
+      "philosophy": "Google's four-color wordmark reflects a playful, accessible brand that values simplicity and universality. The shift from serif to geometric sans-serif in 2015 signaled a modern, product-first identity built for screens of every size."
+    },
     "notion": {
       "description": "Notion is an all-in-one workspace that combines notes, docs, wikis, project management, and databases into a single connected platform. Founded in 2013 in San Francisco, Notion empowers teams and individuals to customize their workflows using modular building blocks.",
       "philosophy": "Notion's identity embodies the principle that tools should be as flexible as the people using them. The minimal black-and-white palette and iconic page-with-N logomark reflect simplicity, modularity, and the idea that the best software gets out of your way."
+    },
+    "nvidia": {
+      "description": "NVIDIA is a global technology company that designs graphics processing units (GPUs) and system-on-chip units. A pioneer in accelerated computing, NVIDIA's platforms power everything from gaming and professional visualization to data centers and autonomous vehicles, and have become the backbone of modern artificial intelligence.",
+      "philosophy": "Bold, technical, and forward-driven. NVIDIA's identity is anchored by the iconic eye mark — a symbol of visual computing and vision — paired with the signature green that conveys energy, innovation, and the power of accelerated computing."
+    },
+    "slack": {
+      "description": "Slack is a business communication platform that brings teams together with channels, messaging, and integrations. Acquired by Salesforce in 2021, Slack has become the central hub for workplace collaboration, connecting people to the tools and information they need.",
+      "philosophy": "Slack's identity uses a vibrant four-color palette — blue, green, yellow, and red — arranged in a hashtag-inspired mark that represents connection and communication. The 2019 rebrand by Pentagram simplified the logo into a cohesive, geometric symbol anchored by the signature aubergine."
     },
     "stripe": {
       "description": "Stripe is a financial infrastructure platform that provides payment processing APIs and tools for internet businesses of every size. Founded in 2010, Stripe powers millions of companies worldwide, enabling them to accept payments and build financial products.",
@@ -128,9 +145,37 @@
       "description": "Linear is a purpose-built project management platform for modern software teams, designed around speed, clarity, and craftsmanship. Founded in 2019, Linear streamlines issue tracking, sprint planning, and product development workflows for over 25,000 companies.",
       "philosophy": "Linear's identity reflects relentless focus on speed, craftsmanship, and clarity. The brand uses a restrained indigo palette and clean geometric logomark to convey precision and purpose."
     },
+    "microsoft": {
+      "description": "Microsoft is a global technology corporation that develops software, hardware, and cloud services powering businesses and consumers worldwide. From Windows and Office to Azure and Xbox, Microsoft's products touch billions of people, making it one of the most influential technology companies in history.",
+      "philosophy": "Microsoft's four-color window symbolizes openness and diversity — four distinct panes coming together as one. The clean, geometric grid and neutral Segoe wordmark communicate reliability, scale, and the company's evolution from software giant to cloud-first, AI-powered platform."
+    },
     "vercel": {
       "description": "Vercel is a cloud platform for frontend developers that enables teams to build, deploy, and scale web applications with zero configuration. Founded in 2015, Vercel is the creator of Next.js and the Geist design system.",
       "philosophy": "Vercel's brand identity centers on developer experience and the power of the frontend. Its stark black-and-white palette and iconic triangle symbol communicate speed, precision, and the cutting edge of web development."
+    },
+    "cursor": {
+      "description": "Cursor is an AI-powered code editor built by Anysphere that enhances developer productivity through intelligent code completion, autonomous agents, and natural language editing. It positions itself as the best way to code with AI.",
+      "philosophy": "Minimal, dark, and developer-centric. Cursor's identity pairs warm off-white tones with deep charcoal backgrounds, reflecting a tool built by developers for developers — fast, focused, and unapologetically technical."
+    },
+    "github": {
+      "description": "GitHub is the world's leading software development platform, providing cloud-based Git repository hosting, collaboration tools, and CI/CD workflows. Founded in 2008 and acquired by Microsoft in 2018, GitHub is home to over 100 million developers and powers the open-source ecosystem.",
+      "philosophy": "GitHub's identity is built on the Invertocat — a minimal, universally recognized mark that represents the intersection of code and community. The brand emphasizes openness, developer empowerment, and the idea that great software is built together."
+    },
+    "vscode": {
+      "description": "Visual Studio Code is a free, open-source code editor by Microsoft that runs on Windows, macOS, and Linux. With built-in debugging, Git integration, and a vast extension ecosystem, it has become one of the most popular development environments worldwide.",
+      "philosophy": "Open, extensible, and developer-first. VS Code's identity centers on its signature blue bracket icon — a symbol of code editing that is instantly recognizable, conveying both technical precision and approachability."
+    },
+    "tesla": {
+      "description": "Tesla is a global electric vehicle and clean energy company that designs, manufactures, and sells electric cars, battery energy storage systems, and solar products. Founded in 2003, Tesla has redefined the automotive industry with its focus on sustainable energy and cutting-edge technology.",
+      "philosophy": "Tesla's identity centers on its iconic T emblem — a stylized cross-section of an electric motor rotor — that signals technology-driven disruption over traditional automotive heritage. The minimal, geometric mark positions Tesla as a Silicon Valley tech company that happens to make cars."
+    },
+    "x": {
+      "description": "X (formerly Twitter) is a global social media platform for real-time conversation, news, and public discourse. Founded in 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams, it was rebranded to X in 2023 under Elon Musk's ownership, signaling a vision to become an everything app.",
+      "philosophy": "X's identity represents a radical departure from Twitter's friendly blue bird — a stark, monochrome X that signals ambition beyond social media. The minimalist mark embraces boldness and universality, designed to anchor an everything-app vision."
+    },
+    "meta": {
+      "description": "Meta Platforms is a global technology conglomerate that builds products and technologies to help people connect, find communities, and grow businesses. The company owns Facebook, Instagram, WhatsApp, and Threads, and is investing heavily in augmented and virtual reality through its Reality Labs division.",
+      "philosophy": "Meta's identity represents a shift beyond any single product. The infinity symbol — a continuous 3D loop that works across 2D and 3D contexts — embodies unlimited potential and connection, using a blue gradient that honors the company's heritage while signaling its future in immersive technology."
     }
   },
   "tags": {
@@ -177,11 +222,34 @@
     "issue-tracking": "Issue Tracking",
     "productivity": "Productivity",
     "design-tools": "Design Tools",
+    "search": "Search",
+    "advertising": "Advertising",
     "cloud": "Cloud",
     "hosting": "Hosting",
+    "ai": "AI",
     "frontend": "Frontend",
     "notes": "Notes",
-    "workspace": "Workspace"
+    "workspace": "Workspace",
+    "code-editor": "Code Editor",
+    "open-source": "Open Source",
+    "version-control": "Version Control",
+    "code-hosting": "Code Hosting",
+    "microsoft": "Microsoft",
+    "workplace": "Workplace",
+    "microblogging": "Microblogging",
+    "real-time": "Real-Time",
+    "news": "News",
+    "social-network": "Social Network",
+    "electric-vehicles": "Electric Vehicles",
+    "clean-energy": "Clean Energy",
+    "social-media": "Social Media",
+    "virtual-reality": "Virtual Reality",
+    "augmented-reality": "Augmented Reality",
+    "metaverse": "Metaverse",
+    "logistics": "Logistics",
+    "gpu": "GPU",
+    "data-center": "Data Center",
+    "autonomous-vehicles": "Autonomous Vehicles"
   },
   "common": {
     "loading": "Loading",

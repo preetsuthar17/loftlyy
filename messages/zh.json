@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "发现并探索品牌识别、标志、色彩与设计系统"
+  },
+  "home": {
+    "headline": "发现真实世界的品牌识别。",
+    "subheadline": "一个持续增长的品牌识别数据库。",
+    "popular": "热门",
+    "explore": "更多品牌",
+    "browseAll": "使用侧边栏搜索并筛选 {count} 个品牌",
+    "startExploring": "开始探索",
+    "cta": "开始探索",
+    "sponsor": "支持我们"
+  },
+  "nav": {
+    "search": "搜索品牌",
+    "allBrands": "所有品牌",
+    "categories": "分类",
+    "filters": "筛选",
+    "clearFilters": "全部清除",
+    "industry": "行业",
+    "styleTags": "风格",
+    "colorFamily": "颜色",
+    "typographyStyle": "字体风格",
+    "noBrandsFound": "未找到品牌",
+    "language": "语言",
+    "theme": "主题"
+  },
+  "brand": {
+    "overview": "概览",
+    "colors": "颜色",
+    "typography": "字体",
+    "logoVariations": "标志变体",
+    "assets": "资源",
+    "visitWebsite": "访问网站",
+    "industry": "行业",
+    "copyHex": "复制 Hex",
+    "copied": "已复制！",
+    "download": "下载",
+    "selectBrand": "从侧边栏选择一个品牌以探索其识别系统",
+    "brandStory": "品牌故事",
+    "founded": "成立时间",
+    "headquarters": "总部",
+    "identityDesigner": "品牌识别设计师",
+    "lastRebranded": "最近一次品牌升级",
+    "philosophy": "设计理念",
+    "similarBrands": "相似品牌",
+    "copyFontName": "复制字体名称",
+    "fontCopied": "已复制！",
+    "legalNotice": "本页面展示的所有商标、标志、品牌资源和视觉识别元素均为 {brandName} 及其关联公司的专有财产。它们仅用于信息展示和教育用途。",
+    "viewGuidelines": "查看官方品牌指南",
+    "brandGuidelines": "品牌使用指南",
+    "dos": "推荐做法",
+    "donts": "避免做法",
+    "downloadSvg": "下载 SVG",
+    "downloadPng": "下载 PNG",
+    "copyImage": "复制图片"
+  },
+  "category": {
+    "title": "{category} 品牌",
+    "description": "探索 {category} 分类中的 {count} 个品牌",
+    "browseAll": "浏览所有分类",
+    "noBrandsInCategory": "该分类中尚未找到品牌。"
+  },
+  "seo": {
+    "brandTitle": "{brandName} 品牌识别与设计系统 | Loftlyy",
+    "brandDescription": "探索 {brandName} 的品牌识别，包括标志、色彩、字体和设计系统。{brandName} 是一家 {industry} 公司。",
+    "categoryTitle": "{category} 品牌识别 | Loftlyy",
+    "categoryDescription": "发现 {count} 个 {category} 品牌识别。探索顶尖 {category} 公司的标志、色彩方案和设计系统。"
+  },
+  "categories": {
+    "fintech": "金融科技",
+    "saas": "SaaS",
+    "social-media": "社交媒体",
+    "e-commerce": "电子商务",
+    "music": "音乐",
+    "ai": "人工智能",
+    "technology": "科技",
+    "minimal-logos": "极简标志",
+    "gradient-brands": "渐变品牌",
+    "wordmark-logos": "文字标志",
+    "geometric-logos": "几何标志",
+    "travel": "旅行",
+    "automotive": "汽车"
+  },
+  "brands": {
+    "airbnb": {
+      "description": "Airbnb 是一个面向住宿、体验和旅游活动的全球在线平台。它于 2008 年在旧金山创立，连接了全球数百万房东和旅行者，改变了人们寻找独特住所以及体验本地文化的方式。",
+      "philosophy": "Airbnb 的品牌识别以 Belo 为核心，这是一个象征归属感的符号，代表人、地点、爱以及 Airbnb 本身。温暖的 Rausch 色彩和定制的 Cereal 字体共同塑造出友好、亲切的品牌气质，鼓励跨文化的连接与探索。"
+    },
+    "amazon": {
+      "description": "亚马逊是全球最大的在线零售商和云计算公司，提供从电子商务、数字流媒体到人工智能和物流的各种服务。1994年由杰夫·贝索斯创立，亚马逊已发展成为世界上最有价值的公司之一。",
+      "philosophy": "亚马逊的品牌标识以标志性的微笑箭头为核心——一条从A到Z的曲线代表着公司以微笑交付一切的承诺。温暖的橙色和简洁的文字标识传达了大规模的客户至上理念和亲和力。"
+    },
+    "discord": {
+      "description": "Discord 是一个为创建社区而设计的语音、视频和文本沟通平台。它最初为游戏玩家打造，后来扩展到服务各种类型的社区，从学习小组到艺术团体再到开源项目。Discord 的使命是为每个人创造找到归属感的空间。",
+      "philosophy": "活泼、亲切且包容。Discord 的品牌识别在年轻能量与沟通平台所需的清晰度之间取得平衡，并以标志性的 Clyde 吉祥物和 Blurple 色彩作为识别锚点。"
+    },
+    "spotify": {
+      "description": "Spotify 是全球最大的音频流媒体平台，提供数百万首歌曲、播客和有声书。它创立于瑞典，通过个性化播放列表和算法推荐改变了人们发现和收听音乐的方式。",
+      "philosophy": "大胆、鲜明且易于接近。Spotify 的品牌识别使用标志性的绿色和简洁的几何标志来传达音乐发现的乐趣，让音频内容既显得个性化，也对所有人都具有吸引力。"
+    },
+    "openai": {
+      "description": "OpenAI 是一家致力于确保通用人工智能造福全人类的 AI 研究与部署公司。它因创建 GPT 和 ChatGPT 而闻名，并在大型语言模型和 AI 系统的发展中处于领先地位。",
+      "philosophy": "极简、权威并面向未来。OpenAI 的品牌识别通过克制的设计传达信任与技术上的精致感，以鲜明的黑白搭配有意识的绿色点缀，在不制造压迫感的前提下表达创新。"
+    },
+    "anthropic": {
+      "description": "Anthropic 是一家专注于构建可靠、可解释且可控 AI 系统的 AI 安全公司。它由前 OpenAI 研究人员创立，开发了以安全为核心原则的 AI 助手 Claude。",
+      "philosophy": "温和、可信且克制。Anthropic 的品牌识别以有机的棕褐色调和简洁的字体组合来传达以安全为导向的 AI 研究，既亲切又严肃，既有人性又具技术感。"
+    },
+    "apple": {
+      "description": "Apple 设计、制造并销售消费电子产品、软件和服务。从 Macintosh 到 iPhone，Apple 始终通过对设计、简洁和用户体验的执着重新定义整个产品类别。",
+      "philosophy": "简约即极致的精致。Apple 的单色品牌识别剥离掉一切不必要的元素，让那枚标志性的被咬了一口的苹果以安静的自信发声，成为创新、高端品质和以人为本设计的象征。"
+    },
+    "wise": {
+      "description": "Wise 是一家全球金融科技公司，让国际汇款变得快速、低成本且透明。它最初名为 TransferWise，为数百万跨境转账用户提供真实汇率服务。",
+      "philosophy": "透明、大胆且无边界。Wise 的品牌识别使用独特的绿色和旗帜图形来象征跨境资金流动，这是一个相信金融服务应当公平且简单的品牌所采用的直接设计语言。"
+    },
+    "figma": {
+      "description": "Figma 是一款协作式界面设计工具，使团队能够实时共同设计、制作原型并开发产品。自 2023 年被 Adobe 收购后，Figma 已成为 UI/UX 设计领域的行业标准。",
+      "philosophy": "Figma 的品牌识别通过一个鲜艳的多色标志来赞颂设计的协作性与创造性，这个标志象征着在设计过程中汇聚在一起的多种工具与视角。"
+    },
+    "google": {
+      "description": "Google 是一家全球性科技公司，专注于互联网服务、搜索、云计算和广告。以其色彩丰富、平易近人的品牌形象闻名，Google 塑造了现代互联网，并不断重新定义人们获取和互动信息的方式。",
+      "philosophy": "Google 的四色文字标志体现了一个崇尚简洁与普遍性的活泼品牌。2015年从衬线字体到几何无衬线字体的转变，标志着一个为各种屏幕尺寸设计的现代化产品导向型品牌形象。"
+    },
+    "notion": {
+      "description": "Notion 是一个集笔记、文档、Wiki、项目管理和数据库于一体的全能工作空间平台。它于 2013 年在旧金山创立，让团队和个人能够通过模块化组件自由定制工作流。",
+      "philosophy": "Notion 的品牌识别体现了一个原则：工具应当像使用它的人一样灵活。极简的黑白配色以及标志性的页面式 N 图形，传达出简洁、模块化，以及最佳软件应当不打扰用户的理念。"
+    },
+    "nvidia": {
+      "description": "NVIDIA 是一家设计图形处理器（GPU）和片上系统的全球科技公司。作为加速计算的先驱，NVIDIA 的平台支撑着从游戏和专业可视化到数据中心和自动驾驶汽车的一切应用，已成为现代人工智能的基石。",
+      "philosophy": "大胆、技术驱动、面向未来。NVIDIA 的品牌识别以标志性的眼睛图标为核心——视觉计算与远见的象征——搭配传达能量、创新和加速计算力量的标志性绿色。"
+    },
+    "slack": {
+      "description": "Slack 是一个通过频道、消息和集成将团队联系在一起的企业沟通平台。2021年被 Salesforce 收购后，Slack 已成为工作场所协作的核心枢纽，将人们与所需的工具和信息连接起来。",
+      "philosophy": "Slack 的品牌识别使用蓝、绿、黄、红四色组成的鲜明调色板，以受井号标签启发的图形排列，象征连接与沟通。2019年由 Pentagram 主导的品牌重塑将标志简化为以标志性茄紫色为锚点的统一几何符号。"
+    },
+    "stripe": {
+      "description": "Stripe 是一个金融基础设施平台，为各种规模的互联网企业提供支付处理 API 和工具。它创立于 2010 年，已为全球数百万家公司提供支持，使它们能够接收付款并构建金融产品。",
+      "philosophy": "Stripe 的品牌识别围绕面向开发者的清晰度与精致的简约感展开。品牌采用独特的紫色调和干净的字体，传达金融科技领域中的信任与高级感。"
+    },
+    "linear": {
+      "description": "Linear 是一个为现代软件团队打造的项目管理平台，围绕速度、清晰度和工艺感进行设计。它创立于 2019 年，为超过 25,000 家公司简化问题跟踪、冲刺规划和产品开发流程。",
+      "philosophy": "Linear 的品牌识别体现出对速度、工艺和清晰度的极致专注。品牌通过克制的靛蓝色调和简洁的几何图形标志来传达精确性与目标感。"
+    },
+    "microsoft": {
+      "description": "Microsoft 是一家全球性科技企业，开发软件、硬件和云服务，为世界各地的企业和消费者提供支持。从 Windows 和 Office 到 Azure 和 Xbox，Microsoft 的产品触及数十亿人，使其成为历史上最具影响力的科技公司之一。",
+      "philosophy": "Microsoft 的四色窗户标志象征着开放与多元——四个独立的窗格汇聚为一体。简洁的几何网格与中性的 Segoe 字体传达出可靠性、规模感，以及公司从软件巨头向云优先、AI 驱动平台演进的历程。"
+    },
+    "vercel": {
+      "description": "Vercel 是一个面向前端开发者的云平台，使团队能够以零配置方式构建、部署并扩展 Web 应用。它创立于 2015 年，是 Next.js 和 Geist 设计系统的创造者。",
+      "philosophy": "Vercel 的品牌识别聚焦于开发者体验以及前端的力量。其鲜明的黑白配色和标志性的三角形符号传达出速度、精确性以及 Web 开发的前沿感。"
+    },
+    "cursor": {
+      "description": "Cursor 是由 Anysphere 开发的 AI 驱动代码编辑器，通过智能代码补全、自主代理和自然语言编辑提升开发者生产力。它将自己定位为使用 AI 编程的最佳方式。",
+      "philosophy": "极简、暗色、以开发者为中心。Cursor 的品牌形象将温暖的米白色调与深炭色背景相结合，反映出一款由开发者为开发者打造的工具。"
+    },
+    "github": {
+      "description": "GitHub 是全球领先的软件开发平台，提供云端 Git 仓库托管、协作工具和 CI/CD 工作流。它于 2008 年创立，并于 2018 年被 Microsoft 收购，如今拥有超过一亿名开发者并推动着开源生态系统的发展。",
+      "philosophy": "GitHub 的品牌识别建立在 Invertocat 之上，这是一个极简且被全球广泛识别的符号，代表代码与社区的交汇点。该品牌强调开放性、开发者赋能，以及伟大的软件应当被共同构建这一理念。"
+    },
+    "vscode": {
+      "description": "Visual Studio Code 是微软推出的免费开源代码编辑器，支持 Windows、macOS 和 Linux。凭借内置调试、Git 集成和庞大的扩展生态系统，它已成为全球最受欢迎的开发环境之一。",
+      "philosophy": "开放、可扩展、开发者优先。VS Code 的品牌形象以标志性的蓝色括号图标为核心，这是代码编辑的即时可辨识符号。"
+    },
+    "tesla": {
+      "description": "Tesla 是一家全球性电动汽车与清洁能源公司，设计、制造和销售电动汽车、电池储能系统及太阳能产品。成立于 2003 年，Tesla 凭借对可持续能源和尖端技术的专注，重新定义了汽车行业。",
+      "philosophy": "Tesla 的品牌识别以其标志性的 T 徽标为核心——电动机转子截面的艺术化呈现——传递的是技术驱动的颠覆而非传统汽车传承。极简几何的标志将 Tesla 定位为一家恰好也造车的硅谷科技公司。"
+    },
+    "x": {
+      "description": "X（前身为 Twitter）是一个面向实时对话、新闻和公共话语的全球社交媒体平台。由杰克·多西、诺亚·格拉斯、比兹·斯通和埃文·威廉姆斯于 2006 年创立，2023 年在埃隆·马斯克的所有权下更名为 X，标志着成为超级应用的愿景。",
+      "philosophy": "X 的品牌形象代表了与 Twitter 友好的蓝色小鸟的彻底决裂——一个简洁的黑白 X 标志着超越社交媒体的雄心。极简主义标识拥抱大胆与普遍性，旨在为超级应用愿景奠定基础。"
+    },
+    "meta": {
+      "description": "Meta Platforms 是一家全球科技集团，致力于构建帮助人们连接、寻找社区和发展业务的产品和技术。该公司拥有 Facebook、Instagram、WhatsApp 和 Threads，并通过其 Reality Labs 部门大力投资增强现实和虚拟现实。",
+      "philosophy": "Meta 的品牌形象代表了超越单一产品的转变。无限符号——一个在 2D 和 3D 环境中都能运作的连续 3D 环——体现了无限的潜力和连接，使用蓝色渐变致敬公司的传统，同时预示着其在沉浸式技术领域的未来。"
+    }
+  },
+  "tags": {
+    "communication": "沟通",
+    "community": "社区",
+    "gaming": "游戏",
+    "voice-chat": "语音聊天",
+    "messaging": "消息",
+    "music": "音乐",
+    "streaming": "流媒体",
+    "search": "搜索",
+    "audio": "音频",
+    "podcasts": "播客",
+    "playlists": "播放列表",
+    "artificial-intelligence": "人工智能",
+    "machine-learning": "机器学习",
+    "research": "研究",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "claude": "Claude",
+    "ai-safety": "AI 安全",
+    "hardware": "硬件",
+    "software": "软件",
+    "design": "设计",
+    "innovation": "创新",
+    "ecosystem": "生态系统",
+    "payments": "支付",
+    "money-transfer": "汇款",
+    "banking": "银行",
+    "international": "国际",
+    "currency": "货币",
+    "api": "API",
+    "developer-tools": "开发者工具",
+    "financial-infrastructure": "金融基础设施",
+    "advertising": "广告",
+    "e-commerce": "电子商务",
+    "collaboration": "协作",
+    "prototyping": "原型设计",
+    "ui-design": "UI 设计",
+    "travel": "旅行",
+    "hospitality": "酒店与住宿",
+    "marketplace": "平台市场",
+    "accommodation": "住宿",
+    "experiences": "体验",
+    "project-management": "项目管理",
+    "issue-tracking": "问题跟踪",
+    "productivity": "生产力",
+    "design-tools": "设计工具",
+    "cloud": "云",
+    "hosting": "托管",
+    "ai": "人工智能",
+    "frontend": "前端",
+    "notes": "笔记",
+    "workspace": "工作空间",
+    "code-editor": "代码编辑器",
+    "code-hosting": "代码托管",
+    "open-source": "开源",
+    "version-control": "版本控制",
+    "microsoft": "微软",
+    "workplace": "工作场所",
+    "microblogging": "微博客",
+    "real-time": "实时",
+    "news": "新闻",
+    "social-network": "社交网络",
+    "electric-vehicles": "电动汽车",
+    "clean-energy": "清洁能源",
+    "social-media": "社交媒体",
+    "virtual-reality": "虚拟现实",
+    "augmented-reality": "增强现实",
+    "metaverse": "元宇宙",
+    "logistics": "物流",
+    "gpu": "GPU",
+    "data-center": "数据中心",
+    "autonomous-vehicles": "自动驾驶汽车"
+  },
+  "common": {
+    "loading": "加载中",
+    "notFound": "未找到",
+    "notFoundDescription": "你正在寻找的页面不存在。",
+    "backToHome": "返回首页"
+  }
+}

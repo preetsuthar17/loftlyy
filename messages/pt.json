@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Descubra e explore identidades de marca, logotipos, cores e sistemas de design"
+  },
+  "home": {
+    "headline": "Descubra identidades de marca reais.",
+    "subheadline": "Um banco de dados de identidade de marca em constante crescimento.",
+    "popular": "Populares",
+    "explore": "Mais marcas",
+    "browseAll": "Use a barra lateral para pesquisar e filtrar {count} marcas",
+    "startExploring": "Comecar a explorar",
+    "cta": "Comecar a explorar",
+    "sponsor": "Apoie-nos"
+  },
+  "nav": {
+    "search": "Pesquisar marcas",
+    "allBrands": "Todas as marcas",
+    "categories": "Categorias",
+    "filters": "Filtros",
+    "clearFilters": "Limpar tudo",
+    "industry": "Setor",
+    "styleTags": "Estilo",
+    "colorFamily": "Cor",
+    "typographyStyle": "Tipografia",
+    "noBrandsFound": "Nenhuma marca encontrada",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "brand": {
+    "overview": "Visao geral",
+    "colors": "Cores",
+    "typography": "Tipografia",
+    "logoVariations": "Variacoes do logotipo",
+    "assets": "Recursos",
+    "visitWebsite": "Visitar site",
+    "industry": "Setor",
+    "copyHex": "Copiar hex",
+    "copied": "Copiado!",
+    "download": "Baixar",
+    "selectBrand": "Selecione uma marca na barra lateral para explorar sua identidade",
+    "brandStory": "Historia da marca",
+    "founded": "Fundada",
+    "headquarters": "Sede",
+    "identityDesigner": "Designer da identidade",
+    "lastRebranded": "Ultimo rebranding",
+    "philosophy": "Filosofia de design",
+    "similarBrands": "Marcas semelhantes",
+    "copyFontName": "Copiar nome da fonte",
+    "fontCopied": "Copiado!",
+    "legalNotice": "Todas as marcas registradas, logotipos, ativos de marca e elementos de identidade visual exibidos nesta pagina sao propriedade exclusiva de {brandName} e de suas afiliadas. Eles sao mostrados aqui apenas para fins informativos e educacionais.",
+    "viewGuidelines": "Ver diretrizes oficiais da marca",
+    "brandGuidelines": "Diretrizes de uso da marca",
+    "dos": "Fazer",
+    "donts": "Nao fazer",
+    "downloadSvg": "Baixar SVG",
+    "downloadPng": "Baixar PNG",
+    "copyImage": "Copiar imagem"
+  },
+  "category": {
+    "title": "Marcas de {category}",
+    "description": "Explore {count} marcas na categoria {category}",
+    "browseAll": "Ver todas as categorias",
+    "noBrandsInCategory": "Nenhuma marca encontrada nesta categoria."
+  },
+  "seo": {
+    "brandTitle": "Identidade de marca e design system de {brandName} | Loftlyy",
+    "brandDescription": "Explore a identidade de marca de {brandName}, incluindo logotipo, cores, tipografia e design system. {brandName} e uma empresa de {industry}.",
+    "categoryTitle": "Identidades de marca de {category} | Loftlyy",
+    "categoryDescription": "Descubra {count} identidades de marca de {category}. Explore logotipos, paletas de cores e sistemas de design das principais empresas de {category}."
+  },
+  "categories": {
+    "fintech": "Fintech",
+    "saas": "SaaS",
+    "social-media": "Midias sociais",
+    "e-commerce": "E-commerce",
+    "music": "Musica",
+    "ai": "IA",
+    "technology": "Tecnologia",
+    "minimal-logos": "Logotipos minimalistas",
+    "gradient-brands": "Marcas com gradiente",
+    "wordmark-logos": "Logotipos tipograficos",
+    "geometric-logos": "Logotipos geometricos",
+    "travel": "Viagem",
+    "automotive": "Automotivo"
+  },
+  "brands": {
+    "airbnb": {
+      "description": "Airbnb e um marketplace global online para hospedagem, experiencias e atividades turisticas. Fundada em 2008 em San Francisco, conecta milhoes de anfitrioes e viajantes no mundo todo, transformando a forma como as pessoas encontram acomodacoes unicas e conhecem a cultura local.",
+      "philosophy": "A identidade do Airbnb e ancorada pelo Belo, um simbolo de pertencimento que representa pessoas, lugares, amor e o proprio Airbnb. A cor quente Rausch e a tipografia personalizada Cereal criam uma marca amigavel e acessivel que convida a conexao e a exploracao entre culturas."
+    },
+    "amazon": {
+      "description": "Amazon e a maior varejista online e empresa de computacao em nuvem do mundo, oferecendo desde e-commerce e streaming digital ate inteligencia artificial e logistica. Fundada em 1994 por Jeff Bezos, a Amazon se tornou uma das empresas mais valiosas do mundo.",
+      "philosophy": "A identidade da Amazon e ancorada pela iconica seta-sorriso — uma linha curva de A a Z que representa a promessa da empresa de entregar tudo, com um sorriso. O laranja quente e a marca tipografica limpa transmitem acessibilidade e obsessao pelo cliente em grande escala."
+    },
+    "discord": {
+      "description": "Discord e uma plataforma de comunicacao por voz, video e texto criada para formar comunidades. Originalmente desenvolvida para gamers, ela se expandiu para atender comunidades de todos os tipos, de grupos de estudo a coletivos artisticos e projetos open source. A missao do Discord e criar um espaco onde todos possam sentir pertencimento.",
+      "philosophy": "Divertida, acessivel e inclusiva. A identidade do Discord equilibra energia jovem com a clareza necessaria para uma plataforma de comunicacao, usando o mascote Clyde e o Blurple como pontos de reconhecimento."
+    },
+    "spotify": {
+      "description": "Spotify e a maior plataforma de streaming de audio do mundo, oferecendo milhoes de musicas, podcasts e audiolivros. Fundada na Suecia, transformou a forma como as pessoas descobrem e escutam musica com playlists personalizadas e recomendacoes algoritmicas.",
+      "philosophy": "Ousada, vibrante e acessivel. A identidade do Spotify usa o verde iconico e um logotipo geometrico limpo para representar a alegria da descoberta musical, tornando o conteudo em audio pessoal e universalmente convidativo."
+    },
+    "openai": {
+      "description": "OpenAI e uma empresa de pesquisa e implementacao em IA dedicada a garantir que a inteligencia artificial geral beneficie toda a humanidade. Conhecida por criar GPT e ChatGPT, lidera o desenvolvimento de grandes modelos de linguagem e sistemas de IA.",
+      "philosophy": "Minimalista, autoritativa e voltada para o futuro. A identidade da OpenAI comunica confianca e sofisticacao tecnologica por meio de um design contido, com preto e branco marcantes e acentos verdes intencionais que sinalizam inovacao sem intimidar."
+    },
+    "anthropic": {
+      "description": "Anthropic e uma empresa de seguranca em IA focada em construir sistemas de IA confiaveis, interpretaveis e controlaveis. Fundada por ex-pesquisadores da OpenAI, desenvolve Claude, um assistente de IA projetado com seguranca no centro.",
+      "philosophy": "Acolhedora, confiavel e cuidadosamente contida. A identidade da Anthropic combina uma paleta organica em tons terrosos com tipografia limpa para comunicar pesquisa em IA focada em seguranca: acessivel, mas seria; humana, mas tecnica."
+    },
+    "apple": {
+      "description": "A Apple projeta, fabrica e comercializa eletronicos de consumo, software e servicos. Do Macintosh ao iPhone, a Apple redefiniu de forma consistente categorias inteiras de produtos por meio de sua obsessao por design, simplicidade e experiencia do usuario.",
+      "philosophy": "Simplicidade e a sofisticacao maxima. A identidade monocromatica da Apple remove tudo o que e desnecessario, deixando a iconica maca mordida falar com confianca silenciosa: um simbolo de inovacao, qualidade premium e design centrado nas pessoas."
+    },
+    "wise": {
+      "description": "Wise e uma empresa global de tecnologia financeira que torna transferencias internacionais de dinheiro rapidas, baratas e transparentes. Originalmente conhecida como TransferWise, atende milhoes de clientes que movimentam dinheiro entre paises com taxas de cambio reais.",
+      "philosophy": "Transparente, ousada e sem fronteiras. A identidade da Wise usa um verde marcante e um motivo de bandeira para simbolizar o movimento de dinheiro entre fronteiras: um design direto para uma empresa que acredita que servicos financeiros devem ser justos e simples."
+    },
+    "figma": {
+      "description": "Figma e uma ferramenta colaborativa de design de interfaces que permite que equipes projetem, criem prototipos e desenvolvam produtos juntas em tempo real. Adquirida pela Adobe em 2023, tornou-se o padrao da industria para design UI/UX.",
+      "philosophy": "A identidade da Figma celebra a natureza colaborativa e criativa do design por meio de um logotipo vibrante e multicolorido que representa as diferentes ferramentas e perspectivas que se encontram no processo de design."
+    },
+    "google": {
+      "description": "Google e uma empresa de tecnologia global especializada em servicos de internet, busca, computacao em nuvem e publicidade. Conhecida por sua identidade colorida e acessivel, a Google moldou a web moderna e redefine continuamente como as pessoas acessam e interagem com a informacao.",
+      "philosophy": "O logotipo de quatro cores do Google reflete uma marca ludica e acessivel que valoriza simplicidade e universalidade. A mudanca de serif para sans-serif geometrico em 2015 sinalizou uma identidade moderna e focada no produto, projetada para telas de todos os tamanhos."
+    },
+    "notion": {
+      "description": "Notion e um workspace tudo em um que combina notas, documentos, wikis, gestao de projetos e bancos de dados em uma unica plataforma conectada. Fundada em 2013 em San Francisco, a Notion permite que equipes e individuos personalizem seus fluxos de trabalho com blocos modulares.",
+      "philosophy": "A identidade da Notion incorpora o principio de que ferramentas devem ser tao flexiveis quanto as pessoas que as usam. A paleta minimalista em preto e branco e o iconico logotipo de pagina com N refletem simplicidade, modularidade e a ideia de que o melhor software sai do seu caminho."
+    },
+    "nvidia": {
+      "description": "NVIDIA e uma empresa de tecnologia global que projeta unidades de processamento grafico (GPUs) e unidades de sistema em chip. Pioneira em computacao acelerada, as plataformas da NVIDIA impulsionam desde games e visualizacao profissional ate data centers e veiculos autonomos, tornando-se a espinha dorsal da inteligencia artificial moderna.",
+      "philosophy": "Ousada, tecnica e voltada para o futuro. A identidade da NVIDIA e ancorada pela iconica marca em forma de olho — um simbolo de computacao visual e visao — acompanhada do verde assinatura que transmite energia, inovacao e o poder da computacao acelerada."
+    },
+    "slack": {
+      "description": "Slack e uma plataforma de comunicacao empresarial que une equipes por meio de canais, mensagens e integracoes. Adquirida pela Salesforce em 2021, o Slack se tornou o centro da colaboracao no ambiente de trabalho, conectando pessoas as ferramentas e informacoes de que precisam.",
+      "philosophy": "A identidade do Slack utiliza uma vibrante paleta de quatro cores — azul, verde, amarelo e vermelho — dispostas em um simbolo inspirado na hashtag que representa conexao e comunicacao. O rebranding de 2019 pela Pentagram simplificou o logotipo em um simbolo geometrico coeso ancorado pela assinatura berinjela."
+    },
+    "stripe": {
+      "description": "Stripe e uma plataforma de infraestrutura financeira que fornece APIs de processamento de pagamentos e ferramentas para empresas de internet de todos os tamanhos. Fundada em 2010, impulsiona milhoes de empresas no mundo todo, permitindo aceitar pagamentos e criar produtos financeiros.",
+      "philosophy": "A identidade da Stripe e construida em torno de clareza para desenvolvedores e simplicidade refinada. A marca usa uma paleta roxa distintiva e tipografia limpa para transmitir confianca e sofisticacao em tecnologia financeira."
+    },
+    "linear": {
+      "description": "Linear e uma plataforma de gerenciamento de projetos criada para equipes modernas de software, desenhada em torno de velocidade, clareza e capricho. Fundada em 2019, otimiza rastreamento de issues, planejamento de sprints e fluxos de desenvolvimento de produto para mais de 25.000 empresas.",
+      "philosophy": "A identidade da Linear reflete foco implacavel em velocidade, capricho e clareza. A marca usa uma paleta de indigo contida e um logomark geometrico limpo para comunicar precisao e proposito."
+    },
+    "microsoft": {
+      "description": "Microsoft e uma corporacao tecnologica global que desenvolve software, hardware e servicos em nuvem que impulsionam empresas e consumidores em todo o mundo. De Windows e Office a Azure e Xbox, os produtos da Microsoft alcancam bilhoes de pessoas, tornando-a uma das empresas de tecnologia mais influentes da historia.",
+      "philosophy": "A janela de quatro cores da Microsoft simboliza abertura e diversidade — quatro paineis distintos se unindo como um so. A grade geometrica limpa e a tipografia neutra Segoe comunicam confiabilidade, escala e a evolucao da empresa de gigante do software para plataforma cloud-first movida por IA."
+    },
+    "vercel": {
+      "description": "Vercel e uma plataforma em nuvem para desenvolvedores frontend que permite a equipes construir, implantar e escalar aplicacoes web sem configuracao. Fundada em 2015, a Vercel e a criadora do Next.js e do sistema de design Geist.",
+      "philosophy": "A identidade de marca da Vercel se concentra na experiencia do desenvolvedor e no poder do frontend. Sua paleta marcante em preto e branco e seu simbolo triangular iconico comunicam velocidade, precisao e a vanguarda do desenvolvimento web."
+    },
+    "cursor": {
+      "description": "Cursor é um editor de código alimentado por IA, criado pela Anysphere, que melhora a produtividade dos desenvolvedores através de autocompletar inteligente, agentes autônomos e edição em linguagem natural. Posiciona-se como a melhor forma de programar com IA.",
+      "philosophy": "Minimalista, escuro e centrado no desenvolvedor. A identidade do Cursor combina tons de branco quente com fundos de carvão profundo, refletindo uma ferramenta construída por desenvolvedores para desenvolvedores."
+    },
+    "github": {
+      "description": "GitHub e a principal plataforma de desenvolvimento de software do mundo, oferecendo hospedagem em nuvem para repositorios Git, ferramentas de colaboracao e fluxos de trabalho CI/CD. Fundado em 2008 e adquirido pela Microsoft em 2018, o GitHub abriga mais de 100 milhoes de desenvolvedores e impulsiona o ecossistema open source.",
+      "philosophy": "A identidade do GitHub se baseia no Invertocat, um simbolo minimalista e universalmente reconhecido que representa a intersecao entre codigo e comunidade. A marca enfatiza abertura, empoderamento de desenvolvedores e a ideia de que grandes softwares sao construidos em conjunto."
+    },
+    "vscode": {
+      "description": "Visual Studio Code é um editor de código gratuito e de código aberto da Microsoft, disponível para Windows, macOS e Linux. Com depuração integrada, integração com Git e um vasto ecossistema de extensões, tornou-se um dos ambientes de desenvolvimento mais populares do mundo.",
+      "philosophy": "Aberto, extensível e focado no desenvolvedor. A identidade do VS Code centra-se no seu icónico ícone de colchete azul, um símbolo de edição de código instantaneamente reconhecível."
+    },
+    "tesla": {
+      "description": "Tesla e uma empresa global de veiculos eletricos e energia limpa que projeta, fabrica e vende carros eletricos, sistemas de armazenamento de energia e produtos solares. Fundada em 2003, a Tesla redefiniu a industria automotiva com foco em energia sustentavel e tecnologia de ponta.",
+      "philosophy": "A identidade da Tesla gira em torno do seu iconico emblema T — uma secao transversal estilizada do rotor de um motor eletrico — que sinaliza disrupcao impulsionada pela tecnologia em vez de heranca automotiva tradicional. A marca minimalista e geometrica posiciona a Tesla como uma empresa de tecnologia do Vale do Silicio que tambem fabrica carros."
+    },
+    "x": {
+      "description": "X (anteriormente Twitter) é uma plataforma global de mídia social para conversas em tempo real, notícias e discurso público. Fundada em 2006 por Jack Dorsey, Noah Glass, Biz Stone e Evan Williams, foi rebatizada como X em 2023 sob a propriedade de Elon Musk, sinalizando a visão de se tornar um super app.",
+      "philosophy": "A identidade do X representa uma ruptura radical com o simpático pássaro azul do Twitter — um X austero e monocromático que sinaliza ambição além das redes sociais. A marca minimalista abraça ousadia e universalidade, projetada para ancorar uma visão de super app."
+    },
+    "meta": {
+      "description": "Meta Platforms é um conglomerado de tecnologia global que constrói produtos e tecnologias para ajudar as pessoas a se conectar, encontrar comunidades e fazer negócios crescerem. A empresa é dona do Facebook, Instagram, WhatsApp e Threads, e investe fortemente em realidade aumentada e virtual por meio de sua divisão Reality Labs.",
+      "philosophy": "A identidade da Meta representa uma mudança além de um único produto. O símbolo do infinito — um loop 3D contínuo que funciona em contextos 2D e 3D — incorpora potencial ilimitado e conexão, usando um gradiente azul que honra a herança da empresa enquanto sinaliza seu futuro em tecnologia imersiva."
+    }
+  },
+  "tags": {
+    "communication": "Comunicacao",
+    "community": "Comunidade",
+    "gaming": "Games",
+    "voice-chat": "Chat de voz",
+    "messaging": "Mensagens",
+    "music": "Musica",
+    "streaming": "Streaming",
+    "search": "Busca",
+    "audio": "Audio",
+    "podcasts": "Podcasts",
+    "playlists": "Playlists",
+    "artificial-intelligence": "Inteligencia artificial",
+    "machine-learning": "Aprendizado de maquina",
+    "research": "Pesquisa",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "claude": "Claude",
+    "ai-safety": "Seguranca em IA",
+    "hardware": "Hardware",
+    "software": "Software",
+    "design": "Design",
+    "innovation": "Inovacao",
+    "ecosystem": "Ecossistema",
+    "payments": "Pagamentos",
+    "money-transfer": "Transferencia de dinheiro",
+    "banking": "Bancario",
+    "international": "Internacional",
+    "currency": "Moeda",
+    "api": "API",
+    "developer-tools": "Ferramentas para desenvolvedores",
+    "financial-infrastructure": "Infraestrutura financeira",
+    "advertising": "Publicidade",
+    "e-commerce": "E-commerce",
+    "collaboration": "Colaboracao",
+    "prototyping": "Prototipagem",
+    "ui-design": "Design de UI",
+    "travel": "Viagem",
+    "hospitality": "Hospitalidade",
+    "marketplace": "Marketplace",
+    "accommodation": "Hospedagem",
+    "experiences": "Experiencias",
+    "project-management": "Gestao de projetos",
+    "issue-tracking": "Rastreamento de issues",
+    "productivity": "Produtividade",
+    "design-tools": "Ferramentas de design",
+    "cloud": "Nuvem",
+    "hosting": "Hospedagem",
+    "ai": "IA",
+    "frontend": "Frontend",
+    "notes": "Notas",
+    "workspace": "Workspace",
+    "code-editor": "Editor de Código",
+    "code-hosting": "Hospedagem de codigo",
+    "open-source": "Codigo aberto",
+    "version-control": "Controle de versao",
+    "microsoft": "Microsoft",
+    "workplace": "Local de Trabalho",
+    "microblogging": "Microblogging",
+    "real-time": "Tempo Real",
+    "news": "Notícias",
+    "social-network": "Rede Social",
+    "electric-vehicles": "Veiculos Eletricos",
+    "clean-energy": "Energia Limpa",
+    "social-media": "Mídias Sociais",
+    "virtual-reality": "Realidade Virtual",
+    "augmented-reality": "Realidade Aumentada",
+    "metaverse": "Metaverso",
+    "gpu": "GPU",
+    "data-center": "Data Center",
+    "autonomous-vehicles": "Veiculos Autonomos",
+    "logistics": "Logistica"
+  },
+  "common": {
+    "loading": "Carregando",
+    "notFound": "Nao encontrado",
+    "notFoundDescription": "A pagina que voce esta procurando nao existe.",
+    "backToHome": "Voltar para a pagina inicial"
+  }
+}

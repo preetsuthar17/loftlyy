@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "브랜드 아이덴티티, 로고, 컬러, 디자인 시스템을 발견하고 탐색하세요"
+  },
+  "home": {
+    "headline": "실제 브랜드 아이덴티티를 발견하세요.",
+    "subheadline": "계속 성장하는 브랜드 아이덴티티 데이터베이스.",
+    "popular": "인기",
+    "explore": "더 많은 브랜드",
+    "browseAll": "사이드바에서 {count}개의 브랜드를 검색하고 필터링하세요",
+    "startExploring": "탐색 시작",
+    "cta": "탐색 시작",
+    "sponsor": "후원하기"
+  },
+  "nav": {
+    "search": "브랜드 검색",
+    "allBrands": "모든 브랜드",
+    "categories": "카테고리",
+    "filters": "필터",
+    "clearFilters": "모두 지우기",
+    "industry": "산업",
+    "styleTags": "스타일",
+    "colorFamily": "색상",
+    "typographyStyle": "타이포그래피",
+    "noBrandsFound": "브랜드를 찾을 수 없습니다",
+    "language": "언어",
+    "theme": "테마"
+  },
+  "brand": {
+    "overview": "개요",
+    "colors": "색상",
+    "typography": "타이포그래피",
+    "logoVariations": "로고 변형",
+    "assets": "에셋",
+    "visitWebsite": "웹사이트 방문",
+    "industry": "산업",
+    "copyHex": "HEX 복사",
+    "copied": "복사됨!",
+    "download": "다운로드",
+    "selectBrand": "사이드바에서 브랜드를 선택해 아이덴티티를 탐색하세요",
+    "brandStory": "브랜드 스토리",
+    "founded": "설립",
+    "headquarters": "본사",
+    "identityDesigner": "아이덴티티 디자이너",
+    "lastRebranded": "마지막 리브랜딩",
+    "philosophy": "디자인 철학",
+    "similarBrands": "유사한 브랜드",
+    "copyFontName": "폰트 이름 복사",
+    "fontCopied": "복사됨!",
+    "legalNotice": "이 페이지에 표시된 모든 상표, 로고, 브랜드 에셋, 시각적 아이덴티티 요소는 {brandName} 및 그 계열사의 독점 자산입니다. 이 콘텐츠는 정보 제공 및 교육 목적에 한해 표시됩니다.",
+    "viewGuidelines": "공식 브랜드 가이드라인 보기",
+    "brandGuidelines": "브랜드 사용 가이드라인",
+    "dos": "권장",
+    "donts": "금지",
+    "downloadSvg": "SVG 다운로드",
+    "downloadPng": "PNG 다운로드",
+    "copyImage": "이미지 복사"
+  },
+  "category": {
+    "title": "{category} 브랜드",
+    "description": "{category} 카테고리의 {count}개 브랜드를 탐색하세요",
+    "browseAll": "모든 카테고리 보기",
+    "noBrandsInCategory": "이 카테고리에는 아직 브랜드가 없습니다."
+  },
+  "seo": {
+    "brandTitle": "{brandName} 브랜드 아이덴티티 및 디자인 시스템 | Loftlyy",
+    "brandDescription": "로고, 컬러, 타이포그래피, 디자인 시스템을 포함한 {brandName}의 브랜드 아이덴티티를 탐색하세요. {brandName}는 {industry} 기업입니다.",
+    "categoryTitle": "{category} 브랜드 아이덴티티 | Loftlyy",
+    "categoryDescription": "{count}개의 {category} 브랜드 아이덴티티를 발견하세요. 주요 {category} 기업의 로고, 컬러 팔레트, 디자인 시스템을 탐색할 수 있습니다."
+  },
+  "categories": {
+    "fintech": "핀테크",
+    "saas": "SaaS",
+    "social-media": "소셜 미디어",
+    "e-commerce": "이커머스",
+    "music": "음악",
+    "ai": "AI",
+    "technology": "기술",
+    "minimal-logos": "미니멀 로고",
+    "gradient-brands": "그라디언트 브랜드",
+    "wordmark-logos": "워드마크 로고",
+    "geometric-logos": "기하학적 로고",
+    "travel": "여행",
+    "automotive": "자동차"
+  },
+  "brands": {
+    "airbnb": {
+      "description": "Airbnb는 숙소, 체험, 관광 활동을 위한 글로벌 온라인 마켓플레이스입니다. 2008년 샌프란시스코에서 설립되었으며 전 세계 수백만 명의 호스트와 여행자를 연결해 사람들이 독특한 숙소를 찾고 지역 문화를 경험하는 방식을 바꾸었습니다.",
+      "philosophy": "Airbnb의 아이덴티티는 소속감을 상징하는 Belo를 중심으로 구축됩니다. 사람, 장소, 사랑, 그리고 Airbnb 자체를 나타내는 이 심볼과 따뜻한 Rausch 컬러, 맞춤형 Cereal 서체가 문화 간 연결과 탐험을 유도하는 친근한 브랜드를 만듭니다."
+    },
+    "amazon": {
+      "description": "아마존은 세계 최대의 온라인 소매업체이자 클라우드 컴퓨팅 기업으로, 전자상거래와 디지털 스트리밍부터 인공지능과 물류까지 모든 것을 제공합니다. 1994년 제프 베이조스가 설립한 아마존은 세계에서 가장 가치 있는 기업 중 하나로 성장했습니다.",
+      "philosophy": "아마존의 아이덴티티는 상징적인 스마일 화살표에 기반합니다 — A에서 Z까지의 곡선은 모든 것을 미소와 함께 배달하겠다는 기업의 약속을 나타냅니다. 따뜻한 오렌지색과 깔끔한 워드마크는 대규모의 고객 집착과 접근성을 전달합니다."
+    },
+    "discord": {
+      "description": "Discord는 커뮤니티 형성을 위해 설계된 음성, 영상, 텍스트 커뮤니케이션 플랫폼입니다. 원래는 게이머를 위해 만들어졌지만, 현재는 스터디 그룹부터 아트 콜렉티브, 오픈 소스 프로젝트까지 다양한 커뮤니티를 지원합니다. Discord의 미션은 누구나 소속감을 찾을 수 있는 공간을 만드는 것입니다.",
+      "philosophy": "장난스럽고, 친근하며, 포용적입니다. Discord의 아이덴티티는 커뮤니케이션 플랫폼에 필요한 명확함과 젊은 에너지의 균형을 이루며, 상징적인 Clyde 마스코트와 Blurple 컬러를 인지의 중심축으로 사용합니다."
+    },
+    "spotify": {
+      "description": "Spotify는 수백만 곡의 음악, 팟캐스트, 오디오북을 제공하는 세계 최대 오디오 스트리밍 플랫폼입니다. 스웨덴에서 설립되었으며 개인화된 플레이리스트와 알고리즘 추천을 통해 사람들이 음악을 발견하고 듣는 방식을 바꾸었습니다.",
+      "philosophy": "대담하고, 생동감 있으며, 접근하기 쉽습니다. Spotify의 아이덴티티는 상징적인 그린과 깔끔한 기하학적 로고를 사용해 음악 발견의 즐거움을 표현하며, 오디오 콘텐츠를 개인적이면서도 누구에게나 매력적으로 느끼게 합니다."
+    },
+    "openai": {
+      "description": "OpenAI는 범용 인공지능이 모든 인류에게 이익이 되도록 하는 것을 목표로 하는 AI 연구 및 배포 기업입니다. GPT와 ChatGPT를 만든 곳으로 잘 알려져 있으며, 대규모 언어 모델과 AI 시스템 개발을 이끌고 있습니다.",
+      "philosophy": "미니멀하고, 권위 있으며, 미래지향적입니다. OpenAI의 아이덴티티는 절제된 디자인을 통해 신뢰와 기술적 정교함을 전달하며, 강한 흑백 대비와 의도적인 그린 포인트로 위압감 없이 혁신을 표현합니다."
+    },
+    "anthropic": {
+      "description": "Anthropic은 신뢰할 수 있고 해석 가능하며 제어 가능한 AI 시스템 구축에 집중하는 AI 안전성 기업입니다. OpenAI 출신 연구자들이 설립했으며, 안전성을 핵심 원칙으로 설계된 AI 어시스턴트 Claude를 개발하고 있습니다.",
+      "philosophy": "따뜻하고, 신뢰할 수 있으며, 신중하게 절제되어 있습니다. Anthropic의 아이덴티티는 유기적인 탄색 팔레트와 깔끔한 타이포그래피를 결합해 안전 중심의 AI 연구를 전달합니다. 친근하지만 진지하고, 인간적이면서도 기술적입니다."
+    },
+    "apple": {
+      "description": "Apple은 소비자 전자기기, 소프트웨어, 서비스를 설계, 제조, 판매합니다. Macintosh부터 iPhone까지 Apple은 디자인, 단순함, 사용자 경험에 대한 집착을 통해 전체 제품 카테고리를 꾸준히 재정의해 왔습니다.",
+      "philosophy": "단순함은 궁극의 정교함입니다. Apple의 단색 아이덴티티는 불필요한 모든 것을 제거하고, 상징적인 한 입 베어 문 사과가 조용한 자신감으로 말하게 합니다. 이는 혁신, 프리미엄 품질, 인간 중심 디자인의 상징입니다."
+    },
+    "wise": {
+      "description": "Wise는 국제 송금을 빠르고 저렴하며 투명하게 만드는 글로벌 핀테크 기업입니다. 원래 TransferWise로 알려졌으며, 실제 환율로 국경을 넘어 돈을 보내는 수백만 명의 고객에게 서비스를 제공합니다.",
+      "philosophy": "투명하고, 대담하며, 국경이 없습니다. Wise의 아이덴티티는 독특한 그린과 깃발 모티프를 사용해 국경을 넘는 돈의 흐름을 상징합니다. 금융 서비스는 공정하고 단순해야 한다고 믿는 기업에 어울리는 직설적인 디자인입니다."
+    },
+    "figma": {
+      "description": "Figma는 팀이 실시간으로 함께 디자인하고 프로토타입을 만들며 제품을 개발할 수 있게 해주는 협업형 인터페이스 디자인 도구입니다. 2023년 Adobe에 인수된 이후 UI/UX 디자인 업계의 표준이 되었습니다.",
+      "philosophy": "Figma의 아이덴티티는 디자인 과정에 모이는 다양한 도구와 관점을 상징하는 생동감 있는 멀티컬러 로고를 통해 디자인의 협업적이고 창의적인 본질을 기념합니다."
+    },
+    "google": {
+      "description": "Google은 인터넷 서비스, 검색, 클라우드 컴퓨팅, 광고를 전문으로 하는 글로벌 기술 기업입니다. 다채롭고 친근한 아이덴티티로 알려져 있으며, 현대 웹을 형성하고 사람들이 정보에 접근하고 상호작용하는 방식을 지속적으로 재정의하고 있습니다.",
+      "philosophy": "Google의 4색 워드마크는 단순함과 보편성을 중시하는 친근하고 접근하기 쉬운 브랜드를 반영합니다. 2015년 세리프에서 기하학적 산세리프로의 전환은 모든 화면 크기에 맞는 현대적이고 제품 중심적인 아이덴티티를 나타냅니다."
+    },
+    "notion": {
+      "description": "Notion은 메모, 문서, 위키, 프로젝트 관리, 데이터베이스를 하나의 연결된 플랫폼으로 결합한 올인원 워크스페이스입니다. 2013년 샌프란시스코에서 설립되었으며, 팀과 개인이 모듈형 블록을 사용해 워크플로를 자유롭게 구성할 수 있게 합니다.",
+      "philosophy": "Notion의 아이덴티티는 도구는 사용하는 사람만큼 유연해야 한다는 원칙을 구현합니다. 미니멀한 흑백 팔레트와 상징적인 페이지 형태의 N 로고는 단순함, 모듈성, 최고의 소프트웨어는 사용자의 길을 막지 않는다는 생각을 반영합니다."
+    },
+    "nvidia": {
+      "description": "NVIDIA는 그래픽 처리 장치(GPU)와 시스템 온 칩을 설계하는 글로벌 기술 기업입니다. 가속 컴퓨팅의 선구자로서 NVIDIA의 플랫폼은 게이밍과 전문 시각화에서 데이터 센터, 자율주행차까지 모든 분야를 지원하며 현대 인공지능의 근간이 되고 있습니다.",
+      "philosophy": "대담하고, 기술적이며, 미래를 향해 나아갑니다. NVIDIA의 아이덴티티는 시각 컴퓨팅과 비전의 상징인 상징적인 아이 마크를 중심으로, 에너지, 혁신, 가속 컴퓨팅의 힘을 전달하는 시그니처 그린과 결합되어 있습니다."
+    },
+    "slack": {
+      "description": "Slack은 채널, 메시징, 통합을 통해 팀을 연결하는 비즈니스 커뮤니케이션 플랫폼입니다. 2021년 Salesforce에 인수된 Slack은 직장 협업의 중심 허브가 되어 사람들을 필요한 도구와 정보에 연결합니다.",
+      "philosophy": "Slack의 아이덴티티는 블루, 그린, 옐로, 레드의 선명한 4색 팔레트를 해시태그에서 영감 받은 마크로 배열하여 연결과 소통을 표현합니다. 2019년 Pentagram의 리브랜딩을 통해 로고는 시그니처 오버진 컬러로 고정된 응집력 있는 기하학적 심볼로 단순화되었습니다."
+    },
+    "stripe": {
+      "description": "Stripe는 모든 규모의 인터넷 비즈니스를 위해 결제 처리 API와 도구를 제공하는 금융 인프라 플랫폼입니다. 2010년에 설립되었으며, 전 세계 수백만 개의 기업이 결제를 받고 금융 제품을 구축할 수 있도록 지원합니다.",
+      "philosophy": "Stripe의 아이덴티티는 개발자 중심의 명확함과 세련된 단순함 위에 구축됩니다. 독특한 보라색 팔레트와 깔끔한 타이포그래피를 사용해 금융 기술에서의 신뢰와 정교함을 전달합니다."
+    },
+    "linear": {
+      "description": "Linear는 속도, 명확함, 완성도를 중심으로 설계된 현대적인 소프트웨어 팀용 프로젝트 관리 플랫폼입니다. 2019년에 설립되었으며, 25,000개 이상의 기업을 위해 이슈 추적, 스프린트 계획, 제품 개발 워크플로를 간소화합니다.",
+      "philosophy": "Linear의 아이덴티티는 속도, 완성도, 명확함에 대한 집요한 집중을 반영합니다. 절제된 인디고 팔레트와 깔끔한 기하학적 로고마크를 사용해 정밀함과 목적의식을 전달합니다."
+    },
+    "microsoft": {
+      "description": "Microsoft는 전 세계 기업과 소비자를 위한 소프트웨어, 하드웨어, 클라우드 서비스를 개발하는 글로벌 기술 기업입니다. Windows와 Office부터 Azure와 Xbox까지, Microsoft의 제품은 수십억 명에게 닿으며, 역사상 가장 영향력 있는 기술 기업 중 하나로 자리매김했습니다.",
+      "philosophy": "Microsoft의 4색 창문은 개방성과 다양성을 상징합니다 — 네 개의 서로 다른 패널이 하나로 모이는 디자인입니다. 깔끔한 기하학적 격자와 중립적인 Segoe 서체는 신뢰성, 확장성, 그리고 소프트웨어 거인에서 클라우드 퍼스트, AI 기반 플랫폼으로의 진화를 전달합니다."
+    },
+    "vercel": {
+      "description": "Vercel은 프론트엔드 개발자를 위한 클라우드 플랫폼으로, 팀이 별도 설정 없이 웹 애플리케이션을 구축, 배포, 확장할 수 있게 합니다. 2015년에 설립되었으며, Next.js와 Geist 디자인 시스템의 제작사입니다.",
+      "philosophy": "Vercel의 브랜드 아이덴티티는 개발자 경험과 프론트엔드의 힘에 초점을 맞춥니다. 강한 흑백 팔레트와 상징적인 삼각형 심볼은 속도, 정밀함, 웹 개발의 최전선을 전달합니다."
+    },
+    "cursor": {
+      "description": "Cursor는 Anysphere가 개발한 AI 기반 코드 편집기로, 지능형 코드 완성, 자율 에이전트 및 자연어 편집을 통해 개발자 생산성을 향상시킵니다. AI로 코딩하는 가장 좋은 방법으로 자리매김하고 있습니다.",
+      "philosophy": "미니멀하고, 어둡고, 개발자 중심적. Cursor의 아이덴티티는 따뜻한 오프화이트 톤과 깊은 차콜 배경을 결합하여, 개발자에 의해 개발자를 위해 만들어진 도구를 반영합니다."
+    },
+    "github": {
+      "description": "GitHub는 전 세계를 선도하는 소프트웨어 개발 플랫폼으로, 클라우드 기반 Git 저장소 호스팅, 협업 도구, CI/CD 워크플로를 제공합니다. 2008년에 설립되고 2018년에 Microsoft에 인수된 GitHub는 1억 명이 넘는 개발자를 보유하며 오픈 소스 생태계를 움직이고 있습니다.",
+      "philosophy": "GitHub의 아이덴티티는 코드와 커뮤니티의 교차점을 상징하는, 미니멀하면서도 전 세계적으로 인지되는 상징인 Invertocat에 기반합니다. 이 브랜드는 개방성, 개발자 역량 강화, 그리고 훌륭한 소프트웨어는 함께 만들어진다는 생각을 강조합니다."
+    },
+    "vscode": {
+      "description": "Visual Studio Code는 Windows, macOS, Linux에서 실행되는 Microsoft의 무료 오픈소스 코드 편집기입니다. 내장 디버깅, Git 통합 및 방대한 확장 프로그램 생태계를 통해 세계에서 가장 인기 있는 개발 환경 중 하나가 되었습니다.",
+      "philosophy": "개방적이고 확장 가능하며 개발자 우선. VS Code의 정체성은 코드 편집을 상징하는 파란색 브래킷 아이콘을 중심으로 합니다."
+    },
+    "tesla": {
+      "description": "Tesla는 전기 자동차, 배터리 에너지 저장 시스템, 태양광 제품을 설계, 제조, 판매하는 글로벌 전기 자동차 및 클린 에너지 기업입니다. 2003년에 설립되어 지속 가능한 에너지와 최첨단 기술에 대한 집중으로 자동차 산업을 재정의했습니다.",
+      "philosophy": "Tesla의 아이덴티티는 상징적인 T 엠블럼 — 전기 모터 로터의 단면을 양식화한 것 — 을 중심으로 하며, 전통적인 자동차 유산이 아닌 기술 주도의 파괴를 나타냅니다. 미니멀하고 기하학적인 마크는 Tesla를 자동차도 만드는 실리콘 밸리 기술 기업으로 포지셔닝합니다."
+    },
+    "x": {
+      "description": "X(구 Twitter)는 실시간 대화, 뉴스, 공공 담론을 위한 글로벌 소셜 미디어 플랫폼입니다. 2006년 잭 도시, 노아 글래스, 비즈 스톤, 에반 윌리엄스에 의해 설립되었으며, 2023년 일론 머스크의 소유 하에 X로 리브랜딩되어 슈퍼앱이 되겠다는 비전을 제시했습니다.",
+      "philosophy": "X의 아이덴티티는 트위터의 친근한 파란 새에서의 근본적인 전환을 나타냅니다. 간결하고 모노크롬인 X는 소셜 미디어를 넘어선 야망을 상징합니다. 미니멀한 마크는 대담함과 보편성을 체현하며, 슈퍼앱 비전의 기반으로 설계되었습니다."
+    },
+    "meta": {
+      "description": "Meta Platforms는 사람들의 연결, 커뮤니티 발견, 비즈니스 성장을 돕는 제품과 기술을 만드는 글로벌 기술 대기업입니다. Facebook, Instagram, WhatsApp, Threads를 소유하고 있으며, Reality Labs 부문을 통해 증강현실과 가상현실에 대규모 투자를 하고 있습니다.",
+      "philosophy": "Meta의 아이덴티티는 단일 제품을 넘어선 전환을 나타냅니다. 인피니티 심볼 — 2D와 3D 모두에서 작동하는 연속적인 3D 루프 — 는 무한한 가능성과 연결을 구현하며, 회사의 유산을 존중하면서 몰입형 기술의 미래를 알리는 블루 그라데이션을 사용합니다."
+    }
+  },
+  "tags": {
+    "communication": "커뮤니케이션",
+    "community": "커뮤니티",
+    "gaming": "게이밍",
+    "voice-chat": "음성 채팅",
+    "messaging": "메시징",
+    "music": "음악",
+    "streaming": "스트리밍",
+    "search": "검색",
+    "audio": "오디오",
+    "podcasts": "팟캐스트",
+    "playlists": "플레이리스트",
+    "artificial-intelligence": "인공지능",
+    "machine-learning": "머신러닝",
+    "research": "연구",
+    "chatgpt": "ChatGPT",
+    "gpt": "GPT",
+    "claude": "Claude",
+    "ai-safety": "AI 안전성",
+    "hardware": "하드웨어",
+    "software": "소프트웨어",
+    "design": "디자인",
+    "innovation": "혁신",
+    "ecosystem": "생태계",
+    "payments": "결제",
+    "money-transfer": "송금",
+    "banking": "뱅킹",
+    "international": "국제",
+    "currency": "통화",
+    "api": "API",
+    "developer-tools": "개발자 도구",
+    "financial-infrastructure": "금융 인프라",
+    "advertising": "광고",
+    "e-commerce": "이커머스",
+    "collaboration": "협업",
+    "prototyping": "프로토타이핑",
+    "ui-design": "UI 디자인",
+    "travel": "여행",
+    "hospitality": "호스피탈리티",
+    "marketplace": "마켓플레이스",
+    "accommodation": "숙박",
+    "experiences": "체험",
+    "project-management": "프로젝트 관리",
+    "issue-tracking": "이슈 추적",
+    "productivity": "생산성",
+    "design-tools": "디자인 도구",
+    "cloud": "클라우드",
+    "hosting": "호스팅",
+    "ai": "AI",
+    "frontend": "프론트엔드",
+    "notes": "노트",
+    "workspace": "워크스페이스",
+    "code-editor": "코드 편집기",
+    "code-hosting": "코드 호스팅",
+    "open-source": "오픈 소스",
+    "version-control": "버전 관리",
+    "microsoft": "마이크로소프트",
+    "workplace": "직장",
+    "microblogging": "마이크로블로깅",
+    "real-time": "실시간",
+    "news": "뉴스",
+    "social-network": "소셜 네트워크",
+    "electric-vehicles": "전기 자동차",
+    "clean-energy": "클린 에너지",
+    "social-media": "소셜 미디어",
+    "virtual-reality": "가상현실",
+    "augmented-reality": "증강현실",
+    "metaverse": "메타버스",
+    "gpu": "GPU",
+    "data-center": "데이터 센터",
+    "autonomous-vehicles": "자율주행차",
+    "logistics": "물류"
+  },
+  "common": {
+    "loading": "불러오는 중",
+    "notFound": "찾을 수 없음",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기"
+  }
+}

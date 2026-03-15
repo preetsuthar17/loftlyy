@@ -81,12 +81,17 @@
     "gradient-brands": "Marques en degrade",
     "wordmark-logos": "Logotypes",
     "geometric-logos": "Logos geometriques",
-    "travel": "Voyage"
+    "travel": "Voyage",
+    "automotive": "Automobile"
   },
   "brands": {
     "airbnb": {
       "description": "Airbnb est une place de marche mondiale en ligne pour l'hebergement, les experiences et les activites touristiques. Fondee en 2008 a San Francisco, elle connecte des millions d'hotes et de voyageurs dans le monde entier, transformant la facon dont les gens trouvent des logements uniques et decouvrent la culture locale.",
       "philosophy": "L'identite d'Airbnb est ancree par le Belo — un symbole d'appartenance qui represente les personnes, les lieux, l'amour et Airbnb elle-meme. La couleur chaude Rausch et la typographie personnalisee Cereal creent une marque conviviale et accessible qui invite a la connexion et a l'exploration entre les cultures."
+    },
+    "amazon": {
+      "description": "Amazon est le plus grand detaillant en ligne et entreprise de cloud computing au monde, offrant du commerce electronique au streaming numerique en passant par l'intelligence artificielle et la logistique. Fondee en 1994 par Jeff Bezos, Amazon est devenue l'une des entreprises les plus precieuses au monde.",
+      "philosophy": "L'identite d'Amazon est ancree par l'iconique fleche-sourire — une ligne courbee de A a Z qui represente la promesse de l'entreprise de tout livrer, avec le sourire. L'orange chaleureux et le logotype epure transmettent accessibilite et obsession du client a grande echelle."
     },
     "discord": {
       "description": "Discord est une plateforme de communication vocale, video et textuelle concue pour creer des communautes. Initialement concu pour les joueurs, il s'est etendu pour servir des communautes de toutes sortes — des groupes d'etude aux collectifs artistiques en passant par les projets open source. La mission de Discord est de creer un espace ou chacun peut trouver sa place.",
@@ -116,9 +121,21 @@
       "description": "Figma est un outil de conception d'interfaces collaboratif qui permet aux equipes de concevoir, prototyper et developper des produits ensemble en temps reel. Acquis par Adobe en 2023, Figma est devenu la reference pour la conception UI/UX.",
       "philosophy": "L'identite de Figma celebre la nature collaborative et creative du design a travers un logo vibrant et multicolore qui represente les divers outils et perspectives qui convergent dans le processus de conception."
     },
+    "google": {
+      "description": "Google est une entreprise technologique mondiale specialisee dans les services Internet, la recherche, le cloud computing et la publicite. Connue pour son identite coloree et accessible, Google a faconne le web moderne et redefinit continuellement la facon dont les gens accedent a l'information.",
+      "philosophy": "Le logotype en quatre couleurs de Google reflete une marque ludique et accessible qui valorise la simplicite et l'universalite. Le passage du serif au sans-serif geometrique en 2015 a marque une identite moderne axee sur le produit, concue pour les ecrans de toutes tailles."
+    },
     "notion": {
       "description": "Notion est un espace de travail tout-en-un qui combine notes, documents, wikis, gestion de projets et bases de donnees en une seule plateforme connectee. Fondee en 2013 a San Francisco, Notion permet aux equipes et aux individus de personnaliser leurs flux de travail grace a des blocs modulaires.",
       "philosophy": "L'identite de Notion incarne le principe selon lequel les outils doivent etre aussi flexibles que les personnes qui les utilisent. La palette minimaliste noir et blanc et l'iconique logo page-avec-N refletent la simplicite, la modularite et l'idee que le meilleur logiciel se fait oublier."
+    },
+    "nvidia": {
+      "description": "NVIDIA est une entreprise technologique mondiale qui concoit des processeurs graphiques (GPU) et des systemes sur puce. Pionniere du calcul accelere, les plateformes de NVIDIA alimentent tout, du jeu video et de la visualisation professionnelle aux centres de donnees et aux vehicules autonomes, devenant l'epine dorsale de l'intelligence artificielle moderne.",
+      "philosophy": "Audacieuse, technique et tournee vers l'avenir. L'identite de NVIDIA est ancree par l'iconique marque en forme d'oeil — un symbole du calcul visuel et de la vision — associee au vert signature qui transmet energie, innovation et la puissance du calcul accelere."
+    },
+    "slack": {
+      "description": "Slack est une plateforme de communication professionnelle qui rassemble les equipes grace aux canaux, a la messagerie et aux integrations. Acquis par Salesforce en 2021, Slack est devenu le centre de la collaboration en entreprise, connectant les personnes aux outils et informations dont elles ont besoin.",
+      "philosophy": "L'identite de Slack utilise une palette vibrante de quatre couleurs — bleu, vert, jaune et rouge — disposees en un symbole inspire du hashtag qui represente la connexion et la communication. Le rebranding de 2019 par Pentagram a simplifie le logo en un symbole geometrique coherent ancre par la signature aubergine."
     },
     "stripe": {
       "description": "Stripe est une plateforme d'infrastructure financiere qui fournit des APIs de traitement des paiements et des outils pour les entreprises internet de toutes tailles. Fondee en 2010, Stripe alimente des millions d'entreprises dans le monde entier.",
@@ -128,9 +145,37 @@
       "description": "Linear est une plateforme de gestion de projets concue pour les equipes logicielles modernes, axee sur la vitesse, la clarte et le savoir-faire. Fondee en 2019, Linear optimise le suivi des problemes, la planification des sprints et les flux de developpement produit pour plus de 25 000 entreprises.",
       "philosophy": "L'identite de Linear reflete une concentration implacable sur la vitesse, le savoir-faire et la clarte. La marque utilise une palette indigo sobre et un logotype geometrique epure pour transmettre precision et determination."
     },
+    "microsoft": {
+      "description": "Microsoft est une multinationale technologique qui developpe des logiciels, du materiel et des services cloud au service des entreprises et des consommateurs du monde entier. De Windows et Office a Azure et Xbox, les produits de Microsoft touchent des milliards de personnes, en faisant l'une des entreprises technologiques les plus influentes de l'histoire.",
+      "philosophy": "La fenetre aux quatre couleurs de Microsoft symbolise l'ouverture et la diversite — quatre panneaux distincts se reunissant en un seul. La grille geometrique epuree et le logotype neutre Segoe communiquent fiabilite, envergure et l'evolution de l'entreprise de geant du logiciel vers une plateforme cloud-first propulsee par l'IA."
+    },
     "vercel": {
       "description": "Vercel est une plateforme cloud pour les developpeurs frontend qui permet aux equipes de construire, deployer et faire evoluer des applications web sans configuration. Fondee en 2015, Vercel est la creatrice de Next.js et du systeme de design Geist.",
       "philosophy": "L'identite de marque de Vercel est centree sur l'experience developpeur et la puissance du frontend. Sa palette noir et blanc et son iconique symbole triangulaire communiquent vitesse, precision et l'avant-garde du developpement web."
+    },
+    "cursor": {
+      "description": "Cursor est un éditeur de code alimenté par l'IA, conçu par Anysphere, qui améliore la productivité des développeurs grâce à la complétion intelligente du code, aux agents autonomes et à l'édition en langage naturel. Il se positionne comme la meilleure façon de coder avec l'IA.",
+      "philosophy": "Minimaliste, sombre et centré sur le développeur. L'identité de Cursor associe des tons blanc cassé chaleureux à des arrière-plans charbon profonds, reflétant un outil conçu par des développeurs pour des développeurs."
+    },
+    "github": {
+      "description": "GitHub est la principale plateforme de développement logiciel au monde, offrant l'hébergement de dépôts Git dans le cloud, des outils de collaboration et des workflows CI/CD. Fondée en 2008 et acquise par Microsoft en 2018, GitHub accueille plus de 100 millions de développeurs et alimente l'écosystème open source.",
+      "philosophy": "L'identité de GitHub repose sur l'Invertocat — un symbole minimaliste et universellement reconnu qui représente l'intersection du code et de la communauté. La marque met l'accent sur l'ouverture, l'autonomisation des développeurs et l'idée que les grands logiciels se construisent ensemble."
+    },
+    "vscode": {
+      "description": "Visual Studio Code est un éditeur de code gratuit et open source de Microsoft, disponible sur Windows, macOS et Linux. Avec le débogage intégré, l'intégration Git et un vaste écosystème d'extensions, il est devenu l'un des environnements de développement les plus populaires au monde.",
+      "philosophy": "Ouvert, extensible et axé sur le développeur. L'identité de VS Code repose sur son emblématique icône de crochet bleu, un symbole d'édition de code instantanément reconnaissable."
+    },
+    "tesla": {
+      "description": "Tesla est une entreprise mondiale de vehicules electriques et d'energie propre qui concoit, fabrique et vend des voitures electriques, des systemes de stockage d'energie et des produits solaires. Fondee en 2003, Tesla a redefini l'industrie automobile en misant sur l'energie durable et la technologie de pointe.",
+      "philosophy": "L'identite de Tesla est centree sur son embleme T iconique — une coupe transversale stylisee du rotor d'un moteur electrique — qui signale une disruption technologique plutot qu'un heritage automobile traditionnel. La marque minimale et geometrique positionne Tesla comme une entreprise technologique de la Silicon Valley qui fabrique aussi des voitures."
+    },
+    "x": {
+      "description": "X (anciennement Twitter) est une plateforme mondiale de médias sociaux dédiée aux conversations en temps réel, aux actualités et au débat public. Fondée en 2006 par Jack Dorsey, Noah Glass, Biz Stone et Evan Williams, elle a été rebaptisée X en 2023 sous la direction d'Elon Musk, signalant une vision de super application.",
+      "philosophy": "L'identité de X représente une rupture radicale avec le sympathique oiseau bleu de Twitter — un X austère et monochrome qui signale une ambition au-delà des réseaux sociaux. La marque minimaliste embrasse l'audace et l'universalité, conçue pour ancrer une vision de super application."
+    },
+    "meta": {
+      "description": "Meta Platforms est un conglomérat technologique mondial qui crée des produits et des technologies pour aider les gens à se connecter, trouver des communautés et développer leurs entreprises. L'entreprise possède Facebook, Instagram, WhatsApp et Threads, et investit massivement dans la réalité augmentée et virtuelle via sa division Reality Labs.",
+      "philosophy": "L'identité de Meta représente un dépassement au-delà d'un seul produit. Le symbole de l'infini — une boucle 3D continue fonctionnant en 2D et 3D — incarne un potentiel illimité et la connexion, utilisant un dégradé bleu qui honore l'héritage de l'entreprise tout en signalant son avenir dans la technologie immersive."
     }
   },
   "tags": {
@@ -141,6 +186,7 @@
     "messaging": "Messagerie",
     "music": "Musique",
     "streaming": "Streaming",
+    "search": "Recherche",
     "audio": "Audio",
     "podcasts": "Podcasts",
     "playlists": "Playlists",
@@ -164,6 +210,7 @@
     "api": "API",
     "developer-tools": "Outils pour Developpeurs",
     "financial-infrastructure": "Infrastructure Financiere",
+    "advertising": "Publicite",
     "e-commerce": "Commerce Electronique",
     "collaboration": "Collaboration",
     "prototyping": "Prototypage",
@@ -175,13 +222,34 @@
     "experiences": "Experiences",
     "cloud": "Cloud",
     "hosting": "Hebergement",
+    "ai": "IA",
     "frontend": "Frontend",
     "project-management": "Gestion de Projets",
     "issue-tracking": "Suivi des Problemes",
     "productivity": "Productivite",
     "design-tools": "Outils de Design",
     "notes": "Notes",
-    "workspace": "Espace de Travail"
+    "workspace": "Espace de Travail",
+    "code-editor": "Éditeur de Code",
+    "open-source": "Open Source",
+    "version-control": "Contrôle de Version",
+    "code-hosting": "Hébergement de Code",
+    "microsoft": "Microsoft",
+    "workplace": "Lieu de Travail",
+    "microblogging": "Microblogging",
+    "real-time": "Temps Réel",
+    "news": "Actualités",
+    "social-network": "Réseau Social",
+    "electric-vehicles": "Vehicules Electriques",
+    "clean-energy": "Energie Propre",
+    "social-media": "Réseaux Sociaux",
+    "virtual-reality": "Réalité Virtuelle",
+    "augmented-reality": "Réalité Augmentée",
+    "metaverse": "Métavers",
+    "gpu": "GPU",
+    "data-center": "Centre de Donnees",
+    "autonomous-vehicles": "Vehicules Autonomes",
+    "logistics": "Logistique"
   },
   "common": {
     "loading": "Chargement",
