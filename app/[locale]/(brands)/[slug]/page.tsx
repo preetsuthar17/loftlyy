@@ -12,7 +12,6 @@ import {
   FAQStructuredData,
 } from "@/components/structured-data"
 import { BrandStory } from "@/components/brand-story"
-import { AdBanner } from "@/components/ad-banner"
 import { getSimilarBrandCards, getBrandColorFamilies } from "@/lib/filters"
 import type { Brand } from "@/lib/types"
 import { BrowseBySection } from "@/components/browse-by-section"
