@@ -137,8 +137,7 @@ export const tesla: Brand = {
   philosophy:
     "Tesla's identity centers on its iconic T emblem — a stylized cross-section of an electric motor rotor — that signals technology-driven disruption over traditional automotive heritage. The minimal, geometric mark positions Tesla as a Silicon Valley tech company that happens to make cars.",
   legal: {
-    guidelinesUrl:
-      "https://www.tesla.com/legal/additional-resources",
+    guidelinesUrl: "https://www.tesla.com/legal/additional-resources",
     dos: [
       "Use only official Tesla-provided logos and marks",
       "Maintain minimum clear space around the Tesla logo",

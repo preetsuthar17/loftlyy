@@ -98,9 +98,19 @@
     "geometric-logos": "Logotipos geometricos",
     "travel": "Viagem",
     "automotive": "Automotivo",
-    "entertainment": "Entretenimento"
+    "entertainment": "Entretenimento",
+    "food": "Alimentação e Restaurantes",
+    "sportswear": "Vestuário Esportivo"
   },
   "brands": {
+    "abode": {
+      "description": "Abode e um aplicativo movel social que transforma seu telefone em um espaco de encontro multiplayer. Criado pela Look Engineering, Inc., permite que amigos se conectem atraves de widgets interativos compartilhados chamados magnets, possibilitando jogos colaborativos, playlists, enquetes e atividades em tempo real.",
+      "philosophy": "A identidade da Abode e construida sobre a ideia de que os telefones devem aproximar as pessoas, nao afasta-las. O wordmark geometrico e ousado em azul distintivo ancora um sistema visual vibrante e ludico que celebra conexao, espontaneidade e momentos compartilhados."
+    },
+    "adidas": {
+      "description": "adidas é uma marca global de vestuário esportivo sediada em Herzogenaurach, Alemanha. Fundada em 1949 por Adolf Dassler, a adidas projeta e vende calçados, roupas e acessórios para esportes e uso cotidiano. Conhecida pelas icônicas Três Listras e pela marca de performance em formato de montanha, a adidas se tornou uma das marcas esportivas mais reconhecidas do mundo.",
+      "philosophy": "As Três Listras são um dos elementos de design mais reconhecíveis no mundo do esporte. A identidade da adidas une performance atlética com influência cultural, usando uma abordagem minimalista em preto e branco que coloca o produto e o atleta — não a marca — em primeiro plano."
+    },
     "adobe": {
       "description": "A Adobe é líder global em software criativo, marketing digital e soluções de gestão documental. Fundada em 1982 em San José, Califórnia, os produtos da Adobe — incluindo Photoshop, Illustrator, Premiere Pro e Acrobat — tornaram-se padrões da indústria para designers, fotógrafos, cineastas e empresas em todo o mundo.",
       "philosophy": "Ousada, criativa e empoderadora. O icônico 'A' vermelho da Adobe simboliza o ápice criativo — uma marca geométrica que representa as ferramentas e a plataforma que capacitam milhões de criadores em todo o mundo. A identidade limpa e moderna reflete a evolução da Adobe de pioneira em editoração eletrônica para plataforma criativa cloud-first."
@@ -130,8 +140,12 @@
       "philosophy": "Acolhedora, confiavel e cuidadosamente contida. A identidade da Anthropic combina uma paleta organica em tons terrosos com tipografia limpa para comunicar pesquisa em IA focada em seguranca: acessivel, mas seria; humana, mas tecnica."
     },
     "canva": {
-      "description": "Canva e uma plataforma de design e publicacao online que capacita todos a projetar qualquer coisa e publicar em qualquer lugar. Fundada em 2013 em Sydney, Australia, a Canva se tornou uma das ferramentas de design mais populares do mundo, tornando o design grafico profissional acessivel a milhoes de pessoas.",
-      "philosophy": "A identidade da Canva combina gradientes ludicos de turquesa e roxo com um logotipo manuscrito distinto para incorporar sua missao de democratizar o design. As formas organicas e fluidas refletem criatividade e acessibilidade, enquanto o gradiente vibrante sinaliza inovacao e alegria."
+      "description": "Canva é uma plataforma online de design e publicação que capacita todos a projetar qualquer coisa e publicar em qualquer lugar. Fundada em 2013 em Sydney, Austrália, a Canva se tornou uma das ferramentas de design mais populares do mundo, tornando o design gráfico de qualidade profissional acessível a milhões de não designers e profissionais.",
+      "philosophy": "A identidade da Canva combina gradientes lúdicos em turquesa e roxo com um logotipo desenhado à mão para incorporar sua missão de democratizar o design. As formas orgânicas e fluidas das letras refletem criatividade e acessibilidade, enquanto o gradiente vibrante sinaliza inovação e alegria no processo criativo."
+    },
+    "coca-cola": {
+      "description": "Coca-Cola é a bebida gaseificada mais reconhecida do mundo, criada em 1886 pelo Dr. John Pemberton em Atlanta, Geórgia, e atualmente vendida em mais de 200 países e territórios. The Coca-Cola Company distribui mais de 2,2 bilhões de porções de bebidas diariamente em um portfólio de mais de 200 marcas através de sua rede global de parceiros engarrafadores. Sua icônica garrafa contorno, o wordmark em escrita Spenceriana e o vermelho característico estão entre os ativos visuais mais reproduzidos na história comercial.",
+      "philosophy": "O propósito da Coca-Cola é refrescar o mundo e fazer a diferença — uma filosofia que funde o simples prazer de uma bebida gelada com a crença de que pequenos momentos de felicidade têm impacto coletivo global. A marca conquista seu status icônico através de consistência inabalável, alegria e relevância cultural em cada mercado que toca."
     },
     "apple": {
       "description": "A Apple projeta, fabrica e comercializa eletronicos de consumo, software e servicos. Do Macintosh ao iPhone, a Apple redefiniu de forma consistente categorias inteiras de produtos por meio de sua obsessao por design, simplicidade e experiencia do usuario.",
@@ -249,9 +263,21 @@
       "description": "Reddit é uma plataforma de agregação de notícias sociais e discussão organizada em comunidades chamadas subreddits. Os usuários compartilham conteúdo, votam em publicações e comentários e participam de conversas que abrangem praticamente qualquer tema. O Reddit se descreve como 'a página inicial da internet.'",
       "philosophy": "Focado na comunidade e acessível. A identidade do Reddit é centrada no mascote Snoo e na cor Orangered, equilibrando diversão com o papel da plataforma como um hub sério para conversas e descobertas autênticas."
     },
-    "canva": {
-      "description": "Canva é uma plataforma online de design e publicação que capacita todos a projetar qualquer coisa e publicar em qualquer lugar. Fundada em 2013 em Sydney, Austrália, a Canva se tornou uma das ferramentas de design mais populares do mundo, tornando o design gráfico de qualidade profissional acessível a milhões de não designers e profissionais.",
-      "philosophy": "A identidade da Canva combina gradientes lúdicos em turquesa e roxo com um logotipo desenhado à mão para incorporar sua missão de democratizar o design. As formas orgânicas e fluidas das letras refletem criatividade e acessibilidade, enquanto o gradiente vibrante sinaliza inovação e alegria no processo criativo."
+    "nike": {
+      "description": "Nike é a principal marca de vestuário esportivo do mundo, projetando e vendendo calçados, roupas e equipamentos esportivos para atletas em todos os níveis. Fundada em 1964 como Blue Ribbon Sports e renomeada em 1971, a Nike construiu um império global na crença de que se você tem um corpo, você é um atleta.",
+      "philosophy": "Just Do It. A identidade da Nike está ancorada no Swoosh — um dos símbolos mais reconhecidos do planeta — incorporando movimento, velocidade e aspiração atlética. A paleta preto e branco elimina distrações, deixando que performance e propósito falem por si mesmos."
+    },
+    "mcdonalds": {
+      "description": "McDonald's é a maior cadeia de restaurantes de fast-food do mundo, servindo quase 70 milhões de clientes diariamente em mais de 100 países. Fundada em 1940 por Richard e Maurice McDonald e expandida globalmente por Ray Kroc, a McDonald's transformou a indústria de restaurantes através do modelo de franquia e do serviço padronizado.",
+      "philosophy": "Ousado, acolhedor e instantaneamente reconhecível. Os Arcos Dourados estão entre os símbolos mais icônicos do mundo — um simples M geométrico em ouro brilhante que transcende idiomas e culturas, incorporando acessibilidade, consistência e o apelo universal de uma refeição familiar."
+    },
+    "duolingo": {
+      "description": "Duolingo é uma plataforma gratuita de aprendizado de idiomas que oferece mais de 100 cursos em mais de 40 línguas, tornando a educação universalmente acessível por meio de lições gamificadas e sequências. Fundada em 2011 por Luis von Ahn e Severin Hacker, tornou-se o aplicativo de aprendizado de idiomas mais popular do mundo com centenas de milhões de alunos. A missão do Duolingo é desenvolver a melhor educação do mundo e torná-la disponível para todos.",
+      "philosophy": "Lúdica e com propósito, a identidade do Duolingo é centrada na icônica coruja verde Duo, símbolo de aprendizado acessível que equilibra diversão gamificada com impacto educacional genuíno. O verde vibrante e as formas arredondadas comunicam amizade e acessibilidade, reforçando a crença de que aprender um idioma deve parecer um jogo, não uma tarefa."
+    },
+    "starbucks": {
+      "description": "A Starbucks é a principal torrefadora e varejista de café especial do mundo, com mais de 38.000 estabelecimentos em mais de 85 países. Fundada em 1971 no Pike Place Market de Seattle, a Starbucks fornece café arábica de alta qualidade e tornou-se uma força definidora na cultura global de cafeterias, posicionando-se como um acolhedor «terceiro lugar» entre casa e trabalho.",
+      "philosophy": "A cada xícara, a cada conversa, a cada comunidade — a Starbucks cultiva as possibilidades ilimitadas da conexão humana. A icônica sereia branca sobre o Verde Starbucks é um dos símbolos mais reconhecidos do mundo."
     }
   },
   "tags": {
@@ -355,7 +381,33 @@
     "mobile": "Móvel",
     "publishing": "Publicação",
     "templates": "Modelos",
-    "creativity": "Criatividade"
+    "creativity": "Criatividade",
+    "athletic": "Atletismo",
+    "footwear": "Calçados",
+    "apparel": "Vestuário",
+    "sports": "Esportes",
+    "lifestyle": "Estilo de vida",
+    "performance": "Desempenho",
+    "fast-food": "Fast food",
+    "restaurants": "Restaurantes",
+    "food-service": "Serviço de alimentação",
+    "global": "Global",
+    "iconic": "Icônico",
+    "sportswear": "Vestuário esportivo",
+    "athletics": "Atletismo",
+    "fashion": "Moda",
+    "streetwear": "Streetwear",
+    "sustainability": "Sustentabilidade",
+    "education": "Educação",
+    "language-learning": "Aprendizado de idiomas",
+    "gamification": "Gamificação",
+    "freemium": "Freemium",
+    "multiplayer": "Multijogador",
+    "coffee": "Café",
+    "beverages": "Bebidas",
+    "food-and-drink": "Comida e Bebida",
+    "soft-drinks": "Refrigerantes",
+    "consumer-goods": "Bens de Consumo"
   },
   "tag": {
     "title": "Marcas com tag \"{tag}\"",
@@ -385,7 +437,8 @@
   "typographyStyles": {
     "sans-serif": "Sans-Serif",
     "serif": "Serif",
-    "monospace": "Monospace"
+    "monospace": "Monospace",
+    "script": "Script"
   },
   "browseBy": {
     "relatedCategories": "Categorias relacionadas",

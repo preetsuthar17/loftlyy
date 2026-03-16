@@ -15,6 +15,8 @@ export const categories: Category[] = [
   { slug: "travel", type: "industry" },
   { slug: "automotive", type: "industry" },
   { slug: "entertainment", type: "industry" },
+  { slug: "food", type: "industry" },
+  { slug: "sportswear", type: "industry" },
 ]
 
 export function getAllCategories() {

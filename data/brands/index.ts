@@ -1,14 +1,18 @@
 import type { Brand } from "@/lib/types"
 import { assetUrl } from "@/lib/assets"
 import { hexToColorFamily } from "@/lib/filters"
+import { abode } from "./abode"
+import { adidas } from "./adidas"
 import { adobe } from "./adobe"
 import { airbnb } from "./airbnb"
 import { amazon } from "./amazon"
 import { anthropic } from "./anthropic"
 import { canva } from "./canva"
+import { cocaCola } from "./coca-cola"
 import { cursor } from "./cursor"
 import { apple } from "./apple"
 import { discord } from "./discord"
+import { duolingo } from "./duolingo"
 import { notion } from "./notion"
 import { figma } from "./figma"
 import { github } from "./github"
@@ -19,6 +23,7 @@ import { meta } from "./meta"
 import { nvidia } from "./nvidia"
 import { microsoft } from "./microsoft"
 import { netflix } from "./netflix"
+import { nike } from "./nike"
 import { openai } from "./openai"
 import { pinterest } from "./pinterest"
 import { reddit } from "./reddit"
@@ -37,9 +42,13 @@ import { wise } from "./wise"
 import { whatsapp } from "./whatsapp"
 import { x } from "./x"
 import { youtube } from "./youtube"
+import { mcdonalds } from "./mcdonalds"
+import { starbucks } from "./starbucks"
 import { zoom } from "./zoom"
 
 const rawBrands: Brand[] = [
+  abode,
+  adidas,
   adobe,
   airbnb,
   amazon,
@@ -48,6 +57,7 @@ const rawBrands: Brand[] = [
   apple,
   cursor,
   discord,
+  duolingo,
   figma,
   github,
   instagram,
@@ -56,6 +66,7 @@ const rawBrands: Brand[] = [
   meta,
   microsoft,
   netflix,
+  nike,
   nvidia,
   notion,
   openai,
@@ -72,6 +83,9 @@ const rawBrands: Brand[] = [
   uber,
   vercel,
   vscode,
+  cocaCola,
+  mcdonalds,
+  starbucks,
   whatsapp,
   wise,
   x,

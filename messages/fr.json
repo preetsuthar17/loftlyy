@@ -98,9 +98,19 @@
     "geometric-logos": "Logos geometriques",
     "travel": "Voyage",
     "automotive": "Automobile",
-    "entertainment": "Divertissement"
+    "entertainment": "Divertissement",
+    "food": "Alimentation et Restaurants",
+    "sportswear": "Vêtements de Sport"
   },
   "brands": {
+    "abode": {
+      "description": "Abode est une application mobile sociale qui transforme votre telephone en espace de rencontre multijoueur. Creee par Look Engineering, Inc., elle permet aux amis de se connecter via des widgets interactifs partages appeles magnets, permettant des jeux collaboratifs, des playlists, des sondages et des activites en temps reel.",
+      "philosophy": "L identite d Abode repose sur l idee que les telephones doivent rapprocher les gens, non les eloigner. Le logotype geometrique et audacieux en bleu signature ancre un systeme visuel vibrant et ludique qui celebre la connexion, la spontaneite et les moments partages."
+    },
+    "adidas": {
+      "description": "adidas est une marque mondiale de vêtements de sport basée à Herzogenaurach, en Allemagne. Fondée en 1949 par Adolf Dassler, adidas conçoit et vend des chaussures, vêtements et accessoires pour le sport et le quotidien. Connue pour les iconiques Trois Bandes et la marque de performance en forme de montagne, adidas est devenue l'une des marques sportives les plus reconnues au monde.",
+      "philosophy": "Les Trois Bandes sont l'un des éléments de design les plus reconnus dans le monde du sport. L'identité d'adidas associe performance athlétique et influence culturelle, avec une approche minimaliste en noir et blanc qui met en avant le produit et l'athlète plutôt que la marque."
+    },
     "adobe": {
       "description": "Adobe est un leader mondial des logiciels créatifs, du marketing numérique et des solutions de gestion documentaire. Fondée en 1982 à San José, en Californie, les produits d'Adobe — notamment Photoshop, Illustrator, Premiere Pro et Acrobat — sont devenus des standards de l'industrie pour les designers, photographes, cinéastes et entreprises du monde entier.",
       "philosophy": "Audacieux, créatif et émancipateur. L'iconique 'A' rouge d'Adobe symbolise le sommet créatif — une marque géométrique qui représente les outils et la plateforme qui donnent les moyens à des millions de créateurs dans le monde. L'identité épurée et moderne reflète l'évolution d'Adobe, de pionnière de la publication assistée par ordinateur à plateforme créative cloud-first."
@@ -130,8 +140,12 @@
       "philosophy": "Chaleureuse, digne de confiance et judicieusement sobre. L'identite d'Anthropic associe une palette de tons terre a une typographie epuree pour communiquer une recherche en IA axee sur la securite — accessible mais serieuse, humaine mais technique."
     },
     "canva": {
-      "description": "Canva est une plateforme de design et de publication en ligne qui permet a tous de concevoir n'importe quoi et de publier partout. Fondee en 2013 a Sydney, en Australie, Canva est devenue l'un des outils de design les plus populaires au monde, rendant le design graphique professionnel accessible a des millions de personnes.",
-      "philosophy": "L'identite de Canva melange des degrades ludiques de turquoise et de violet avec un logotype manuscrit distinctif pour incarner sa mission de democratisation du design. Les formes organiques et fluides refletent creativite et accessibilite, tandis que le degrade vibrant signale innovation et joie."
+      "description": "Canva est une plateforme de design et de publication en ligne qui permet à chacun de concevoir n'importe quoi et de publier partout. Fondée en 2013 à Sydney, en Australie, Canva est devenue l'un des outils de design les plus populaires au monde, rendant le design graphique de qualité professionnelle accessible à des millions de non-designers et de professionnels.",
+      "philosophy": "L'identité de Canva mêle des dégradés ludiques turquoise et violet à un logotype manuscrit distinctif pour incarner sa mission de démocratisation du design. Les formes de lettres organiques et fluides reflètent la créativité et l'accessibilité, tandis que le dégradé vibrant signale l'innovation et la joie dans le processus créatif."
+    },
+    "coca-cola": {
+      "description": "Coca-Cola est la boisson gazeuse la plus reconnue au monde, créée en 1886 par le Dr John Pemberton à Atlanta, en Géorgie, et désormais vendue dans plus de 200 pays et territoires. The Coca-Cola Company distribue plus de 2,2 milliards de portions de boissons quotidiennement à travers un portefeuille de plus de 200 marques via son réseau mondial d'embouteilleurs partenaires. Sa bouteille contour iconique, son logotype en écriture Spencerienne et son rouge signature figurent parmi les actifs visuels les plus reproduits de l'histoire commerciale.",
+      "philosophy": "La raison d'être de Coca-Cola est de rafraîchir le monde et de faire une différence — une philosophie qui fusionne le simple plaisir d'une boisson bien fraîche avec la conviction que de petits moments de bonheur ont un impact collectif mondial. La marque doit son statut iconique à une cohérence inébranlable, à la joie et à sa pertinence culturelle dans chaque marché qu'elle touche."
     },
     "apple": {
       "description": "Apple concoit, fabrique et commercialise des produits electroniques grand public, des logiciels et des services. Du Macintosh a l'iPhone, Apple a constamment redefini des categories entieres de produits par son obsession du design, de la simplicite et de l'experience utilisateur.",
@@ -249,9 +263,21 @@
       "description": "Reddit est une plateforme d'agrégation d'actualités sociales et de discussion organisée en communautés appelées subreddits. Les utilisateurs partagent du contenu, votent sur les publications et commentaires, et participent à des conversations couvrant pratiquement tous les sujets. Reddit se décrit comme 'la page d'accueil d'internet.'",
       "philosophy": "Axé sur la communauté et accessible. L'identité de Reddit est centrée sur la mascotte Snoo et la couleur Orangered, équilibrant le côté ludique avec le rôle de la plateforme en tant que hub sérieux pour la conversation et la découverte authentiques."
     },
-    "canva": {
-      "description": "Canva est une plateforme de design et de publication en ligne qui permet à chacun de concevoir n'importe quoi et de publier partout. Fondée en 2013 à Sydney, en Australie, Canva est devenue l'un des outils de design les plus populaires au monde, rendant le design graphique de qualité professionnelle accessible à des millions de non-designers et de professionnels.",
-      "philosophy": "L'identité de Canva mêle des dégradés ludiques turquoise et violet à un logotype manuscrit distinctif pour incarner sa mission de démocratisation du design. Les formes de lettres organiques et fluides reflètent la créativité et l'accessibilité, tandis que le dégradé vibrant signale l'innovation et la joie dans le processus créatif."
+    "nike": {
+      "description": "Nike est la première marque mondiale de vêtements de sport, concevant et vendant des chaussures, vêtements et équipements sportifs pour les athlètes à tous les niveaux. Fondée en 1964 sous le nom de Blue Ribbon Sports et rebaptisée en 1971, Nike a bâti un empire mondial sur la conviction que si vous avez un corps, vous êtes un athlète.",
+      "philosophy": "Just Do It. L'identité de Nike est ancrée dans le Swoosh — l'un des symboles les plus reconnus au monde — incarnant le mouvement, la vitesse et l'aspiration sportive. La palette noir et blanc épurée efface les distractions, laissant la performance et la mission parler d'elles-mêmes."
+    },
+    "mcdonalds": {
+      "description": "McDonald's est la plus grande chaîne de restauration rapide au monde, servant près de 70 millions de clients par jour dans plus de 100 pays. Fondée en 1940 par Richard et Maurice McDonald et développée à l'échelle mondiale par Ray Kroc, McDonald's a transformé l'industrie de la restauration grâce au modèle de franchise et au service standardisé.",
+      "philosophy": "Audacieux, chaleureux et immédiatement reconnaissable. Les Arches Dorées comptent parmi les symboles les plus emblématiques au monde — un simple M géométrique en or brillant qui transcende les langues et les cultures, incarnant l'accessibilité, la cohérence et l'attrait universel d'un repas familier."
+    },
+    "duolingo": {
+      "description": "Duolingo est une plateforme d'apprentissage des langues gratuite proposant plus de 100 cours dans plus de 40 langues, rendant l'éducation universellement accessible grâce à des leçons ludiques et des séries. Fondée en 2011 par Luis von Ahn et Severin Hacker, elle est devenue l'application d'apprentissage des langues la plus populaire au monde avec des centaines de millions d'apprenants. La mission de Duolingo est de développer la meilleure éducation au monde et de la rendre accessible à tous.",
+      "philosophy": "Ludique et intentionnelle, l'identité de Duolingo est centrée sur le célèbre hibou vert Duo, un symbole d'apprentissage accessible qui équilibre le plaisir gamifié et l'impact éducatif authentique. Le vert vibrant et les formes arrondies communiquent la convivialité et l'accessibilité, renforçant la conviction qu'apprendre une langue doit ressembler à un jeu, pas à une corvée."
+    },
+    "starbucks": {
+      "description": "Starbucks est le premier torréfacteur et détaillant de café de spécialité au monde, exploitant plus de 38 000 établissements dans plus de 85 pays. Fondé en 1971 au Pike Place Market de Seattle, Starbucks sélectionne du café arabica de haute qualité et est devenu une force déterminante dans la culture mondiale des cafés, se positionnant comme un «troisième lieu» accueillant entre la maison et le travail.",
+      "philosophy": "À chaque tasse, à chaque conversation, dans chaque communauté — Starbucks cultive les possibilités infinies de la connexion humaine. L'iconique sirène blanche sur fond vert Starbucks est l'un des symboles les plus reconnus au monde."
     }
   },
   "tags": {
@@ -355,7 +381,33 @@
     "mobile": "Mobile",
     "publishing": "Publication",
     "templates": "Modèles",
-    "creativity": "Créativité"
+    "creativity": "Créativité",
+    "athletic": "Athlétisme",
+    "footwear": "Chaussures",
+    "apparel": "Vêtements",
+    "sports": "Sports",
+    "lifestyle": "Style de vie",
+    "performance": "Performance",
+    "fast-food": "Restauration rapide",
+    "restaurants": "Restaurants",
+    "food-service": "Restauration",
+    "global": "Mondial",
+    "iconic": "Iconique",
+    "sportswear": "Vêtements de sport",
+    "athletics": "Athlétisme",
+    "fashion": "Mode",
+    "streetwear": "Streetwear",
+    "sustainability": "Durabilité",
+    "education": "Éducation",
+    "language-learning": "Apprentissage des langues",
+    "gamification": "Gamification",
+    "freemium": "Freemium",
+    "multiplayer": "Multijoueur",
+    "coffee": "Café",
+    "beverages": "Boissons",
+    "food-and-drink": "Alimentation et Boissons",
+    "soft-drinks": "Boissons Gazeuses",
+    "consumer-goods": "Biens de Consommation"
   },
   "tag": {
     "title": "Marques taguees \"{tag}\"",
@@ -385,7 +437,8 @@
   "typographyStyles": {
     "sans-serif": "Sans-Serif",
     "serif": "Serif",
-    "monospace": "Monospace"
+    "monospace": "Monospace",
+    "script": "Script"
   },
   "browseBy": {
     "relatedCategories": "Categories associees",
