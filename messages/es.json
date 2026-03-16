@@ -286,6 +286,10 @@
     "interfere": {
       "description": "Interfere está construyendo la capa autorreparable de internet: software que detecta, clasifica y corrige errores automáticamente en tiempo real sin intervención humana. Respaldado por Y Combinator, Vercel y Hummingbird, monitorea aplicaciones continuamente e identifica cambios de comportamiento antes de que los usuarios reporten problemas.",
       "philosophy": "La identidad de Interfere refleja un enfoque técnico y orientado a la precisión hacia la calidad del software. El logotipo geométrico — una cascada de bloques progresivamente más grandes que convergen en un punto focal — encarna la capacidad del producto para detectar y resolver problemas a cualquier escala. Una combinación audaz de serif y sans-serif junto con una paleta de degradados vibrantes transmiten autoridad y modernidad."
+    },
+    "planetscale": {
+      "description": "PlanetScale es una plataforma de bases de datos en la nube que ofrece servicios gestionados de MySQL (a través de Vitess) y PostgreSQL, creada por los desarrolladores de Vitess, el sistema de fragmentación de código abierto que escaló YouTube. Ofrece cambios de esquema sin bloqueo, flujos de trabajo con ramificación y fragmentación horizontal para equipos que desarrollan aplicaciones de alto rendimiento.",
+      "philosophy": "La identidad de marca de PlanetScale refleja el poder y la precisión de la tecnología de bases de datos a nivel de infraestructura. Su audaz logotipo geométrico — un planeta abstracto con trayectorias orbitales entrecruzadas — transmite velocidad, escalabilidad y la naturaleza interconectada de los sistemas de datos modernos."
     }
   },
   "tags": {
@@ -420,7 +424,9 @@
     "debugging": "Depuración",
     "automation": "Automatización",
     "monitoring": "Monitoreo",
-    "quality-assurance": "Control de Calidad"
+    "quality-assurance": "Control de Calidad",
+    "database": "Base de datos",
+    "infrastructure": "Infraestructura"
   },
   "tag": {
     "title": "Marcas etiquetadas \"{tag}\"",

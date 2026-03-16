@@ -286,6 +286,10 @@
     "interfere": {
       "description": "Interfere正在构建互联网的自愈层——能够在无需人工干预的情况下实时自动检测、分类和修复错误的软件。在Y Combinator、Vercel和Hummingbird的支持下，它持续监控应用程序，在用户报告问题之前识别行为变化。",
       "philosophy": "Interfere的品牌形象体现了对软件质量的技术化、精确导向的方法。几何标志——逐渐增大的方块向焦点汇聚的级联图案——象征着产品在各个层面检测和解决问题的能力。大胆的衬线与无衬线字体搭配以及鲜艳的渐变色板，传达出权威性与现代感。"
+    },
+    "planetscale": {
+      "description": "PlanetScale 是一个由 Vitess 创建者打造的云数据库平台，提供托管的 MySQL（通过 Vitess）和 PostgreSQL 服务。Vitess 是为扩展 YouTube 而创建的开源分片系统。该平台提供无阻塞的架构变更、分支工作流和水平分片，帮助团队构建高性能应用程序。",
+      "philosophy": "PlanetScale 的品牌标识体现了基础设施级数据库技术的力量与精准。其大胆的几何标志——一颗带有交叉轨道路径的抽象星球——传达了速度、可扩展性以及现代数据系统的互联本质。"
     }
   },
   "tags": {
@@ -420,7 +424,9 @@
     "debugging": "调试",
     "automation": "自动化",
     "monitoring": "监控",
-    "quality-assurance": "质量保证"
+    "quality-assurance": "质量保证",
+    "database": "数据库",
+    "infrastructure": "基础设施"
   },
   "tag": {
     "title": "标记为\"{tag}\"的品牌",

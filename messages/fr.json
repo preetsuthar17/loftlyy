@@ -286,6 +286,10 @@
     "interfere": {
       "description": "Interfere construit la couche auto-réparatrice d’internet — un logiciel qui détecte, trie et corrige automatiquement les bugs en temps réel sans intervention humaine. Soutenu par Y Combinator, Vercel et Hummingbird, il surveille les applications en continu et identifie les changements de comportement avant que les utilisateurs ne signalent des problèmes.",
       "philosophy": "L'identité d'Interfere reflète une approche technique et axée sur la précision de la qualité logicielle. Le logo géométrique — une cascade de blocs progressivement plus grands convergeant vers un point focal — incarne la capacité du produit à détecter et résoudre les problèmes à toutes les échelles. Un audacieux mariage serif-sans et une palette de dégradés vibrants signalent à la fois l'autorité et la modernité."
+    },
+    "planetscale": {
+      "description": "PlanetScale est une plateforme de bases de données cloud proposant des services MySQL gérés (via Vitess) et PostgreSQL, créée par les développeurs de Vitess, le système de partitionnement open source qui a permis de faire évoluer YouTube. Elle offre des modifications de schéma non bloquantes, des flux de travail par branches et un partitionnement horizontal pour les équipes développant des applications haute performance.",
+      "philosophy": "L'identité de marque de PlanetScale reflète la puissance et la précision de la technologie de bases de données d'infrastructure. Son audacieux logo géométrique — une planète abstraite aux trajectoires orbitales entrecroisées — évoque la vitesse, l'évolutivité et la nature interconnectée des systèmes de données modernes."
     }
   },
   "tags": {
@@ -420,7 +424,9 @@
     "debugging": "Débogage",
     "automation": "Automatisation",
     "monitoring": "Surveillance",
-    "quality-assurance": "Assurance Qualité"
+    "quality-assurance": "Assurance Qualité",
+    "database": "Base de données",
+    "infrastructure": "Infrastructure"
   },
   "tag": {
     "title": "Marques taguées \"{tag}\"",

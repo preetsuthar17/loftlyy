@@ -286,6 +286,10 @@
     "interfere": {
       "description": "Interfere está construindo a camada autorreparadora da internet — software que detecta, classifica e corrige bugs automaticamente em tempo real sem intervenção humana. Apoiado por Y Combinator, Vercel e Hummingbird, monitora aplicações continuamente e identifica mudanças comportamentais antes que os usuários relatem problemas.",
       "philosophy": "A identidade da Interfere reflete uma abordagem técnica e orientada à precisão para a qualidade de software. O logotipo geométrico — uma cascata de blocos progressivamente maiores convergindo para um ponto focal — incorpora a capacidade do produto de detectar e resolver problemas em qualquer escala. Uma combinação ousada de serif e sans-serif junto com uma paleta de gradientes vibrantes sinalizam autoridade e modernidade."
+    },
+    "planetscale": {
+      "description": "PlanetScale é uma plataforma de banco de dados em nuvem que oferece serviços gerenciados de MySQL (via Vitess) e PostgreSQL, criada pelos desenvolvedores do Vitess — o sistema de sharding de código aberto que escalou o YouTube. Oferece alterações de esquema não bloqueantes, fluxos de trabalho com branches e fragmentação horizontal para equipes que desenvolvem aplicações de alto desempenho.",
+      "philosophy": "A identidade de marca da PlanetScale reflete o poder e a precisão da tecnologia de banco de dados em nível de infraestrutura. Seu ousado logotipo geométrico — um planeta abstrato com trajetórias orbitais entrecruzadas — transmite velocidade, escalabilidade e a natureza interconectada dos sistemas de dados modernos."
     }
   },
   "tags": {
@@ -420,7 +424,9 @@
     "debugging": "Depuração",
     "automation": "Automação",
     "monitoring": "Monitoramento",
-    "quality-assurance": "Garantia de Qualidade"
+    "quality-assurance": "Garantia de Qualidade",
+    "database": "Banco de dados",
+    "infrastructure": "Infraestrutura"
   },
   "tag": {
     "title": "Marcas com tag \"{tag}\"",

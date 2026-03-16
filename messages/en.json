@@ -286,6 +286,10 @@
     "interfere": {
       "description": "Interfere is building the self-healing layer of the internet — software that automatically detects, triages, and fixes bugs in real-time without human intervention. Backed by Y Combinator, Vercel, and Hummingbird, it monitors applications continuously and identifies behavioral changes before users report issues.",
       "philosophy": "Interfere's identity reflects a technical, precision-driven approach to software quality. The geometric logomark — a cascade of progressively larger blocks converging to a focal point — embodies the product's ability to detect and resolve issues at every scale. A bold serif-meets-sans pairing and vibrant gradient palette signal both authority and modernity."
+    },
+    "planetscale": {
+      "description": "PlanetScale is a cloud database platform offering managed MySQL (via Vitess) and PostgreSQL services, built by the creators of Vitess — the open-source sharding system that scaled YouTube. It provides non-blocking schema changes, branching workflows, and horizontal sharding for teams building high-performance applications.",
+      "philosophy": "PlanetScale's brand identity reflects the power and precision of infrastructure-grade database technology. Its bold geometric logo — an abstract planet with intersecting orbital paths — conveys speed, scalability, and the interconnected nature of modern data systems."
     }
   },
   "tags": {
@@ -420,7 +424,9 @@
     "debugging": "Debugging",
     "automation": "Automation",
     "monitoring": "Monitoring",
-    "quality-assurance": "Quality Assurance"
+    "quality-assurance": "Quality Assurance",
+    "database": "Database",
+    "infrastructure": "Infrastructure"
   },
   "tag": {
     "title": "Brands tagged \"{tag}\"",

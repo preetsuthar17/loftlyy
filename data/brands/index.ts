@@ -27,6 +27,7 @@ import { microsoft } from "./microsoft"
 import { netflix } from "./netflix"
 import { nike } from "./nike"
 import { openai } from "./openai"
+import { planetscale } from "./planetscale"
 import { pinterest } from "./pinterest"
 import { reddit } from "./reddit"
 import { spotify } from "./spotify"
@@ -74,6 +75,7 @@ const rawBrands: Brand[] = [
   nvidia,
   notion,
   openai,
+  planetscale,
   pinterest,
   reddit,
   spotify,
