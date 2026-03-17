@@ -1,0 +1,151 @@
+import type { Brand } from "@/lib/types"
+
+export const polar: Brand = {
+  slug: "polar",
+  name: "Polar",
+  description:
+    "Polar is an open-source billing and monetization platform designed for developers and AI companies. Headquartered in San Francisco, Polar enables businesses to implement usage-based billing, SaaS subscriptions, and flexible pricing models with a developer-first approach and transparent flat-rate pricing.",
+  url: "https://polar.sh",
+  industry: "saas",
+  categories: ["saas", "technology", "minimal-logos", "geometric-logos", "wordmark-logos"],
+  tags: [
+    "developer-tools",
+    "billing",
+    "open-source",
+    "monetization",
+    "api",
+  ],
+  colors: [
+    {
+      name: "Polar Blue",
+      hex: "#2563EB",
+      usage: "Primary brand color, CTAs, interactive elements.",
+    },
+    {
+      name: "Polar Blue Light",
+      hex: "#3B82F6",
+      usage: "Secondary accent, hover states, highlights.",
+    },
+    {
+      name: "Polar Blue Pale",
+      hex: "#60A5FA",
+      usage: "Tertiary accent, backgrounds, subtle highlights.",
+    },
+    {
+      name: "Polar Night",
+      hex: "#070708",
+      usage: "Dark backgrounds, dark mode base.",
+    },
+    {
+      name: "Polar Gray",
+      hex: "#6F6F80",
+      usage: "Secondary text, muted UI elements.",
+    },
+    {
+      name: "Polar Snow",
+      hex: "#D9D9E3",
+      usage: "Light backgrounds, borders, dividers.",
+    },
+  ],
+  typography: [
+    {
+      name: "Inter",
+      role: "Primary / Body Text",
+      weights: ["300", "400", "500", "600"],
+      category: "sans-serif",
+      designer: "Rasmus Andersson",
+      foundry: "Google Fonts",
+      fontUrl: "/brands/polar/fonts/inter-regular.woff2",
+    },
+    {
+      name: "Inter Display",
+      role: "Headings / Display",
+      weights: ["300", "400", "500", "600"],
+      category: "sans-serif",
+      designer: "Rasmus Andersson",
+      foundry: "Google Fonts",
+      fontUrl: "/brands/polar/fonts/inter-display-medium.woff2",
+    },
+    {
+      name: "Geist Mono",
+      role: "Code / Monospace",
+      weights: ["100", "400", "700", "900"],
+      category: "monospace",
+      designer: "Vercel",
+      foundry: "Vercel",
+      fontUrl: "/brands/polar/fonts/geist-mono-variable.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Polar Logomark — Black",
+      src: "/brands/polar/polar-logomark-black.svg",
+      width: 300,
+      height: 300,
+      format: "svg",
+    },
+    {
+      label: "Polar Logomark — White",
+      src: "/brands/polar/polar-logomark-white.svg",
+      width: 300,
+      height: 300,
+      format: "svg",
+    },
+    {
+      label: "Polar Logotype — Black",
+      src: "/brands/polar/polar-logotype-black.svg",
+      width: 1020,
+      height: 300,
+      format: "svg",
+    },
+    {
+      label: "Polar Logotype — White",
+      src: "/brands/polar/polar-logotype-white.svg",
+      width: 1020,
+      height: 300,
+      format: "svg",
+    },
+    {
+      label: "Polar Logotype — Blue",
+      src: "/brands/polar/polar-logotype-blue.svg",
+      width: 1020,
+      height: 300,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Polar Logomark — Black",
+    src: "/brands/polar/polar-logomark-black.svg",
+    width: 300,
+    height: 300,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Polar Logomark — White",
+    src: "/brands/polar/polar-logomark-white.svg",
+    width: 300,
+    height: 300,
+    format: "svg",
+  },
+  dateAdded: "2026-03-17",
+  founded: 2023,
+  headquarters: "San Francisco, California",
+  designer: "Polar Design Team",
+  philosophy:
+    "Polar's identity is rooted in developer-first simplicity and open-source transparency. The brand uses a clean, geometric mark and a cool blue palette to convey trust and technical precision, making complex billing infrastructure feel approachable and elegant.",
+  legal: {
+    guidelinesUrl: "https://polar.sh/assets/brand/polar_brand.zip",
+    dos: [
+      "Use official Polar brand assets from the brand resources package",
+      "Maintain clear space around the Polar logo mark",
+      "Use the Polar icon on clean, uncluttered backgrounds",
+      "Refer to the company as 'Polar' (capitalized) in text",
+    ],
+    donts: [
+      "Modify the Polar logo mark proportions or shape",
+      "Use the Polar brand to imply partnership without authorization",
+      "Recolor the logo outside of approved black, white, or blue variants",
+      "Place the Polar logo on visually busy or low-contrast backgrounds",
+    ],
+  },
+}

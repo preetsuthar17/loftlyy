@@ -103,6 +103,10 @@
     "sportswear": "运动服饰"
   },
   "brands": {
+    "21st": {
+      "description": "21st.dev 是一个为代理互联网提供基础设施和 UI 构建模块的开发者平台。它提供 21st Agents SDK 用于构建和部署 AI 代理，以及数千个社区发布的 React 组件，助力快速产品开发。",
+      "philosophy": "暗色、极简、开发者优先。21st 的品牌标识反映了现代 AI 工具的精确与速度——几何标志搭配 Vercel 的 Geist 字体家族，传达出为代理互联网打造的产品理念，以清晰和性能为核心。"
+    },
     "abode": {
       "description": "Abode 是一款社交移动应用，将您的手机变成多人聚会空间。由 Look Engineering, Inc. 开发，它通过名为「磁铁」的共享互动组件让朋友们相互连接，支持协作游戏、播放列表、投票和实时活动。",
       "philosophy": "Abode 的品牌理念建立在手机应该拉近人与人距离的想法之上。标志性蓝色的粗体几何字标志，锚定了一个充满活力、俏皮的视觉体系，颂扬连接、自发性与共同时刻。"
@@ -126,6 +130,14 @@
     "discord": {
       "description": "Discord 是一个为创建社区而设计的语音、视频和文本沟通平台。它最初为游戏玩家打造，后来扩展到服务各种类型的社区，从学习小组到艺术团体再到开源项目。Discord 的使命是为每个人创造找到归属感的空间。",
       "philosophy": "活泼、亲切且包容。Discord 的品牌识别在年轻能量与沟通平台所需的清晰度之间取得平衡，并以标志性的 Clyde 吉祥物和 Blurple 色彩作为识别锚点。"
+    },
+    "raycast": {
+      "description": "Raycast 是一款强大的 macOS 生产力启动器，让用户可以通过一个以键盘为核心的统一界面控制工具、快捷方式和工作流。Raycast 专为速度和可扩展性设计，用统一的命令栏取代了碎片化的应用切换，深受全球开发者和高级用户的信赖。",
+      "philosophy": "Raycast 的品牌识别体现了生产力在于心流而非节省时间的理念。几何化的标志 — 由放射状图形组成的风格化光标 — 映射出速度、精准和可扩展性，包裹在标志性的红色中，在深色、专注的界面上格外醒目。"
+    },
+    "scira": {
+      "description": "Scira 是一款开源的 AI 驱动搜索引擎，能够规划、检索并引用来自网络的信息。由 Zaid Mukaddam 开发，最初于 2024 年以 MiniPerplx 名义推出，后更名为 Scira——源自拉丁语 'scire'，意为'知道'——提供 17 种搜索模式和 28 个集成工具。",
+      "philosophy": "研究一切，完成一切。Scira 的品牌标识植根于极简主义与清晰感，运用单色调色板和星光图标传达智能发现与代理能力。"
     },
     "spotify": {
       "description": "Spotify 是全球最大的音频流媒体平台，提供数百万首歌曲、播客和有声书。它创立于瑞典，通过个性化播放列表和算法推荐改变了人们发现和收听音乐的方式。",
@@ -310,12 +322,25 @@
     "planetscale": {
       "description": "PlanetScale 是一个由 Vitess 创建者打造的云数据库平台，提供托管的 MySQL（通过 Vitess）和 PostgreSQL 服务。Vitess 是为扩展 YouTube 而创建的开源分片系统。该平台提供无阻塞的架构变更、分支工作流和水平分片，帮助团队构建高性能应用程序。",
       "philosophy": "PlanetScale 的品牌标识体现了基础设施级数据库技术的力量与精准。其大胆的几何标志——一颗带有交叉轨道路径的抽象星球——传达了速度、可扩展性以及现代数据系统的互联本质。"
+    },
+    "railway": {
+      "description": "Railway是一个全能智能云平台，用于部署具有自动扩展、监控和安全功能的Web应用、服务器和数据库。Railway成立于2020年，通过可视化画布、代码自动配置和集成可观测性等功能简化基础设施管理，为全球超过250万开发者提供服务。",
+      "philosophy": "Railway的品牌标识围绕将部署摩擦降至零而构建。其以开发者为中心的深色美学搭配独特的火车标志，体现了将基础设施视为旅程的理念——快速、可靠，始终向软件的新黄金时代前进。"
+    },
+    "polar": {
+      "description": "Polar是一个为开发者和AI公司设计的开源计费和变现平台。总部位于旧金山，Polar以开发者优先的理念，帮助企业实现基于用量的计费、SaaS订阅和灵活的定价模型。",
+      "philosophy": "Polar的品牌形象根植于开发者优先的简洁性和开源透明度。品牌采用简洁的几何标志和冷色调蓝色调色板，传达信任感和技术精准度。"
+    },
+    "tailwind-css": {
+      "description": "Tailwind CSS是一个实用优先的CSS框架，使开发者能够通过直接在HTML标记中组合实用类来快速构建现代网站。由Tailwind Labs创建，凭借其灵活且针对生产环境优化的样式方法，已成为最受欢迎的CSS框架之一，为数百万个项目提供支持。",
+      "philosophy": "Tailwind CSS相信构建现代界面的最佳方式是通过实用优先的组合——提供低级构建块，使开发者能够创建独特的设计，而无需与固执己见的框架抗争。"
     }
   },
   "tags": {
     "communication": "沟通",
     "community": "社区",
     "gaming": "游戏",
+    "search-engine": "搜索引擎",
     "voice-chat": "语音聊天",
     "messaging": "消息",
     "music": "音乐",
@@ -455,7 +480,17 @@
     "no-code": "无代码",
     "app-builder": "应用构建器",
     "documentation": "文档",
-    "voice-ai": "语音AI"
+    "voice-ai": "语音AI",
+    "ui-components": "UI 组件",
+    "agents": "智能体",
+    "devops": "DevOps",
+    "billing": "计费",
+    "monetization": "变现",
+    "css": "CSS",
+    "framework": "框架",
+    "launcher": "启动器",
+    "macos": "macOS",
+    "keyboard-first": "键盘优先"
   },
   "tag": {
     "title": "标记为\"{tag}\"的品牌",

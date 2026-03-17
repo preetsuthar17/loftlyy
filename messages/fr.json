@@ -103,6 +103,10 @@
     "sportswear": "Vêtements de Sport"
   },
   "brands": {
+    "21st": {
+      "description": "21st.dev est une plateforme pour développeurs qui fournit l'infrastructure et les composants d'interface pour l'internet agentique. Elle propose le SDK Agents 21st pour créer et déployer des agents IA, ainsi que des milliers de composants React publiés par la communauté pour un développement produit rapide.",
+      "philosophy": "Sombre, minimaliste et axée sur le développeur. L'identité de 21st reflète la précision et la vitesse de l'outillage IA moderne — un logotype géométrique associé à la famille typographique Geist de Vercel signale un produit conçu pour l'internet agentique, où la clarté et la performance sont primordiales."
+    },
     "abode": {
       "description": "Abode est une application mobile sociale qui transforme votre téléphone en espace de rencontre multijoueur. Créée par Look Engineering, Inc., elle permet aux amis de se connecter via des widgets interactifs partagés appelés magnets, permettant des jeux collaboratifs, des playlists, des sondages et des activités en temps réel.",
       "philosophy": "L'identité d'Abode repose sur l'idée que les téléphones doivent rapprocher les gens, non les éloigner. Le logotype géométrique et audacieux en bleu signature ancre un système visuel vibrant et ludique qui célèbre la connexion, la spontanéité et les moments partagés."
@@ -126,6 +130,14 @@
     "discord": {
       "description": "Discord est une plateforme de communication vocale, vidéo et textuelle conçue pour créer des communautés. Initialement conçu pour les joueurs, il s'est étendu pour servir des communautés de toutes sortes — des groupes d'étude aux collectifs artistiques en passant par les projets open source. La mission de Discord est de créer un espace où chacun peut trouver sa place.",
       "philosophy": "Ludique, accessible et inclusif. L'identité de Discord équilibre une énergie juvénile avec la clarté nécessaire pour une plateforme de communication, en utilisant l'emblématique mascotte Clyde et le Blurple comme repères de reconnaissance."
+    },
+    "raycast": {
+      "description": "Raycast est un puissant lanceur de productivité pour macOS qui permet de contrôler ses outils, raccourcis et flux de travail depuis une interface unique pensée pour le clavier. Conçu pour la rapidité et l'extensibilité, Raycast remplace la fragmentation entre applications par une barre de commandes unifiée, plébiscitée par les développeurs et les utilisateurs avancés du monde entier.",
+      "philosophy": "L'identité de Raycast incarne la conviction que la productivité est une question de flux, pas de gain de temps. Le logotype géométrique — un curseur stylisé composé de formes rayonnantes — reflète vitesse, précision et extensibilité, le tout habillé d'un rouge signature qui tranche avec l'interface sombre et concentrée."
+    },
+    "scira": {
+      "description": "Scira est un moteur de recherche open source alimenté par l'IA qui planifie, récupère et cite des informations provenant du web. Créé par Zaid Mukaddam et lancé à l'origine sous le nom de MiniPerplx en 2024, il a été rebaptisé Scira — du latin 'scire', signifiant 'savoir' — proposant 17 modes de recherche et 28 outils intégrés.",
+      "philosophy": "Recherchez n'importe quoi. Faites n'importe quoi. L'identité de Scira est ancrée dans le minimalisme et la clarté, utilisant une palette monochromatique et une iconographie d'étincelles pour transmettre la découverte intelligente et la capacité agentique."
     },
     "spotify": {
       "description": "Spotify est la plus grande plateforme de streaming audio au monde, proposant des millions de chansons, podcasts et livres audio. Fondée en Suède, elle a transformé la façon dont les gens découvrent et écoutent la musique grâce à des playlists personnalisées et des recommandations algorithmiques.",
@@ -310,12 +322,25 @@
     "planetscale": {
       "description": "PlanetScale est une plateforme de bases de données cloud proposant des services MySQL gérés (via Vitess) et PostgreSQL, créée par les développeurs de Vitess, le système de partitionnement open source qui a permis de faire évoluer YouTube. Elle offre des modifications de schéma non bloquantes, des flux de travail par branches et un partitionnement horizontal pour les équipes développant des applications haute performance.",
       "philosophy": "L'identité de marque de PlanetScale reflète la puissance et la précision de la technologie de bases de données d'infrastructure. Son audacieux logo géométrique — une planète abstraite aux trajectoires orbitales entrecroisées — évoque la vitesse, l'évolutivité et la nature interconnectée des systèmes de données modernes."
+    },
+    "railway": {
+      "description": "Railway est une plateforme cloud intelligente tout-en-un pour déployer des applications web, des serveurs et des bases de données avec mise à l'échelle automatique, surveillance et sécurité. Fondée en 2020, Railway simplifie la gestion d'infrastructure avec des fonctionnalités telles que les canevas visuels, l'autoconfiguration à partir du code et l'observabilité intégrée — au service de plus de 2,5 millions de développeurs dans le monde.",
+      "philosophy": "L'identité de marque de Railway est construite autour de la réduction des frictions de déploiement à zéro. Son esthétique sombre et centrée sur le développeur, avec un symbole de train distinctif, incarne l'idée de l'infrastructure comme un voyage — rapide, fiable et toujours en mouvement vers un nouvel âge d'or du logiciel."
+    },
+    "polar": {
+      "description": "Polar est une plateforme open source de facturation et de monétisation conçue pour les développeurs et les entreprises d'IA. Basée à San Francisco, Polar permet aux entreprises de mettre en place une facturation à l'usage, des abonnements SaaS et des modèles de tarification flexibles avec une approche axée sur les développeurs.",
+      "philosophy": "L'identité de Polar repose sur la simplicité orientée développeur et la transparence open source. La marque utilise une marque géométrique épurée et une palette bleue froide pour véhiculer confiance et précision technique."
+    },
+    "tailwind-css": {
+      "description": "Tailwind CSS est un framework CSS utilitaire qui permet aux développeurs de construire rapidement des sites web modernes en composant des classes utilitaires directement dans le balisage HTML. Créé par Tailwind Labs, il est devenu l'un des frameworks CSS les plus populaires, propulsant des millions de projets grâce à son approche flexible et optimisée pour la production.",
+      "philosophy": "Tailwind CSS croit que la meilleure façon de construire des interfaces modernes passe par la composition utilitaire, en fournissant des blocs de construction de bas niveau qui permettent aux développeurs de créer des designs uniques sans lutter contre des frameworks aux opinions prédéfinies."
     }
   },
   "tags": {
     "communication": "Communication",
     "community": "Communauté",
     "gaming": "Jeux video",
+    "search-engine": "Moteur de recherche",
     "voice-chat": "Chat vocal",
     "messaging": "Messagerie",
     "music": "Musique",
@@ -455,7 +480,17 @@
     "no-code": "No-Code",
     "app-builder": "Créateur d'apps",
     "documentation": "Documentation",
-    "voice-ai": "IA Vocale"
+    "voice-ai": "IA Vocale",
+    "ui-components": "Composants UI",
+    "agents": "Agents",
+    "devops": "DevOps",
+    "billing": "Facturation",
+    "monetization": "Monétisation",
+    "css": "CSS",
+    "framework": "Framework",
+    "launcher": "Lanceur",
+    "macos": "macOS",
+    "keyboard-first": "Clavier d'abord"
   },
   "tag": {
     "title": "Marques taguées \"{tag}\"",

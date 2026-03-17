@@ -103,6 +103,10 @@
     "sportswear": "Ropa Deportiva"
   },
   "brands": {
+    "21st": {
+      "description": "21st.dev es una plataforma para desarrolladores que proporciona infraestructura y componentes de interfaz para la internet agéntica. Ofrece el SDK de Agentes 21st para construir y desplegar agentes de IA, junto con miles de componentes React publicados por la comunidad para el desarrollo rápido de productos.",
+      "philosophy": "Oscura, minimalista y orientada al desarrollador. La identidad de 21st refleja la precisión y velocidad de las herramientas modernas de IA — un logotipo geométrico combinado con la familia tipográfica Geist de Vercel señala un producto construido para la internet agéntica, donde la claridad y el rendimiento son primordiales."
+    },
     "abode": {
       "description": "Abode es una aplicación móvil social que transforma tu teléfono en un espacio de encuentro multijugador. Creada por Look Engineering, Inc., permite a los amigos conectarse a través de widgets interactivos compartidos llamados magnets, que posibilitan juegos colaborativos, listas de reproducción, encuestas y actividades en tiempo real.",
       "philosophy": "La identidad de Abode se basa en la idea de que los teléfonos deben unir a las personas, no separarlas. El logotipo geométrico y audaz en azul distintivo ancla un sistema visual vibrante y lúdico que celebra la conexión, la espontaneidad y los momentos compartidos."
@@ -126,6 +130,14 @@
     "discord": {
       "description": "Discord es una plataforma de comunicación por voz, video y texto diseñada para crear comunidades. Originalmente creada para jugadores, se ha expandido para servir a comunidades de todo tipo, desde grupos de estudio hasta colectivos artísticos y proyectos de código abierto. La misión de Discord es crear un espacio donde todos puedan encontrar su lugar.",
       "philosophy": "Juguetón, accesible e inclusivo. La identidad de Discord equilibra la energía juvenil con la claridad necesaria para una plataforma de comunicación, utilizando la icónica mascota Clyde y el Blurple como pilares de reconocimiento."
+    },
+    "raycast": {
+      "description": "Raycast es un potente lanzador de productividad para macOS que permite controlar herramientas, atajos y flujos de trabajo desde una única interfaz orientada al teclado. Diseñado para la velocidad y la extensibilidad, Raycast reemplaza la fragmentación entre aplicaciones con una barra de comandos unificada en la que confían desarrolladores y usuarios avanzados de todo el mundo.",
+      "philosophy": "La identidad de Raycast encarna la creencia de que la productividad se trata de flujo, no de ahorrar tiempo. El logotipo geométrico — un cursor estilizado compuesto por formas radiantes — refleja velocidad, precisión y extensibilidad, todo envuelto en un rojo distintivo que destaca sobre la interfaz oscura y enfocada."
+    },
+    "scira": {
+      "description": "Scira es un motor de búsqueda de código abierto impulsado por IA que planifica, recupera y cita información de la web. Creado por Zaid Mukaddam y lanzado originalmente como MiniPerplx en 2024, se renombró a Scira — del latín 'scire', que significa 'saber' — ofreciendo 17 modos de búsqueda y 28 herramientas integradas.",
+      "philosophy": "Investiga cualquier cosa. Haz cualquier cosa. La identidad de Scira está arraigada en el minimalismo y la claridad, utilizando una paleta monocromática e iconografía de destellos para transmitir descubrimiento inteligente y capacidad agéntica."
     },
     "spotify": {
       "description": "Spotify es la plataforma de streaming de audio más grande del mundo, que ofrece millones de canciones, podcasts y audiolibros. Fundada en Suecia, transformó la forma en que las personas descubren y escuchan música con listas de reproducción personalizadas y recomendaciones algorítmicas.",
@@ -310,12 +322,25 @@
     "planetscale": {
       "description": "PlanetScale es una plataforma de bases de datos en la nube que ofrece servicios gestionados de MySQL (a través de Vitess) y PostgreSQL, creada por los desarrolladores de Vitess, el sistema de fragmentación de código abierto que escaló YouTube. Ofrece cambios de esquema sin bloqueo, flujos de trabajo con ramificación y fragmentación horizontal para equipos que desarrollan aplicaciones de alto rendimiento.",
       "philosophy": "La identidad de marca de PlanetScale refleja el poder y la precisión de la tecnología de bases de datos a nivel de infraestructura. Su audaz logotipo geométrico — un planeta abstracto con trayectorias orbitales entrecruzadas — transmite velocidad, escalabilidad y la naturaleza interconectada de los sistemas de datos modernos."
+    },
+    "railway": {
+      "description": "Railway es una plataforma inteligente en la nube todo en uno para desplegar aplicaciones web, servidores y bases de datos con escalado automático, monitoreo y seguridad. Fundada en 2020, Railway simplifica la gestión de infraestructura con funciones como lienzos visuales, autoconfiguración desde código y observabilidad integrada, sirviendo a más de 2,5 millones de desarrolladores en todo el mundo.",
+      "philosophy": "La identidad de marca de Railway se centra en reducir la fricción de despliegue a cero. Su estética oscura y centrada en el desarrollador, con un distintivo símbolo de tren, encarna la idea de la infraestructura como un viaje — rápido, confiable y siempre avanzando hacia una nueva era dorada del software."
+    },
+    "polar": {
+      "description": "Polar es una plataforma de facturación y monetización de código abierto diseñada para desarrolladores y empresas de IA. Con sede en San Francisco, Polar permite a las empresas implementar facturación basada en uso, suscripciones SaaS y modelos de precios flexibles con un enfoque centrado en el desarrollador.",
+      "philosophy": "La identidad de Polar se basa en la simplicidad orientada al desarrollador y la transparencia del código abierto. La marca utiliza una marca geométrica limpia y una paleta azul fría para transmitir confianza y precisión técnica."
+    },
+    "tailwind-css": {
+      "description": "Tailwind CSS es un framework CSS basado en utilidades que permite a los desarrolladores construir sitios web modernos rápidamente componiendo clases de utilidad directamente en el marcado HTML. Creado por Tailwind Labs, se ha convertido en uno de los frameworks CSS más populares, impulsando millones de proyectos con su enfoque flexible y optimizado para producción.",
+      "philosophy": "Tailwind CSS cree que la mejor manera de construir interfaces modernas es a través de la composición basada en utilidades, proporcionando bloques de construcción de bajo nivel que permiten a los desarrolladores crear diseños únicos sin luchar contra frameworks con opiniones predeterminadas."
     }
   },
   "tags": {
     "communication": "Comunicación",
     "community": "Comunidad",
     "gaming": "Videojuegos",
+    "search-engine": "Motor de búsqueda",
     "voice-chat": "Chat de voz",
     "messaging": "Mensajería",
     "music": "Música",
@@ -455,7 +480,17 @@
     "no-code": "Sin código",
     "app-builder": "Creador de apps",
     "documentation": "Documentación",
-    "voice-ai": "IA de Voz"
+    "voice-ai": "IA de Voz",
+    "ui-components": "Componentes de UI",
+    "agents": "Agentes",
+    "devops": "DevOps",
+    "billing": "Facturación",
+    "monetization": "Monetización",
+    "css": "CSS",
+    "framework": "Framework",
+    "launcher": "Lanzador",
+    "macos": "macOS",
+    "keyboard-first": "Teclado primero"
   },
   "tag": {
     "title": "Marcas etiquetadas \"{tag}\"",

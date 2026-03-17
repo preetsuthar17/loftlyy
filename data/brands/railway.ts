@@ -1,0 +1,140 @@
+import type { Brand } from "@/lib/types"
+
+export const railway: Brand = {
+  slug: "railway",
+  name: "Railway",
+  description:
+    "Railway is an all-in-one intelligent cloud platform for deploying web applications, servers, and databases with automatic scaling, monitoring, and security. Founded in 2020, Railway simplifies infrastructure management with features like visual canvases, auto-configuration from code, and integrated observability — serving over 2.5 million developers worldwide.",
+  url: "https://railway.com",
+  industry: "technology",
+  categories: ["technology", "saas", "minimal-logos", "geometric-logos", "wordmark-logos"],
+  tags: ["developer-tools", "cloud", "hosting", "infrastructure", "devops"],
+  colors: [
+    {
+      name: "Railway Dark",
+      hex: "#13111C",
+      usage: "Primary background, dark surfaces, and brand foundation.",
+    },
+    {
+      name: "White",
+      hex: "#FFFFFF",
+      usage: "Text, foreground elements, and contrast surfaces.",
+    },
+    {
+      name: "Railway Purple",
+      hex: "#6C3FE7",
+      usage: "Accent color, interactive elements, and brand highlights.",
+    },
+    {
+      name: "Gray",
+      hex: "#686868",
+      usage: "Secondary text, subtle UI elements, and borders.",
+    },
+    {
+      name: "Cyan",
+      hex: "#43DFBA",
+      usage: "Success states, positive indicators, and secondary accents.",
+    },
+  ],
+  typography: [
+    {
+      name: "Inter",
+      role: "Primary / Body",
+      weights: ["400", "500", "600", "700"],
+      category: "sans-serif",
+      designer: "Rasmus Andersson",
+      foundry: "Google Fonts",
+      fontUrl: "/brands/railway/fonts/inter-regular.woff2",
+    },
+    {
+      name: "Inter Tight",
+      role: "Headings / Display",
+      weights: ["500", "600", "700"],
+      category: "sans-serif",
+      designer: "Rasmus Andersson",
+      foundry: "Google Fonts",
+      fontUrl: "/brands/railway/fonts/inter-tight-semibold.woff2",
+    },
+    {
+      name: "JetBrains Mono",
+      role: "Code / Monospace",
+      weights: ["400", "500", "700"],
+      category: "monospace",
+      designer: "Philipp Nurullin & Konstantin Bulenkov",
+      foundry: "JetBrains",
+      fontUrl: "/brands/railway/fonts/jetbrains-mono-regular.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Railway Logo — Black",
+      src: "/brands/railway/railway-logo-black.svg",
+      width: 1024,
+      height: 1024,
+      format: "svg",
+    },
+    {
+      label: "Railway Logo — White",
+      src: "/brands/railway/railway-logo-white.svg",
+      width: 1024,
+      height: 1024,
+      format: "svg",
+    },
+    {
+      label: "Railway Logo — Purple",
+      src: "/brands/railway/railway-logo-purple.svg",
+      width: 1024,
+      height: 1024,
+      format: "svg",
+    },
+    {
+      label: "Railway Wordmark — Black",
+      src: "/brands/railway/railway-wordmark-black.svg",
+      width: 3733,
+      height: 1024,
+      format: "svg",
+    },
+    {
+      label: "Railway Wordmark — White",
+      src: "/brands/railway/railway-wordmark-white.svg",
+      width: 3733,
+      height: 1024,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Railway Logo — Black",
+    src: "/brands/railway/railway-logo-black.svg",
+    width: 1024,
+    height: 1024,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Railway Logo — White",
+    src: "/brands/railway/railway-logo-white.svg",
+    width: 1024,
+    height: 1024,
+    format: "svg",
+  },
+  dateAdded: "2026-03-17",
+  founded: 2020,
+  headquarters: "San Francisco, California",
+  designer: "Railway Design Team",
+  philosophy:
+    "Railway's brand identity is built around reducing shipping friction to zero. Its dark, developer-centric aesthetic with a distinctive train symbol embodies the idea of infrastructure as a journey — fast, reliable, and always moving forward toward a new golden age of software.",
+  legal: {
+    guidelinesUrl: "https://railway.com/brand",
+    dos: [
+      "Use official Railway logo assets from the brand resources",
+      "Maintain clear space around the Railway logo",
+      "Use the Railway name to truthfully describe your use of the platform",
+      "Use the white logo variant on dark backgrounds",
+    ],
+    donts: [
+      "Modify or distort the Railway logo in any way",
+      "Use Railway marks in your product or company name",
+      "Create logos that are confusingly similar to Railway's",
+      "Display Railway marks more prominently than your own branding",
+    ],
+  },
+}

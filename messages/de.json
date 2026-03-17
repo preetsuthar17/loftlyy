@@ -103,6 +103,10 @@
     "sportswear": "Sportbekleidung"
   },
   "brands": {
+    "21st": {
+      "description": "21st.dev ist eine Entwicklerplattform, die Infrastruktur und UI-Bausteine für das agentische Internet bereitstellt. Sie bietet das 21st Agents SDK zum Erstellen und Bereitstellen von KI-Agenten sowie Tausende von der Community veröffentlichte React-Komponenten für schnelle Produktentwicklung.",
+      "philosophy": "Dunkel, minimalistisch und entwicklerorientiert. Die Identität von 21st spiegelt die Präzision und Geschwindigkeit moderner KI-Tools wider — ein geometrisches Logo kombiniert mit Vercels Geist-Schriftfamilie signalisiert ein Produkt für das agentische Internet, bei dem Klarheit und Leistung an erster Stelle stehen."
+    },
     "abode": {
       "description": "Abode ist eine soziale Mobile-App, die dein Telefon in einen Multiplayer-Treffpunkt verwandelt. Entwickelt von Look Engineering, Inc., ermöglicht sie Freunden, sich über geteilte interaktive Widgets namens Magnets zu verbinden für kollaborative Spiele, Playlists, Umfragen und Echtzeit-Aktivitäten.",
       "philosophy": "Abodes Identität basiert auf der Idee, dass Telefone Menschen näherbringen, nicht trennen sollten. Das fette, geometrische Wortbild in Signaturblau verankert ein lebendiges, verspieltes visuelles System, das Verbindung, Spontaneität und gemeinsame Momente feiert."
@@ -126,6 +130,14 @@
     "discord": {
       "description": "Discord ist eine Sprach-, Video- und Textkommunikationsplattform, die für den Aufbau von Gemeinschaften entwickelt wurde. Ursprünglich für Gamer gebaut, hat sie sich erweitert, um Gemeinschaften aller Art zu bedienen — von Lerngruppen über Künstlerkollektive bis hin zu Open-Source-Projekten. Discords Mission ist es, einen Raum zu schaffen, in dem jeder seinen Platz finden kann.",
       "philosophy": "Verspielt, zugänglich und inklusiv. Discords Identität balanciert jugendliche Energie mit der Klarheit, die für eine Kommunikationsplattform erforderlich ist, wobei das ikonische Clyde-Maskottchen und Blurple als Ankerpunkte der Wiedererkennung dienen."
+    },
+    "raycast": {
+      "description": "Raycast ist ein leistungsstarker Produktivitäts-Launcher für macOS, mit dem sich Werkzeuge, Kurzbefehle und Arbeitsabläufe über eine einzige, tastaturorientierte Oberfläche steuern lassen. Auf Geschwindigkeit und Erweiterbarkeit ausgelegt, ersetzt Raycast fragmentiertes App-Wechseln durch eine einheitliche Befehlsleiste, der Entwickler und Power-User weltweit vertrauen.",
+      "philosophy": "Raycasts Identität verkörpert die Überzeugung, dass Produktivität eine Frage des Flows ist, nicht der Zeitersparnis. Das geometrische Logozeichen — ein stilisierter Cursor aus strahlenden Formen — spiegelt Geschwindigkeit, Präzision und Erweiterbarkeit wider, eingehüllt in ein markantes Rot, das sich von der dunklen, fokussierten Oberfläche abhebt."
+    },
+    "scira": {
+      "description": "Scira ist eine quelloffene, KI-gestützte Suchmaschine, die Informationen aus dem Web plant, abruft und mit Quellenangaben versieht. Entwickelt von Zaid Mukaddam und ursprünglich 2024 als MiniPerplx gestartet, wurde sie in Scira umbenannt — vom lateinischen 'scire', was 'wissen' bedeutet — und bietet 17 Suchmodi sowie 28 integrierte Werkzeuge.",
+      "philosophy": "Recherchiere alles. Erledige alles. Sciras Identität wurzelt in Minimalismus und Klarheit und verwendet eine monochromatische Palette sowie Funkeln-Ikonografie, um intelligente Entdeckung und agentische Fähigkeiten zu vermitteln."
     },
     "spotify": {
       "description": "Spotify ist die weltweit größte Audio-Streaming-Plattform mit Millionen von Songs, Podcasts und Hörbüchern. In Schweden gegründet, hat es die Art und Weise verändert, wie Menschen Musik entdecken und hören — mit personalisierten Playlists und algorithmischen Empfehlungen.",
@@ -310,12 +322,25 @@
     "planetscale": {
       "description": "PlanetScale ist eine Cloud-Datenbankplattform, die verwaltete MySQL- (über Vitess) und PostgreSQL-Dienste anbietet. Sie wurde von den Entwicklern von Vitess geschaffen — dem Open-Source-Sharding-System, das YouTube skalierte. Sie bietet nicht blockierende Schemaänderungen, Branch-Workflows und horizontales Sharding für Teams, die leistungsstarke Anwendungen entwickeln.",
       "philosophy": "Die Markenidentität von PlanetScale spiegelt die Leistungsfähigkeit und Präzision von Datenbanktechnologie auf Infrastrukturebene wider. Das markante geometrische Logo — ein abstrakter Planet mit sich kreuzenden Umlaufbahnen — vermittelt Geschwindigkeit, Skalierbarkeit und die vernetzte Natur moderner Datensysteme."
+    },
+    "railway": {
+      "description": "Railway ist eine intelligente All-in-One-Cloud-Plattform für die Bereitstellung von Webanwendungen, Servern und Datenbanken mit automatischer Skalierung, Überwachung und Sicherheit. 2020 gegründet, vereinfacht Railway das Infrastrukturmanagement mit Funktionen wie visuellen Leinwänden, automatischer Konfiguration aus Code und integrierter Observability — und bedient über 2,5 Millionen Entwickler weltweit.",
+      "philosophy": "Railwayns Markenidentität basiert auf der Reduzierung von Deployment-Reibung auf null. Seine dunkle, entwicklerzentrierte Ästhetik mit einem markanten Zugsymbol verkörpert die Idee von Infrastruktur als Reise — schnell, zuverlässig und immer vorwärts in ein neues goldenes Zeitalter der Software."
+    },
+    "polar": {
+      "description": "Polar ist eine Open-Source-Plattform für Abrechnung und Monetarisierung, die für Entwickler und KI-Unternehmen konzipiert ist. Mit Hauptsitz in San Francisco ermöglicht Polar Unternehmen die Implementierung nutzungsbasierter Abrechnung, SaaS-Abonnements und flexibler Preismodelle mit einem entwicklerorientierten Ansatz.",
+      "philosophy": "Polars Identität basiert auf entwicklerorientierter Einfachheit und Open-Source-Transparenz. Die Marke verwendet ein klares, geometrisches Zeichen und eine kühle blaue Farbpalette, um Vertrauen und technische Präzision zu vermitteln."
+    },
+    "tailwind-css": {
+      "description": "Tailwind CSS ist ein Utility-First CSS-Framework, das Entwicklern ermöglicht, moderne Websites schnell zu erstellen, indem sie Utility-Klassen direkt im HTML-Markup kombinieren. Von Tailwind Labs entwickelt, ist es zu einem der beliebtesten CSS-Frameworks geworden und treibt Millionen von Projekten mit seinem flexiblen, produktionsoptimierten Ansatz an.",
+      "philosophy": "Tailwind CSS glaubt, dass der beste Weg, moderne Interfaces zu bauen, die Utility-First-Komposition ist — niedrigstufige Bausteine bereitzustellen, die Entwicklern ermöglichen, einzigartige Designs zu erstellen, ohne gegen meinungsstarke Frameworks ankämpfen zu müssen."
     }
   },
   "tags": {
     "communication": "Kommunikation",
     "community": "Gemeinschaft",
     "gaming": "Gaming",
+    "search-engine": "Suchmaschine",
     "voice-chat": "Sprachchat",
     "messaging": "Nachrichtenversand",
     "music": "Musik",
@@ -455,7 +480,17 @@
     "no-code": "No-Code",
     "app-builder": "App-Builder",
     "documentation": "Dokumentation",
-    "voice-ai": "Sprach-KI"
+    "voice-ai": "Sprach-KI",
+    "ui-components": "UI-Komponenten",
+    "agents": "Agenten",
+    "devops": "DevOps",
+    "billing": "Abrechnung",
+    "monetization": "Monetarisierung",
+    "css": "CSS",
+    "framework": "Framework",
+    "launcher": "Launcher",
+    "macos": "macOS",
+    "keyboard-first": "Tastatur-zuerst"
   },
   "tag": {
     "title": "Marken mit Tag \"{tag}\"",

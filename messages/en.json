@@ -103,6 +103,10 @@
     "sportswear": "Sportswear"
   },
   "brands": {
+    "21st": {
+      "description": "21st.dev is a developer platform that provides infrastructure and UI building blocks for the agentic internet. It offers the 21st Agents SDK for building and deploying AI agents, along with thousands of community-published React components for rapid product development.",
+      "philosophy": "Dark, minimal, and developer-first. 21st's identity reflects the precision and speed of modern AI tooling — a geometric logomark paired with Vercel's Geist type family signals a product built for the agentic internet, where clarity and performance are paramount."
+    },
     "abode": {
       "description": "Abode is a social mobile app that transforms your phone into a multiplayer hangout space. Built by Look Engineering, Inc., it lets friends connect through shared interactive widgets called 'magnets' — enabling collaborative games, playlists, polls, and real-time activities together.",
       "philosophy": "Abode's identity is built on the idea that phones should bring people closer together, not further apart. The bold, geometric wordmark in signature blue anchors a vibrant, playful visual system that celebrates connection, spontaneity, and shared moments."
@@ -126,6 +130,14 @@
     "discord": {
       "description": "Discord is a voice, video, and text communication platform designed for creating communities. Originally built for gamers, it has expanded to serve communities of all kinds — from study groups to art collectives to open-source projects. Discord's mission is to create space for everyone to find belonging.",
       "philosophy": "Playful, approachable, and inclusive. Discord's identity balances youthful energy with the clarity needed for a communication platform, using the iconic Clyde mascot and Blurple as anchors of recognition."
+    },
+    "raycast": {
+      "description": "Raycast is a powerful productivity launcher for macOS that lets you control your tools, shortcuts, and workflows from a single keyboard-first interface. Designed for speed and extensibility, Raycast replaces fragmented app-switching with a unified command bar trusted by developers and power users worldwide.",
+      "philosophy": "Raycast's identity embodies the belief that productivity is about flow, not saving time. The geometric logomark — a stylized cursor composed of radiating shapes — reflects speed, precision, and extensibility, all wrapped in a signature red that cuts through the dark, focused interface."
+    },
+    "scira": {
+      "description": "Scira is an open-source, AI-powered search engine that plans, retrieves, and cites information from the web. Built by Zaid Mukaddam and originally launched as MiniPerplx in 2024, it rebranded to Scira — from the Latin 'scire,' meaning 'to know' — offering 17 search modes and 28 integrated tools.",
+      "philosophy": "Research anything. Do anything. Scira's identity is rooted in minimalism and clarity, using a monochromatic palette and sparkle iconography to convey intelligent discovery and agentic capability."
     },
     "spotify": {
       "description": "Spotify is the world's largest audio streaming platform, offering millions of songs, podcasts, and audiobooks. Founded in Sweden, it transformed how people discover and listen to music with personalized playlists and algorithmic recommendations.",
@@ -310,12 +322,25 @@
     "planetscale": {
       "description": "PlanetScale is a cloud database platform offering managed MySQL (via Vitess) and PostgreSQL services, built by the creators of Vitess — the open-source sharding system that scaled YouTube. It provides non-blocking schema changes, branching workflows, and horizontal sharding for teams building high-performance applications.",
       "philosophy": "PlanetScale's brand identity reflects the power and precision of infrastructure-grade database technology. Its bold geometric logo — an abstract planet with intersecting orbital paths — conveys speed, scalability, and the interconnected nature of modern data systems."
+    },
+    "railway": {
+      "description": "Railway is an all-in-one intelligent cloud platform for deploying web applications, servers, and databases with automatic scaling, monitoring, and security. Founded in 2020, Railway simplifies infrastructure management with features like visual canvases, auto-configuration from code, and integrated observability — serving over 2.5 million developers worldwide.",
+      "philosophy": "Railway's brand identity is built around reducing shipping friction to zero. Its dark, developer-centric aesthetic with a distinctive train symbol embodies the idea of infrastructure as a journey — fast, reliable, and always moving forward toward a new golden age of software."
+    },
+    "polar": {
+      "description": "Polar is an open-source billing and monetization platform designed for developers and AI companies. Headquartered in San Francisco, Polar enables businesses to implement usage-based billing, SaaS subscriptions, and flexible pricing models with a developer-first approach.",
+      "philosophy": "Polar's identity is rooted in developer-first simplicity and open-source transparency. The brand uses a clean, geometric mark and a cool blue palette to convey trust and technical precision."
+    },
+    "tailwind-css": {
+      "description": "Tailwind CSS is a utility-first CSS framework that enables developers to rapidly build modern websites by composing utility classes directly in HTML markup. Created by Tailwind Labs, it has become one of the most popular CSS frameworks, powering millions of projects with its flexible, production-optimized approach to styling.",
+      "philosophy": "Tailwind CSS believes that the best way to build modern interfaces is through utility-first composition — providing low-level building blocks that empower developers to create unique designs without fighting against opinionated frameworks."
     }
   },
   "tags": {
     "communication": "Communication",
     "community": "Community",
     "gaming": "Gaming",
+    "search-engine": "Search Engine",
     "voice-chat": "Voice Chat",
     "messaging": "Messaging",
     "music": "Music",
@@ -455,7 +480,17 @@
     "no-code": "No-Code",
     "app-builder": "App Builder",
     "documentation": "Documentation",
-    "voice-ai": "Voice AI"
+    "voice-ai": "Voice AI",
+    "ui-components": "UI Components",
+    "agents": "Agents",
+    "devops": "DevOps",
+    "launcher": "Launcher",
+    "macos": "macOS",
+    "keyboard-first": "Keyboard-First",
+    "billing": "Billing",
+    "monetization": "Monetization",
+    "css": "CSS",
+    "framework": "Framework"
   },
   "tag": {
     "title": "Brands tagged \"{tag}\"",
