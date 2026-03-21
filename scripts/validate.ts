@@ -14,10 +14,8 @@ const ROOT = process.cwd()
 const PUBLIC = join(ROOT, "public")
 const MESSAGES_DIR = join(ROOT, "messages")
 const HEX_RE = /^#[0-9A-Fa-f]{6}$/
-const DEFAULT_ASSET_BASE_URL =
-  "https://pub-079f39a5918e4dde95387cd357e855f3.r2.dev"
 const externalAssetBaseUrl =
-  process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? DEFAULT_ASSET_BASE_URL
+  process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? ""
 
 const errors: string[] = []
 const warnings: string[] = []

@@ -1,9 +1,5 @@
 const ABSOLUTE_URL_RE = /^https?:\/\//i
-const DEFAULT_ASSET_BASE_URL =
-  "https://pub-079f39a5918e4dde95387cd357e855f3.r2.dev"
-
-const assetBaseUrl =
-  process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? DEFAULT_ASSET_BASE_URL
+const assetBaseUrl = process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? ""
 
 function normalizeAssetBaseUrl(baseUrl: string): string {
   return baseUrl.replace(/\/+$/, "")

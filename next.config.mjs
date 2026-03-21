@@ -1,9 +1,7 @@
 import createNextIntlPlugin from "next-intl/plugin"
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
-const defaultAssetBaseUrl = "https://loftlyy.preetsutharxd.workers.dev"
-const assetBaseUrl =
-  process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? defaultAssetBaseUrl
+const assetBaseUrl = process.env.NEXT_PUBLIC_ASSET_BASE_URL?.trim() ?? ""
 const remotePatterns = []
 
 if (assetBaseUrl) {

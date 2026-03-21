@@ -7,7 +7,13 @@ export const railway: Brand = {
     "Railway is an all-in-one intelligent cloud platform for deploying web applications, servers, and databases with automatic scaling, monitoring, and security. Founded in 2020, Railway simplifies infrastructure management with features like visual canvases, auto-configuration from code, and integrated observability — serving over 2.5 million developers worldwide.",
   url: "https://railway.com",
   industry: "technology",
-  categories: ["technology", "saas", "minimal-logos", "geometric-logos", "wordmark-logos"],
+  categories: [
+    "technology",
+    "saas",
+    "minimal-logos",
+    "geometric-logos",
+    "wordmark-logos",
+  ],
   tags: ["developer-tools", "cloud", "hosting", "infrastructure", "devops"],
   colors: [
     {

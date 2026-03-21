@@ -20,6 +20,7 @@
     "**/*.xml",
     "**/*.docx",
     "**/pnpm-lock.yaml",
-    "**/tsconfig.tsbuildinfo"
+    "**/tsconfig.tsbuildinfo",
+    "LICENSE"
   ]
 }

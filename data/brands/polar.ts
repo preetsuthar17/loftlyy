@@ -7,14 +7,14 @@ export const polar: Brand = {
     "Polar is an open-source billing and monetization platform designed for developers and AI companies. Headquartered in San Francisco, Polar enables businesses to implement usage-based billing, SaaS subscriptions, and flexible pricing models with a developer-first approach and transparent flat-rate pricing.",
   url: "https://polar.sh",
   industry: "saas",
-  categories: ["saas", "technology", "minimal-logos", "geometric-logos", "wordmark-logos"],
-  tags: [
-    "developer-tools",
-    "billing",
-    "open-source",
-    "monetization",
-    "api",
+  categories: [
+    "saas",
+    "technology",
+    "minimal-logos",
+    "geometric-logos",
+    "wordmark-logos",
   ],
+  tags: ["developer-tools", "billing", "open-source", "monetization", "api"],
   colors: [
     {
       name: "Polar Blue",

@@ -1,8 +1,8 @@
 {
-  "name": "mobbin-for-branding",
-  "version": "0.0.1",
+  "name": "loftlyy",
+  "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
-  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
