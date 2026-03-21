@@ -62,6 +62,7 @@ import { mcdonalds } from "./mcdonalds"
 import { starbucks } from "./starbucks"
 import { tailwindCss } from "./tailwind-css"
 import { zoom } from "./zoom"
+import { solana } from "./solana"
 
 const rawBrands: Brand[] = [
   twentyFirst,
@@ -125,6 +126,7 @@ const rawBrands: Brand[] = [
   x,
   youtube,
   zoom,
+  solana,
 ].sort((a, b) => a.name.localeCompare(b.name))
 
 const WHITESPACE_RE = /\s+/g
