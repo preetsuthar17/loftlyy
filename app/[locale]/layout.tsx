@@ -9,7 +9,6 @@ import {
 import { notFound } from "next/navigation"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
 
-import { ThemeProvider } from "@/components/theme-provider"
 import { SiteStructuredData } from "@/components/structured-data"
 import { routing } from "@/i18n/routing"
 
@@ -96,7 +95,7 @@ export default async function LocaleLayout({
             locale={locale}
             messages={messages}
           >
-            <ThemeProvider>{children}</ThemeProvider>
+            {children}
           </NextIntlClientProvider>
         </NuqsAdapter>
       </div>
