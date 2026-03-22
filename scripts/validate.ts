@@ -5,10 +5,37 @@
  * Usage: pnpm validate
  */
 
-import { existsSync } from "node:fs"
+import { existsSync, readFileSync } from "node:fs"
 import { readFile, readdir } from "node:fs/promises"
 import { join } from "node:path"
 import { locales } from "@/i18n/locales"
+
+/**
+ * Load `.env.local` so validation picks up NEXT_PUBLIC_ASSET_BASE_URL even
+ * when the script is executed via `tsx` (which does not auto-load env files).
+ * Existing env vars take precedence — the file only fills in missing values.
+ */
+function loadEnvFile() {
+  const envPath = join(process.cwd(), ".env.local")
+  if (!existsSync(envPath)) return
+
+  const content = readFileSync(envPath, "utf-8")
+  for (const line of content.split("\n")) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith("#")) continue
+
+    const eqIndex = trimmed.indexOf("=")
+    if (eqIndex === -1) continue
+
+    const key = trimmed.slice(0, eqIndex).trim()
+    const value = trimmed.slice(eqIndex + 1).trim()
+    if (!(key in process.env)) {
+      process.env[key] = value
+    }
+  }
+}
+
+loadEnvFile()
 
 const ROOT = process.cwd()
 const PUBLIC = join(ROOT, "public")
