@@ -12,6 +12,7 @@
     "startExploring": "Start exploring",
     "cta": "Start exploring",
     "cliDocs": "CLI docs",
+    "cliTooltip": "Open Loftlyy CLI on npm",
     "sponsor": "Support us"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "Use the sidebar to search and filter {count} brands",
     "cta": "Start exploring",
+    "cliDocs": "CLI docs",
+    "cliTooltip": "Open Loftlyy CLI on npm",
     "explore": "More Brands",
     "headline": "Discover real-world brand identities.",
     "popular": "Popular",

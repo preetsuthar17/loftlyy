@@ -12,6 +12,7 @@
     "startExploring": "开始探索",
     "cta": "开始探索",
     "cliDocs": "CLI 文档",
+    "cliTooltip": "在 npm 上打开 Loftlyy CLI",
     "sponsor": "支持我们"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "使用侧边栏搜索并筛选 {count} 个品牌",
     "cta": "开始探索",
+    "cliDocs": "CLI 文档",
+    "cliTooltip": "在 npm 上打开 Loftlyy CLI",
     "explore": "更多品牌",
     "headline": "发现真实世界的品牌识别。",
     "popular": "热门",

@@ -50,8 +50,8 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
           href="https://www.npmjs.com/package/@loftlyy/cli"
           target="_blank"
           rel="noopener noreferrer"
-          title={t("home.cliDocs")}
-          aria-label={t("home.cliDocs")}
+          title={t("home.cliTooltip")}
+          aria-label={t("home.cliTooltip")}
           className="flex size-12 items-center justify-center rounded-full bg-neutral-100 text-neutral-700 transition-colors hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
         >
           <IconTerminal2 />

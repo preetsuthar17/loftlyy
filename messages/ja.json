@@ -12,6 +12,7 @@
     "startExploring": "探索を始める",
     "cta": "探索を始める",
     "cliDocs": "CLIドキュメント",
+    "cliTooltip": "npmでLoftlyy CLIを開く",
     "sponsor": "サポートする"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "サイドバーで{count}ブランドを検索・フィルタリング",
     "cta": "探索を始める",
+    "cliDocs": "CLIドキュメント",
+    "cliTooltip": "npmでLoftlyy CLIを開く",
     "explore": "その他のブランド",
     "headline": "実際のブランドアイデンティティを発見。",
     "popular": "人気",

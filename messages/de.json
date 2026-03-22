@@ -12,6 +12,7 @@
     "startExploring": "Jetzt entdecken",
     "cta": "Jetzt entdecken",
     "cliDocs": "CLI-Dokumentation",
+    "cliTooltip": "Loftlyy CLI auf npm öffnen",
     "sponsor": "Unterstützen"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "Nutzen Sie die Seitenleiste, um {count} Marken zu suchen und zu filtern",
     "cta": "Jetzt entdecken",
+    "cliDocs": "CLI-Dokumentation",
+    "cliTooltip": "Loftlyy CLI auf npm öffnen",
     "explore": "Weitere Marken",
     "headline": "Entdecken Sie echte Markenidentitäten.",
     "popular": "Beliebt",

@@ -12,6 +12,7 @@
     "startExploring": "탐색 시작",
     "cta": "탐색 시작",
     "cliDocs": "CLI 문서",
+    "cliTooltip": "npm에서 Loftlyy CLI 열기",
     "sponsor": "후원하기"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "사이드바에서 {count}개의 브랜드를 검색하고 필터링하세요",
     "cta": "탐색 시작",
+    "cliDocs": "CLI 문서",
+    "cliTooltip": "npm에서 Loftlyy CLI 열기",
     "explore": "더 많은 브랜드",
     "headline": "실제 브랜드 아이덴티티를 발견하세요.",
     "popular": "인기",

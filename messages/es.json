@@ -12,6 +12,7 @@
     "startExploring": "Comenzar a explorar",
     "cta": "Comenzar a explorar",
     "cliDocs": "Docs de CLI",
+    "cliTooltip": "Abrir Loftlyy CLI en npm",
     "sponsor": "Apóyanos"
   },
   "nav": {
@@ -442,6 +443,8 @@
   "home": {
     "browseAll": "Usa la barra lateral para buscar y filtrar {count} marcas",
     "cta": "Comenzar a explorar",
+    "cliDocs": "Docs de CLI",
+    "cliTooltip": "Abrir Loftlyy CLI en npm",
     "explore": "Más Marcas",
     "headline": "Descubre identidades de marca reales.",
     "popular": "Populares",
