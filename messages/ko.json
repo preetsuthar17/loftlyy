@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "브랜드 아이덴티티, 로고, 컬러, 디자인 시스템을 발견하고 탐색하세요"
+  },
+  "home": {
+    "headline": "실제 브랜드 아이덴티티를 발견하세요.",
+    "subheadline": "계속 성장하는 브랜드 아이덴티티 데이터베이스.",
+    "popular": "인기",
+    "explore": "더 많은 브랜드",
+    "browseAll": "사이드바에서 {count}개의 브랜드를 검색하고 필터링하세요",
+    "startExploring": "탐색 시작",
+    "cta": "탐색 시작",
+    "cliDocs": "CLI 문서",
+    "sponsor": "후원하기"
+  },
+  "nav": {
+    "search": "브랜드 검색",
+    "searchPlaceholder": "HEX, 폰트 또는 키워드로 검색",
+    "searchExamples": "#FF6900, Inter 또는 AI를 입력해 보세요",
+    "allBrands": "모든 브랜드",
+    "colorResults": "색상 결과",
+    "fontResults": "폰트 결과",
+    "keywordResults": "키워드 결과",
+    "categories": "카테고리",
+    "explore": "탐색",
+    "filters": "필터",
+    "clearFilters": "모두 지우기",
+    "industry": "산업",
+    "styleTags": "스타일",
+    "colorFamily": "색상",
+    "colorExplorer": "컬러 익스플로러",
+    "exploreColors": "{count}개의 고유 스와치",
+    "typographyStyle": "타이포그래피",
+    "noBrandsFound": "브랜드를 찾을 수 없습니다",
+    "language": "언어",
+    "theme": "테마"
+  },
   "brand": {
     "assets": "에셋",
     "brandGuidelines": "브랜드 사용 가이드라인",

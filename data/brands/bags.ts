@@ -8,13 +8,7 @@ export const bags: Brand = {
   url: "https://bags.fm",
   industry: "fintech",
   categories: ["fintech", "technology", "minimal-logos"],
-  tags: [
-    "blockchain",
-    "crypto",
-    "web3",
-    "creators",
-    "social",
-  ],
+  tags: ["blockchain", "crypto", "web3", "creators", "social"],
   colors: [
     {
       name: "Bags Green",

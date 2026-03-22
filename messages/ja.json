@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "ブランドアイデンティティ、ロゴ、カラー、デザインシステムを発見・探索"
+  },
+  "home": {
+    "headline": "実際のブランドアイデンティティを発見。",
+    "subheadline": "ブランドアイデンティティの常に成長し続けるデータベース。",
+    "popular": "人気",
+    "explore": "その他のブランド",
+    "browseAll": "サイドバーで{count}ブランドを検索・フィルタリング",
+    "startExploring": "探索を始める",
+    "cta": "探索を始める",
+    "cliDocs": "CLIドキュメント",
+    "sponsor": "サポートする"
+  },
+  "nav": {
+    "search": "ブランドを検索",
+    "searchPlaceholder": "HEX、フォント、キーワードで検索",
+    "searchExamples": "#FF6900、Inter、AI を試す",
+    "allBrands": "すべてのブランド",
+    "colorResults": "カラー結果",
+    "fontResults": "フォント結果",
+    "keywordResults": "キーワード結果",
+    "categories": "カテゴリ",
+    "explore": "探索",
+    "filters": "フィルター",
+    "clearFilters": "すべてクリア",
+    "industry": "業界",
+    "styleTags": "スタイル",
+    "colorFamily": "カラー",
+    "colorExplorer": "カラーエクスプローラー",
+    "exploreColors": "{count}個のユニークスウォッチ",
+    "typographyStyle": "タイポグラフィ",
+    "noBrandsFound": "ブランドが見つかりません",
+    "language": "言語",
+    "theme": "テーマ"
+  },
   "brand": {
     "assets": "アセット",
     "brandGuidelines": "ブランド使用ガイドライン",

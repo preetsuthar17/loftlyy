@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Discover and explore brand identities, logos, colors, and design systems"
+  },
+  "home": {
+    "headline": "Discover real-world brand identities.",
+    "subheadline": "A constantly growing database of brand identity.",
+    "popular": "Popular",
+    "explore": "More Brands",
+    "browseAll": "Use the sidebar to search and filter {count} brands",
+    "startExploring": "Start exploring",
+    "cta": "Start exploring",
+    "cliDocs": "CLI docs",
+    "sponsor": "Support us"
+  },
+  "nav": {
+    "search": "Search brands",
+    "searchPlaceholder": "Search by hex, font, or keyword",
+    "searchExamples": "Try #FF6900, Inter, or AI",
+    "allBrands": "All Brands",
+    "colorResults": "Color Results",
+    "fontResults": "Font Results",
+    "keywordResults": "Keyword Results",
+    "categories": "Categories",
+    "explore": "Explore",
+    "filters": "Filters",
+    "clearFilters": "Clear all",
+    "industry": "Industry",
+    "styleTags": "Style",
+    "colorFamily": "Color",
+    "colorExplorer": "Color Explorer",
+    "exploreColors": "{count} unique swatches",
+    "typographyStyle": "Typography",
+    "noBrandsFound": "No brands found",
+    "language": "Language",
+    "theme": "Theme"
+  },
   "brand": {
     "assets": "Assets",
     "brandGuidelines": "Brand usage guidelines",

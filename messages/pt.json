@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Descubra e explore identidades de marca, logotipos, cores e sistemas de design"
+  },
+  "home": {
+    "headline": "Descubra identidades de marca reais.",
+    "subheadline": "Um banco de dados de identidade de marca em constante crescimento.",
+    "popular": "Populares",
+    "explore": "Mais marcas",
+    "browseAll": "Use a barra lateral para pesquisar e filtrar {count} marcas",
+    "startExploring": "Começar a explorar",
+    "cta": "Começar a explorar",
+    "cliDocs": "Docs da CLI",
+    "sponsor": "Apoie-nos"
+  },
+  "nav": {
+    "search": "Pesquisar marcas",
+    "searchPlaceholder": "Pesquise por hex, fonte ou palavra-chave",
+    "searchExamples": "Experimente #FF6900, Inter ou AI",
+    "allBrands": "Todas as marcas",
+    "colorResults": "Resultados de cor",
+    "fontResults": "Resultados de fonte",
+    "keywordResults": "Resultados por palavra-chave",
+    "categories": "Categorias",
+    "explore": "Explorar",
+    "filters": "Filtros",
+    "clearFilters": "Limpar tudo",
+    "industry": "Setor",
+    "styleTags": "Estilo",
+    "colorFamily": "Cor",
+    "colorExplorer": "Explorador de cores",
+    "exploreColors": "{count} amostras únicas",
+    "typographyStyle": "Tipografia",
+    "noBrandsFound": "Nenhuma marca encontrada",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
   "brand": {
     "assets": "Recursos",
     "brandGuidelines": "Diretrizes de uso da marca",

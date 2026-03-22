@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "发现并探索品牌识别、标志、色彩与设计系统"
+  },
+  "home": {
+    "headline": "发现真实世界的品牌识别。",
+    "subheadline": "一个持续增长的品牌识别数据库。",
+    "popular": "热门",
+    "explore": "更多品牌",
+    "browseAll": "使用侧边栏搜索并筛选 {count} 个品牌",
+    "startExploring": "开始探索",
+    "cta": "开始探索",
+    "cliDocs": "CLI 文档",
+    "sponsor": "支持我们"
+  },
+  "nav": {
+    "search": "搜索品牌",
+    "searchPlaceholder": "按 HEX、字体或关键词搜索",
+    "searchExamples": "试试 #FF6900、Inter 或 AI",
+    "allBrands": "所有品牌",
+    "colorResults": "颜色结果",
+    "fontResults": "字体结果",
+    "keywordResults": "关键词结果",
+    "categories": "分类",
+    "explore": "探索",
+    "filters": "筛选",
+    "clearFilters": "全部清除",
+    "industry": "行业",
+    "styleTags": "风格",
+    "colorFamily": "颜色",
+    "colorExplorer": "颜色探索器",
+    "exploreColors": "{count} 个唯一色板",
+    "typographyStyle": "字体风格",
+    "noBrandsFound": "未找到品牌",
+    "language": "语言",
+    "theme": "主题"
+  },
   "brand": {
     "assets": "资源",
     "brandGuidelines": "品牌使用指南",

@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Entdecken und erkunden Sie Markenidentitäten, Logos, Farben und Designsysteme"
+  },
+  "home": {
+    "headline": "Entdecken Sie echte Markenidentitäten.",
+    "subheadline": "Eine stetig wachsende Datenbank für Markenidentität.",
+    "popular": "Beliebt",
+    "explore": "Weitere Marken",
+    "browseAll": "Nutzen Sie die Seitenleiste, um {count} Marken zu suchen und zu filtern",
+    "startExploring": "Jetzt entdecken",
+    "cta": "Jetzt entdecken",
+    "cliDocs": "CLI-Dokumentation",
+    "sponsor": "Unterstützen"
+  },
+  "nav": {
+    "search": "Marken suchen",
+    "searchPlaceholder": "Nach Hex, Schrift oder Stichwort suchen",
+    "searchExamples": "Versuche #FF6900, Inter oder AI",
+    "allBrands": "Alle Marken",
+    "colorResults": "Farbergebnisse",
+    "fontResults": "Schriftergebnisse",
+    "keywordResults": "Stichwortergebnisse",
+    "categories": "Kategorien",
+    "explore": "Entdecken",
+    "filters": "Filter",
+    "clearFilters": "Alle löschen",
+    "industry": "Branche",
+    "styleTags": "Stil",
+    "colorFamily": "Farbe",
+    "colorExplorer": "Farbexplorer",
+    "exploreColors": "{count} einzigartige Farbfelder",
+    "typographyStyle": "Typografie",
+    "noBrandsFound": "Keine Marken gefunden",
+    "language": "Sprache",
+    "theme": "Design"
+  },
   "brand": {
     "assets": "Assets",
     "brandGuidelines": "Markennutzungsrichtlinien",

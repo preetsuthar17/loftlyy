@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Découvrez et explorez les identités de marque, logos, couleurs et systèmes de design"
+  },
+  "home": {
+    "headline": "Découvrez de vraies identités de marque.",
+    "subheadline": "Une base de données en croissance constante d'identité de marque.",
+    "popular": "Populaires",
+    "explore": "Plus de Marques",
+    "browseAll": "Utilisez la barre latérale pour rechercher et filtrer {count} marques",
+    "startExploring": "Commencer à explorer",
+    "cta": "Commencer à explorer",
+    "cliDocs": "Docs CLI",
+    "sponsor": "Nous soutenir"
+  },
+  "nav": {
+    "search": "Rechercher des marques",
+    "searchPlaceholder": "Rechercher par hex, police ou mot-clé",
+    "searchExamples": "Essayez #FF6900, Inter ou AI",
+    "allBrands": "Toutes les marques",
+    "colorResults": "Résultats couleur",
+    "fontResults": "Résultats typographie",
+    "keywordResults": "Résultats mot-clé",
+    "categories": "Catégories",
+    "explore": "Explorer",
+    "filters": "Filtres",
+    "clearFilters": "Tout effacer",
+    "industry": "Industrie",
+    "styleTags": "Style",
+    "colorFamily": "Couleur",
+    "colorExplorer": "Explorateur de couleurs",
+    "exploreColors": "{count} échantillons uniques",
+    "typographyStyle": "Typographie",
+    "noBrandsFound": "Aucune marque trouvée",
+    "language": "Langue",
+    "theme": "Thème"
+  },
   "brand": {
     "assets": "Ressources",
     "brandGuidelines": "Directives d'utilisation de la marque",

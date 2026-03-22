@@ -1,4 +1,41 @@
 {
+  "metadata": {
+    "siteName": "Loftlyy",
+    "siteDescription": "Scopri ed esplora identità di marca, loghi, colori e sistemi di design"
+  },
+  "home": {
+    "headline": "Scopri vere identità di marca.",
+    "subheadline": "Un database di identità di marca in costante crescita.",
+    "popular": "Popolari",
+    "explore": "Altri brand",
+    "browseAll": "Usa la barra laterale per cercare e filtrare {count} brand",
+    "startExploring": "Inizia a esplorare",
+    "cta": "Inizia a esplorare",
+    "cliDocs": "Documentazione CLI",
+    "sponsor": "Supportaci"
+  },
+  "nav": {
+    "search": "Cerca brand",
+    "searchPlaceholder": "Cerca per hex, font o parola chiave",
+    "searchExamples": "Prova #FF6900, Inter o AI",
+    "allBrands": "Tutti i brand",
+    "colorResults": "Risultati colore",
+    "fontResults": "Risultati font",
+    "keywordResults": "Risultati parola chiave",
+    "categories": "Categorie",
+    "explore": "Esplora",
+    "filters": "Filtri",
+    "clearFilters": "Cancella tutto",
+    "industry": "Settore",
+    "styleTags": "Stile",
+    "colorFamily": "Colore",
+    "colorExplorer": "Esploratore colori",
+    "exploreColors": "{count} campioni unici",
+    "typographyStyle": "Tipografia",
+    "noBrandsFound": "Nessun brand trovato",
+    "language": "Lingua",
+    "theme": "Tema"
+  },
   "brand": {
     "assets": "Asset",
     "brandGuidelines": "Linee guida d'uso del brand",

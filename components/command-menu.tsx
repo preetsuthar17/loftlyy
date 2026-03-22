@@ -137,15 +137,10 @@ export function CommandMenu({
     (slug: string) => {
       router.push(`/${slug}`)
       setOpen(false)
+      setQuery("")
     },
     [router]
   )
-
-  useEffect(() => {
-    if (!open && query) {
-      setQuery("")
-    }
-  }, [open, query])
 
   useEffect(() => {
     if (!open) return
@@ -161,7 +156,10 @@ export function CommandMenu({
     <>
       {/* Trigger button */}
       <button
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          setQuery("")
+          setOpen(true)
+        }}
         className="flex w-full items-center gap-2 rounded-lg bg-neutral-100/80 px-3 py-2 text-[13px] text-neutral-500 transition-colors hover:text-neutral-700 dark:bg-neutral-900 dark:hover:text-neutral-300"
       >
         <IconSearch className="size-3.5" aria-hidden="true" />
@@ -173,7 +171,10 @@ export function CommandMenu({
 
       {/* Filter button */}
       <button
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          setQuery("")
+          setOpen(true)
+        }}
         className={cn(
           "flex items-center gap-2 rounded-lg px-3 py-2 text-[13px] transition-colors",
           hasActiveFilters
@@ -203,9 +204,15 @@ export function CommandMenu({
           {/* Backdrop */}
           <div
             className="fixed inset-0 animate-in bg-black/10 backdrop-blur-xs duration-150 fade-in-0"
-            onClick={() => setOpen(false)}
+            onClick={() => {
+              setOpen(false)
+              setQuery("")
+            }}
             onKeyDown={(e) => {
-              if (e.key === "Escape") setOpen(false)
+              if (e.key === "Escape") {
+                setOpen(false)
+                setQuery("")
+              }
             }}
           />
 
