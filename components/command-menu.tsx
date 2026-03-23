@@ -14,7 +14,6 @@ import { useTranslations } from "next-intl"
 import { Command } from "cmdk"
 import {
   IconSearch,
-  IconAdjustmentsHorizontal,
   IconX,
   IconTypography,
   IconCategory,
@@ -59,6 +58,22 @@ const colorFamilyMap: Record<string, string> = {
 }
 
 const WHITESPACE_RE = /\s+/g
+const PLACEHOLDER_ROTATION_MS = 2200
+
+function getSequentialSearchPrompts(
+  searchPlaceholder: string,
+  groups: Array<{ label: string; values: string[] }>
+) {
+  const prompts = [searchPlaceholder]
+
+  for (const group of groups) {
+    for (const value of group.values.slice(0, 2)) {
+      prompts.push(`${group.label}: ${value}`)
+    }
+  }
+
+  return [...new Set(prompts)]
+}
 
 function getSearchHeadingKey(
   query: string,
@@ -106,6 +121,8 @@ export function CommandMenu({
   const { theme, setTheme } = useTheme()
   const available = useMemo(() => getAvailableFilters(brands), [brands])
   const deferredQuery = useDeferredValue(query)
+  const [placeholderIndex, setPlaceholderIndex] = useState(0)
+  const [allowMotion, setAllowMotion] = useState(true)
   const filteredBrands = useMemo(
     () => filterBrands(brands, { ...filters, query: deferredQuery }),
     [brands, filters, deferredQuery]
@@ -121,6 +138,19 @@ export function CommandMenu({
     filters.colorFamilies.length +
     filters.typographyStyles.length
 
+  const searchPrompts = useMemo(
+    () =>
+      getSequentialSearchPrompts(t("searchPlaceholder"), [
+        { label: t("industry"), values: available.industries },
+        { label: t("styleTags"), values: available.tags },
+        { label: t("colorFamily"), values: available.colorFamilies },
+        { label: t("typographyStyle"), values: available.typographyStyles },
+      ]),
+    [available, t]
+  )
+
+  const activeSearchPrompt = searchPrompts[placeholderIndex] ?? t("search")
+
   // Keyboard shortcut
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -132,6 +162,38 @@ export function CommandMenu({
     document.addEventListener("keydown", onKeyDown)
     return () => document.removeEventListener("keydown", onKeyDown)
   }, [])
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)")
+    const syncMotionPreference = () => {
+      setAllowMotion(!mediaQuery.matches)
+    }
+
+    syncMotionPreference()
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", syncMotionPreference)
+      return () =>
+        mediaQuery.removeEventListener("change", syncMotionPreference)
+    }
+
+    mediaQuery.addListener(syncMotionPreference)
+    return () => mediaQuery.removeListener(syncMotionPreference)
+  }, [])
+
+  useEffect(() => {
+    if (!allowMotion || searchPrompts.length < 2) {
+      setPlaceholderIndex(0)
+      return
+    }
+
+    const intervalId = window.setInterval(() => {
+      setPlaceholderIndex(
+        (currentIndex) => (currentIndex + 1) % searchPrompts.length
+      )
+    }, PLACEHOLDER_ROTATION_MS)
+
+    return () => window.clearInterval(intervalId)
+  }, [allowMotion, searchPrompts])
 
   const navigateToBrand = useCallback(
     (slug: string) => {
@@ -160,42 +222,38 @@ export function CommandMenu({
           setQuery("")
           setOpen(true)
         }}
-        className="flex w-full items-center gap-2 rounded-lg bg-neutral-100/80 px-3 py-2 text-[13px] text-neutral-500 transition-colors hover:text-neutral-700 dark:bg-neutral-900 dark:hover:text-neutral-300"
-      >
-        <IconSearch className="size-3.5" aria-hidden="true" />
-        <span className="flex-1 truncate text-left">{t("search")}</span>
-        <kbd className="hidden rounded bg-neutral-200/80 px-1.5 py-0.5 font-mono text-[10px] font-medium text-neutral-400 sm:inline-block dark:bg-neutral-800">
-          ⌘K
-        </kbd>
-      </button>
-
-      {/* Filter button */}
-      <button
-        onClick={() => {
-          setQuery("")
-          setOpen(true)
-        }}
+        aria-label={t("search")}
         className={cn(
-          "flex items-center gap-2 rounded-lg px-3 py-2 text-[13px] transition-colors",
+          "flex w-full items-center gap-2 rounded-lg border px-3 py-2 text-[13px] transition-colors",
           hasActiveFilters
-            ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900"
-            : "bg-neutral-100/80 text-neutral-500 hover:text-neutral-700 dark:bg-neutral-900 dark:hover:text-neutral-300"
+            ? "border-neutral-300 bg-neutral-100 text-neutral-700 hover:border-neutral-400 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"
+            : "border-neutral-200 bg-neutral-100/80 text-neutral-500 hover:border-neutral-300 hover:text-neutral-700 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:text-neutral-300"
         )}
       >
-        <IconAdjustmentsHorizontal className="size-3.5" />
-        <span>{t("filters")}</span>
+        <IconSearch className="size-3.5" aria-hidden="true" />
+        <span className="min-w-0 flex-1 text-left">
+          <span
+            key={activeSearchPrompt}
+            className="block animate-in truncate duration-300 fade-in-0 slide-in-from-bottom-1"
+          >
+            {activeSearchPrompt}
+          </span>
+        </span>
         {activeCount > 0 && (
           <span
             className={cn(
-              "flex size-4 items-center justify-center rounded-full text-[10px] font-semibold",
+              "flex size-4 shrink-0 items-center justify-center rounded-full text-[10px] font-semibold",
               hasActiveFilters
-                ? "bg-white/20 dark:bg-black/20"
-                : "bg-neutral-200 dark:bg-neutral-800"
+                ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900"
+                : "bg-neutral-200 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
             )}
           >
             {activeCount}
           </span>
         )}
+        <kbd className="hidden rounded bg-neutral-200/80 px-1.5 py-0.5 font-mono text-[10px] font-medium text-neutral-400 sm:inline-block dark:bg-neutral-800">
+          ⌘K
+        </kbd>
       </button>
 
       {/* Command dialog */}
@@ -231,7 +289,8 @@ export function CommandMenu({
               <Command.Input
                 value={query}
                 onValueChange={setQuery}
-                placeholder={t("searchPlaceholder")}
+                placeholder={activeSearchPrompt}
+                aria-label={t("searchPlaceholder")}
                 autoFocus
                 className="w-full border-b border-neutral-200 bg-transparent px-4 py-3 text-sm text-neutral-900 outline-none placeholder:text-neutral-400 dark:border-neutral-800 dark:text-neutral-100"
               />
