@@ -25,7 +25,7 @@ import {
   IconDeviceDesktop,
 } from "@tabler/icons-react"
 import { useLocale } from "next-intl"
-import { useTheme } from "@/components/theme-provider"
+import { useTheme } from "next-themes"
 import { localeMetadata } from "@/i18n/locales"
 import { useRouter, usePathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
