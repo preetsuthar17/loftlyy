@@ -116,7 +116,9 @@ npm run build
 ### Test with MCP Inspector
 
 ```bash
-npx @modelcontextprotocol/inspector node mcp/dist/index.js
+LOFTLYY_SOURCE=local \
+LOFTLYY_ROOT_DIR=/Users/preet/Desktop/Work/Personal/loftlyy \
+npx @modelcontextprotocol/inspector node /Users/preet/Desktop/Work/Personal/loftlyy/mcp/dist/index.js
 ```
 
 ### Local Development Config
@@ -126,14 +128,17 @@ npx @modelcontextprotocol/inspector node mcp/dist/index.js
   "mcpServers": {
     "loftlyy": {
       "command": "node",
-      "args": ["./mcp/dist/index.js"],
+      "args": ["/Users/preet/Desktop/Work/Personal/loftlyy/mcp/dist/index.js"],
       "env": {
-        "LOFTLYY_SOURCE": "local"
+        "LOFTLYY_SOURCE": "local",
+        "LOFTLYY_ROOT_DIR": "/Users/preet/Desktop/Work/Personal/loftlyy"
       }
     }
   }
 }
 ```
+
+When running the built server from outside the repo root, set `LOFTLYY_ROOT_DIR` explicitly so local mode can read `data/brands/` from the Loftlyy checkout instead of falling back to the client's current working directory.
 
 ## Publishing
 
