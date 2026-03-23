@@ -7,11 +7,14 @@ import {
   contrastingBackground,
   textColorForBackground,
 } from "@/lib/og"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 export function generateStaticParams() {
   const brands = getAllBrands()
-  return routing.locales.flatMap((locale) =>
-    brands.map((brand) => ({ locale, slug: brand.slug }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      brands.map((brand) => ({ locale, slug: brand.slug }))
+    )
   )
 }
 

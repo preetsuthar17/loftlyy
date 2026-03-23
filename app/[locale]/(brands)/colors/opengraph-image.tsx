@@ -1,10 +1,10 @@
 import { getColorExplorerEntries } from "@/data/brands"
-import { routing } from "@/i18n/routing"
 import { OG_SIZE } from "@/lib/og"
 import { createListingOGImage } from "@/lib/og-listing"
+import { getStaticLocales } from "@/lib/static-params"
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }))
+  return getStaticLocales().map((locale) => ({ locale }))
 }
 
 export const size = OG_SIZE

@@ -14,13 +14,16 @@ import {
   getRelatedCategoriesForBrands,
   getRelatedTagsForBrands,
 } from "@/lib/filters"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
 
 export async function generateStaticParams() {
   const families = getAllColorFamilies()
-  return routing.locales.flatMap((locale) =>
-    families.map((color) => ({ locale, color }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      families.map((color) => ({ locale, color }))
+    )
   )
 }
 

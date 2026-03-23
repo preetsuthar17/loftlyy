@@ -8,13 +8,16 @@ import {
   BreadcrumbStructuredData,
 } from "@/components/structured-data"
 import { BrandListingCard } from "@/components/brand-listing-card"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
 
 export async function generateStaticParams() {
   const categories = getAllCategories()
-  return routing.locales.flatMap((locale) =>
-    categories.map((cat) => ({ locale, "category-slug": cat.slug }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      categories.map((cat) => ({ locale, "category-slug": cat.slug }))
+    )
   )
 }
 

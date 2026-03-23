@@ -3,11 +3,14 @@ import { getColorFamilyBySlug } from "@/data/color-families"
 import { routing } from "@/i18n/routing"
 import { OG_SIZE } from "@/lib/og"
 import { createListingOGImage } from "@/lib/og-listing"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 export function generateStaticParams() {
   const families = getAllColorFamilies()
-  return routing.locales.flatMap((locale) =>
-    families.map((color) => ({ locale, color }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      families.map((color) => ({ locale, color }))
+    )
   )
 }
 

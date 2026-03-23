@@ -5,11 +5,14 @@ import {
 import { routing } from "@/i18n/routing"
 import { OG_SIZE } from "@/lib/og"
 import { createListingOGImage } from "@/lib/og-listing"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 export function generateStaticParams() {
   const styles = getAllTypographyStyles()
-  return routing.locales.flatMap((locale) =>
-    styles.map((style) => ({ locale, style }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      styles.map((style) => ({ locale, style }))
+    )
   )
 }
 

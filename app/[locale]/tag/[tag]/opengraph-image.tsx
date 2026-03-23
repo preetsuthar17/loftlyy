@@ -2,11 +2,12 @@ import { getAllTags, getBrandsByTag } from "@/data/brands"
 import { routing } from "@/i18n/routing"
 import { OG_SIZE } from "@/lib/og"
 import { createListingOGImage } from "@/lib/og-listing"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 export function generateStaticParams() {
   const tags = getAllTags()
-  return routing.locales.flatMap((locale) =>
-    tags.map((tag) => ({ locale, tag }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) => tags.map((tag) => ({ locale, tag })))
   )
 }
 

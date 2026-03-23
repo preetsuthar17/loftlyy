@@ -18,11 +18,12 @@ import {
   BreadcrumbStructuredData,
   ListingStructuredData,
 } from "@/components/structured-data"
+import { getStaticLocales } from "@/lib/static-params"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }))
+  return getStaticLocales().map((locale) => ({ locale }))
 }
 
 export async function generateMetadata({

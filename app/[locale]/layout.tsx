@@ -11,6 +11,7 @@ import { NuqsAdapter } from "nuqs/adapters/next/app"
 
 import { SiteStructuredData } from "@/components/structured-data"
 import { routing } from "@/i18n/routing"
+import { getStaticLocales } from "@/lib/static-params"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://loftlyy.com"
 
@@ -55,7 +56,7 @@ export async function generateMetadata({
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }))
+  return getStaticLocales().map((locale) => ({ locale }))
 }
 
 export default async function LocaleLayout({

@@ -17,6 +17,7 @@ import { getSimilarBrandCards, getBrandColorFamilies } from "@/lib/filters"
 import { BrowseBySection } from "@/components/browse-by-section"
 import { BrandSeoSummary } from "@/components/brand-seo-summary"
 import { BASE_URL, composeBrandSeoContent, toAbsoluteUrl } from "@/lib/seo"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 const BrandAssets = dynamic(() =>
   import("@/components/brand-assets").then((m) => ({ default: m.BrandAssets }))
@@ -32,8 +33,10 @@ const BrandLegal = dynamic(() =>
 
 export async function generateStaticParams() {
   const brands = getAllBrands()
-  return routing.locales.flatMap((locale) =>
-    brands.map((brand) => ({ locale, slug: brand.slug }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      brands.map((brand) => ({ locale, slug: brand.slug }))
+    )
   )
 }
 

@@ -3,11 +3,14 @@ import { getBrandsByCategory } from "@/data/brands"
 import { routing } from "@/i18n/routing"
 import { OG_SIZE } from "@/lib/og"
 import { createListingOGImage } from "@/lib/og-listing"
+import { getBuildOnlyStaticParams } from "@/lib/static-params"
 
 export function generateStaticParams() {
   const categories = getAllCategories()
-  return routing.locales.flatMap((locale) =>
-    categories.map((cat) => ({ locale, "category-slug": cat.slug }))
+  return getBuildOnlyStaticParams(() =>
+    routing.locales.flatMap((locale) =>
+      categories.map((cat) => ({ locale, "category-slug": cat.slug }))
+    )
   )
 }
 
