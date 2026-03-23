@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Script from "next/script"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { NextIntlClientProvider, hasLocale } from "next-intl"
 import {
   getMessages,
@@ -84,6 +85,7 @@ export default async function LocaleLayout({
         siteDescription={t("siteDescription")}
         url={`${BASE_URL}/${locale}`}
       />
+      <GoogleAnalytics gaId="G-4SXPWZ3SHQ" />
       <Script
         defer
         src="https://assets.onedollarstats.com/stonks.js"

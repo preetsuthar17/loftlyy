@@ -90,213 +90,217 @@ export function BrandSidebarSearch({
 
       {/* Brand list */}
       <div className="flex min-h-0 flex-1 flex-col gap-4">
-        <div className="flex flex-col gap-0.5 min-h-0 ">
+        <div className="flex min-h-0 flex-col gap-0.5">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
+              {t("explore")}
+            </span>
+          </div>
 
-        <div className="flex items-center gap-1.5">
-          <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
-            {t("explore")}
-          </span>
-        </div>
-
-        <Link
-          href="/colors"
-          onClick={onNavigate}
-          className={cn(
-            "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
-            isColorExplorerActive
-              ? "bg-neutral-100/70 dark:bg-neutral-800/50"
-              : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
-          )}
-        >
-          <span
+          <Link
+            href="/colors"
+            onClick={onNavigate}
             className={cn(
-              "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
+              "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
               isColorExplorerActive
-                ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
-                : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+                ? "bg-neutral-100/70 dark:bg-neutral-800/50"
+                : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
             )}
           >
-            <IconPalette className="size-4" />
-          </span>
-          <span
-            className={cn(
-              "min-w-0 flex-1 truncate text-sm font-medium",
-              isColorExplorerActive
-                ? "text-neutral-900 dark:text-neutral-100"
-                : "text-neutral-600 dark:text-neutral-400"
-            )}
+            <span
+              className={cn(
+                "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
+                isColorExplorerActive
+                  ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
+                  : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+              )}
+            >
+              <IconPalette className="size-4" />
+            </span>
+            <span
+              className={cn(
+                "min-w-0 flex-1 truncate text-sm font-medium",
+                isColorExplorerActive
+                  ? "text-neutral-900 dark:text-neutral-100"
+                  : "text-neutral-600 dark:text-neutral-400"
+              )}
+            >
+              {t("colorExplorer")}
+            </span>
+            <span className="text-[11px] font-medium text-neutral-400 dark:text-neutral-500">
+              {colorExplorerCount}
+            </span>
+          </Link>
+
+          <a
+            href="https://docs.loftlyy.com/cli"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onNavigate}
+            className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
           >
-            {t("colorExplorer")}
-          </span>
-          <span className="text-[11px] font-medium text-neutral-400 dark:text-neutral-500">
-            {colorExplorerCount}
-          </span>
-        </Link>
+            <span
+              className={cn(
+                "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
+                isColorExplorerActive
+                  ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
+                  : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+              )}
+            >
+              <IconTerminal2 className="size-4" />
+            </span>
+            <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+              CLI
+            </span>
+          </a>
 
-        <a
-          href="https://docs.loftlyy.com/cli"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={onNavigate}
-          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
-        >
-          <span        className={cn(
-              "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
-              isColorExplorerActive
-                ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
-                : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
-            )}>
-            <IconTerminal2 className="size-4" />
-          </span>
-          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
-            CLI
-          </span>
-        </a>
-
-        <a
-          href="https://docs.loftlyy.com/mcp-guide"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={onNavigate}
-          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
-        >
-          <span        className={cn(
-              "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
-              isColorExplorerActive
-                ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
-                : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
-            )}>
-            <IconPlugConnected className="size-4" />
-          </span>
-          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
-            MCP
-          </span>
-        </a>
-
-        <a
-          href="https://github.com/preetsuthar17/loftlyy"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={onNavigate}
-          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
-        >
-          <span        className={cn(
-              "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
-              isColorExplorerActive
-                ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
-                : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
-            )}>
-            <IconBrandGithub className="size-4" />
-          </span>
-          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
-            GitHub
-          </span>
-        </a>
-        </div>
-          <div  className="flex flex-col gap-0.5 min-h-0 flex-1 ">
-
-        <div className="flex items-center gap-1.5">
-          <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
-            {t("allBrands")}
-          </span>
-          <span className="text-[11px] font-medium text-neutral-400 dark:text-neutral-500">
-            {filtered.length}
-          </span>
-        </div>
-
-        <div className="min-h-0 flex-1" style={maskStyle}>
-          <div
-            ref={scrollRef}
-            className="h-full overflow-y-auto"
-            style={{ scrollbarWidth: "none" }}
+          <a
+            href="https://docs.loftlyy.com/mcp-guide"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onNavigate}
+            className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
           >
-            <nav className="flex flex-col gap-px">
-              {filtered.map((brand) => {
-                const isActive = pathname.endsWith(`/${brand.slug}`)
-                return (
-                  <Link
-                    key={brand.slug}
-                    href={`/${brand.slug}`}
-                    onClick={onNavigate}
-                    className={cn(
-                      "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
-                      isActive
-                        ? "bg-neutral-100/70 dark:bg-neutral-800/50"
-                        : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
-                    )}
-                    style={{
-                      contentVisibility: "auto",
-                      containIntrinsicSize: "auto 40px",
-                    }}
-                  >
-                    <div
+            <span
+              className={cn(
+                "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
+                isColorExplorerActive
+                  ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
+                  : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+              )}
+            >
+              <IconPlugConnected className="size-4" />
+            </span>
+            <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+              MCP
+            </span>
+          </a>
+
+          <a
+            href="https://github.com/preetsuthar17/loftlyy"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onNavigate}
+            className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
+          >
+            <span
+              className={cn(
+                "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
+                isColorExplorerActive
+                  ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
+                  : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
+              )}
+            >
+              <IconBrandGithub className="size-4" />
+            </span>
+            <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+              GitHub
+            </span>
+          </a>
+        </div>
+        <div className="flex min-h-0 flex-1 flex-col gap-0.5">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
+              {t("allBrands")}
+            </span>
+            <span className="text-[11px] font-medium text-neutral-400 dark:text-neutral-500">
+              {filtered.length}
+            </span>
+          </div>
+
+          <div className="min-h-0 flex-1" style={maskStyle}>
+            <div
+              ref={scrollRef}
+              className="h-full overflow-y-auto"
+              style={{ scrollbarWidth: "none" }}
+            >
+              <nav className="flex flex-col gap-px">
+                {filtered.map((brand) => {
+                  const isActive = pathname.endsWith(`/${brand.slug}`)
+                  return (
+                    <Link
+                      key={brand.slug}
+                      href={`/${brand.slug}`}
+                      onClick={onNavigate}
                       className={cn(
-                        "flex size-7 shrink-0 items-center justify-center overflow-hidden rounded-[10px]",
-                        /black|dark|slate|navy/i.test(brand.thumbnail.label)
-                          ? "dark:bg-neutral-200"
-                          : /ivory|white|light/i.test(brand.thumbnail.label)
-                            ? "bg-neutral-800"
-                            : ""
+                        "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
+                        isActive
+                          ? "bg-neutral-100/70 dark:bg-neutral-800/50"
+                          : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
                       )}
+                      style={{
+                        contentVisibility: "auto",
+                        containIntrinsicSize: "auto 40px",
+                      }}
                     >
-                      <Image
-                        src={brand.thumbnail.src}
-                        alt={brand.name}
-                        width={36}
-                        height={36}
-                        quality={75}
-                        loading="lazy"
+                      <div
                         className={cn(
-                          "h-full w-full scale-80 object-contain",
-                          brand.thumbnail.width / brand.thumbnail.height < 0.7
-                            ? "p-1"
-                            : brand.thumbnail.width / brand.thumbnail.height <
-                                0.85
+                          "flex size-7 shrink-0 items-center justify-center overflow-hidden rounded-[10px]",
+                          /black|dark|slate|navy/i.test(brand.thumbnail.label)
+                            ? "dark:bg-neutral-200"
+                            : /ivory|white|light/i.test(brand.thumbnail.label)
+                              ? "bg-neutral-800"
+                              : ""
+                        )}
+                      >
+                        <Image
+                          src={brand.thumbnail.src}
+                          alt={brand.name}
+                          width={36}
+                          height={36}
+                          quality={75}
+                          loading="lazy"
+                          className={cn(
+                            "h-full w-full scale-80 object-contain",
+                            brand.thumbnail.width / brand.thumbnail.height < 0.7
                               ? "p-1"
-                              : brand.thumbnail.width / brand.thumbnail.height >
-                                  1.5
-                                ? "p-0.5"
+                              : brand.thumbnail.width / brand.thumbnail.height <
+                                  0.85
+                                ? "p-1"
                                 : brand.thumbnail.width /
                                       brand.thumbnail.height >
-                                    1.1
-                                  ? "p-1"
-                                  : "p-1"
+                                    1.5
+                                  ? "p-0.5"
+                                  : brand.thumbnail.width /
+                                        brand.thumbnail.height >
+                                      1.1
+                                    ? "p-1"
+                                    : "p-1"
+                          )}
+                        />
+                      </div>
+                      <span
+                        className={cn(
+                          "truncate text-sm font-medium",
+                          isActive
+                            ? "font-medium text-neutral-900 dark:text-neutral-100"
+                            : "text-neutral-600 dark:text-neutral-400"
                         )}
-                      />
-                    </div>
-                    <span
-                      className={cn(
-                        "truncate text-sm font-medium",
-                        isActive
-                          ? "font-medium text-neutral-900 dark:text-neutral-100"
-                          : "text-neutral-600 dark:text-neutral-400"
-                      )}
-                    >
-                      {brand.name}
-                    </span>
-                  </Link>
-                )
-              })}
-              {filtered.length === 0 && (
-                <div className="flex flex-col items-center gap-2 py-4 text-center">
-                  <p className="text-[13px] text-neutral-500">
-                    {t("noBrandsFound")}
-                  </p>
-                  {hasActiveFilters && (
-                    <button
-                      onClick={clearFilters}
-                      className="text-xs text-neutral-500 underline underline-offset-2 transition-colors hover:text-neutral-700 dark:hover:text-neutral-300"
-                    >
-                      {t("clearFilters")}
-                    </button>
-                  )}
-                </div>
-              )}
-            </nav>
+                      >
+                        {brand.name}
+                      </span>
+                    </Link>
+                  )
+                })}
+                {filtered.length === 0 && (
+                  <div className="flex flex-col items-center gap-2 py-4 text-center">
+                    <p className="text-[13px] text-neutral-500">
+                      {t("noBrandsFound")}
+                    </p>
+                    {hasActiveFilters && (
+                      <button
+                        onClick={clearFilters}
+                        className="text-xs text-neutral-500 underline underline-offset-2 transition-colors hover:text-neutral-700 dark:hover:text-neutral-300"
+                      >
+                        {t("clearFilters")}
+                      </button>
+                    )}
+                  </div>
+                )}
+              </nav>
+            </div>
           </div>
         </div>
-          </div>
-
       </div>
     </div>
   )

@@ -1,11 +1,7 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
-import {
-  IconArrowRight,
-  IconBrandGithub,
-  IconTerminal2,
-} from "@tabler/icons-react"
+import { IconArrowRight, IconSpeakerphone } from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { getAllSidebarBrands } from "@/data/brands"
@@ -44,8 +40,33 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
   const t = useTranslations()
 
   return (
-    <div className="flex min-h-full w-full flex-col items-center justify-center px-4 py-12 sm:px-6">
-      {/* Hero */}
+    <div className="flex min-h-full w-full flex-col items-center px-4 py-12 sm:px-6">
+      {/* Advertise spots */}
+      <section className="grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4">
+        {Array.from({ length: 4 }).map((_, i) => (
+          <a
+            key={`ad-spot-${i}`}
+            href="mailto:preetsuthar.me@gmail.com?subject=Loftlyy%20Advertising"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex aspect-[4/3] cursor-pointer flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed border-neutral-300 opacity-50 transition-all hover:border-neutral-400 hover:opacity-80 dark:border-neutral-600 dark:hover:border-neutral-500"
+          >
+            <IconSpeakerphone
+              size={24}
+              className="text-neutral-400 transition-colors group-hover:text-neutral-600 dark:text-neutral-500 dark:group-hover:text-neutral-300"
+            />
+            <span className="text-sm font-medium text-neutral-400 transition-colors group-hover:text-neutral-600 dark:text-neutral-500 dark:group-hover:text-neutral-300">
+              Advertise
+            </span>
+            <span className="text-xs text-neutral-400 transition-colors group-hover:text-neutral-500 dark:text-neutral-500 dark:group-hover:text-neutral-400">
+              4/4 spots left
+            </span>
+          </a>
+        ))}
+      </section>
+
+      {/* Hero + Marquee centered in remaining space */}
+      <div className="flex w-full flex-1 flex-col items-center justify-center">
       <section className="flex flex-col items-center gap-6 text-center">
         <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
           <Image
@@ -101,6 +122,7 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
             </Link>
           ))}
         </div>
+      </div>
       </div>
     </div>
   )
