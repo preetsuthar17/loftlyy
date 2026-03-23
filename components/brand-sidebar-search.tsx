@@ -4,7 +4,12 @@ import { useRef, useEffect, useCallback, useMemo, useState } from "react"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { useTranslations } from "next-intl"
-import { IconPalette } from "@tabler/icons-react"
+import {
+  IconBrandGithub,
+  IconPalette,
+  IconPlugConnected,
+  IconTerminal2,
+} from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
 import { cn } from "@/lib/utils"
 import { filterBrands } from "@/lib/filters"
@@ -68,6 +73,7 @@ export function BrandSidebarSearch({
   }, [canScrollUp, canScrollDown])
 
   const filtered = filterBrands(brands, { ...filters, query: "" })
+  const isColorExplorerActive = pathname.endsWith("/colors")
 
   return (
     <div className="flex h-full min-h-0 flex-col gap-3 px-5 lg:px-0">
@@ -83,7 +89,7 @@ export function BrandSidebarSearch({
       </div>
 
       {/* Brand list */}
-      <div className="flex min-h-0 flex-1 flex-col gap-2">
+      <div className="flex min-h-0 flex-1 flex-col gap-0.5">
         <div className="flex items-center gap-1.5">
           <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
             {t("explore")}
@@ -95,7 +101,7 @@ export function BrandSidebarSearch({
           onClick={onNavigate}
           className={cn(
             "flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors",
-            pathname.endsWith("/colors")
+            isColorExplorerActive
               ? "bg-neutral-100/70 dark:bg-neutral-800/50"
               : "hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
           )}
@@ -103,7 +109,7 @@ export function BrandSidebarSearch({
           <span
             className={cn(
               "flex size-7 shrink-0 items-center justify-center rounded-[10px]",
-              pathname.endsWith("/colors")
+              isColorExplorerActive
                 ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950"
                 : "bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
             )}
@@ -113,7 +119,7 @@ export function BrandSidebarSearch({
           <span
             className={cn(
               "min-w-0 flex-1 truncate text-sm font-medium",
-              pathname.endsWith("/colors")
+              isColorExplorerActive
                 ? "text-neutral-900 dark:text-neutral-100"
                 : "text-neutral-600 dark:text-neutral-400"
             )}
@@ -124,6 +130,51 @@ export function BrandSidebarSearch({
             {colorExplorerCount}
           </span>
         </Link>
+
+        <a
+          href="https://docs.loftlyy.com/cli"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={onNavigate}
+          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
+        >
+          <span className="flex size-7 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-neutral-200/80 bg-white text-neutral-500 transition-colors group-hover:border-neutral-300 group-hover:text-neutral-800 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-400 dark:group-hover:border-neutral-700 dark:group-hover:text-neutral-100">
+            <IconTerminal2 className="size-4" />
+          </span>
+          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+            CLI
+          </span>
+        </a>
+
+        <a
+          href="https://docs.loftlyy.com/mcp-guide"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={onNavigate}
+          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
+        >
+          <span className="flex size-7 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-neutral-200/80 bg-white text-neutral-500 transition-colors group-hover:border-neutral-300 group-hover:text-neutral-800 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-400 dark:group-hover:border-neutral-700 dark:group-hover:text-neutral-100">
+            <IconPlugConnected className="size-4" />
+          </span>
+          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+            MCP
+          </span>
+        </a>
+
+        <a
+          href="https://github.com/preetsuthar17/loftlyy"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={onNavigate}
+          className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-neutral-50 dark:hover:bg-neutral-800/30"
+        >
+          <span className="flex size-7 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-neutral-200/80 bg-white text-neutral-500 transition-colors group-hover:border-neutral-300 group-hover:text-neutral-800 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-400 dark:group-hover:border-neutral-700 dark:group-hover:text-neutral-100">
+            <IconBrandGithub className="size-4" />
+          </span>
+          <span className="min-w-0 flex-1 truncate text-sm font-medium text-neutral-600 transition-colors group-hover:text-neutral-900 dark:text-neutral-400 dark:group-hover:text-neutral-100">
+            GitHub
+          </span>
+        </a>
 
         <div className="flex items-center gap-1.5">
           <span className="text-[11px] font-medium tracking-widest text-neutral-500 uppercase dark:text-neutral-400">
