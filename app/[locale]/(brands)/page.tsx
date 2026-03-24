@@ -5,6 +5,8 @@ import { IconArrowRight } from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { getAllSidebarBrands } from "@/data/brands"
+import { AdvertiseSpots } from "@/components/advertise-dialog"
+import CarbonAds from "@/components/carbon-ad"
 import type { SidebarBrand } from "@/lib/types"
 
 export async function generateMetadata({
@@ -41,6 +43,9 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
 
   return (
     <div className="flex min-h-0 w-full flex-1 flex-col items-center overflow-hidden px-4 py-12 sm:px-6">
+      <div className="w-full max-w-4xl hidden lg:block ">
+        <AdvertiseSpots />
+      </div>
       {/* Hero + Marquee centered in remaining space */}
       <div className="flex w-full flex-1 flex-col items-center justify-center">
         <section className="flex flex-col items-center gap-6 text-center">
@@ -98,6 +103,11 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
               </Link>
             ))}
           </div>
+        </div>
+      </div>
+      <div className="mx-auto w-full max-w-4xl pt-6">
+        <div className="max-w-xs  ml-auto flex justify-end">
+          <CarbonAds />
         </div>
       </div>
     </div>

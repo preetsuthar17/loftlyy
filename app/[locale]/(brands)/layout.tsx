@@ -1,4 +1,4 @@
-import { AdvertiseSpots } from "@/components/advertise-dialog"
+import { AdvertiseMarquee } from "@/components/advertise-dialog"
 import { BrandSidebar } from "@/components/brand-sidebar"
 import { MobileSidebarToggle } from "@/components/mobile-sidebar-toggle"
 import { getAllSidebarBrands, getColorExplorerEntries } from "@/data/brands"
@@ -29,12 +29,14 @@ export default function BrandsLayout({
         </header>
         <main
           id="main-content"
-          className="flex flex-1 flex-col overflow-y-auto"
+          className="flex flex-1 overflow-y-auto"
         >
-          <div className="mx-auto w-full max-w-4xl px-4 pt-6 sm:px-6">
-            <AdvertiseSpots />
+          <div className="flex min-w-0 flex-1 flex-col">
+            <div className="flex flex-col gap-4 px-4 pt-4 sm:px-6 lg:hidden">
+              <AdvertiseMarquee />
+            </div>
+            {children}
           </div>
-          {children}
         </main>
       </div>
     </div>
