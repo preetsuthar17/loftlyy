@@ -6,6 +6,7 @@ import { twentyFirst } from "./21st"
 import { abode } from "./abode"
 import { adidas } from "./adidas"
 import { adobe } from "./adobe"
+import { arcBrowser } from "./arc-browser"
 import { airbnb } from "./airbnb"
 import { amazon } from "./amazon"
 import { anthropic } from "./anthropic"
@@ -28,6 +29,7 @@ import { interfere } from "./interfere"
 import { instagram } from "./instagram"
 import { google } from "./google"
 import { linear } from "./linear"
+import { loom } from "./loom"
 import { lovable } from "./lovable"
 import { meta } from "./meta"
 import { mintlify } from "./mintlify"
@@ -36,11 +38,13 @@ import { microsoft } from "./microsoft"
 import { netflix } from "./netflix"
 import { nike } from "./nike"
 import { obsidian } from "./obsidian"
+import { onlyfans } from "./onlyfans"
 import { openai } from "./openai"
 import { planetscale } from "./planetscale"
 import { polar } from "./polar"
 import { railway } from "./railway"
 import { raycast } from "./raycast"
+import { perplexity } from "./perplexity"
 import { pinterest } from "./pinterest"
 import { reddit } from "./reddit"
 import { samsung } from "./samsung"
@@ -51,6 +55,7 @@ import { slack } from "./slack"
 import { snapchat } from "./snapchat"
 import { solana } from "./solana"
 import { stripe } from "./stripe"
+import { supabase } from "./supabase"
 import { vercel } from "./vercel"
 import { vscode } from "./vscode"
 import { tesla } from "./tesla"
@@ -74,6 +79,7 @@ const rawBrands: Brand[] = [
   adobe,
   airbnb,
   amazon,
+  arcBrowser,
   anthropic,
   bags,
   bmw,
@@ -91,6 +97,7 @@ const rawBrands: Brand[] = [
   instagram,
   google,
   linear,
+  loom,
   lovable,
   meta,
   mintlify,
@@ -101,11 +108,13 @@ const rawBrands: Brand[] = [
   notra,
   notion,
   obsidian,
+  onlyfans,
   openai,
   planetscale,
   polar,
   railway,
   raycast,
+  perplexity,
   pinterest,
   reddit,
   samsung,
@@ -116,6 +125,7 @@ const rawBrands: Brand[] = [
   snapchat,
   solana,
   stripe,
+  supabase,
   tailwindCss,
   tesla,
   toyota,

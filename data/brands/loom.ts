@@ -1,0 +1,156 @@
+import type { Brand } from "@/lib/types"
+
+export const loom: Brand = {
+  slug: "loom",
+  name: "Loom",
+  description:
+    "Loom is a video messaging platform for work that enables teams to communicate more effectively through instantly shareable screen recordings and video messages. Now part of Atlassian, Loom is trusted by over 22 million people across 400,000 companies to replace unnecessary meetings with asynchronous video.",
+  url: "https://www.loom.com",
+  industry: "saas",
+  categories: ["saas", "technology", "geometric-logos"],
+  tags: [
+    "video",
+    "communication",
+    "collaboration",
+    "productivity",
+    "async",
+    "messaging",
+  ],
+  colors: [
+    {
+      name: "Loom Blue",
+      hex: "#1868DB",
+      usage: "Primary brand color, icon backgrounds, CTAs, key interactive elements.",
+    },
+    {
+      name: "Blue Light",
+      hex: "#4D8CED",
+      usage: "Gradients, secondary buttons, hover states.",
+    },
+    {
+      name: "Blue Pale",
+      hex: "#8FB8F6",
+      usage: "Backgrounds, decorative accents, light UI surfaces.",
+    },
+    {
+      name: "Violet",
+      hex: "#BF63F3",
+      usage: "Accent color, gradients, feature highlights.",
+    },
+    {
+      name: "Green",
+      hex: "#94C748",
+      usage: "Success states, positive indicators, gradient accents.",
+    },
+    {
+      name: "Record Red",
+      hex: "#FF613D",
+      usage: "Recording indicator, alerts, urgent actions.",
+    },
+    {
+      name: "Loom Black",
+      hex: "#101214",
+      usage: "Primary text, dark mode backgrounds, logo fills.",
+    },
+  ],
+  typography: [
+    {
+      name: "Charlie Display",
+      role: "Headings / Display",
+      weights: ["100", "200", "400", "500", "700", "800", "900"],
+      category: "sans-serif",
+      designer: "Atipo Type Foundry",
+      foundry: "Atipo",
+      fontUrl: "/brands/loom/fonts/charlie-display.woff2",
+    },
+    {
+      name: "Charlie Text",
+      role: "Body / UI",
+      weights: ["100", "200", "400", "500"],
+      category: "sans-serif",
+      designer: "Atipo Type Foundry",
+      foundry: "Atipo",
+      fontUrl: "/brands/loom/fonts/charlie-text.woff2",
+    },
+  ],
+  assets: [
+    {
+      label: "Loom Logo — Color",
+      src: "/brands/loom/loom-logo-color.svg",
+      width: 232,
+      height: 75,
+      format: "svg",
+    },
+    {
+      label: "Loom Logo — Black",
+      src: "/brands/loom/loom-logo-black.svg",
+      width: 232,
+      height: 75,
+      format: "svg",
+    },
+    {
+      label: "Loom Logo — White",
+      src: "/brands/loom/loom-logo-white.svg",
+      width: 232,
+      height: 75,
+      format: "svg",
+    },
+    {
+      label: "Loom Icon — Color",
+      src: "/brands/loom/loom-icon-color.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+    {
+      label: "Loom Icon — Black",
+      src: "/brands/loom/loom-icon-black.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+    {
+      label: "Loom Icon — White",
+      src: "/brands/loom/loom-icon-white.svg",
+      width: 128,
+      height: 128,
+      format: "svg",
+    },
+  ],
+  thumbnail: {
+    label: "Loom Icon — Color",
+    src: "/brands/loom/loom-icon-color.svg",
+    width: 128,
+    height: 128,
+    format: "svg",
+  },
+  thumbnailDark: {
+    label: "Loom Icon — White",
+    src: "/brands/loom/loom-icon-white.svg",
+    width: 128,
+    height: 128,
+    format: "svg",
+  },
+  dateAdded: "2026-03-25",
+  founded: 2015,
+  headquarters: "San Francisco, California",
+  designer: "In-house (Loom / Atlassian)",
+  lastRebranded: "2023",
+  philosophy:
+    "Loom's brand identity centers on its distinctive weave icon — a starburst of intersecting lines radiating from a central circle — symbolizing the interconnected nature of async communication. The vibrant blue palette conveys trust and professionalism, while the Charlie typeface brings warmth and approachability to the visual system.",
+  legal: {
+    guidelinesUrl: "https://www.loom.com",
+    dos: [
+      "Use the official Loom icon with the weave pattern on the brand blue background",
+      "Maintain clear space around the Loom logo",
+      "Use the full 'Atlassian Loom' lockup when space permits",
+      "Refer to the product as 'Loom' in text",
+    ],
+    donts: [
+      "Modify the colors or proportions of the Loom weave icon",
+      "Separate the weave icon from its rounded-square container",
+      "Use outdated pre-Atlassian branding",
+      "Place the logo on busy or low-contrast backgrounds",
+    ],
+  },
+}

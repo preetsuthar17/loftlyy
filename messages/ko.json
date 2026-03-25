@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "siteName": "Loftlyy",
-    "siteDescription": "브랜드 아이덴티티, 로고, 컬러, 디자인 시스템을 발견하고 탐색하세요"
+    "siteDescription": "브랜드 아이덴티티, 로고, 컬러, 디자인 시스템을 발견하고 탐색하세요",
+    "siteName": "Loftlyy"
   },
   "home": {
-    "headline": "실제 브랜드 아이덴티티를 발견하세요.",
-    "subheadline": "계속 성장하는 브랜드 아이덴티티 데이터베이스.",
-    "popular": "인기",
-    "explore": "더 많은 브랜드",
     "browseAll": "사이드바에서 {count}개의 브랜드를 검색하고 필터링하세요",
-    "startExploring": "탐색 시작",
     "cta": "탐색 시작",
     "cliDocs": "CLI 문서",
     "cliTooltip": "npm에서 Loftlyy CLI 열기",
-    "sponsor": "후원하기"
+    "explore": "더 많은 브랜드",
+    "headline": "실제 브랜드 아이덴티티를 발견하세요.",
+    "popular": "인기",
+    "sponsor": "후원하기",
+    "startExploring": "탐색 시작",
+    "subheadline": "계속 성장하는 브랜드 아이덴티티 데이터베이스."
   },
   "nav": {
-    "search": "브랜드 검색",
-    "searchPlaceholder": "HEX, 폰트 또는 키워드로 검색",
-    "searchExamples": "#FF6900, Inter 또는 AI를 입력해 보세요",
     "allBrands": "모든 브랜드",
-    "colorResults": "색상 결과",
-    "fontResults": "폰트 결과",
-    "keywordResults": "키워드 결과",
     "categories": "카테고리",
-    "explore": "탐색",
-    "filters": "필터",
     "clearFilters": "모두 지우기",
-    "industry": "산업",
-    "styleTags": "스타일",
-    "colorFamily": "색상",
     "colorExplorer": "컬러 익스플로러",
+    "colorFamily": "색상",
+    "colorResults": "색상 결과",
+    "explore": "탐색",
     "exploreColors": "{count}개의 고유 스와치",
-    "typographyStyle": "타이포그래피",
-    "noBrandsFound": "브랜드를 찾을 수 없습니다",
+    "filters": "필터",
+    "fontResults": "폰트 결과",
+    "industry": "산업",
+    "keywordResults": "키워드 결과",
     "language": "언어",
-    "theme": "테마"
+    "noBrandsFound": "브랜드를 찾을 수 없습니다",
+    "search": "브랜드 검색",
+    "searchExamples": "#FF6900, Inter 또는 AI를 입력해 보세요",
+    "searchPlaceholder": "HEX, 폰트 또는 키워드로 검색",
+    "styleTags": "스타일",
+    "theme": "테마",
+    "typographyStyle": "타이포그래피"
   },
   "brand": {
     "assets": "에셋",
@@ -101,6 +101,10 @@
       "description": "Apple은 소비자 전자기기, 소프트웨어, 서비스를 설계, 제조, 판매합니다. Macintosh부터 iPhone까지 Apple은 디자인, 단순함, 사용자 경험에 대한 집착을 통해 전체 제품 카테고리를 꾸준히 재정의해 왔습니다.",
       "philosophy": "단순함은 궁극의 정교함입니다. Apple의 단색 아이덴티티는 불필요한 모든 것을 제거하고, 상징적인 한 입 베어 문 사과가 조용한 자신감으로 말하게 합니다. 이는 혁신, 프리미엄 품질, 인간 중심 디자인의 상징입니다."
     },
+    "arc-browser": {
+      "description": "Arc는 The Browser Company가 만든 혁신적인 웹 브라우저로, 기존의 브라우저 경험을 더 체계적이고 생산적이며 개인화된 작업 공간으로 대체하도록 설계되었습니다. 2023년 7월에 정식 출시된 Arc는 Spaces, Boosts, 사이드바 중심 인터페이스 등의 기능을 도입했습니다. 2025년 5월 The Browser Company는 새로운 AI 브라우저 Dia에 집중하기 위해 Arc 개발 종료를 발표했으며, 2025년 9월 Atlassian이 회사를 인수했습니다.",
+      "philosophy": "Arc는 브라우저를 웹에 대한 수동적인 창이 아닌 창의적이고 개인적인 작업 공간으로 재구상합니다. 대담한 색상, 유쾌한 기하학, 따뜻하고 인간 중심적인 디자인 언어를 결합한 아이덴티티는 기존 브라우저의 실용적인 미학과 차별화됩니다."
+    },
     "bags": {
       "description": "Bags는 Solana 기반의 크리에이터 펀딩 플랫폼으로, 크리에이터가 프로젝트를 출시하고 친구들과 공유하며 모든 거래에서 1%를 벌 수 있습니다. 소셜 토큰 거래 모델을 통해 커뮤니티가 새로운 프로젝트를 발견하고 지원할 수 있도록 합니다.",
       "philosophy": "Bags는 크립토 문화와 크리에이터 역량 강화에 뿌리를 둔 대담한 네온 그린 아이덴티티를 채택합니다. 머니백 로고마크와 생동감 있는 그린 팔레트는 금융 기회와 커뮤니티 주도 성장을 나타내며, 둥근 Open Runde 서체가 플랫폼의 Web3 기반에 친근함을 더합니다."
@@ -165,6 +169,10 @@
       "description": "Linear는 속도, 명확함, 완성도를 중심으로 설계된 현대적인 소프트웨어 팀용 프로젝트 관리 플랫폼입니다. 2019년에 설립되었으며, 25,000개 이상의 기업을 위해 이슈 추적, 스프린트 계획, 제품 개발 워크플로를 간소화합니다.",
       "philosophy": "Linear의 아이덴티티는 속도, 완성도, 명확함에 대한 집요한 집중을 반영합니다. 절제된 인디고 팔레트와 깔끔한 기하학적 로고마크를 사용해 정밀함과 목적의식을 전달합니다."
     },
+    "loom": {
+      "description": "Loom은 즉시 공유 가능한 화면 녹화 및 비디오 메시지를 통해 팀이 더 효과적으로 소통할 수 있는 업무용 비디오 메시징 플랫폼입니다. 현재 Atlassian의 일부로, 40만 개 이상의 기업에서 2,200만 명 이상의 사용자가 불필요한 회의를 비동기 비디오로 대체하는 데 Loom을 사용하고 있습니다.",
+      "philosophy": "Loom의 브랜드 아이덴티티는 중앙 원에서 방사형으로 교차하는 선의 스타버스트 패턴인 독특한 위브 아이콘을 중심으로 구축되어 비동기 커뮤니케이션의 상호 연결된 특성을 상징합니다. 생동감 있는 블루 팔레트는 신뢰와 전문성을, Charlie 서체는 시각 시스템에 따뜻함과 친근함을 더합니다."
+    },
     "lovable": {
       "description": "Lovable은 자연어 프롬프트를 통해 누구나 풀스택 웹 애플리케이션을 만들 수 있는 AI 기반 앱 빌더입니다. 스톡홀름에서 설립되었으며, 비기술적 빌더가 코드를 작성하지 않고도 프로덕션 준비가 된 소프트웨어를 출시할 수 있도록 지원합니다.",
       "philosophy": "따뜻하고 활기차며 친근한. Lovable의 그라데이션이 풍부한 아이덴티티는 에너지 넘치는 오렌지, 핑크, 블루 색조를 독특한 L자형 마크로 조합하여, 소프트웨어 제작을 즐겁고 모든 사람이 접근 가능하게 만드는 플랫폼을 반영합니다."
@@ -209,9 +217,17 @@
       "description": "Obsidian은 로컬 Markdown 파일 위에서 작동하는 강력한 지식 베이스 및 노트 테이킹 애플리케이션입니다. 사고를 위해 만들어진 Obsidian은 양방향 링크를 통한 개인 지식 그래프 구축을 가능하게 하여, 작가, 연구자, 개발자를 위한 제2의 뇌가 됩니다.",
       "philosophy": "Obsidian의 아이덴티티는 인류의 여명기부터 도구를 만드는 데 사용된 화산암인 흑요석에서 영감을 받았습니다. 이 브랜드는 내구성, 프라이버시, 사용자 소유권을 반영합니다 — 당신의 노트는 당신의 것이며, 플레인 Markdown으로 로컬에 저장되어 영원히 지속되도록 설계되었습니다."
     },
+    "onlyfans": {
+      "description": "OnlyFans는 크리에이터가 월간 구독, 팁, 유료 콘텐츠를 통해 팬으로부터 직접 수익을 얻는 구독 기반 콘텐츠 플랫폼입니다. 2016년에 설립되어 400만 명 이상의 크리에이터와 3억 7천만 명의 사용자를 보유하며, 크리에이터 이코노미를 대표하는 플랫폼으로 성장했습니다.",
+      "philosophy": "OnlyFans의 아이덴티티는 신뢰, 접근성, 현대성을 전달하는 깔끔한 투톤 블루 워드마크를 중심으로 합니다. 밝은 파란색에서 어두운 파란색으로의 그라데이션은 크리에이터와 오디언스 간의 연결을 상징하며, 미니멀한 미학은 크리에이터를 최우선으로 하는 플랫폼의 철학을 반영합니다."
+    },
     "openai": {
       "description": "OpenAI는 범용 인공지능이 모든 인류에게 이익이 되도록 하는 것을 목표로 하는 AI 연구 및 배포 기업입니다. GPT와 ChatGPT를 만든 곳으로 잘 알려져 있으며, 대규모 언어 모델과 AI 시스템 개발을 이끌고 있습니다.",
       "philosophy": "미니멀하고, 권위 있으며, 미래지향적입니다. OpenAI의 2025년 리브랜딩은 ABC Dinamo가 제작한 전용 서체 OpenAI Sans를 선보이며, 개방성과 가능성을 연상시키는 그레이와 블루 팔레트를 도입했습니다. 기술적 정교함을 전달하면서도 뚜렷하게 인간적인 감각을 느끼게 하는 아이덴티티입니다."
+    },
+    "perplexity": {
+      "description": "Perplexity는 대규모 언어 모델과 실시간 웹 검색을 결합하여 정확하고 출처가 명시된 답변을 제공하는 AI 기반 답변 엔진입니다. 2022년에 설립되어 사람들이 온라인에서 정보를 발견하고 이해하는 방식을 재정의하고 있습니다.",
+      "philosophy": "깔끔하고 명확하며 의도적으로 절제된. Perplexity의 아이덴티티는 장식보다 콘텐츠를 우선시하며, 독특한 터쿼이즈 팔레트와 기하학적 심볼로 AI 기반 검색에서의 정밀함과 신뢰성을 전달합니다."
     },
     "pinterest": {
       "description": "Pinterest는 레시피와 인테리어부터 패션, DIY 프로젝트까지 창의적인 아이디어를 발견하고 저장하는 비주얼 디스커버리 및 북마크 플랫폼입니다. 2010년에 설립되어 비주얼 검색 기술로 구동되는 개인화된 영감 엔진으로 5억 5천만 명 이상의 월간 활성 사용자에게 서비스를 제공합니다.",
@@ -272,6 +288,10 @@
     "stripe": {
       "description": "Stripe는 모든 규모의 인터넷 비즈니스를 위해 결제 처리 API와 도구를 제공하는 금융 인프라 플랫폼입니다. 2010년에 설립되었으며, 전 세계 수백만 개의 기업이 결제를 받고 금융 제품을 구축할 수 있도록 지원합니다.",
       "philosophy": "Stripe의 아이덴티티는 개발자 중심의 명확함과 세련된 단순함 위에 구축됩니다. 독특한 보라색 팔레트와 깔끔한 타이포그래피를 사용해 금융 기술에서의 신뢰와 정교함을 전달합니다."
+    },
+    "supabase": {
+      "description": "Supabase는 Postgres 데이터베이스, 인증, 즉시 API, 엣지 함수, 실시간 구독을 포함한 완전한 백엔드 도구 모음을 제공하는 오픈소스 Firebase 대안입니다. 개발자를 위해 구축되어 팀이 주말에 아이디어에서 프로덕션으로 전환하고 수백만 사용자로 확장할 수 있게 합니다.",
+      "philosophy": "Supabase의 브랜드 아이덴티티는 성장과 개발자 역량 강화를 연상시키는 생동감 있는 그린 팔레트로 오픈소스 정신을 구현합니다. 번개에서 영감을 받은 독특한 로고마크는 속도와 실시간 기능을 전달하며, 깔끔한 타이포그래피는 개발자 우선 단순성을 반영합니다."
     },
     "tailwind-css": {
       "description": "Tailwind CSS는 HTML 마크업에 직접 유틸리티 클래스를 조합하여 개발자가 현대적인 웹사이트를 빠르게 구축할 수 있게 해주는 유틸리티 우선 CSS 프레임워크입니다. Tailwind Labs가 만들었으며, 유연하고 프로덕션에 최적화된 스타일링 접근 방식으로 수백만 개의 프로젝트를 지원하는 가장 인기 있는 CSS 프레임워크 중 하나가 되었습니다.",
@@ -440,44 +460,6 @@
     "notFound": "찾을 수 없음",
     "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다."
   },
-  "home": {
-    "browseAll": "사이드바에서 {count}개의 브랜드를 검색하고 필터링하세요",
-    "cta": "탐색 시작",
-    "cliDocs": "CLI 문서",
-    "cliTooltip": "npm에서 Loftlyy CLI 열기",
-    "explore": "더 많은 브랜드",
-    "headline": "실제 브랜드 아이덴티티를 발견하세요.",
-    "popular": "인기",
-    "sponsor": "후원하기",
-    "startExploring": "탐색 시작",
-    "subheadline": "계속 성장하는 브랜드 아이덴티티 데이터베이스."
-  },
-  "metadata": {
-    "siteDescription": "브랜드 아이덴티티, 로고, 컬러, 디자인 시스템을 발견하고 탐색하세요",
-    "siteName": "Loftlyy"
-  },
-  "nav": {
-    "allBrands": "모든 브랜드",
-    "categories": "카테고리",
-    "clearFilters": "모두 지우기",
-    "colorExplorer": "컬러 익스플로러",
-    "colorFamily": "색상",
-    "colorResults": "색상 결과",
-    "explore": "탐색",
-    "exploreColors": "{count}개의 고유 스와치",
-    "filters": "필터",
-    "fontResults": "폰트 결과",
-    "industry": "산업",
-    "keywordResults": "키워드 결과",
-    "language": "언어",
-    "noBrandsFound": "브랜드를 찾을 수 없습니다",
-    "search": "브랜드 검색",
-    "searchExamples": "#FF6900, Inter 또는 AI를 입력해 보세요",
-    "searchPlaceholder": "HEX, 폰트 또는 키워드로 검색",
-    "styleTags": "스타일",
-    "theme": "테마",
-    "typographyStyle": "타이포그래피"
-  },
   "seo": {
     "brandDescription": "로고, 컬러, 타이포그래피, 디자인 시스템을 포함한 {brandName}의 브랜드 아이덴티티를 탐색하세요. {brandName}는 {industry} 기업입니다.",
     "brandIntentTitle": "{brandName} {segments} | Loftlyy",
@@ -536,6 +518,7 @@
     "app-builder": "앱 빌더",
     "apparel": "의류",
     "artificial-intelligence": "인공지능",
+    "async": "비동기",
     "athletic": "스포츠",
     "athletics": "육상",
     "audio": "오디오",
@@ -544,11 +527,13 @@
     "automation": "자동화",
     "automotive": "자동차",
     "autonomous-vehicles": "자율주행차",
+    "backend-as-a-service": "서비스형 백엔드",
     "banking": "뱅킹",
     "beverages": "음료",
     "billing": "빌링",
     "blockchain": "블록체인",
     "bookmarking": "북마크",
+    "browser": "브라우저",
     "camera": "카메라",
     "chatgpt": "ChatGPT",
     "claude": "Claude",
@@ -562,8 +547,10 @@
     "community": "커뮤니티",
     "consumer-goods": "소비재",
     "content-automation": "콘텐츠 자동화",
+    "content-platform": "콘텐츠 플랫폼",
     "creative": "크리에이티브",
     "creativity": "창의성",
+    "creator-economy": "크리에이터 이코노미",
     "creators": "크리에이터",
     "crypto": "크립토",
     "cryptocurrency": "암호화폐",
@@ -678,6 +665,7 @@
     "sportswear": "스포츠웨어",
     "streaming": "스트리밍",
     "streetwear": "스트리트웨어",
+    "subscriptions": "구독",
     "sustainability": "지속가능성",
     "television": "텔레비전",
     "templates": "템플릿",
@@ -695,7 +683,8 @@
     "voice-chat": "음성 채팅",
     "web3": "Web3",
     "workplace": "직장",
-    "workspace": "워크스페이스"
+    "workspace": "워크스페이스",
+    "answer-engine": "답변 엔진"
   },
   "typographyPage": {
     "description": "{style} 폰트를 사용하는 {count}개 브랜드 탐색",

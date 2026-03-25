@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "siteName": "Loftlyy",
-    "siteDescription": "Scopri ed esplora identità di marca, loghi, colori e sistemi di design"
+    "siteDescription": "Scopri ed esplora identità di marca, loghi, colori e sistemi di design",
+    "siteName": "Loftlyy"
   },
   "home": {
-    "headline": "Scopri vere identità di marca.",
-    "subheadline": "Un database di identità di marca in costante crescita.",
-    "popular": "Popolari",
-    "explore": "Altri brand",
     "browseAll": "Usa la barra laterale per cercare e filtrare {count} brand",
-    "startExploring": "Inizia a esplorare",
     "cta": "Inizia a esplorare",
     "cliDocs": "Documentazione CLI",
     "cliTooltip": "Apri Loftlyy CLI su npm",
-    "sponsor": "Supportaci"
+    "explore": "Altri brand",
+    "headline": "Scopri vere identità di marca.",
+    "popular": "Popolari",
+    "sponsor": "Supportaci",
+    "startExploring": "Inizia a esplorare",
+    "subheadline": "Un database di identità di marca in costante crescita."
   },
   "nav": {
-    "search": "Cerca brand",
-    "searchPlaceholder": "Cerca per hex, font o parola chiave",
-    "searchExamples": "Prova #FF6900, Inter o AI",
     "allBrands": "Tutti i brand",
-    "colorResults": "Risultati colore",
-    "fontResults": "Risultati font",
-    "keywordResults": "Risultati parola chiave",
     "categories": "Categorie",
-    "explore": "Esplora",
-    "filters": "Filtri",
     "clearFilters": "Cancella tutto",
-    "industry": "Settore",
-    "styleTags": "Stile",
-    "colorFamily": "Colore",
     "colorExplorer": "Esploratore colori",
+    "colorFamily": "Colore",
+    "colorResults": "Risultati colore",
+    "explore": "Esplora",
     "exploreColors": "{count} campioni unici",
-    "typographyStyle": "Tipografia",
-    "noBrandsFound": "Nessun brand trovato",
+    "filters": "Filtri",
+    "fontResults": "Risultati font",
+    "industry": "Settore",
+    "keywordResults": "Risultati parola chiave",
     "language": "Lingua",
-    "theme": "Tema"
+    "noBrandsFound": "Nessun brand trovato",
+    "search": "Cerca brand",
+    "searchExamples": "Prova #FF6900, Inter o AI",
+    "searchPlaceholder": "Cerca per hex, font o parola chiave",
+    "styleTags": "Stile",
+    "theme": "Tema",
+    "typographyStyle": "Tipografia"
   },
   "brand": {
     "assets": "Asset",
@@ -101,6 +101,10 @@
       "description": "Apple progetta, produce e commercializza elettronica di consumo, software e servizi. Dal Macintosh all'iPhone, Apple ha ridefinito intere categorie di prodotto attraverso la sua ossessione per il design, la semplicità e l'esperienza utente.",
       "philosophy": "La semplicità è la massima sofisticazione. L'identità monocromatica di Apple elimina tutto il superfluo, lasciando che l'iconica mela morsicata parli con silenziosa sicurezza: un simbolo di innovazione, qualità premium e design centrato sulle persone."
     },
+    "arc-browser": {
+      "description": "Arc era un browser web reinventato costruito da The Browser Company, progettato per sostituire l'esperienza di navigazione tradizionale con uno spazio di lavoro più organizzato, produttivo e personale. Lanciato pubblicamente nel luglio 2023, Arc ha introdotto funzionalità come Spaces, Boosts e un'interfaccia incentrata sulla barra laterale. Nel maggio 2025, The Browser Company ha annunciato la chiusura di Arc per concentrarsi sul nuovo browser AI Dia, e Atlassian ha acquisito l'azienda nel settembre 2025.",
+      "philosophy": "Arc reimmagina il browser come uno spazio di lavoro creativo e personale piuttosto che una finestra passiva sul web. La sua identità unisce colori audaci, geometria giocosa e un linguaggio di design caldo e incentrato sull'uomo che lo distingue dall'estetica utilitaristica dei browser tradizionali."
+    },
     "bags": {
       "description": "Bags è una piattaforma di finanziamento per creator costruita su Solana dove i creator possono lanciare progetti, condividerli con gli amici e guadagnare l'1% da ogni scambio. Permette alle comunità di scoprire e supportare nuovi progetti attraverso un modello sociale di trading di token.",
       "philosophy": "Bags adotta un'identità audace in verde neon radicata nella cultura crypto e nell'empowerment dei creator. Il logo a forma di sacchetto di denaro e la vivace palette verde segnalano opportunità finanziaria e crescita guidata dalla comunità, mentre il carattere arrotondato Open Runde aggiunge accessibilità alle fondamenta Web3 della piattaforma."
@@ -165,6 +169,10 @@
       "description": "Linear è una piattaforma di project management progettata per moderni team software, costruita attorno a velocità, chiarezza e cura artigianale. Fondata nel 2019, semplifica issue tracking, pianificazione degli sprint e flussi di sviluppo prodotto per oltre 25.000 aziende.",
       "philosophy": "L'identità di Linear riflette un'attenzione rigorosa a velocità, cura artigianale e chiarezza. Il brand usa una palette indaco sobria e un logomark geometrico pulito per comunicare precisione e intenzione."
     },
+    "loom": {
+      "description": "Loom è una piattaforma di messaggistica video per il lavoro che consente ai team di comunicare in modo più efficace attraverso registrazioni dello schermo e messaggi video condivisibili istantaneamente. Ora parte di Atlassian, Loom è utilizzato da oltre 22 milioni di persone in 400.000 aziende per sostituire le riunioni non necessarie con video asincroni.",
+      "philosophy": "L'identità del marchio Loom si concentra sulla sua distintiva icona a intreccio — un motivo a stella di linee intersecanti che si irradiano da un cerchio centrale — che simboleggia la natura interconnessa della comunicazione asincrona. La vibrante palette blu trasmette fiducia e professionalità, mentre il carattere tipografico Charlie porta calore e accessibilità al sistema visivo."
+    },
     "lovable": {
       "description": "Lovable è un costruttore di app basato sull'IA che consente a chiunque di creare applicazioni web full-stack tramite istruzioni in linguaggio naturale. Fondata a Stoccolma, permette ai creatori non tecnici di pubblicare software pronto per la produzione senza scrivere codice.",
       "philosophy": "Calda, vibrante e accessibile. L'identità ricca di gradienti di Lovable fonde tonalità energiche di arancione, rosa e blu in un distintivo marchio a forma di L, riflettendo una piattaforma che rende la creazione di software gioiosa e accessibile a tutti."
@@ -209,9 +217,17 @@
       "description": "Obsidian è una potente base di conoscenza e applicazione per la presa di appunti che funziona su file Markdown locali. Costruito per pensare, Obsidian consente agli utenti di creare un grafo di conoscenza personale con collegamenti bidirezionali, rendendolo un secondo cervello per scrittori, ricercatori e sviluppatori.",
       "philosophy": "L'identità di Obsidian si ispira al suo omonimo, la roccia vulcanica utilizzata fin dall'alba dell'umanità per fabbricare utensili. Il brand riflette durabilità, privacy e proprietà dell'utente — i tuoi appunti sono tuoi, archiviati localmente in Markdown semplice, progettati per durare per sempre."
     },
+    "onlyfans": {
+      "description": "OnlyFans è una piattaforma di contenuti in abbonamento dove i creatori guadagnano direttamente dai loro fan tramite abbonamenti mensili, mance e contenuti pay-per-view. Fondata nel 2016, è cresciuta fino a superare i 4 milioni di creatori e 370 milioni di utenti, diventando una piattaforma di riferimento nella creator economy.",
+      "philosophy": "L'identità di OnlyFans si basa su un logotipo pulito in due tonalità di blu che trasmette fiducia, accessibilità e modernità. Il gradiente dal blu chiaro al blu scuro simboleggia il legame tra i creatori e il loro pubblico, mentre l'estetica minimalista riflette l'impegno della piattaforma nel mettere i creatori al primo posto."
+    },
     "openai": {
       "description": "OpenAI è un'azienda di ricerca e distribuzione sull'IA dedicata a garantire che l'intelligenza artificiale generale porti benefici a tutta l'umanità. Nota per aver creato GPT e ChatGPT, guida lo sviluppo di modelli linguistici di grandi dimensioni e sistemi di IA.",
       "philosophy": "Minimalista, autorevole e proiettata al futuro. Il rebranding di OpenAI del 2025 ha introdotto OpenAI Sans, un carattere esclusivo di ABC Dinamo, affiancato da una palette di grigi e blu che evoca apertura e possibilità — comunicando sofisticazione tecnologica con una sensibilità spiccatamente umana."
+    },
+    "perplexity": {
+      "description": "Perplexity è un motore di risposte alimentato dall'IA che combina modelli linguistici con la ricerca web in tempo reale per fornire risposte accurate e con citazioni. Fondata nel 2022, reinventa il modo in cui le persone scoprono e comprendono le informazioni online.",
+      "philosophy": "Pulito, chiaro e volutamente sobrio. L'identità di Perplexity privilegia il contenuto rispetto all'estetica, utilizzando una palette turchese distintiva e un simbolo geometrico per comunicare precisione e affidabilità nella ricerca guidata dall'IA."
     },
     "pinterest": {
       "description": "Pinterest è una piattaforma di scoperta visiva e segnalibri dove gli utenti trovano e salvano idee creative — dalle ricette e l'arredamento alla moda e ai progetti fai-da-te. Fondata nel 2010, serve oltre 550 milioni di utenti attivi mensili come motore di ispirazione personalizzato alimentato dalla tecnologia di ricerca visiva.",
@@ -272,6 +288,10 @@
     "stripe": {
       "description": "Stripe è una piattaforma di infrastruttura finanziaria che fornisce API di elaborazione dei pagamenti e strumenti per aziende internet di ogni dimensione. Fondata nel 2010, supporta milioni di aziende nel mondo, aiutandole ad accettare pagamenti e costruire prodotti finanziari.",
       "philosophy": "L'identità di Stripe è costruita attorno a chiarezza per sviluppatori e semplicità raffinata. Il brand usa una palette viola distintiva e una tipografia pulita per trasmettere fiducia e sofisticazione nella tecnologia finanziaria."
+    },
+    "supabase": {
+      "description": "Supabase è un'alternativa open source a Firebase che fornisce una suite completa di strumenti backend — tra cui un database Postgres, autenticazione, API istantanee, funzioni edge e sottoscrizioni in tempo reale. Progettato per gli sviluppatori, consente ai team di passare dall'idea alla produzione in un weekend e scalare a milioni di utenti.",
+      "philosophy": "L'identità del marchio Supabase abbraccia l'etica open source con una vibrante palette verde che evoca crescita e empowerment degli sviluppatori. Il distintivo logomark ispirato al fulmine comunica velocità e capacità in tempo reale, mentre la tipografia pulita riflette la semplicità orientata agli sviluppatori."
     },
     "tailwind-css": {
       "description": "Tailwind CSS è un framework CSS utility-first che consente agli sviluppatori di costruire rapidamente siti web moderni componendo classi di utilità direttamente nel markup HTML. Creato da Tailwind Labs, è diventato uno dei framework CSS più popolari, alimentando milioni di progetti con il suo approccio flessibile e ottimizzato per la produzione.",
@@ -440,44 +460,6 @@
     "notFound": "Non trovato",
     "notFoundDescription": "La pagina che stai cercando non esiste."
   },
-  "home": {
-    "browseAll": "Usa la barra laterale per cercare e filtrare {count} brand",
-    "cta": "Inizia a esplorare",
-    "cliDocs": "Documentazione CLI",
-    "cliTooltip": "Apri Loftlyy CLI su npm",
-    "explore": "Altri brand",
-    "headline": "Scopri vere identità di marca.",
-    "popular": "Popolari",
-    "sponsor": "Supportaci",
-    "startExploring": "Inizia a esplorare",
-    "subheadline": "Un database di identità di marca in costante crescita."
-  },
-  "metadata": {
-    "siteDescription": "Scopri ed esplora identità di marca, loghi, colori e sistemi di design",
-    "siteName": "Loftlyy"
-  },
-  "nav": {
-    "allBrands": "Tutti i brand",
-    "categories": "Categorie",
-    "clearFilters": "Cancella tutto",
-    "colorExplorer": "Esploratore colori",
-    "colorFamily": "Colore",
-    "colorResults": "Risultati colore",
-    "explore": "Esplora",
-    "exploreColors": "{count} campioni unici",
-    "filters": "Filtri",
-    "fontResults": "Risultati font",
-    "industry": "Settore",
-    "keywordResults": "Risultati parola chiave",
-    "language": "Lingua",
-    "noBrandsFound": "Nessun brand trovato",
-    "search": "Cerca brand",
-    "searchExamples": "Prova #FF6900, Inter o AI",
-    "searchPlaceholder": "Cerca per hex, font o parola chiave",
-    "styleTags": "Stile",
-    "theme": "Tema",
-    "typographyStyle": "Tipografia"
-  },
   "seo": {
     "brandDescription": "Esplora l'identità di brand di {brandName} inclusi logo, colori, tipografia e design system. {brandName} è un'azienda {industry}.",
     "brandIntentTitle": "{brandName} {segments} | Loftlyy",
@@ -536,6 +518,7 @@
     "app-builder": "Creatore di app",
     "apparel": "Abbigliamento",
     "artificial-intelligence": "Intelligenza artificiale",
+    "async": "Asincrono",
     "athletic": "Atletismo",
     "athletics": "Atletica",
     "audio": "Audio",
@@ -544,11 +527,13 @@
     "automation": "Automazione",
     "automotive": "Automobilistico",
     "autonomous-vehicles": "Veicoli Autonomi",
+    "backend-as-a-service": "Backend come Servizio",
     "banking": "Servizi bancari",
     "beverages": "Bevande",
     "billing": "Fatturazione",
     "blockchain": "Blockchain",
     "bookmarking": "Segnalibri",
+    "browser": "Browser",
     "camera": "Fotocamera",
     "chatgpt": "ChatGPT",
     "claude": "Claude",
@@ -562,8 +547,10 @@
     "community": "Comunità",
     "consumer-goods": "Beni di Consumo",
     "content-automation": "Automazione dei Contenuti",
+    "content-platform": "Piattaforma di Contenuti",
     "creative": "Creativo",
     "creativity": "Creatività",
+    "creator-economy": "Economia dei Creatori",
     "creators": "Creatori",
     "crypto": "Crypto",
     "cryptocurrency": "Criptovaluta",
@@ -678,6 +665,7 @@
     "sportswear": "Abbigliamento sportivo",
     "streaming": "Streaming",
     "streetwear": "Streetwear",
+    "subscriptions": "Abbonamenti",
     "sustainability": "Sostenibilità",
     "television": "Televisione",
     "templates": "Modelli",
@@ -695,7 +683,8 @@
     "voice-chat": "Chat vocale",
     "web3": "Web3",
     "workplace": "Posto di Lavoro",
-    "workspace": "Workspace"
+    "workspace": "Workspace",
+    "answer-engine": "Motore di Risposte"
   },
   "typographyPage": {
     "description": "Esplora {count} brand che usano font {style}",

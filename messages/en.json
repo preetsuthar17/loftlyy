@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "siteName": "Loftlyy",
-    "siteDescription": "Discover and explore brand identities, logos, colors, and design systems"
+    "siteDescription": "Discover and explore brand identities, logos, colors, and design systems",
+    "siteName": "Loftlyy"
   },
   "home": {
-    "headline": "Discover real-world brand identities.",
-    "subheadline": "A constantly growing database of brand identity.",
-    "popular": "Popular",
-    "explore": "More Brands",
     "browseAll": "Use the sidebar to search and filter {count} brands",
-    "startExploring": "Start exploring",
     "cta": "Start exploring",
     "cliDocs": "CLI docs",
     "cliTooltip": "Open Loftlyy CLI on npm",
-    "sponsor": "Support us"
+    "explore": "More Brands",
+    "headline": "Discover real-world brand identities.",
+    "popular": "Popular",
+    "sponsor": "Support us",
+    "startExploring": "Start exploring",
+    "subheadline": "A constantly growing database of brand identity."
   },
   "nav": {
-    "search": "Search brands",
-    "searchPlaceholder": "Search by hex, font, or keyword",
-    "searchExamples": "Try #FF6900, Inter, or AI",
     "allBrands": "All Brands",
-    "colorResults": "Color Results",
-    "fontResults": "Font Results",
-    "keywordResults": "Keyword Results",
     "categories": "Categories",
-    "explore": "Explore",
-    "filters": "Filters",
     "clearFilters": "Clear all",
-    "industry": "Industry",
-    "styleTags": "Style",
-    "colorFamily": "Color",
     "colorExplorer": "Color Explorer",
+    "colorFamily": "Color",
+    "colorResults": "Color Results",
+    "explore": "Explore",
     "exploreColors": "{count} unique swatches",
-    "typographyStyle": "Typography",
-    "noBrandsFound": "No brands found",
+    "filters": "Filters",
+    "fontResults": "Font Results",
+    "industry": "Industry",
+    "keywordResults": "Keyword Results",
     "language": "Language",
-    "theme": "Theme"
+    "noBrandsFound": "No brands found",
+    "search": "Search brands",
+    "searchExamples": "Try #FF6900, Inter, or AI",
+    "searchPlaceholder": "Search by hex, font, or keyword",
+    "styleTags": "Style",
+    "theme": "Theme",
+    "typographyStyle": "Typography"
   },
   "brand": {
     "assets": "Assets",
@@ -101,6 +101,10 @@
       "description": "Apple designs, manufactures, and markets consumer electronics, software, and services. From the Macintosh to the iPhone, Apple has consistently redefined entire product categories through its obsession with design, simplicity, and user experience.",
       "philosophy": "Simplicity is the ultimate sophistication. Apple's monochromatic identity strips away everything unnecessary, letting the iconic bitten apple speak with quiet confidence — a symbol of innovation, premium quality, and human-centered design."
     },
+    "arc-browser": {
+      "description": "Arc was a reimagined web browser built by The Browser Company, designed to replace the traditional browser experience with a more organized, productive, and personal workspace. Publicly launched in July 2023, Arc introduced features like Spaces, Boosts, and a sidebar-first interface. In May 2025, The Browser Company announced Arc would be sunset to focus on their new AI browser Dia, and Atlassian acquired the company in September 2025.",
+      "philosophy": "Arc reimagines the browser as a creative, personal workspace rather than a passive window to the web. Its identity blends bold color, playful geometry, and a warm, human-centered design language that sets it apart from the utilitarian aesthetics of traditional browsers."
+    },
     "bags": {
       "description": "Bags is a creator funding platform built on Solana where creators can launch projects, share them with friends, and earn 1% from every trade. It enables communities to discover and support new projects through a social token-trading model.",
       "philosophy": "Bags embraces a bold, neon-green identity rooted in crypto culture and creator empowerment. The money bag logomark and vibrant green palette signal financial opportunity and community-driven growth, while the rounded Open Runde typeface adds approachability to the platform's Web3 foundations."
@@ -165,6 +169,10 @@
       "description": "Linear is a purpose-built project management platform for modern software teams, designed around speed, clarity, and craftsmanship. Founded in 2019, Linear streamlines issue tracking, sprint planning, and product development workflows for over 25,000 companies.",
       "philosophy": "Linear's identity reflects relentless focus on speed, craftsmanship, and clarity. The brand uses a restrained indigo palette and clean geometric logomark to convey precision and purpose."
     },
+    "loom": {
+      "description": "Loom is a video messaging platform for work that enables teams to communicate more effectively through instantly shareable screen recordings and video messages. Now part of Atlassian, Loom is trusted by over 22 million people across 400,000 companies to replace unnecessary meetings with asynchronous video.",
+      "philosophy": "Loom's brand identity centers on its distinctive weave icon — a starburst of intersecting lines radiating from a central circle — symbolizing the interconnected nature of async communication. The vibrant blue palette conveys trust and professionalism, while the Charlie typeface brings warmth and approachability to the visual system."
+    },
     "lovable": {
       "description": "Lovable is an AI-powered app builder that lets anyone create full-stack web applications through natural language prompts. Founded in Stockholm, it empowers non-technical builders to ship production-ready software without writing code.",
       "philosophy": "Warm, vibrant, and approachable. Lovable's gradient-rich identity blends energetic orange, pink, and blue hues into a distinctive L-shaped mark, reflecting a platform that makes software creation feel joyful and accessible to everyone."
@@ -209,9 +217,17 @@
       "description": "Obsidian is a powerful knowledge base and note-taking application that works on top of local Markdown files. Built for thinking, Obsidian lets users create a personal knowledge graph with bidirectional linking, making it a second brain for writers, researchers, and developers.",
       "philosophy": "Obsidian's identity is inspired by its namesake, the volcanic rock used since the dawn of humanity to make tools. The brand reflects durability, privacy, and user ownership — your notes are yours, stored locally in plain Markdown, designed to last forever."
     },
+    "onlyfans": {
+      "description": "OnlyFans is a subscription-based content platform where creators earn directly from their fans through monthly subscriptions, tips, and pay-per-view content. Founded in 2016, it has grown to over 4 million creators and 370 million users, becoming a defining platform in the creator economy.",
+      "philosophy": "OnlyFans' identity centers on a clean, two-tone blue wordmark that conveys trust, accessibility, and modernity. The light-to-dark blue gradient across the logotype symbolizes the connection between creators and their audiences, while the minimal aesthetic reflects the platform's focus on putting creators first."
+    },
     "openai": {
       "description": "OpenAI is an AI research and deployment company dedicated to ensuring that artificial general intelligence benefits all of humanity. Known for creating GPT and ChatGPT, it leads the development of large language models and AI systems.",
       "philosophy": "Minimal, authoritative, and forward-looking. OpenAI's 2025 rebrand introduced OpenAI Sans, a bespoke typeface by ABC Dinamo, alongside a palette of greys and blues evoking openness and possibility — communicating technological sophistication while feeling distinctly human."
+    },
+    "perplexity": {
+      "description": "Perplexity is an AI-powered answer engine that combines large language models with real-time web search to deliver accurate, cited responses. Founded in 2022, it reimagines how people discover and understand information online.",
+      "philosophy": "Clean, clear, and intentionally understated. Perplexity's identity prioritizes content over chrome, using a distinctive turquoise palette and geometric symbol to communicate precision and trustworthiness in AI-driven search."
     },
     "pinterest": {
       "description": "Pinterest is a visual discovery and bookmarking platform where users find and save creative ideas — from recipes and home decor to fashion and DIY projects. Founded in 2010, it serves over 550 million monthly active users as a personalized inspiration engine powered by visual search technology.",
@@ -272,6 +288,10 @@
     "stripe": {
       "description": "Stripe is a financial infrastructure platform that provides payment processing APIs and tools for internet businesses of every size. Founded in 2010, Stripe powers millions of companies worldwide, enabling them to accept payments and build financial products.",
       "philosophy": "Stripe's identity is built around developer-first clarity and refined simplicity. The brand uses a distinctive purple palette and clean typography to convey trust and sophistication in financial technology."
+    },
+    "supabase": {
+      "description": "Supabase is an open-source Firebase alternative that provides a full suite of backend tools — including a Postgres database, authentication, instant APIs, edge functions, and real-time subscriptions. Built for developers, it enables teams to go from idea to production in a weekend and scale to millions of users.",
+      "philosophy": "Supabase's brand identity embraces the open-source ethos with a vibrant green palette that evokes growth and developer empowerment. The distinctive lightning-bolt-inspired logomark communicates speed and real-time capabilities, while clean typography reflects the platform's developer-first simplicity."
     },
     "tailwind-css": {
       "description": "Tailwind CSS is a utility-first CSS framework that enables developers to rapidly build modern websites by composing utility classes directly in HTML markup. Created by Tailwind Labs, it has become one of the most popular CSS frameworks, powering millions of projects with its flexible, production-optimized approach to styling.",
@@ -440,44 +460,6 @@
     "notFound": "Not Found",
     "notFoundDescription": "The page you're looking for doesn't exist."
   },
-  "home": {
-    "browseAll": "Use the sidebar to search and filter {count} brands",
-    "cta": "Start exploring",
-    "cliDocs": "CLI docs",
-    "cliTooltip": "Open Loftlyy CLI on npm",
-    "explore": "More Brands",
-    "headline": "Discover real-world brand identities.",
-    "popular": "Popular",
-    "sponsor": "Support us",
-    "startExploring": "Start exploring",
-    "subheadline": "A constantly growing database of brand identity."
-  },
-  "metadata": {
-    "siteDescription": "Discover and explore brand identities, logos, colors, and design systems",
-    "siteName": "Loftlyy"
-  },
-  "nav": {
-    "allBrands": "All Brands",
-    "categories": "Categories",
-    "clearFilters": "Clear all",
-    "colorExplorer": "Color Explorer",
-    "colorFamily": "Color",
-    "colorResults": "Color Results",
-    "explore": "Explore",
-    "exploreColors": "{count} unique swatches",
-    "filters": "Filters",
-    "fontResults": "Font Results",
-    "industry": "Industry",
-    "keywordResults": "Keyword Results",
-    "language": "Language",
-    "noBrandsFound": "No brands found",
-    "search": "Search brands",
-    "searchExamples": "Try #FF6900, Inter, or AI",
-    "searchPlaceholder": "Search by hex, font, or keyword",
-    "styleTags": "Style",
-    "theme": "Theme",
-    "typographyStyle": "Typography"
-  },
   "seo": {
     "brandDescription": "Explore {brandName}'s brand identity including logo, colors, typography, and design system. {brandName} is a {industry} company.",
     "brandIntentTitle": "{brandName} {segments} | Loftlyy",
@@ -536,6 +518,7 @@
     "app-builder": "App Builder",
     "apparel": "Apparel",
     "artificial-intelligence": "Artificial Intelligence",
+    "async": "Async",
     "athletic": "Athletic",
     "athletics": "Athletics",
     "audio": "Audio",
@@ -544,11 +527,13 @@
     "automation": "Automation",
     "automotive": "Automotive",
     "autonomous-vehicles": "Autonomous Vehicles",
+    "backend-as-a-service": "Backend as a Service",
     "banking": "Banking",
     "beverages": "Beverages",
     "billing": "Billing",
     "blockchain": "Blockchain",
     "bookmarking": "Bookmarking",
+    "browser": "Browser",
     "camera": "Camera",
     "chatgpt": "ChatGPT",
     "claude": "Claude",
@@ -562,8 +547,10 @@
     "community": "Community",
     "consumer-goods": "Consumer Goods",
     "content-automation": "Content Automation",
+    "content-platform": "Content Platform",
     "creative": "Creative",
     "creativity": "Creativity",
+    "creator-economy": "Creator Economy",
     "creators": "Creators",
     "crypto": "Crypto",
     "cryptocurrency": "Cryptocurrency",
@@ -678,6 +665,7 @@
     "sportswear": "Sportswear",
     "streaming": "Streaming",
     "streetwear": "Streetwear",
+    "subscriptions": "Subscriptions",
     "sustainability": "Sustainability",
     "television": "Television",
     "templates": "Templates",
@@ -695,7 +683,8 @@
     "voice-chat": "Voice Chat",
     "web3": "Web3",
     "workplace": "Workplace",
-    "workspace": "Workspace"
+    "workspace": "Workspace",
+    "answer-engine": "Answer Engine"
   },
   "typographyPage": {
     "description": "Explore {count} brands that use {style} fonts in their identity",

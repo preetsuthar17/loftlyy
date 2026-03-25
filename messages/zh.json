@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "siteName": "Loftlyy",
-    "siteDescription": "发现并探索品牌识别、标志、色彩与设计系统"
+    "siteDescription": "发现并探索品牌识别、标志、色彩与设计系统",
+    "siteName": "Loftlyy"
   },
   "home": {
-    "headline": "发现真实世界的品牌识别。",
-    "subheadline": "一个持续增长的品牌识别数据库。",
-    "popular": "热门",
-    "explore": "更多品牌",
     "browseAll": "使用侧边栏搜索并筛选 {count} 个品牌",
-    "startExploring": "开始探索",
     "cta": "开始探索",
     "cliDocs": "CLI 文档",
     "cliTooltip": "在 npm 上打开 Loftlyy CLI",
-    "sponsor": "支持我们"
+    "explore": "更多品牌",
+    "headline": "发现真实世界的品牌识别。",
+    "popular": "热门",
+    "sponsor": "支持我们",
+    "startExploring": "开始探索",
+    "subheadline": "一个持续增长的品牌识别数据库。"
   },
   "nav": {
-    "search": "搜索品牌",
-    "searchPlaceholder": "按 HEX、字体或关键词搜索",
-    "searchExamples": "试试 #FF6900、Inter 或 AI",
     "allBrands": "所有品牌",
-    "colorResults": "颜色结果",
-    "fontResults": "字体结果",
-    "keywordResults": "关键词结果",
     "categories": "分类",
-    "explore": "探索",
-    "filters": "筛选",
     "clearFilters": "全部清除",
-    "industry": "行业",
-    "styleTags": "风格",
-    "colorFamily": "颜色",
     "colorExplorer": "颜色探索器",
+    "colorFamily": "颜色",
+    "colorResults": "颜色结果",
+    "explore": "探索",
     "exploreColors": "{count} 个唯一色板",
-    "typographyStyle": "字体风格",
-    "noBrandsFound": "未找到品牌",
+    "filters": "筛选",
+    "fontResults": "字体结果",
+    "industry": "行业",
+    "keywordResults": "关键词结果",
     "language": "语言",
-    "theme": "主题"
+    "noBrandsFound": "未找到品牌",
+    "search": "搜索品牌",
+    "searchExamples": "试试 #FF6900、Inter 或 AI",
+    "searchPlaceholder": "按 HEX、字体或关键词搜索",
+    "styleTags": "风格",
+    "theme": "主题",
+    "typographyStyle": "字体风格"
   },
   "brand": {
     "assets": "资源",
@@ -101,6 +101,10 @@
       "description": "Apple 设计、制造并销售消费电子产品、软件和服务。从 Macintosh 到 iPhone，Apple 始终通过对设计、简洁和用户体验的执着重新定义整个产品类别。",
       "philosophy": "简约即极致的精致。Apple 的单色品牌识别剥离掉一切不必要的元素，让那枚标志性的被咬了一口的苹果以安静的自信发声，成为创新、高端品质和以人为本设计的象征。"
     },
+    "arc-browser": {
+      "description": "Arc 是由 The Browser Company 打造的革新性网页浏览器，旨在用更有组织、更高效、更个性化的工作空间取代传统浏览体验。Arc 于 2023 年 7 月正式推出，引入了 Spaces、Boosts 和侧边栏优先界面等功能。2025 年 5 月，The Browser Company 宣布停止 Arc 开发，转而专注于新的 AI 浏览器 Dia，2025 年 9 月 Atlassian 收购了该公司。",
+      "philosophy": "Arc 将浏览器重新定义为创意性的个人工作空间，而非被动的网络窗口。其品牌形象融合了大胆的色彩、趣味几何和温暖的以人为本的设计语言，使其与传统浏览器的实用主义美学截然不同。"
+    },
     "bags": {
       "description": "Bags 是一个建立在 Solana 上的创作者资金平台，创作者可以发起项目、与朋友分享，并从每笔交易中赚取 1%。它通过社交代币交易模式，让社区能够发现和支持新项目。",
       "philosophy": "Bags 采用了植根于加密文化和创作者赋能的大胆霓虹绿色品牌形象。钱袋标志和鲜艳的绿色调传达了金融机遇和社区驱动的增长，而圆润的 Open Runde 字体为平台的 Web3 基础增添了亲和力。"
@@ -165,6 +169,10 @@
       "description": "Linear 是一个为现代软件团队打造的项目管理平台，围绕速度、清晰度和工艺感进行设计。它创立于 2019 年，为超过 25,000 家公司简化问题跟踪、冲刺规划和产品开发流程。",
       "philosophy": "Linear 的品牌识别体现出对速度、工艺和清晰度的极致专注。品牌通过克制的靛蓝色调和简洁的几何图形标志来传达精确性与目标感。"
     },
+    "loom": {
+      "description": "Loom是一个工作视频消息平台，通过即时可分享的屏幕录制和视频消息，让团队能够更有效地沟通。作为Atlassian的一部分，Loom已被40万家企业的超过2200万用户信赖，用异步视频取代不必要的会议。",
+      "philosophy": "Loom的品牌标识以其独特的编织图标为中心——从中心圆向外辐射交叉线条的星爆图案——象征着异步沟通的互联本质。鲜艳的蓝色调色板传递信任与专业感，而Charlie字体则为视觉系统带来温暖与亲和力。"
+    },
     "lovable": {
       "description": "Lovable是一款AI驱动的应用构建器，让任何人都能通过自然语言提示创建全栈Web应用程序。总部位于斯德哥尔摩，它使非技术创作者无需编写代码即可发布生产就绪的软件。",
       "philosophy": "温暖、充满活力且平易近人。Lovable丰富的渐变色品牌标识将充满能量的橙色、粉色和蓝色色调融合成独特的L形标记，反映了一个让软件创作变得愉悦且人人可及的平台。"
@@ -209,9 +217,17 @@
       "description": "Obsidian 是一款基于本地 Markdown 文件的强大知识库和笔记应用。Obsidian 专为思考而生，让用户通过双向链接创建个人知识图谱，成为作家、研究人员和开发者的第二大脑。",
       "philosophy": "Obsidian 的品牌识别灵感来源于其同名的黑曜石——一种自人类文明之初就被用来制造工具的火山岩。品牌体现了耐久性、隐私性和用户所有权——你的笔记属于你，以纯文本 Markdown 格式存储在本地，旨在永久保存。"
     },
+    "onlyfans": {
+      "description": "OnlyFans是一个基于订阅的内容平台，创作者通过月度订阅、打赏和付费内容直接从粉丝处获得收入。该平台成立于2016年，已发展到拥有超过400万创作者和3.7亿用户，成为创作者经济的标志性平台。",
+      "philosophy": "OnlyFans的品牌标识以简洁的双色调蓝色文字标识为核心，传达信任、可及性和现代感。从浅蓝到深蓝的渐变象征着创作者与受众之间的联系，而极简的美学风格则体现了平台以创作者为中心的理念。"
+    },
     "openai": {
       "description": "OpenAI 是一家致力于确保通用人工智能造福全人类的 AI 研究与部署公司。它因创建 GPT 和 ChatGPT 而闻名，并在大型语言模型和 AI 系统的发展中处于领先地位。",
       "philosophy": "极简、权威并面向未来。OpenAI 2025年的品牌焕新推出了由 ABC Dinamo 打造的专属字体 OpenAI Sans，搭配灰色与蓝色构成的色彩体系，唤起开放与可能的意象——在传达技术精致感的同时，呈现出鲜明的人文温度。"
+    },
+    "perplexity": {
+      "description": "Perplexity是一个AI驱动的答案引擎，将大型语言模型与实时网络搜索相结合，提供准确且带有引用的回答。成立于2022年，它重新定义了人们在线发现和理解信息的方式。",
+      "philosophy": "简洁、清晰、有意克制。Perplexity的品牌标识将内容置于形式之上，通过独特的青绿色调色板和几何符号传达AI驱动搜索中的精准与可信赖。"
     },
     "pinterest": {
       "description": "Pinterest是一个视觉发现和书签平台，用户可以在这里发现和保存创意灵感——从食谱和家居装饰到时尚和DIY项目。Pinterest成立于2010年，凭借视觉搜索技术驱动的个性化灵感引擎，为超过5.5亿月活跃用户提供服务。",
@@ -272,6 +288,10 @@
     "stripe": {
       "description": "Stripe 是一个金融基础设施平台，为各种规模的互联网企业提供支付处理 API 和工具。它创立于 2010 年，已为全球数百万家公司提供支持，使它们能够接收付款并构建金融产品。",
       "philosophy": "Stripe 的品牌识别围绕面向开发者的清晰度与精致的简约感展开。品牌采用独特的紫色调和干净的字体，传达金融科技领域中的信任与高级感。"
+    },
+    "supabase": {
+      "description": "Supabase是一个开源的Firebase替代方案，提供完整的后端工具套件——包括Postgres数据库、身份验证、即时API、边缘函数和实时订阅。为开发者而构建，使团队能够在一个周末内从创意到生产环境，并扩展到数百万用户。",
+      "philosophy": "Supabase的品牌标识以充满活力的绿色调色板体现了开源精神，唤起增长和开发者赋能。独特的闪电灵感标志传达了速度和实时能力，而简洁的排版反映了以开发者为先的简约理念。"
     },
     "tailwind-css": {
       "description": "Tailwind CSS是一个实用优先的CSS框架，使开发者能够通过直接在HTML标记中组合实用类来快速构建现代网站。由Tailwind Labs创建，凭借其灵活且针对生产环境优化的样式方法，已成为最受欢迎的CSS框架之一，为数百万个项目提供支持。",
@@ -440,44 +460,6 @@
     "notFound": "未找到",
     "notFoundDescription": "你正在寻找的页面不存在。"
   },
-  "home": {
-    "browseAll": "使用侧边栏搜索并筛选 {count} 个品牌",
-    "cta": "开始探索",
-    "cliDocs": "CLI 文档",
-    "cliTooltip": "在 npm 上打开 Loftlyy CLI",
-    "explore": "更多品牌",
-    "headline": "发现真实世界的品牌识别。",
-    "popular": "热门",
-    "sponsor": "支持我们",
-    "startExploring": "开始探索",
-    "subheadline": "一个持续增长的品牌识别数据库。"
-  },
-  "metadata": {
-    "siteDescription": "发现并探索品牌识别、标志、色彩与设计系统",
-    "siteName": "Loftlyy"
-  },
-  "nav": {
-    "allBrands": "所有品牌",
-    "categories": "分类",
-    "clearFilters": "全部清除",
-    "colorExplorer": "颜色探索器",
-    "colorFamily": "颜色",
-    "colorResults": "颜色结果",
-    "explore": "探索",
-    "exploreColors": "{count} 个唯一色板",
-    "filters": "筛选",
-    "fontResults": "字体结果",
-    "industry": "行业",
-    "keywordResults": "关键词结果",
-    "language": "语言",
-    "noBrandsFound": "未找到品牌",
-    "search": "搜索品牌",
-    "searchExamples": "试试 #FF6900、Inter 或 AI",
-    "searchPlaceholder": "按 HEX、字体或关键词搜索",
-    "styleTags": "风格",
-    "theme": "主题",
-    "typographyStyle": "字体风格"
-  },
   "seo": {
     "brandDescription": "探索 {brandName} 的品牌识别，包括标志、色彩、字体和设计系统。{brandName} 是一家 {industry} 公司。",
     "brandIntentTitle": "{brandName} {segments} | Loftlyy",
@@ -536,6 +518,7 @@
     "app-builder": "应用构建器",
     "apparel": "服装",
     "artificial-intelligence": "人工智能",
+    "async": "异步",
     "athletic": "运动",
     "athletics": "田径",
     "audio": "音频",
@@ -544,11 +527,13 @@
     "automation": "自动化",
     "automotive": "汽车",
     "autonomous-vehicles": "自动驾驶汽车",
+    "backend-as-a-service": "后端即服务",
     "banking": "银行",
     "beverages": "饮料",
     "billing": "计费",
     "blockchain": "区块链",
     "bookmarking": "书签",
+    "browser": "浏览器",
     "camera": "相机",
     "chatgpt": "ChatGPT",
     "claude": "Claude",
@@ -562,8 +547,10 @@
     "community": "社区",
     "consumer-goods": "消费品",
     "content-automation": "内容自动化",
+    "content-platform": "内容平台",
     "creative": "创意",
     "creativity": "创意",
+    "creator-economy": "创作者经济",
     "creators": "创作者",
     "crypto": "加密",
     "cryptocurrency": "加密货币",
@@ -678,6 +665,7 @@
     "sportswear": "运动服饰",
     "streaming": "流媒体",
     "streetwear": "街头服饰",
+    "subscriptions": "订阅",
     "sustainability": "可持续性",
     "television": "电视",
     "templates": "模板",
@@ -695,7 +683,8 @@
     "voice-chat": "语音聊天",
     "web3": "Web3",
     "workplace": "工作场所",
-    "workspace": "工作空间"
+    "workspace": "工作空间",
+    "answer-engine": "答案引擎"
   },
   "typographyPage": {
     "description": "探索{count}个使用{style}字体的品牌",
