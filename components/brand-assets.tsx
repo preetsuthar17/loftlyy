@@ -98,7 +98,7 @@ function AssetCard({
   brandName: string
   span: "wide" | "normal"
 }) {
-  const [copied, setCopied] = useState(false)
+  const [copied, setCopied] = useState<"image" | "svg" | false>(false)
   const t = useTranslations("brand")
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null)
   const filename = `${brandName}-${asset.label}`
@@ -143,7 +143,21 @@ function AssetCard({
       await navigator.clipboard.write([
         new ClipboardItem({ [pngBlob.type]: pngBlob }),
       ])
-      setCopied(true)
+      setCopied("image")
+      if (timerRef.current) clearTimeout(timerRef.current)
+      timerRef.current = setTimeout(() => setCopied(false), 1500)
+    } catch {
+      // clipboard write failed
+    }
+  }
+
+  async function copySvgCode() {
+    try {
+      const src = asset.srcFull ?? asset.src
+      const response = await fetch(src)
+      const text = await response.text()
+      await navigator.clipboard.writeText(text)
+      setCopied("svg")
       if (timerRef.current) clearTimeout(timerRef.current)
       timerRef.current = setTimeout(() => setCopied(false), 1500)
     } catch {
@@ -207,12 +221,21 @@ function AssetCard({
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem onClick={copyImage}>
-              {copied ? (
+              {copied === "image" ? (
                 <span className="text-green-600">{t("copied")}</span>
               ) : (
                 t("copyImage")
               )}
             </DropdownMenuItem>
+            {isSvg && (
+              <DropdownMenuItem onClick={copySvgCode}>
+                {copied === "svg" ? (
+                  <span className="text-green-600">{t("copied")}</span>
+                ) : (
+                  t("copySvg")
+                )}
+              </DropdownMenuItem>
+            )}
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
@@ -246,12 +269,21 @@ function AssetCard({
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem onClick={copyImage}>
-              {copied ? (
+              {copied === "image" ? (
                 <span className="text-green-600">{t("copied")}</span>
               ) : (
                 t("copyImage")
               )}
             </DropdownMenuItem>
+            {isSvg && (
+              <DropdownMenuItem onClick={copySvgCode}>
+                {copied === "svg" ? (
+                  <span className="text-green-600">{t("copied")}</span>
+                ) : (
+                  t("copySvg")
+                )}
+              </DropdownMenuItem>
+            )}
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
