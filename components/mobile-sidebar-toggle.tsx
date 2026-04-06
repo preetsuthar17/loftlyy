@@ -16,10 +16,8 @@ const BrandSidebarSearch = dynamic(
 
 export function MobileSidebarToggle({
   brands,
-  colorExplorerCount,
 }: {
   brands: SidebarBrand[]
-  colorExplorerCount: number
 }) {
   const [open, setOpen] = useState(false)
   const triggerRef = useRef<HTMLButtonElement>(null)
@@ -115,7 +113,6 @@ export function MobileSidebarToggle({
               <Suspense>
                 <BrandSidebarSearch
                   brands={brands}
-                  colorExplorerCount={colorExplorerCount}
                   onNavigate={close}
                 />
               </Suspense>

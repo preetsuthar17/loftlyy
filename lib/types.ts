@@ -80,42 +80,6 @@ export interface SidebarBrand {
   }
 }
 
-export interface ColorExplorerBrandReference {
-  slug: string
-  name: string
-}
-
-export interface ColorExplorerOccurrence {
-  brandSlug: string
-  brandName: string
-  colorName: string
-  usage?: string
-}
-
-export interface ColorExplorerEntry {
-  hex: string
-  family: string
-  brandCount: number
-  brands: ColorExplorerBrandReference[]
-  occurrences: ColorExplorerOccurrence[]
-}
-
-export interface ClosestColorSuggestion {
-  hex: string
-  family: string
-  brandCount: number
-  distance: number
-}
-
-export interface PaletteMatchResult {
-  brand: SidebarBrand
-  score: number
-  exactMatches: string[]
-  familyFallbackMatches: string[]
-  missingSelectedColors: string[]
-  coverage: number
-}
-
 export interface Category {
   slug: string
   type: "industry" | "style" | "attribute"

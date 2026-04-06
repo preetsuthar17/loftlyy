@@ -2,13 +2,12 @@ import { Suspense } from "react"
 import Image from "next/image"
 import { IconHeart } from "@tabler/icons-react"
 import { Link } from "@/i18n/navigation"
-import { getAllSidebarBrands, getColorExplorerEntries } from "@/data/brands"
+import { getAllSidebarBrands } from "@/data/brands"
 import { LocaleSwitcher } from "./locale-switcher"
 import { BrandSidebarSearch } from "./brand-sidebar-search"
 
 export function BrandSidebar() {
   const brands = getAllSidebarBrands()
-  const colorExplorerCount = getColorExplorerEntries().length
 
   return (
     <aside
@@ -44,7 +43,6 @@ export function BrandSidebar() {
         <Suspense>
           <BrandSidebarSearch
             brands={brands}
-            colorExplorerCount={colorExplorerCount}
           />
         </Suspense>
       </div>
