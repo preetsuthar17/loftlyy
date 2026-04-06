@@ -81,24 +81,23 @@ export function AdvertiseMarquee() {
                 href={`${item.ad.url}?ref=loftlyy&utm_source=loftlyy&utm_medium=sponsorship&utm_campaign=ad_spot`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col shrink-0 items-center gap-2.5 rounded-lg border border-neutral-200 bg-neutral-50 px-3 py-2 transition-colors hover:bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-800/50 dark:hover:bg-neutral-800"
+                className="flex shrink-0 flex-col items-center gap-2.5 rounded-lg border border-neutral-200 bg-neutral-50 px-3 py-2 transition-colors hover:bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-800/50 dark:hover:bg-neutral-800"
               >
                 <div className="flex items-center gap-2">
-
-                <Image
-                  src={item.ad.favicon}
-                  alt={item.ad.name}
-                  width={20}
-                  height={20}
-                  className="rounded"
-                  unoptimized
-                />
-                <span className="whitespace-nowrap text-xs font-medium text-neutral-700 dark:text-neutral-300">
-                  {item.ad.name}
-                </span>
+                  <Image
+                    src={item.ad.favicon}
+                    alt={item.ad.name}
+                    width={20}
+                    height={20}
+                    className="rounded"
+                    unoptimized
+                  />
+                  <span className="text-xs font-medium whitespace-nowrap text-neutral-700 dark:text-neutral-300">
+                    {item.ad.name}
+                  </span>
                 </div>
 
-                <span className="hidden whitespace-nowrap text-[10px] text-neutral-400 sm:inline dark:text-neutral-500">
+                <span className="hidden text-[10px] whitespace-nowrap text-neutral-400 sm:inline dark:text-neutral-500">
                   {item.ad.description}
                 </span>
               </a>
@@ -111,7 +110,7 @@ export function AdvertiseMarquee() {
                   size={16}
                   className="text-neutral-400 dark:text-neutral-500"
                 />
-                <span className="whitespace-nowrap text-xs font-medium text-neutral-400 dark:text-neutral-500">
+                <span className="text-xs font-medium whitespace-nowrap text-neutral-400 dark:text-neutral-500">
                   Advertise
                 </span>
               </DialogTrigger>
@@ -222,10 +221,20 @@ export function AdvertiseMarquee() {
   )
 }
 
-export function AdvertiseSpots({ className, compact }: { className?: string; compact?: boolean }) {
+export function AdvertiseSpots({
+  className,
+  compact,
+}: {
+  className?: string
+  compact?: boolean
+}) {
   return (
     <Dialog>
-      <section className={className ?? "grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4"}>
+      <section
+        className={
+          className ?? "grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4"
+        }
+      >
         {ads.map((ad) => (
           <a
             key={ad.name}

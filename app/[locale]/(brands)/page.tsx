@@ -43,7 +43,7 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
 
   return (
     <div className="flex min-h-0 w-full flex-1 flex-col items-center overflow-hidden px-4 py-12 sm:px-6">
-      <div className="w-full max-w-4xl hidden lg:block ">
+      <div className="hidden w-full max-w-4xl lg:block">
         <AdvertiseSpots />
       </div>
       {/* Hero + Marquee centered in remaining space */}
@@ -106,7 +106,7 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
         </div>
       </div>
       <div className="mx-auto w-full max-w-4xl pt-6">
-        <div className="max-w-xs  ml-auto flex justify-end">
+        <div className="ml-auto flex max-w-xs justify-end">
           <CarbonAds />
         </div>
       </div>
