@@ -103,7 +103,7 @@ export const lovable: Brand = {
   founded: 2023,
   lastRebranded: "2024",
   headquarters: "Stockholm, Sweden",
-  designer: "Lovable Design Team",
+  designer: "Primary Studio",
   philosophy:
     "Warm, vibrant, and approachable. Lovable's gradient-rich identity blends energetic orange, pink, and blue hues into a distinctive L-shaped mark, reflecting a platform that makes software creation feel joyful and accessible to everyone.",
   legal: {

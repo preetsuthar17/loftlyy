@@ -47,22 +47,25 @@ export const perplexity: Brand = {
   ],
   typography: [
     {
-      name: "Söhne",
+      name: "Perplexity Sans Variable",
       role: "Primary / UI & Body",
-      weights: ["400", "500", "600"],
+      weights: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
       category: "sans-serif",
-      designer: "Berton Hasebe",
-      foundry: "Klim Type Foundry",
-      fontUrl: "/brands/perplexity/fonts/sohne-regular.woff2",
+      foundry: "Grilli Type",
     },
     {
-      name: "Söhne Mono",
+      name: "Perplexity Serif Variable",
+      role: "Editorial & Long-form",
+      weights: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+      category: "serif",
+      foundry: "Grilli Type",
+    },
+    {
+      name: "Perplexity Mono Variable",
       role: "Code & Data",
-      weights: ["400"],
+      weights: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
       category: "monospace",
-      designer: "Berton Hasebe",
-      foundry: "Klim Type Foundry",
-      fontUrl: "/brands/perplexity/fonts/sohne-mono-regular.woff2",
+      foundry: "Grilli Type",
     },
   ],
   assets: [
@@ -120,7 +123,7 @@ export const perplexity: Brand = {
   founded: 2022,
   headquarters: "San Francisco, CA",
   designer: "Smith & Diction",
-  lastRebranded: "2023",
+  lastRebranded: "2026",
   philosophy:
     "Clean, clear, and intentionally understated. Perplexity's identity prioritizes content over chrome, using a distinctive turquoise palette and geometric symbol to communicate precision and trustworthiness in AI-driven search.",
   legal: {
