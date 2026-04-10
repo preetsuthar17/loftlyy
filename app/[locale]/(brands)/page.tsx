@@ -105,11 +105,6 @@ function BrandsLanding({ brands }: { brands: SidebarBrand[] }) {
           </div>
         </div>
       </div>
-      <div className="mx-auto w-full max-w-4xl pt-6">
-        <div className="ml-auto flex max-w-xs justify-end">
-          <CarbonAds />
-        </div>
-      </div>
     </div>
   )
 }

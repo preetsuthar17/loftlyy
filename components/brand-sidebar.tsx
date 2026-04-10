@@ -17,23 +17,32 @@ export function BrandSidebar() {
       {/* Header — fixed top */}
       <div className="shrink-0 p-4 pb-0">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5">
-            <Image
-              src="/logo.webp"
-              alt="Loftlyy"
-              width={28}
-              height={28}
-              className="rounded-lg"
-            />
+          <div className="flex w-fit items-center justify-between gap-3">
+            <Link href="/" className="flex w-fit items-center gap-2.5">
+              <Image
+                src="/logo.webp"
+                alt="Loftlyy"
+                width={28}
+                height={28}
+                className="rounded-lg"
+              />
+            </Link>
             <div className="flex flex-col">
               <span className="text-[15px] font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">
                 Loftlyy
               </span>
-              <span className="text-[11px] font-medium text-neutral-500 dark:text-neutral-400">
-                by Hanoa Studio
-              </span>
+              <Link
+                href="https://hanoa.studio"
+                target="_blank"
+                className="flex w-fit items-center gap-2.5"
+              >
+                <span className="text-[11px] font-medium text-neutral-500 dark:text-neutral-400">
+                  by Hanoa Studio
+                </span>
+              </Link>
             </div>
-          </Link>
+          </div>
+
           <LocaleSwitcher />
         </div>
       </div>
@@ -41,9 +50,7 @@ export function BrandSidebar() {
       {/* Brand list — scrollable middle */}
       <div className="min-h-0 flex-1 px-4 pt-4">
         <Suspense>
-          <BrandSidebarSearch
-            brands={brands}
-          />
+          <BrandSidebarSearch brands={brands} />
         </Suspense>
       </div>
 
