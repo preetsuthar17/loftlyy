@@ -45,6 +45,7 @@
     "copyFontName": "复制字体名称",
     "copyHex": "复制 Hex",
     "copyImage": "复制图片",
+    "copySvg": "复制SVG",
     "copyPaletteJson": "复制 JSON",
     "donts": "避免做法",
     "dos": "推荐做法",
